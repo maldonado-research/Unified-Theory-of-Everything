@@ -1,0 +1,94 @@
+{
+  "scope": "Original reviewed scripts executed in isolated publication preparation workspace; originals and synced sources unchanged.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1"
+  },
+  "source_scripts": [
+    {
+      "path": "routed_loop/verify_routed_pole.py",
+      "source_sha256": "7d180b298eb22a5832a6ec6368e28a86058f18285692af0a06b211e353d8fa6e",
+      "executed_copy_sha256": "7d180b298eb22a5832a6ec6368e28a86058f18285692af0a06b211e353d8fa6e",
+      "identical": true
+    },
+    {
+      "path": "routed_loop_independent.py",
+      "source_sha256": "f51e9ea4cd16a9ad0fc5bdef9ca80da4436d0528f5a54dc76a870c1a10179214",
+      "executed_copy_sha256": "f51e9ea4cd16a9ad0fc5bdef9ca80da4436d0528f5a54dc76a870c1a10179214",
+      "identical": true
+    },
+    {
+      "path": "dynamic_eft_exact_bound.py",
+      "source_sha256": "b41ae2b576b0eeb6147b835ebe1e5275583c048c8bba28bf5e48b373d4e4b866",
+      "executed_copy_sha256": "b41ae2b576b0eeb6147b835ebe1e5275583c048c8bba28bf5e48b373d4e4b866",
+      "identical": true
+    },
+    {
+      "path": "continuum_bridge/verify_continuum_bridge.py",
+      "source_sha256": "7c882f603dda318020f9bac4df56c060b6d5aa4e07c798299c29272990f61f63",
+      "executed_copy_sha256": "7c882f603dda318020f9bac4df56c060b6d5aa4e07c798299c29272990f61f63",
+      "identical": true
+    },
+    {
+      "path": "fermion_portal/benchmark.py",
+      "source_sha256": "d3060f227a09d650647421193ca1bcdb0b855077bbf139f93d2f8eff3ad8f2f6",
+      "executed_copy_sha256": "d3060f227a09d650647421193ca1bcdb0b855077bbf139f93d2f8eff3ad8f2f6",
+      "identical": true
+    },
+    {
+      "path": "fermion_portal/independent_review.py",
+      "source_sha256": "55d525fa9d9a0c7b074fe39c1a7396bec0d1b9d4b07c52757d52b3355f715bfe",
+      "executed_copy_sha256": "55d525fa9d9a0c7b074fe39c1a7396bec0d1b9d4b07c52757d52b3355f715bfe",
+      "identical": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "baseline_manifest",
+      "exit_code": 0,
+      "elapsed_seconds": 0.041308709000077215
+    },
+    {
+      "name": "baseline_normal",
+      "exit_code": 0,
+      "elapsed_seconds": 4.563904541000738
+    },
+    {
+      "name": "baseline_optimized",
+      "exit_code": 0,
+      "elapsed_seconds": 2.3280761250007345
+    },
+    {
+      "name": "routed_seed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.10425208299966471
+    },
+    {
+      "name": "independent_routing",
+      "exit_code": 0,
+      "elapsed_seconds": 0.04288687500047672
+    },
+    {
+      "name": "weak_pulse_bound",
+      "exit_code": 0,
+      "elapsed_seconds": 0.0382355000001553
+    },
+    {
+      "name": "scalar_moments",
+      "exit_code": 0,
+      "elapsed_seconds": 0.06755908299965085
+    },
+    {
+      "name": "pulse_benchmark",
+      "exit_code": 0,
+      "elapsed_seconds": 30.109176459000082
+    },
+    {
+      "name": "pulse_independent",
+      "exit_code": 0,
+      "elapsed_seconds": 14.220367624999199
+    }
+  ],
+  "pulse_independent_maximum_gap": 5.14019576902669e-08
+}
