@@ -1,0 +1,20 @@
+{
+  "adaptation": "Focused public numerical replay. Tree formulas and frozen-input validation are adapted from original n00ak_core.py; vectorized formulas and randomized algebra checks draw on the separate original clean-room implementation. Conditional functions are newly named, parameterized by an arbitrary common coefficient, and explicitly do not claim derived physical beta functions. verify_public.py is a new focused driver with independent spectral-sum, algebra, domain, frozen-source, and coefficient-nonidentification checks. Original historical theorem reports and parent archives are not imported or required.",
+  "frozen_input_unchanged": true,
+  "original_files_sha256": {
+    "TOE_N00AK_EXACT_RESOLVENT_AND_FINITE_POLE_THEOREM.md": "b07f054f22d1ef233292fed957558a985a10d8c0d2d01c246563fbd8b46111cf",
+    "independent/cleanroom/check_n00ak_eom_tower.py": "9bb6d2fe92dbcf584280e78bfc06a78b40cc373af128466d609774a2056994f0",
+    "n00ak_core.py": "d37cfa5b9ebc84c1e0677957e60f297aa90906228ff90b5a56225c90a1e671e8",
+    "source/TOE_N00AC_YNU_STAR_FULL_PRECISION.csv": "5806d06fd82c3f1ca28f7a6e60db0383a1160304a090577e5457566eccf6e082"
+  },
+  "public_files_sha256": {
+    "README.md": "edcf813275c59658e51b0d83086f458a9cd9f69763a53dd4444456b8c9763111",
+    "numerical_core.py": "6332b43d1692a397ca25b39727e3a6813066a4fdc7e96b42ad53e6ddce6584d3",
+    "requirements.txt": "105a25c9a24a53a42b52ccc93f930e1ea4a88b42372d440ae7c1b82c3a8b2c64",
+    "source/TOE_N00AC_YNU_STAR_FULL_PRECISION.csv": "5806d06fd82c3f1ca28f7a6e60db0383a1160304a090577e5457566eccf6e082",
+    "verify_public.py": "6180b0467363029224369af3aafec0ca19c4937c72608a3c47906526efca453b"
+  },
+  "release": "TOE-N00AK-r1",
+  "scientific_scope": "Tree identities and conditional matrix consistency only. No new UV loop amplitude or physical beta coefficient is derived.",
+  "source_materials": "N00AK research package supplied by the author; exact archive provenance is documented at release level."
+}
