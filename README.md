@@ -1,5 +1,8 @@
 # Unified Theory of Everything — research program
 
+[Readable project overview](https://maldonado-research.github.io/projects/unified-theory-of-everything/) · [All research projects](https://maldonado-research.github.io/)
+
+
 **Ricardo Maldonado · hypothesis and reproducible research · GitHub edition 30 September 2026**
 
 Could the universe's many rules come from something deeper? This project explores that question through specific calculations we can inspect and reproduce. The current work concerns selected neutrino kernels, a corrected quantum-loop argument, a conditional scalar continuum and a changing-mass toy model.
