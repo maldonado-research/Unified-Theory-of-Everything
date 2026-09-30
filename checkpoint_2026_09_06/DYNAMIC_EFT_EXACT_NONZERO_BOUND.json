@@ -1,0 +1,23 @@
+{
+  "status": "PASS_EXACT_RATIONAL_NONZERO_TOY_TRANSITION_BOUND",
+  "parameters": {
+    "M": "1",
+    "k": "1",
+    "tau": "1",
+    "a": "1/100"
+  },
+  "analytic_premises": [
+    "Unitary two-level evolution with H=m(t)sigma_z+k sigma_x",
+    "m(t)=M[1-a sech^2(t/tau)] and in/out mass M",
+    "Exact sech-squared Fourier transform as derived in review",
+    "Twice-iterated unitary Duhamel remainder <= L1(V)^2/2",
+    "Classical bounds 3 < pi < 22/7"
+  ],
+  "born_amplitude_strict_lower": "3/2275",
+  "amplitude_remainder_upper": "1/5000",
+  "true_amplitude_strict_lower": "509/455000",
+  "true_transition_probability_strict_lower": "259081/207025000000",
+  "displayed_conservative_probability_lower": "0.00000125",
+  "exp_4p5_rational_upper": "1305611271217471977086737367010624844771/14504031092245033327803970355200000000",
+  "scope": "One mode of a toy prescribed background; not cosmological calibration, reheating, lepton asymmetry, or a new external novelty claim."
+}

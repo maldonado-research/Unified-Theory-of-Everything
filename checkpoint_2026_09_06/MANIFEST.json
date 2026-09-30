@@ -1,0 +1,165 @@
+{
+  "checkpoint": "TOE_RESEARCH_20260906_PUBLIC_DERIVATIVE_20260930",
+  "files": [
+    {
+      "path": "00_READ_FIRST.md",
+      "bytes": 10140,
+      "sha256": "9940d0338db01c9b557852d4a7bfd715ab3816f90e39ef6bfafdd9299cea4633"
+    },
+    {
+      "path": "DYNAMIC_EFT_EXACT_NONZERO_BOUND.json",
+      "bytes": 977,
+      "sha256": "41a6744b6c931ffb34221178baf1d3341be16463f99b7c3db4fc00f3b8d1e427"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 9750,
+      "sha256": "53f920266fa012dc72487e97f3c2df9cf83360a6ff420b7d722233fe8c5edb1c"
+    },
+    {
+      "path": "REPLAY.py",
+      "bytes": 2378,
+      "sha256": "4a591ca34d23e3471b42c9ff4fbe006b7d6dcd8d6f9630a16f3aa7cdb7c66327"
+    },
+    {
+      "path": "ROUTED_LOOP_INDEPENDENT_CHECK.json",
+      "bytes": 1087,
+      "sha256": "d910f81450b6230cf6065838e812533f91346f82c020929e6f62c055a0b12286"
+    },
+    {
+      "path": "TOE_APPLICABILITY_CHECKS.png",
+      "bytes": 197037,
+      "sha256": "c258ae3cde810a7e9241209b4e92139a1ab80bcc4d591ce5b5032545ec36fb3d"
+    },
+    {
+      "path": "TOE_APPLICABILITY_CHECKS.svg",
+      "bytes": 132445,
+      "sha256": "f110fa225bacee177958d9206abd1cd87ca9a4ca43e524ce4c63ed905b07c2d9"
+    },
+    {
+      "path": "continuum_bridge/continuum_eft_bridge.md",
+      "bytes": 10281,
+      "sha256": "76a9b3b51acaf4a03c4662134bef41efbef2f59881bb833c9ca43eefb04c0ad3"
+    },
+    {
+      "path": "continuum_bridge/euclidean_comparison.csv",
+      "bytes": 605,
+      "sha256": "1e0e415a3f2819cd1e0dcac28057a02e59b8d413526d3523a1658d2651262b04"
+    },
+    {
+      "path": "continuum_bridge/spectral_comparison.csv",
+      "bytes": 1251,
+      "sha256": "56358c016871675e5d7cc5a914c1c0240cc265d671b37f2e242f8b1076e13579"
+    },
+    {
+      "path": "continuum_bridge/verification_results.json",
+      "bytes": 3435,
+      "sha256": "c14afe3c3a20bc5921443979373f8dc5582c0fabedb7a53b105abdf1d43e0f7d"
+    },
+    {
+      "path": "continuum_bridge/verify_continuum_bridge.py",
+      "bytes": 8869,
+      "sha256": "7c882f603dda318020f9bac4df56c060b6d5aa4e07c798299c29272990f61f63"
+    },
+    {
+      "path": "current_literature.md",
+      "bytes": 17914,
+      "sha256": "aed52cbbb1435339723a0dea88e3236601226c43a6bdfcafd3dc9a320f4d1abf"
+    },
+    {
+      "path": "dynamic_eft_exact_bound.py",
+      "bytes": 2527,
+      "sha256": "b41ae2b576b0eeb6147b835ebe1e5275583c048c8bba28bf5e48b373d4e4b866"
+    },
+    {
+      "path": "dynamic_eft_review.md",
+      "bytes": 14516,
+      "sha256": "34bc251f819a4e1ae93127e74b2c4439c26edd719142977cee4a34c5712214c9"
+    },
+    {
+      "path": "fermion_portal/BENCHMARK_RESULTS.json",
+      "bytes": 118245,
+      "sha256": "58eee78f9700ed885507ac9d4c4c4cdf533b22b9c21f376a6708d495721c6387"
+    },
+    {
+      "path": "fermion_portal/INDEPENDENT_NUMERICAL_REVIEW.md",
+      "bytes": 10031,
+      "sha256": "8098768667614e06172f18830bd3c0fcf046a6b183a7adc9f2685923dfd3ca71"
+    },
+    {
+      "path": "fermion_portal/INDEPENDENT_REVIEW_RESULTS.json",
+      "bytes": 2741,
+      "sha256": "b2593299ac73aa81bb11e5a3ee01b4b833f0d1aa3697a951040efaf354295fae"
+    },
+    {
+      "path": "fermion_portal/PULSE_SPECTRA.png",
+      "bytes": 138139,
+      "sha256": "1f43b69b8751ca7cd00fc326b1d2f0c9ca94f0d2b889a39dc8f00c715e8bdb3f"
+    },
+    {
+      "path": "fermion_portal/PULSE_SPECTRA.svg",
+      "bytes": 64282,
+      "sha256": "35b75ecb350335bb9da01c76549091bb1f20c13269e6b5616023ee9669454056"
+    },
+    {
+      "path": "fermion_portal/benchmark.py",
+      "bytes": 7505,
+      "sha256": "d3060f227a09d650647421193ca1bcdb0b855077bbf139f93d2f8eff3ad8f2f6"
+    },
+    {
+      "path": "fermion_portal/independent_review.py",
+      "bytes": 4579,
+      "sha256": "b1b7745c98a232f95df8cae45a266638d509eb9d21d12f4e139c901ac2135d13"
+    },
+    {
+      "path": "inputs/TOE_N00AK_r1_TECHNICAL_NOTE.md",
+      "bytes": 13820,
+      "sha256": "1087efac7431bacaf04f068c1baa0d990d5a0345982708ae9cd61eaf0288cf8e"
+    },
+    {
+      "path": "inputs/TOE_v294_THEOREM.md",
+      "bytes": 15078,
+      "sha256": "563e875dd9ebd48720b4df51af0c53b1c25429020a9b710d53cc76121e34fef5"
+    },
+    {
+      "path": "make_figures.py",
+      "bytes": 3331,
+      "sha256": "34e359e0028dba3e49ba1ed41f0f881a4205dd624a3f2d676a7aaaa09fcf5b45"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 60,
+      "sha256": "6e432e403790832e301d1e365040c48310871bfe650d2d9d06083ed2807ef0f5"
+    },
+    {
+      "path": "routed_loop/ROUTED_BUBBLE.md",
+      "bytes": 8274,
+      "sha256": "fbac561d44aa703b45866fd601f0036d3072f2eec88c0d41ea24bc2aa69c535a"
+    },
+    {
+      "path": "routed_loop/ROUTED_POLE_CHECKS.json",
+      "bytes": 1154,
+      "sha256": "67a6348473dd6911484e7349c1626acab6ad3ccd98aea20002c697016d92a79b"
+    },
+    {
+      "path": "routed_loop/SEED_VERTEX_REVIEW.md",
+      "bytes": 9387,
+      "sha256": "a421ac7c313904c5437decca3d2dbcae5d160d4c2ccad7dec1dd76f2f9de15a2"
+    },
+    {
+      "path": "routed_loop/verify_routed_pole.py",
+      "bytes": 4839,
+      "sha256": "7d180b298eb22a5832a6ec6368e28a86058f18285692af0a06b211e353d8fa6e"
+    },
+    {
+      "path": "routed_loop_independent.md",
+      "bytes": 8805,
+      "sha256": "dc81b7342548597be3b9731361a52164b39ad4abffdb2f4dcd370555abd6c604"
+    },
+    {
+      "path": "routed_loop_independent.py",
+      "bytes": 2925,
+      "sha256": "f51e9ea4cd16a9ad0fc5bdef9ca80da4436d0528f5a54dc76a870c1a10179214"
+    }
+  ]
+}
