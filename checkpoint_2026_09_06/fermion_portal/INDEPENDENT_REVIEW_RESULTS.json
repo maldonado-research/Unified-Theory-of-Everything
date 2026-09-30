@@ -1,0 +1,86 @@
+{
+  "status": "INDEPENDENT_CONTROLS_PASS",
+  "benchmark_results_sha256": "58eee78f9700ed885507ac9d4c4c4cdf533b22b9c21f376a6708d495721c6387",
+  "solver": "scipy Radau, real four-component state, Hadamard-rotated Hamiltonian",
+  "not_certified_float_enclosure": true,
+  "selected_modes": [
+    {
+      "case": "constant",
+      "k": 0.6,
+      "probability": 2.1526659050297772e-30,
+      "norm_error": 3.26405569239796e-14,
+      "function_evaluations": 42106,
+      "benchmark_probability": 5.749209032787e-29,
+      "gap": 5.533942442284022e-29
+    },
+    {
+      "case": "shallow_fast",
+      "k": 0.6,
+      "probability": 0.040753997202932594,
+      "norm_error": 2.9531932455029164e-14,
+      "function_evaluations": 47647,
+      "benchmark_probability": 0.04075399571184091,
+      "gap": 1.4910916876220703e-09
+    },
+    {
+      "case": "crossing_fast",
+      "k": 0.55,
+      "probability": 0.911708705874525,
+      "norm_error": 1.9984014443252818e-14,
+      "function_evaluations": 46315,
+      "benchmark_probability": 0.9117087136130989,
+      "gap": 7.738573892801526e-09
+    },
+    {
+      "case": "crossing_slow",
+      "k": 0.25,
+      "probability": 0.7248308723871595,
+      "norm_error": 1.1102230246251565e-15,
+      "function_evaluations": 151362,
+      "benchmark_probability": 0.7248309237891172,
+      "gap": 5.14019576902669e-08
+    },
+    {
+      "case": "shallow_slow",
+      "k": 0.275,
+      "probability": 0.0016030413674858015,
+      "norm_error": 1.0635936575909e-13,
+      "function_evaluations": 152202,
+      "benchmark_probability": 0.0016030410874782466,
+      "gap": 2.800075549029557e-10
+    }
+  ],
+  "helicity_reflection_control": {
+    "plus": {
+      "probability": 0.911708705874525,
+      "norm_error": 1.9984014443252818e-14,
+      "function_evaluations": 46315
+    },
+    "minus": {
+      "probability": 0.9117087058745243,
+      "norm_error": 1.9317880628477724e-14,
+      "function_evaluations": 46315
+    },
+    "absolute_difference": 6.661338147750939e-16
+  },
+  "zero_momentum_crossing_control": {
+    "probability": 2.6852225206016414e-34,
+    "norm_error": 2.220446049250313e-15,
+    "function_evaluations": 40721
+  },
+  "weak_pulse_Born_control": {
+    "a": 0.01,
+    "tau": 1.0,
+    "k": 0.5,
+    "first_Born_amplitude_magnitude": 0.0018756302233344957,
+    "unitary_Duhamel_amplitude_remainder_bound": 0.0002,
+    "analytic_infinite_time_probability_lower_bound": 2.8077366453520117e-06,
+    "analytic_infinite_time_probability_upper_bound": 4.308240824019608e-06,
+    "finite_window_tail_state_bound": 2.7657600427760812e-14,
+    "rotated_Radau": {
+      "probability": 3.6605749996061213e-06,
+      "norm_error": 4.54081217071689e-14,
+      "function_evaluations": 40405
+    }
+  }
+}
