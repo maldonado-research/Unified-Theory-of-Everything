@@ -1,0 +1,62 @@
+{
+  "status": "EXACT_RATIONAL_CHECKS_PASS",
+  "check_count": 815,
+  "scope": "UV residue of declared one-W1 derivative seed mixed bubble, before complete sourced EOM/gauge completion",
+  "pole_removed_common_factor": "i/(16*pi^2*epsilon), d=4-2epsilon",
+  "basis": [
+    "p2*p_mu",
+    "(p.h)*p_mu",
+    "h2*p_mu",
+    "p2*h_mu",
+    "mH2*p_mu",
+    "mH2*h_mu"
+  ],
+  "coefficients": [
+    "1",
+    "-2/3",
+    "1/2",
+    "1/6",
+    "1",
+    "-1/2"
+  ],
+  "off_shell_counterexample": {
+    "p": [
+      "3",
+      "0",
+      "0",
+      "0"
+    ],
+    "h": [
+      "1",
+      "1",
+      "0",
+      "0"
+    ],
+    "mH2": "0",
+    "actual": [
+      "45/2",
+      "3/2",
+      "0",
+      "0"
+    ],
+    "naive": [
+      "81/2",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "light_massless_free_EOM_projection": {
+    "coefficient_of_p2_slash_p": "5/6",
+    "naive_coefficient": "3/2",
+    "ratio": "5/9",
+    "not_a_beta_function": true
+  },
+  "not_completed": [
+    "full dimension-seven Green-basis matching",
+    "sourced EOM and all induced operators",
+    "full physical beta functions",
+    "finite thresholds",
+    "phenomenological prediction"
+  ]
+}
