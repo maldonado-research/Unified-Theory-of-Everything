@@ -1,0 +1,115 @@
+{
+  "claim_scope": "Conditional dimensionless spectral toy; no observational or microscopic theory claim.",
+  "status": "PASS",
+  "exact_moments": {
+    "mu0": "2/3",
+    "mu1": "2"
+  },
+  "exact_matched_pole": {
+    "lambda0": "1/3",
+    "weight": "2/9"
+  },
+  "third_inverse_moment_cutoff": "mu2(epsilon)=2*(epsilon**(-1/2)-1), divergent as epsilon->0",
+  "independent_integral_comparisons": [
+    {
+      "s": 0.0001,
+      "integral": 0.6664697882599881,
+      "closed_form": 0.6664697882599868,
+      "pole": 0.6664667266486721,
+      "abs_error": 1.3322676295501878e-15
+    },
+    {
+      "s": 0.001,
+      "integral": 0.6647640132155916,
+      "closed_form": 0.6647640132155915,
+      "pole": 0.6646726487205051,
+      "abs_error": 1.1102230246251565e-16
+    },
+    {
+      "s": 0.01,
+      "integral": 0.6496089220152741,
+      "closed_form": 0.6496089220152741,
+      "pole": 0.6472491909385113,
+      "abs_error": 0.0
+    },
+    {
+      "s": 0.1,
+      "integral": 0.54664186767782,
+      "closed_form": 0.5466418676778199,
+      "pole": 0.5128205128205128,
+      "abs_error": 1.1102230246251565e-16
+    },
+    {
+      "s": 0.3,
+      "integral": 0.41820704746155657,
+      "closed_form": 0.41820704746155657,
+      "pole": 0.3508771929824561,
+      "abs_error": 0.0
+    },
+    {
+      "s": 1.0,
+      "integral": 0.2374629934615633,
+      "closed_form": 0.23746299346156308,
+      "pole": 0.16666666666666666,
+      "abs_error": 2.220446049250313e-16
+    },
+    {
+      "s": 4.0,
+      "integral": 0.08502841067956454,
+      "closed_form": 0.08502841067956535,
+      "pole": 0.05128205128205128,
+      "abs_error": 8.049116928532385e-16
+    }
+  ],
+  "maximum_closed_form_integral_error": 1.3322676295501878e-15,
+  "small_s_asymptotics": [
+    {
+      "s": 0.01,
+      "continuum_remainder_over_s_1p5": 2.942255348607469,
+      "pole_remainder_over_s_1p5": 0.5825242718446602,
+      "susceptibility_deficit_over_sqrt_s": 2.942255348607469
+    },
+    {
+      "s": 0.0001,
+      "continuum_remainder_over_s_1p5": 3.121593320216463,
+      "pole_remainder_over_s_1p5": 0.059982005398380486,
+      "susceptibility_deficit_over_sqrt_s": 3.121593320216463
+    },
+    {
+      "s": 1e-06,
+      "continuum_remainder_over_s_1p5": 3.1395926542564596,
+      "pole_remainder_over_s_1p5": 0.005999982000054001,
+      "susceptibility_deficit_over_sqrt_s": 3.1395926542564596
+    },
+    {
+      "s": 1e-08,
+      "continuum_remainder_over_s_1p5": 3.1413926535904597,
+      "pole_remainder_over_s_1p5": 0.0005999999820000007,
+      "susceptibility_deficit_over_sqrt_s": 3.1413926535904597
+    }
+  ],
+  "integer_beta_2_log_fixture": [
+    {
+      "s": 0.001,
+      "ratio": 1.0001446924931063
+    },
+    {
+      "s": 1e-05,
+      "ratio": 1.000000868584621
+    },
+    {
+      "s": 1e-07,
+      "ratio": 1.0000000062042065
+    }
+  ],
+  "general_positive_measure_jensen_cases": 1000,
+  "minimum_normalized_jensen_gap": 3.888694037639289e-15,
+  "finite_regulator_spectral_cases": 12,
+  "maximum_final_spectral_abs_error": 0.0005873811699466103,
+  "limits": [
+    "No physical source coupling or particle-production rate has been derived.",
+    "Positivity is an explicit scalar spectral assumption, not a Majorana-kernel property.",
+    "A finite regulator broadens an atom; only the eta->0 distributional limit distinguishes it exactly.",
+    "This script does not rederive the v294 operator or verify its claimed spectral normalization."
+  ]
+}
