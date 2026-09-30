@@ -1,0 +1,183 @@
+{
+  "comparison": {
+    "input": "replay_normal.json",
+    "runtime_fields_compared": false,
+    "semantic_and_input_hashes_equal": true
+  },
+  "input_hashes": {
+    "numerical_core.py": "6332b43d1692a397ca25b39727e3a6813066a4fdc7e96b42ad53e6ddce6584d3",
+    "source/TOE_N00AC_YNU_STAR_FULL_PRECISION.csv": "5806d06fd82c3f1ca28f7a6e60db0383a1160304a090577e5457566eccf6e082",
+    "verify_public.py": "6180b0467363029224369af3aafec0ca19c4937c72608a3c47906526efca453b"
+  },
+  "runtime": {
+    "implementation": "CPython",
+    "numpy": "2.3.5",
+    "optimization_level": 1,
+    "platform": "Darwin arm64",
+    "python": "3.12.14",
+    "utc_completed": "2026-09-04T23:47:59.225372+00:00"
+  },
+  "semantic": {
+    "all_pass": true,
+    "claim_scope": {
+      "d7_and_all_odd_matrices": "conditional algebra only",
+      "independent_component_loop_calculation_performed": false,
+      "physical_loop_coefficients_established": false,
+      "tree_identities": "numerically checked under stated assumptions"
+    },
+    "common_coefficient_diagnostic": {
+      "cases": [
+        {
+          "coefficient": {
+            "imag": 0.0,
+            "real": 0.0
+          },
+          "contact_norm_GeV_inverse": 0.0,
+          "relative_cancellation_residual": 0.0
+        },
+        {
+          "coefficient": {
+            "imag": 0.0,
+            "real": 1.0
+          },
+          "contact_norm_GeV_inverse": 5.564319499800995e-19,
+          "relative_cancellation_residual": 6.124591673412625e-17
+        },
+        {
+          "coefficient": {
+            "imag": 0.0,
+            "real": 3.0
+          },
+          "contact_norm_GeV_inverse": 1.6692958499402985e-18,
+          "relative_cancellation_residual": 4.5067888029145354e-17
+        },
+        {
+          "coefficient": {
+            "imag": 0.0,
+            "real": 7.0
+          },
+          "contact_norm_GeV_inverse": 3.895023649860696e-18,
+          "relative_cancellation_residual": 7.12839454811427e-17
+        },
+        {
+          "coefficient": {
+            "imag": 2.0,
+            "real": 1.0
+          },
+          "contact_norm_GeV_inverse": 1.2442196650082652e-18,
+          "relative_cancellation_residual": 8.108839049164662e-17
+        }
+      ],
+      "conclusion": "Cancellation alone cannot determine the value 3 (or any common coefficient).",
+      "pass": true,
+      "same_frozen_matrices": true
+    },
+    "conditional": {
+      "cases_per_coefficient": 100,
+      "coefficient_inputs": [
+        {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        {
+          "imag": 0.0,
+          "real": 1.0
+        },
+        {
+          "imag": 0.0,
+          "real": 3.0
+        },
+        {
+          "imag": 0.0,
+          "real": 7.0
+        },
+        {
+          "imag": 2.0,
+          "real": 1.0
+        }
+      ],
+      "interpretation": "The assumed paired matrices cancel for every tested common coefficient, including complex and zero values. This identity does not identify a physical coefficient. Changing only the contact coefficient breaks the assumed relation.",
+      "mismatched_contact_control_minimum_relative_residual": 0.3333333333333331,
+      "mismatched_contact_control_trials": 400,
+      "orders_tested": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pass": true,
+      "trials": 500,
+      "worst_relative_residuals": {
+        "local_identity": 5.490125309198382e-16,
+        "local_to_rational_contact": 6.761826743261686e-16,
+        "local_to_rational_delta_y": 6.657238491904184e-16,
+        "rational_identity": 2.6867326278279957e-16
+      }
+    },
+    "frozen": {
+      "conditional_c_equals_3_d7_contact_norm_GeV_inverse": 1.6692958499402985e-18,
+      "conditional_c_equals_3_d7_schur_variation_norm_GeV_inverse": 1.6692958499402985e-18,
+      "conditional_norm_interpretation": "Values of supplied matrices, not established physical beta components or measured quantities.",
+      "pass": true,
+      "tree_cases": [
+        {
+          "known_node_reconstruction_relative_residual": 8.030908148625328e-17,
+          "probe_one_based": 2,
+          "removed_one_based": [
+            3
+          ],
+          "tree_d5_plus_d7_relative_error": 0.06249999999999996,
+          "tree_d5_relative_error": 0.25
+        },
+        {
+          "known_node_reconstruction_relative_residual": 1.6058673590197965e-16,
+          "probe_one_based": 1,
+          "removed_one_based": [
+            3
+          ],
+          "tree_d5_plus_d7_relative_error": 0.0039062499999999614,
+          "tree_d5_relative_error": 0.06249999999999997
+        },
+        {
+          "known_node_reconstruction_relative_residual": 8.251310865376161e-17,
+          "probe_one_based": 1,
+          "removed_one_based": [
+            2
+          ],
+          "tree_d5_plus_d7_relative_error": 0.06250000000000004,
+          "tree_d5_relative_error": 0.25
+        },
+        {
+          "known_node_reconstruction_relative_residual": 1.1357908258641045e-16,
+          "probe_one_based": 1,
+          "removed_one_based": [
+            2,
+            3
+          ],
+          "tree_d5_plus_d7_relative_error": 0.05621458224250043,
+          "tree_d5_relative_error": 0.22164310255884934
+        }
+      ]
+    },
+    "relative_tolerance": 2e-11,
+    "release": "TOE-N00AK-r1",
+    "seed": 20260904,
+    "tree": {
+      "exact_zero_residue_deletion": true,
+      "largest_spectral_remainder_to_bound_ratio": 0.9998327238091324,
+      "pass": true,
+      "pole_and_bound_domain_rejection": true,
+      "repeated_mass_cases": 45,
+      "trials": 700,
+      "worst_relative_residuals": {
+        "complex_symmetry": 1.5051380705538245e-16,
+        "direct_spectral_sum": 7.500516131246314e-16,
+        "known_node_reconstruction": 1.5586484521748344e-15,
+        "moment_recurrence": 1.9765466271628812e-16,
+        "remainder_identity": 3.4201417978398247e-16
+      }
+    }
+  }
+}
