@@ -1,0 +1,87 @@
+{
+  "files": [
+    {
+      "bytes": 2473,
+      "path": "00_READ_FIRST.md",
+      "sha256": "29ee3c641a11b342694db2bc412b1bbecaecaba4ea63862c92dada54418c23f1"
+    },
+    {
+      "bytes": 813,
+      "path": "CHANGELOG.md",
+      "sha256": "fe9e1c33ba8e70a7e3434e4aaf4d605609cb60b8558b02668238e32f1c88186d"
+    },
+    {
+      "bytes": 1342,
+      "path": "PROVENANCE.json",
+      "sha256": "2604bef66a6e37b1fcbf42786fbd14774459bd9ed0e5b9f3bca4af7145d387e3"
+    },
+    {
+      "bytes": 1358,
+      "path": "SHA256SUMS.txt",
+      "sha256": "ac0fdc4d24b322ef17605d8c16b0cc730b54ae82e0a70eea187ab4425269956c"
+    },
+    {
+      "bytes": 52208,
+      "path": "TOE_N00AK_r1_RELEASE_NOTE.pdf",
+      "sha256": "8c988c9ef1417430bc6f202d63802e79047709b1452a5ce937a6be22551de53e"
+    },
+    {
+      "bytes": 13820,
+      "path": "TOE_N00AK_r1_TECHNICAL_NOTE.md",
+      "sha256": "1087efac7431bacaf04f068c1baa0d990d5a0345982708ae9cd61eaf0288cf8e"
+    },
+    {
+      "bytes": 2610,
+      "path": "VERIFICATION_SCOPE.md",
+      "sha256": "ffdc68705a783da6f2e510696a8fb96fe87c2c66a93588c03bdb1d08719b501f"
+    },
+    {
+      "bytes": 1972,
+      "path": "code/PROVENANCE.json",
+      "sha256": "f3e45502253c2577e368a20de7626197e6886bd29d523271f7bf66c369a0de85"
+    },
+    {
+      "bytes": 2979,
+      "path": "code/README.md",
+      "sha256": "edcf813275c59658e51b0d83086f458a9cd9f69763a53dd4444456b8c9763111"
+    },
+    {
+      "bytes": 5922,
+      "path": "code/numerical_core.py",
+      "sha256": "6332b43d1692a397ca25b39727e3a6813066a4fdc7e96b42ad53e6ddce6584d3"
+    },
+    {
+      "bytes": 15,
+      "path": "code/requirements.txt",
+      "sha256": "105a25c9a24a53a42b52ccc93f930e1ea4a88b42372d440ae7c1b82c3a8b2c64"
+    },
+    {
+      "bytes": 5763,
+      "path": "code/results/replay_normal.json",
+      "sha256": "da3221a77dbca51b6c6d413c13125c3ac58302241827ebaf7c0973178b2cc279"
+    },
+    {
+      "bytes": 5903,
+      "path": "code/results/replay_optimized.json",
+      "sha256": "6b0a86b4456dd98a38b8d2bb94ee55bc822ee1eb037ade8661cd0e52d4e27c0d"
+    },
+    {
+      "bytes": 909,
+      "path": "code/source/TOE_N00AC_YNU_STAR_FULL_PRECISION.csv",
+      "sha256": "5806d06fd82c3f1ca28f7a6e60db0383a1160304a090577e5457566eccf6e082"
+    },
+    {
+      "bytes": 12463,
+      "path": "code/verify_public.py",
+      "sha256": "6180b0467363029224369af3aafec0ca19c4937c72608a3c47906526efca453b"
+    },
+    {
+      "bytes": 1091,
+      "path": "verify_manifest.py",
+      "sha256": "84861bc90266f7dd534e9015c05068b419db0abed64c0bceba9b88178983e0ab"
+    }
+  ],
+  "release": "TOE-N00AK-r1",
+  "schema": "toe-public-payload-sha256-v1",
+  "scope": "Exact tree identities and conditional algebra; physical dimension-seven coefficients unresolved."
+}

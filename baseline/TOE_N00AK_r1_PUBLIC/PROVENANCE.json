@@ -1,0 +1,26 @@
+{
+  "release": "TOE-N00AK-r1",
+  "date": "2026-09-04",
+  "local_source_release": "TOE-N00AK",
+  "local_source_release_date": "2026-08-17",
+  "source_archives_sha256": {
+    "TOE_N00AK_COMPLETE.zip": "a1552114984a40c460a10b4a04037ee0b2e0c5e38624d706b4e61958e4c1866e",
+    "TOE_N00AK_PHONE.zip": "4f70dabde5f5494a0899c0f7cc51f2e33c66baab759bdb57187adca28b1783ba"
+  },
+  "benchmark_sha256": "5806d06fd82c3f1ca28f7a6e60db0383a1160304a090577e5457566eccf6e082",
+  "intended_version_series_previous_record": "10.5281/zenodo.20241403",
+  "previous_record_details_source": "Live Zenodo record 20241403 verified on 2026-09-04 (America/Los_Angeles), consistent with the local May 16 project handoff and v47 publication package.",
+  "research_scope": "Tree-level identities and conditional algebra; physical dimension-seven coefficients unresolved.",
+  "assistance": "AI-assisted drafting, code adaptation and checks using OpenAI Codex with GPT-6 Astra; no independent expert peer review claimed.",
+  "previous_record_version": "v2026.05.16-math-audit",
+  "all_versions_doi": "10.5281/zenodo.17872787",
+  "live_baseline_metadata": {
+    "creator": "Maldonado, Ricardo",
+    "orcid": "0009-0009-3937-6527",
+    "creator_role": "Researcher",
+    "license": "CC-BY-4.0",
+    "language": "English",
+    "resource_type": "Report",
+    "communities": []
+  }
+}
