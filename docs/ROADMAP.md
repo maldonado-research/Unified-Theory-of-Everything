@@ -5,8 +5,10 @@
 The [October 1 audit](../checkpoint_2026_10_01/00_READ_FIRST.md) supplies a local representative and sourced-contact controls. Its six monomials are not a complete independent basis, and its static basis-change cancellation is not a physical beta function. The remaining target is:
 
 1. Fix a complete Green/operator basis and action, Fourier, metric and Majorana conventions.
+   Calibrate the dimension-five sourced reduction against Zhang's Appendix A and compare the retained-field packet with the corrected sterile-neutrino basis. Pure SMEFT bases apply after sterile fields are removed.
 2. Map all four cubic momentum structures and both Higgs-mass structures in the evaluated seed.
 3. Derive gauge completion and reduce using the sourced sterile, lepton and Higgs equations of motion.
+   Include all lower-order contributions required by power counting; dimension-five EOM corrections acting on redundant dimension-six terms can enter at order `Lambda^-3`.
 4. Carry correlated mass, coupling, field and contact changes together.
 5. Evaluate the resulting physical Schur combination and finite matching, whether or not a cancellation survives.
 6. Run the full coefficient vector to the relevant scale and connect it to one declared observable with uncertainties.

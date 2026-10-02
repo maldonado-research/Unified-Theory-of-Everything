@@ -20,7 +20,7 @@ The N00AK-r1 withdrawal remains in force. Neither `5/9`, `5/6`, nor the scalar d
 
 The unchanged September 4 baseline and September 6 scientific sources remain separately dated. The older DOI `10.5281/zenodo.22319172` identifies N00AK-r1 only. This checkpoint introduces no observational prediction, new particle detection, novel fundamental mathematics, experimental validation, or independent human peer review.
 
-No new literature discovery is claimed. The cited earlier primary-source links were unavailable from the current research environment; the prior dated literature ledger has not been represented as a fresh web survey. No private raw research files, personal documents or historical transcripts are included in this checkpoint.
+The [focused primary-source audit](CURRENT_LITERATURE.md) rechecks the cited references and the corrected sterile-neutrino basis, EOM and field-redefinition literature. It identifies no newer publication that completes the missing seed reduction in the successful searches; the recorded failures and coverage limits prevent an exhaustive claim. No new literature discovery or validation of TOE is claimed. No private raw research files, personal documents, historical transcripts or downloaded paper full texts are included in this checkpoint.
 
 ## Reproduce
 
@@ -35,4 +35,4 @@ The root runner checks payload integrity and executes the calculations in a temp
 
 ## Next decisive calculation
 
-Declare the complete sequential EFT action, power counting and operator basis. Compute the additional gauge-leg and multi-field Green functions, reduce every source descendant consistently, and assemble mass, field, Yukawa and contact counterterms in a declared subtraction scheme. Then compare the complete physical matching combination, including finite thresholds. Report a surviving correction or cancellation with the same standard of evidence.
+Declare the complete sequential EFT action, power counting and operator basis. Calibrate the dimension-five sourced reduction against Zhang's Appendix A in the project's explicit conventions. Account for lower-dimensional EOM corrections: a dimension-five correction acting on a redundant dimension-six structure can contribute at order `Lambda^-3`. Compute the additional gauge-leg and multi-field Green functions, reduce every source descendant consistently, and assemble mass, field, Yukawa and contact counterterms in a declared subtraction scheme. Then compare the complete physical matching combination, including finite thresholds. Report a surviving correction or cancellation with the same standard of evidence.

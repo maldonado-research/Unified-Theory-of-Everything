@@ -290,13 +290,18 @@
     },
     {
       "path": "checkpoint_2026_10_01/00_READ_FIRST.md",
-      "bytes": 4441,
-      "sha256": "85a1e633bd395304770dee5be4ca5d4320a40219a2d177549d859a207d420407"
+      "bytes": 4930,
+      "sha256": "b5832f53b70c22e3b16afc4613d38336291d1a10e800c93df134344d46fa29a5"
     },
     {
       "path": "checkpoint_2026_10_01/AUDIT.md",
       "bytes": 6619,
       "sha256": "920f829a192bcf0ccfd3054ae9537e0a02752e3484ac6a808e9d9812f5672791"
+    },
+    {
+      "path": "checkpoint_2026_10_01/CURRENT_LITERATURE.md",
+      "bytes": 14354,
+      "sha256": "0dcdc08f30e8d9e81308f20dfd57e7fb89745f1848c7ce82b70835a53bc3cca7"
     },
     {
       "path": "checkpoint_2026_10_01/GREEN_REPRESENTATIVE.md",
@@ -360,13 +365,13 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 4113,
-      "sha256": "fba05ad2c3dbb25249ff8cb83c8a836bb391e586391413b01d172e460f10397e"
+      "bytes": 4380,
+      "sha256": "63cbed15d066ed61797d172cedb63d63d1faf1a159582f235fd3f867b1995536"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 1944,
-      "sha256": "65da686193d8f5687cbdb447e234b80013cf6dbd9d6f6813cd06b3d227de85f1"
+      "bytes": 2331,
+      "sha256": "50f29b370c8a3726ca3e224cf64abd16da7a9b592859524c8cd325583da851bd"
     },
     {
       "path": "docs/VERIFICATION.md",
@@ -375,8 +380,8 @@
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
-      "bytes": 3152,
-      "sha256": "e7c5a72c460a83cff78c9d5a2876af87bc096e1654849dcbb0af54b1b6e7f257"
+      "bytes": 3815,
+      "sha256": "56c394a3febeab8bc715e0b1a6156c92ea81440c6e5a986cb644449228365a4c"
     },
     {
       "path": "requirements.txt",

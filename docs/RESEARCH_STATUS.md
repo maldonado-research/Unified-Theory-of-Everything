@@ -33,7 +33,7 @@ The pulse is prescribed in flat spacetime. Expansion, source dynamics, backreact
 
 Earlier epsilon-lattice patterns are descriptive research history. Retrospective pattern matches carry zero independent confirmatory weight in the corrected account. This focused repository does not import superseded historical forecasts as observations.
 
-The literature ledger remains dated 6 September. Related publications provide methods and constraints; they are not independent validations of TOE. The archive does not redistribute their full texts.
+The earlier literature ledger remains separately dated September 6. A [focused October 1 primary-source audit](../checkpoint_2026_10_01/CURRENT_LITERATURE.md) rechecks the references, corrected sterile-neutrino basis and EOM/field-redefinition foundations, and records bounded subsequent searches and their failures. Related publications provide methods and constraints; they are not independent validations of TOE. Downloaded paper full texts are not redistributed.
 
 ## Nature of the review
 
