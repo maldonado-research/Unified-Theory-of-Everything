@@ -2,6 +2,8 @@
 
 ## Complete the dimension-seven physical reduction
 
+The [October 1 audit](../checkpoint_2026_10_01/00_READ_FIRST.md) supplies a local representative and sourced-contact controls. Its six monomials are not a complete independent basis, and its static basis-change cancellation is not a physical beta function. The remaining target is:
+
 1. Fix a complete Green/operator basis and action, Fourier, metric and Majorana conventions.
 2. Map all four cubic momentum structures and both Higgs-mass structures in the evaluated seed.
 3. Derive gauge completion and reduce using the sourced sterile, lepton and Higgs equations of motion.

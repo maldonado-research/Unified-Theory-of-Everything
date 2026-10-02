@@ -19,13 +19,19 @@ The runner verifies the repository payload manifest, copies the scientific packa
 4. Separate tensor-routing comparison.
 5. Exact rational nonzero weak-pulse bound.
 6. Scalar continuum and pole-bound controls.
+7. Local Green representative, sourced sterile tower and transverse gauge-ambiguity controls: 605 exact checks.
+8. Sourced sterile contact and complex-flavor Schur-invariance controls: 640 exact checks.
 
 The full mode adds:
 
-7. Six pulse cases with midpoint refinement and DOP853 comparison.
-8. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
+9. Six pulse cases with midpoint refinement and DOP853 comparison.
+10. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
 
 The baseline input-manifest check is an additional stage. The wrapper reports each stage and exits nonzero on any failure. Temporary outputs are not written over shipped receipts.
+
+Counting the root payload check gives ten quick stages and twelve full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October edition. The new exact-arithmetic scripts use explicit failures and also pass under optimization, but the root and numerical checkpoint commands must run without `-O`. The scientific identity proofs and their limits are documented in `checkpoint_2026_10_01/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis.
+
+An additional independent symbolic review is reproducible with `python -m pip install -r checkpoint_2026_10_01/requirements-review.txt` followed by `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the root runner's twelve stages; the cloud setup includes its dependencies.
 
 ## Publication correction to replay behavior
 

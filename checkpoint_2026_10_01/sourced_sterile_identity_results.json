@@ -1,0 +1,25 @@
+{
+  "arithmetic": "exact Gaussian rationals, Python standard library",
+  "checks": {
+    "Dirac square": 48,
+    "conjugate transpose mutation rejected": 48,
+    "correlated Schur variation cancels": 48,
+    "dropping Weinberg contact rejected": 48,
+    "each missing source rejected": 144,
+    "exact finite Schur invariance": 48,
+    "free cubic substitution rejected": 48,
+    "identity on sourced solution": 48,
+    "missing quadratic contact rejected": 48,
+    "off-shell sourced identity": 48,
+    "sigma anticommutator": 16,
+    "sourced solution satisfies both EOM": 48
+  },
+  "flavors": {
+    "light": 3,
+    "sterile": 2
+  },
+  "independent_trials": 48,
+  "scope": "sourced EOM and basis-change algebra; no loop coefficient or physical beta function",
+  "status": "PASS",
+  "total_checks": 640
+}

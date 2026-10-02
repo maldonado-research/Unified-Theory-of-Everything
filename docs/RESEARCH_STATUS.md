@@ -1,6 +1,6 @@
 # Research status for the GitHub edition
 
-Prepared 30 September 2026 from the published 4 September baseline and the 6 September checkpoint. This publication does not announce new theoretical calculations after those dates.
+The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition adds a bounded local operator and sourced-contact audit; the older scientific inputs remain unchanged.
 
 ## Preserved results
 
@@ -9,6 +9,11 @@ Prepared 30 September 2026 from the published 4 September baseline and the 6 Sep
 - An evaluated ultraviolet momentum polynomial for one declared derivative seed, supported by separate analytic routes and 815 exact rational controls.
 - Conditional scalar inverse-moment and continuum comparisons based on the inherited v294 spectral premises.
 - A unitary weak-pulse lower bound and numerical comparisons for externally prescribed backgrounds.
+- A local gauge-covariant representative of the seed pole, explicitly sourced EOM descendants, and exact complex-flavor field-redefinition controls. A separate internal review accepts these scoped algebraic results.
+
+## October operator audit
+
+The new representative identifies derivative placement and the signed Higgs-mass descendant, while keeping source and curvature contacts. An explicit transverse field-strength amplitude demonstrates information absent from the zero-gauge three-point restriction. Reducing one sterile cubic-derivative monomial yields a correlated Yukawa/Weinberg cancellation in the static Schur combination for arbitrary flavor coefficients, together with remaining derivative contacts. This is a basis-change identity, not a calculation of complete physical loop running. The full Green basis, remaining diagrams, gauge-leg matching, finite thresholds and observable remain open. Four-dimensional EOM identities alone do not classify evanescent structures in dimensional regularization.
 
 ## Withdrawn or unestablished claims
 

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": 605,
+  "arithmetic": "exact rational and Gaussian-rational; standard library",
+  "seed": 20261002,
+  "representative_coefficients": [
+    "5/6",
+    "1/3",
+    "1/6",
+    "-1/6",
+    "1/2",
+    "1/2"
+  ],
+  "scalar_mass_descendant": "2/3",
+  "gauge_ambiguity_spin_sum": "4",
+  "scope": "local representative, sourced identities, nonunique completion; no beta function"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Clifford algebra",
+    "nonabelian constant-connection row curvature",
+    "gauge-null-direction shell/ward/spin sum",
+    "explicit complex flavor transpose orientation"
+  ],
+  "spin_sum": "4",
+  "scope": "independent exact algebra controls; no beta function or novelty claim"
+}
