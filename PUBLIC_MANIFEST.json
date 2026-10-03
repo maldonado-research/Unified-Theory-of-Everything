@@ -1,10 +1,11 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.09.30",
+  "release": "TOE-GitHub-2026.10.01",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
-    "verification/PUBLICATION_REPLAY.json"
+    "verification/PUBLICATION_REPLAY.json",
+    "verification/OPERATOR_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -14,13 +15,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 899,
-      "sha256": "ca5481fa7bd68ac60e7d5bfd8c862356fc20629b1476da8b2e7ac95335b66961"
+      "bytes": 2042,
+      "sha256": "04a172fbd0c1855babef91d58a5f75cf09004864f7d74e4743890bdd438b4dab"
     },
     {
       "path": "CITATION.cff",
       "bytes": 733,
-      "sha256": "f563008700b68fcdce976b28b09a24b17b6d5e7682591e49fc850a23851b7600"
+      "sha256": "18b0391ae72c60cf178b3aeb72bcf663f9beae1ccf5d7adecbb528997c90a0c4"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -34,8 +35,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4901,
-      "sha256": "a53719638d068596fc746afff6008d4449521a062f97951fafa66f1ba3d6aa78"
+      "bytes": 5703,
+      "sha256": "907f66e55c4f144701ecda12ceaafb19b5d58ce0ad7776015a7ae290293d2c5a"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -288,6 +289,71 @@
       "sha256": "f51e9ea4cd16a9ad0fc5bdef9ca80da4436d0528f5a54dc76a870c1a10179214"
     },
     {
+      "path": "checkpoint_2026_10_01/00_READ_FIRST.md",
+      "bytes": 4930,
+      "sha256": "b5832f53b70c22e3b16afc4613d38336291d1a10e800c93df134344d46fa29a5"
+    },
+    {
+      "path": "checkpoint_2026_10_01/AUDIT.md",
+      "bytes": 6619,
+      "sha256": "920f829a192bcf0ccfd3054ae9537e0a02752e3484ac6a808e9d9812f5672791"
+    },
+    {
+      "path": "checkpoint_2026_10_01/CURRENT_LITERATURE.md",
+      "bytes": 14354,
+      "sha256": "0dcdc08f30e8d9e81308f20dfd57e7fb89745f1848c7ce82b70835a53bc3cca7"
+    },
+    {
+      "path": "checkpoint_2026_10_01/GREEN_REPRESENTATIVE.md",
+      "bytes": 11876,
+      "sha256": "e7b3fbeab2e310b69d9e2a9cea563f241c11cb4d80a6da90d183bdad637708b8"
+    },
+    {
+      "path": "checkpoint_2026_10_01/SCOPE_AND_CHECKS.md",
+      "bytes": 2817,
+      "sha256": "a17fc3e36d7b2de1ec522262149c9b35ddf429944527681dfb08ad37034381b2"
+    },
+    {
+      "path": "checkpoint_2026_10_01/SOURCED_STERILE_REDUCTION.md",
+      "bytes": 12090,
+      "sha256": "68cd5595732c9b25b13c77cd4d51ad9ebe571365aa3a26213f3548519a5c8bbb"
+    },
+    {
+      "path": "checkpoint_2026_10_01/green_representative_results.json",
+      "bytes": 405,
+      "sha256": "3ff73784ed9da43d161aa9bc77909398996ccdd3316d8042902227c4c9e504b3"
+    },
+    {
+      "path": "checkpoint_2026_10_01/independent_clifford_checks.py",
+      "bytes": 3071,
+      "sha256": "9d128d21b8f1a9e3d14d5739359a8510859108930169af1b09f896f95808b323"
+    },
+    {
+      "path": "checkpoint_2026_10_01/independent_clifford_results.json",
+      "bytes": 321,
+      "sha256": "b0ac2f2d53a1dfcc7b21bb109cd2170500bc87e67330f917bea404690e626e87"
+    },
+    {
+      "path": "checkpoint_2026_10_01/requirements-review.txt",
+      "bytes": 28,
+      "sha256": "47fd19021144e071cc43b6e265aafada0056abe89724ad95bd6e3a8e37995b94"
+    },
+    {
+      "path": "checkpoint_2026_10_01/sourced_sterile_identity_results.json",
+      "bytes": 806,
+      "sha256": "fb1756d087b378470ecd0d79b842eb4a4ab1ae9e70e81a28b832b37b41c22b96"
+    },
+    {
+      "path": "checkpoint_2026_10_01/verify_green_representative.py",
+      "bytes": 8663,
+      "sha256": "e211acfe1b5f8b9b0a12d153cea38e9de253c15677154bc77088828da65b1f2c"
+    },
+    {
+      "path": "checkpoint_2026_10_01/verify_sourced_sterile_identity.py",
+      "bytes": 6995,
+      "sha256": "5d0c4dfed2165e61f7fcd083a50347787dbcc75d562fc72d1b38fb3b998d1a8c"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -299,18 +365,23 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 3056,
-      "sha256": "bf3aef6f7eb055b503d52e3193f4b692480ad8745c215c5618d1afc02ffd2702"
+      "bytes": 4380,
+      "sha256": "63cbed15d066ed61797d172cedb63d63d1faf1a159582f235fd3f867b1995536"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 1661,
-      "sha256": "d4689f91e419126d6efb8c06600d8e9652aa231d0357fc1ca0c5511ade08f4ff"
+      "bytes": 2331,
+      "sha256": "50f29b370c8a3726ca3e224cf64abd16da7a9b592859524c8cd325583da851bd"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 2718,
-      "sha256": "eb71310980d8a7b59b3d10b30fcda284f19b7b461c6d4ce62df9a53fd855c2b4"
+      "bytes": 3968,
+      "sha256": "fe78c86bb0d8f66990b0d41e8ca23aa8d1283fe6a23784bb7412fff5b15b928b"
+    },
+    {
+      "path": "docs/ZENODO_OPERATOR_UPDATE.md",
+      "bytes": 3815,
+      "sha256": "56c394a3febeab8bc715e0b1a6156c92ea81440c6e5a986cb644449228365a4c"
     },
     {
       "path": "requirements.txt",
@@ -324,8 +395,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 5700,
-      "sha256": "7fee25c9acd9667ab3f3f57c81bfc295bfb6ccd62a0c8682463e7136a807e97e"
+      "bytes": 6189,
+      "sha256": "4828ea0919393427c602b9d0de6d06d938d0bc857e0d1c7f018947c7be5c7542"
     }
   ]
 }
