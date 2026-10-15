@@ -1,6 +1,6 @@
 # Research status for the GitHub edition
 
-The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition added a bounded local operator and sourced-contact audit. The October 15 candidate now includes the restricted external-gauge loop hierarchy, its literal action map, and the selected interacting electroweak source reduction and normalization; the older scientific inputs remain unchanged.
+The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition added a bounded local operator and sourced-contact audit. The October 15 candidate now includes the restricted external-gauge hierarchy, selected field changes and independently ranked algebraic tensor/current sectors; the older scientific inputs remain unchanged.
 
 ## Preserved results
 
@@ -68,6 +68,16 @@ The [local differential normalization](../checkpoint_2026_10_15/interacting_redu
 The source reduction and local normalization are separate coordinate maps of the original packet. Using them together requires their explicit first-order composition on the full action and sources; their induced coefficient tables cannot simply be added. The normalization result does not establish that the source-reduced representative is already canonical.
 
 The [literature follow-up](../checkpoint_2026_10_15/interacting_reduction/LITERATURE_METHODS.md) records bounded searches and primary-source comparisons of retained-sterile operator classes and mixed-dimension field changes. The full coefficient basis, remaining external-matter loop sectors, lower-order insertions, correlated field/parameter/contact counterterms, subtraction and evanescent prescriptions, physical running, finite thresholds and an observable remain unresolved.
+
+## Algebraic operator sectors and selected flavor image
+
+The [tensor basis](../checkpoint_2026_10_15/operator_basis/ACTIVE_TENSOR_BASIS.md) solves the full weak invariant equations for the active two-lepton/two-scalar/strength sector. Chiral spin and Grassmann exchange give `n(n-1)/2` B coordinates and `n^2` W coordinates, or 3 and 9 for three active flavors. Dual strengths add no independent complex chiral coordinate. Retained-mass mixed tensors have `n n_N` coordinates per strength. A [separate invariant/Grassmann audit](../checkpoint_2026_10_15/operator_basis/INDEPENDENT_TENSOR_BASIS.md) checks completeness and exact explicit-source coefficient transport, including flavor-pair factors. These established classes are not newly discovered interactions.
+
+The [current basis](../checkpoint_2026_10_15/operator_basis/CURRENT_OPERATOR_BASIS.md) imposes the four-dimensional Lorentz and identical-lepton quotient. Its positive-sign Fierz identity exchanges barred flavor labels, giving an ordered lepton basis of dimension `n_L^3 n_N`. The selected lepton-current coefficient is `(g^2-g'^2)F_(alpha i)delta_(beta gamma)/24-g^2 F_(beta i)delta_(alpha gamma)/12`, including a nonzero one-flavor limit. Quark and right-singlet maps retain weak exchange, color and scalar-Fierz factors. A [separate exterior audit](../checkpoint_2026_10_15/operator_basis/INDEPENDENT_CURRENT_BASIS.md) gives general constructive rank witnesses and reconstructs each formal source coefficient.
+
+The [seed-image proof](../checkpoint_2026_10_15/operator_basis/SEED_FLAVOR_IMAGE.md) uses `K=C_seed H_Y^T`, with `H_Y=Y_nu Y_nu^dagger>=0`. At fixed Yukawa matrix, the supported symmetric weak source determines its antisymmetric source, with complex image rank `r(2n-r+1)/2` for Yukawa rank `r`. Global transpose/projector constraints retain zero eigenvalues. A sharp relative Frobenius bound on raw source projections is invariant under unitary flavor congruence; it is a selected-source consistency relation, not a magnetic-moment bound or a constraint on the full physical coefficient vector.
+
+Five exact stages cover these algebraic sectors. The [literature comparison](../checkpoint_2026_10_15/operator_basis/LITERATURE_BASIS_MAP.md) records three bounded queries, 22 distinct records and four checked primary bodies. Only explicit curvature-source and gauge-current contributions have been transported. Other scalar/derivative/source terms and coordinate changes can feed the same operators. A complete derivative/EOM retained-sterile basis, composition of the full action maps, lower-order insertions, remaining loops/counterterms, dimensional/evanescent definitions, physical running and finite observables remain unresolved.
 
 ## Withdrawn or unestablished claims
 

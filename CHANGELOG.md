@@ -1,5 +1,15 @@
 # Change log
 
+## TOE-GitHub-2026.10.15-candidate.8 — algebraic operator sectors and source image
+
+Constructed complete algebraic nonderivative bases for the explicit active/retained-mass tensor and fermion-current source sectors, with full weak/Lorentz invariant equations and independent Grassmann/component-rank audits. The active counts are `n(n-1)/2` for B and `n^2` for W; retained-mass mixed tensors have `n n_N` per strength. Exact coefficient tables retain flavor-pair, chirality, dual and generator factors.
+
+The identical-lepton Fierz relation exchanges barred flavor labels with a positive sign. It gives an unrestricted ordered `n_L^3 n_N` current basis and a concrete selected coefficient map, including the nonzero one-flavor limit `-(g^2+g'^2)F/24`. Quark and right-singlet spectator maps are explicit.
+
+For `K=C_seed H_Y^T`, the positive-semidefinite Yukawa matrix fixes the antisymmetric source from the supported symmetric weak channel. Derived exact global image constraints, rank `r(2n-r+1)/2`, and a sharp relative Frobenius bound on the raw selected source projections. Singular/degenerate and complex-unitary cases are retained. Five standalone stages and a three-query, 22-record primary-source follow-up accompany the derivations.
+
+These are sector algebra and maps of explicit representative contributions, not a complete derivative/EOM EFT basis or a total physical Wilson map. Other terms can feed the same operators. No loop, physical beta function, finite observable, new fundamental mathematics or external novelty is established. Earlier science/receipts remain unchanged; no new release or Zenodo version is created.
+
 ## TOE-GitHub-2026.10.15-candidate.7 — interacting electroweak source reduction
 
 Added the source-retaining matrix reduction of the already matched gauge action, with fully indexed real weak-field changes, covariant Bianchi and Yang–Mills variation controls. The explicit curvature coefficient remains `-1/12` in the declared representative; it is accompanied by all displayed source/current terms and is not a physical dipole prediction.

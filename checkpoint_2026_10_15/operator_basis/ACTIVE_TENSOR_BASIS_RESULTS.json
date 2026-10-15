@@ -1,0 +1,576 @@
+{
+  "active_flavor_rank_results": [
+    {
+      "B_kernel_dimension": 1,
+      "B_rank": 0,
+      "W_kernel_dimension": 0,
+      "W_rank": 1,
+      "active_flavors": 1,
+      "independent_pair_W_minus": 1,
+      "independent_pair_W_plus": 0,
+      "ordered_B_columns": 1,
+      "ordered_W_columns": 1
+    },
+    {
+      "B_kernel_dimension": 3,
+      "B_rank": 1,
+      "W_kernel_dimension": 0,
+      "W_rank": 4,
+      "active_flavors": 2,
+      "independent_pair_W_minus": 3,
+      "independent_pair_W_plus": 1,
+      "ordered_B_columns": 4,
+      "ordered_W_columns": 4
+    },
+    {
+      "B_kernel_dimension": 6,
+      "B_rank": 3,
+      "W_kernel_dimension": 0,
+      "W_rank": 9,
+      "active_flavors": 3,
+      "independent_pair_W_minus": 6,
+      "independent_pair_W_plus": 3,
+      "ordered_B_columns": 9,
+      "ordered_W_columns": 9
+    }
+  ],
+  "arithmetic": "exact Gaussian rational arithmetic; standard library only",
+  "checks_by_category": {
+    "B symmetric kernel is complete": 3,
+    "all B flavor exchange identities": 14,
+    "all W minus flavor exchange identities": 14,
+    "all W plus flavor exchange identities": 14,
+    "chiral strength spin map has rank three": 1,
+    "combined B and W basis rank": 3,
+    "complete weak invariant nullity": 4,
+    "dual chiral strength is minus i times ordinary": 6,
+    "dual strengths add no independent Lorentz tensor": 1,
+    "exhaustive active B Grassmann rank": 3,
+    "exhaustive active W Grassmann rank": 3,
+    "exhaustive independent-pair B source map": 14,
+    "exhaustive independent-pair W source map": 14,
+    "explicit weak invariant solves every covariance coefficient": 5,
+    "explicit weak invariants span full nullspace": 4,
+    "independent B pair basis rank": 3,
+    "independent W symmetric and antisymmetric pair basis rank": 3,
+    "raw W splits into two weak tensors": 14,
+    "retained-mass B sector independent rank": 6,
+    "retained-mass W sector independent rank": 6,
+    "retained-mass chiral strength spin map rank": 1,
+    "retained-mass combined sector rank": 6,
+    "retained-mass dual strength is minus i times ordinary": 6,
+    "retained-mass dual strengths add no Lorentz direction": 1,
+    "right chiral embedding": 1,
+    "symmetric chiral sigma C": 6,
+    "symmetric flavor coefficient lies in full B kernel": 10
+  },
+  "input_candidate": "34acf849172231282a0a6e7a07a81157b2d48799",
+  "method": "Complete polynomial weak covariance nullspaces and chiral Grassmann monomial coefficient ranks; no sampled field values.",
+  "negative_control_count": 8,
+  "negative_controls_rejected": [
+    "Pauli normalization silently replaces T",
+    "double the diagonal symmetric-flavor term",
+    "flavor-only antisymmetry removes charged one-flavor W",
+    "omit independent B pair factor two",
+    "omit independent W offdiagonal symmetric factor two",
+    "omit the second weak invariant",
+    "opposite adjoint transformation sign",
+    "transpose ordered source flavor matrix"
+  ],
+  "positive_check_count": 166,
+  "python": "3.12.14",
+  "retained_mass_rank_results": [
+    {
+      "B_rank": 1,
+      "W_rank": 1,
+      "active_flavors": 1,
+      "combined_rank": 2,
+      "sterile_flavors": 1
+    },
+    {
+      "B_rank": 2,
+      "W_rank": 2,
+      "active_flavors": 1,
+      "combined_rank": 4,
+      "sterile_flavors": 2
+    },
+    {
+      "B_rank": 2,
+      "W_rank": 2,
+      "active_flavors": 2,
+      "combined_rank": 4,
+      "sterile_flavors": 1
+    },
+    {
+      "B_rank": 4,
+      "W_rank": 4,
+      "active_flavors": 2,
+      "combined_rank": 8,
+      "sterile_flavors": 2
+    },
+    {
+      "B_rank": 3,
+      "W_rank": 3,
+      "active_flavors": 3,
+      "combined_rank": 6,
+      "sterile_flavors": 1
+    },
+    {
+      "B_rank": 6,
+      "W_rank": 6,
+      "active_flavors": 3,
+      "combined_rank": 12,
+      "sterile_flavors": 2
+    }
+  ],
+  "scope": "Algebraic independence and coefficient transport inside the stated no-derivative field-content sectors; no full EFT/EOM basis closure, physical Wilson prediction, finite amplitude or beta function.",
+  "status": "passed",
+  "weak_invariant_systems": [
+    {
+      "covariance_equations": 36,
+      "nullity": 1,
+      "nullspace_basis": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "rank": 11,
+      "sector": "active_B",
+      "unknown_coefficients": 12
+    },
+    {
+      "covariance_equations": 108,
+      "nullity": 2,
+      "nullspace_basis": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ],
+          [
+            "0",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ],
+          [
+            "0",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/2"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "rank": 34,
+      "sector": "active_W",
+      "unknown_coefficients": 36
+    },
+    {
+      "covariance_equations": 12,
+      "nullity": 1,
+      "nullspace_basis": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "rank": 3,
+      "sector": "mass_B",
+      "unknown_coefficients": 4
+    },
+    {
+      "covariance_equations": 36,
+      "nullity": 1,
+      "nullspace_basis": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "rank": 11,
+      "sector": "mass_W",
+      "unknown_coefficients": 12
+    }
+  ]
+}
