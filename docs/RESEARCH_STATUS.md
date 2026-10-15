@@ -35,7 +35,17 @@ The [combined hypercharge-packet reduction](../checkpoint_2026_10_15/electroweak
 
 The [new primary-source check](../checkpoint_2026_10_15/electroweak_source/ELECTROWEAK_SOURCE_CHECK.md) fixes Pauli/generator and weak-current normalizations and records four fresh bounded 2025–2026 queries: 52 entries, 46 distinct records screened. Di Zhang's `2504.00792v2` supplies an explicit retained-sterile field-redefinition benchmark and flavor warning, with dimension-five scope. Recent dipole studies provide possible observable benchmarks after matching. They neither reproduce this dimension-seven coefficient nor establish its novelty.
 
-The next physical task is a fully indexed action-level field redefinition, including canonical normalization, in a complete retained-sterile basis and subtraction prescription. Remaining coupling sectors, correlated field/parameter/contact counterterms, finite thresholds and an observable remain open.
+## Explicit field changes and neutral normalization
+
+The [field-redefinition continuation](../checkpoint_2026_10_15/field_redefinition/00_READ_FIRST.md) implements the combined packet's residual certificate with local indexed shifts of the lepton, Higgs, Majorana sterile and real hypercharge gauge field. Its variational source signs, differentiated composites, ordered masses and Majorana-real completion agree with a separate action/Grassmann audit. The statement concerns the gauge-invariant renormalizable action, through the declared first-order and inverse-scale truncation; the full gauge-fixed functional requires its corresponding transformations.
+
+The actual original packet, on a constant neutral Higgs background `phi=(u,0)` with zero gauge fields, gives neutral kinetic mixing `Z_as(p^2)=u(p^2+m_H^2)F`. Canonical normalization moves it into correlated momentum-dependent holomorphic mass and source terms. Two pole-kernel constructions and source-dressed responses check the coordinate change, with complex flavor data and no required mass inverse. These are coordinate-consistency results, not an isolated physical mass or dipole prediction. A nonstationary scalar background also contributes a tadpole times the nonlinear scalar shift to the fermion Hessian; it cannot be omitted in a comparison of the original and reduced actions.
+
+A separate declared benchmark computes the order-`Lambda^-3` sterile-scalar contact from a dimension-six normalization acting on a dimension-five coefficient: `Delta D_7=-(Z_s^T C+C Z_s)/2`. The optional `Z_s,C` are benchmark inputs, not newly generated seed coefficients. An independently implemented two-flavor Grassmann variation checks this concrete lower-order closure witness, including a singular mass matrix.
+
+Four bounded literature queries screened 35 appearances/27 distinct records. Four selected primary texts were retrieved and checked at their stated versions, providing methodological benchmarks for canonical normalization, bosonic contributions to fermionic running and infrared subtraction. This screen does not establish novelty or exhaustive coverage.
+
+The next physical task is to assemble the complete retained-sterile coefficient basis, lower-order insertions, remaining field/parameter/contact counterterms and subtraction prescription. Full interacting canonical normalization, two-W/mixed-BW matching, physical running, finite thresholds and an observable remain open.
 
 ## Withdrawn or unestablished claims
 

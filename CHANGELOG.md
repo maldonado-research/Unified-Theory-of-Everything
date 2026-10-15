@@ -1,5 +1,16 @@
 # Change log
 
+## TOE-GitHub-2026.10.15-candidate.5 — explicit field changes and neutral normalization
+
+- Implement the selected combined-packet residual certificate as indexed lepton, Higgs, Majorana sterile and real hypercharge-field substitutions. Derive the integrated derivative adjoints and literal variational source signs; preserve the constrained scalar conjugation and Majorana reality without an extra half.
+- Project the actual unreduced packet on a constant neutral Higgs background, obtaining `Z_as(p^2)=u(p^2+m_H^2)F`. Retain the momentum-dependent mass and source terms induced by canonical normalization, with explicit flavor blocks and a holomorphic mass-conjugation dictionary.
+- Check doubled and squared pole kernels, source-dressed responses, flavor-coordinate freedom and rank-safe Schur reduction. Document the extra scalar-tadpole Hessian term on nonstationary backgrounds.
+- Make the dimension-six normalization × dimension-five sterile-scalar contribution at inverse-scale order three executable in an explicitly declared optional benchmark. Its input coefficients are not new seed-loop results; a separate Grassmann calculation checks the induced contact.
+- Add five reproducible verification stages and retain all historical scientific payloads and receipts. The extended runner has twenty-six quick and twenty-eight full stages.
+- Screen 27 distinct indexed papers in four bounded 2025–2026 searches and check four selected primary texts. Record exact versions and retrieval hashes, including successful managed HTTPS fallback after scrape-credit failures. New general EFT templates constrain the workflow rather than supplying this missing dimension-seven coefficient.
+
+These are restricted action-coordinate and quadratic normalization results, not a physical beta function, finite photon amplitude, new fundamental mathematics, novelty determination or completed unification. No GitHub release, Zenodo version or DOI is created.
+
 ## TOE-GitHub-2026.10.15-candidate.4 — one-W matching and combined sourced packet
 
 - Calculate the one-W UV pole in the declared derivative-seed/conjugate-Yukawa sector. Recover the same reduced tensor as the one-B result with the weak generator `T^I=tau^I/2`; retain the epsilon/generator transpose and direct-trace controls.
