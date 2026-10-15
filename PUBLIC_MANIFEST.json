@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.10.15-candidate.5",
+  "release": "TOE-GitHub-2026.10.15-candidate.6",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -10,7 +10,8 @@
     "verification/OPERATOR_MAP_REPLAY_LINUX.json",
     "verification/TWO_GAUGE_REPLAY_LINUX.json",
     "verification/ELECTROWEAK_SOURCE_REPLAY_LINUX.json",
-    "verification/FIELD_REDEFINITION_REPLAY_LINUX.json"
+    "verification/FIELD_REDEFINITION_REPLAY_LINUX.json",
+    "verification/NONABELIAN_GAUGE_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -20,13 +21,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 10091,
-      "sha256": "04414cb37a46fbd6cec31c1daf3481786a4d10bdac882cff8fb47be7ddaff0f5"
+      "bytes": 11979,
+      "sha256": "7b647bfe6c43f8511e8769b801d736d8879a2013e70ba9bb6962dd7fd836cb67"
     },
     {
       "path": "CITATION.cff",
       "bytes": 750,
-      "sha256": "8df379add9cf9170c62d163ace1d6498d15a9739e784a89f336fa2dcc45a78c1"
+      "sha256": "c56bfddec83539e380fec5868f45813a064e8fc1657a15be7379a61bb7ab52ec"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -40,8 +41,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8848,
-      "sha256": "4df0f969898a3b1fd2d8295193ff5d85151ed7657a81fbb989f191c9f370f2fe"
+      "bytes": 9510,
+      "sha256": "66cdf866f9f81d99da67a906fbc7c6c0b5712d1ae394a7b70397ce95b6665517"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -549,6 +550,126 @@
       "sha256": "4ccddf6a26eddbdce7c86414cd941c343de653f8aabfaa815961ed23fc38d188"
     },
     {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/00_READ_FIRST.md",
+      "bytes": 4720,
+      "sha256": "887d2833b4d79f92934faff5a36a62f9d95a6019b2bb541cd47df127aa49de58"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/COVARIANT_ACTION_AND_WARD.md",
+      "bytes": 9684,
+      "sha256": "b6287c08ab0ed14f3d7d2102e16aeee364404049ca8bb4acab01eef0641ef475"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/COVARIANT_ACTION_CHECKS.json",
+      "bytes": 806,
+      "sha256": "fa5c9d0c962d09acca500b4e7d81b30b5c08da794521bda3a03d87a759a122f5"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/GAUGE_HIERARCHY_AND_PHOTON_PROJECTION.md",
+      "bytes": 5363,
+      "sha256": "b073b7727128d3bcf52efc31095f6ba741b93e9425db3e34841be7a573405918"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/INDEPENDENT_CUBATURE_AUDIT.md",
+      "bytes": 6966,
+      "sha256": "50fc073d6b92236fdf11b7aa9aa8f4bfc59875dc6bf14fef0b42a743259ab8ed"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/INDEPENDENT_NONABELIAN_AUDIT.md",
+      "bytes": 10725,
+      "sha256": "f8a85ed6df0ba1b76237c9576db2d1e611b5c7cf6588db63056c78ccff04c154"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/INDEPENDENT_TWO_GAUGE_CHECKS.json",
+      "bytes": 4201,
+      "sha256": "5b0f111769438372d7d036e1ca4ec217bebd2f098c0040fbf345e7f05d8c2553"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/METHOD_NOTE.md",
+      "bytes": 9773,
+      "sha256": "b3e56167924e48ffb07c6540509f066a84c2992ec7bfbda976d0c67ed341c391"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/PRIMARY_SOURCE_PROVENANCE.json",
+      "bytes": 2277,
+      "sha256": "4521033e0541b29a3db4025f6ec1d384269be334a1023cee952908d71e7337db"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/SEARCH_PROVENANCE.json",
+      "bytes": 4664,
+      "sha256": "a7b8b4dc8ae40ecc1472fb0642dcf1307a1067402577a97646d644e839b00d0f"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/SOURCE_REQUEST_RECEIPTS.json",
+      "bytes": 316,
+      "sha256": "14ae07a0e0810b07edd4983aeb6286f47db60253e17259896a37ffa4c329d810"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/THREE_GAUGE_COEFFICIENTS.json",
+      "bytes": 15059,
+      "sha256": "d34df0d0283116bdc93e93c461395d4757fb3eb58bb008b20b349195faa1a28c"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/THREE_GAUGE_COMPARISON_RESULTS.json",
+      "bytes": 645,
+      "sha256": "7671eb9555cb3817a747e608b4c6a2dc8680acf8b1e011e9527081fa1df4ab91"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/THREE_GAUGE_CUBATURE_RESULTS.json",
+      "bytes": 2098,
+      "sha256": "714b3143a2024d0343bbda7974f7fb08e61f04282409d91efb9ff6f6850a845a"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/THREE_GAUGE_DERIVATION.md",
+      "bytes": 11705,
+      "sha256": "be23147ae7c69181086ed7f74400d1d4ecdb4f18ca7f1fa28053c5338c2308c3"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/THREE_GAUGE_RESULTS.json",
+      "bytes": 5461,
+      "sha256": "63742aefd78b56343442c382eaf14f390c43fc6d3e6759fd84db08653be843e8"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/TWO_WEAK_CHECKS.json",
+      "bytes": 6300,
+      "sha256": "80d80687fd1ead1b7d2add8b3778ee23bc11e9a12e0aaede0707cb797e412638"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/TWO_WEAK_DERIVATION.md",
+      "bytes": 14095,
+      "sha256": "6906d73a0c06636f53bac5eb7d6937c1c16495c6b4c8895a08402138a79786fa"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/compare_three_gauge_routes.py",
+      "bytes": 4562,
+      "sha256": "ce6b130ea56797d4f816ca3d002106c2f553ea7ac34fcc099215d2ac307888dd"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/verify_covariant_action.py",
+      "bytes": 14198,
+      "sha256": "eee2c1bb402eed044f3ce816fcf2ad05758347b1151b9d6bdccbe0b764135c0c"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/verify_three_gauge.py",
+      "bytes": 11901,
+      "sha256": "8636e7d78eab52824742176291dbe7f33a61fb364f125cfa4b13e42d3e960c19"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/verify_three_gauge_cubature.py",
+      "bytes": 15366,
+      "sha256": "af125067c57908bd76d197e1ad179763c1dc6a16cc9500ea0951605033327903"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/verify_two_gauge_angular.py",
+      "bytes": 18034,
+      "sha256": "61457d50e5b393e84b0bdcef4073b0df30daded906dfdd81cc4bef02b7e64f3d"
+    },
+    {
+      "path": "checkpoint_2026_10_15/nonabelian_gauge/verify_two_weak.py",
+      "bytes": 19432,
+      "sha256": "6b0d2e74f811af2470d243f8b07b6e160e11f7ee6866723b44be6be7b20ae304"
+    },
+    {
       "path": "checkpoint_2026_10_15/operator_map/00_READ_FIRST.md",
       "bytes": 4976,
       "sha256": "a100093d8b6dc0f7a908e590f96ad7d795f488719e58119eb5449a2b7c82ac65"
@@ -695,18 +816,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 12374,
-      "sha256": "90d08a94197dd4b405de488eb2525df53b23148afd1726f15d3372fb97b51242"
+      "bytes": 14727,
+      "sha256": "e33254b109706434a3d073d8d5b5d27b5d5ea4b35174d120c9559e403f61b552"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 4800,
-      "sha256": "937c02df4c78dd2257cd0d298387fb103161373024e188be412a6682011e3869"
+      "bytes": 5573,
+      "sha256": "3b5e0dbd8bd544b595ff452e6e4c213ddfd72d3ca6462ceedd6bb6a41c004a4e"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 10436,
-      "sha256": "bf32dcaacf69c0e9b7bcfef34efc5f21b760905ecbd5a1f914536b476c1a7971"
+      "bytes": 12373,
+      "sha256": "8b5a56d8b09f173f85d49b9b49f8718ec6010114453f88bf367c496af0c2e423"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -725,8 +846,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 9355,
-      "sha256": "a4547e50c3622971d3da30d418fe6f8f68795a580a814a632987d92aa11ea28c"
+      "bytes": 10540,
+      "sha256": "bc75d9a568f79cf0880a7f226eee620fb92c877b17ff3e2023271b4dccd95bfe"
     }
   ]
 }

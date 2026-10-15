@@ -27,7 +27,7 @@ The [locality argument](../checkpoint_2026_10_15/two_gauge_leg/SOURCE_METHOD.md)
 
 ## Electroweak and selected-source continuation
 
-The [one-W calculation](../checkpoint_2026_10_15/electroweak_source/ONE_W_DERIVATION.md) evaluates the first weak-gauge order of the same declared seed/Yukawa sector. Its pole is `-i g F T^I R/(16 pi^2 epsilon)`, with the same reduced tensor `R=G_J+D` as the hypercharge calculation and the weak generator `T^I=tau^I/2`. The direct weak contraction vanishes by the generator trace; the corresponding abelian direct residues cancel in the sum. The epsilon tensor and generator transpose, especially for `T^2`, are essential to this comparison. Independent group, tensor and deliberate-error controls accompany the result. Neither two-W nor mixed-BW loops have been integrated in this continuation.
+The [one-W calculation](../checkpoint_2026_10_15/electroweak_source/ONE_W_DERIVATION.md) evaluates the first weak-gauge order of the same declared seed/Yukawa sector. Its pole is `-i g F T^I R/(16 pi^2 epsilon)`, with the same reduced tensor `R=G_J+D` as the hypercharge calculation and the weak generator `T^I=tau^I/2`. The direct weak contraction vanishes by the generator trace; the corresponding abelian direct residues cancel in the sum. The epsilon tensor and generator transpose, especially for `T^2`, are essential to this comparison. Independent group, tensor and deliberate-error controls accompany the result. The later non-Abelian continuation below supplies the two-W and mixed-BW comparisons absent from that earlier checkpoint.
 
 For a constant neutral Higgs background `phi=(v/sqrt(2),0)^T`, the combined one-B/one-W local UV vertex couples through `Q=y_L I+T^3=diag(0,-1)`. Its selected neutral-photon vertex therefore vanishes, while Z and charged channels can remain nonzero. This is a statement about this restricted ultraviolet pole and its cancelling local counterterm. It does not calculate the finite full photon amplitude or imply an all-orders absence of a dipole.
 
@@ -45,7 +45,17 @@ A separate declared benchmark computes the order-`Lambda^-3` sterile-scalar cont
 
 Four bounded literature queries screened 35 appearances/27 distinct records. Four selected primary texts were retrieved and checked at their stated versions, providing methodological benchmarks for canonical normalization, bosonic contributions to fermionic running and infrared subtraction. This screen does not establish novelty or exhaustive coverage.
 
-The next physical task is to assemble the complete retained-sterile coefficient basis, lower-order insertions, remaining field/parameter/contact counterterms and subtraction prescription. Full interacting canonical normalization, two-W/mixed-BW matching, physical running, finite thresholds and an observable remain open.
+## Non-Abelian gauge hierarchy
+
+The [new two-gauge calculation](../checkpoint_2026_10_15/nonabelian_gauge/TWO_WEAK_DERIVATION.md) retains the conjugate representation and ordered weak matrices on all seven matter-loop topologies. The evaluated result separates an anticommutator times the old Abelian polynomial from a commutator times a new ordered polynomial. Independent moment and angular integrations agree on the full declared degree-one tensor. Mixed BW reduces to the commuting-generator form without an extra factor of two. The nonlinear weak curvature has the sign required by the declared Dplus connection.
+
+The [three-gauge calculation](../checkpoint_2026_10_15/nonabelian_gauge/THREE_GAUGE_DERIVATION.md) integrates all 33 primitive matter graphs. A separately implemented exact 24-cell cubature route agrees on every one of the 2,112 individual diagram/basis evaluations and all 64 complete free-color-word tensors. An independent action audit tests both nonlinear curvature terms, labelled-field factors, Bose symmetry and non-Abelian Ward recursions. Reducible gauge-tree attachments are excluded from this 1PI statement and remain relevant to connected amplitudes.
+
+Power counting gives UV degree `3-n`; four or more external gauge fields are individually UV finite in this fixed one-loop, single-seed/source, lowest-gauge-order matter family. This closes its potentially divergent external-gauge multiplicities. It does not establish a complete EFT basis or include other external-matter sectors, additional interactions or higher coupling orders. The direct seed is separately finite for the new multiplicities, so they do not retest its earlier contraction weight.
+
+The [charged-basis projection](../checkpoint_2026_10_15/nonabelian_gauge/GAUGE_HIERARCHY_AND_PHOTON_PROJECTION.md) explicitly gives a nonzero neutral `A W^+ W^-` local UV contact. It is compatible with the selected pure-photon pole cancellation. No finite scattering amplitude, transition moment or experimental signal follows from that local counterterm alone.
+
+Two focused literature queries screened six distinct records without yielding another directly usable benchmark. The primary-method check instead verifies the effective-action Ward identity, reducible-tree distinction and actual convention conversion against named sources. Complete interacting source reduction/canonical normalization, weak-current descendants, the retained-sterile coefficient basis, lower-order insertions, remaining field/parameter/contact counterterms, subtraction/evanescent prescriptions, physical running, finite thresholds and an observable remain open.
 
 ## Withdrawn or unestablished claims
 

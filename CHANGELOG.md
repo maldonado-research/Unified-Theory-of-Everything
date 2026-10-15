@@ -1,5 +1,16 @@
 # Change log
 
+## TOE-GitHub-2026.10.15-candidate.6 — non-Abelian external-gauge hierarchy
+
+- Evaluate the ordered two-W and mixed-BW 1PI poles from the seven literal matter-loop diagrams. Extract the commutator polynomial invisible in the Abelian sum; independently reproduce it by angular integration and exhaust the declared local coefficients.
+- Integrate all 33 three-gauge matter diagrams with the source's conjugate representation, line ordering and seagull phase. An independently authored exact 24-cell cubature route agrees on all 2,112 individual diagram coefficients and 64 complete polarization tensors, retaining six noncommuting color words. Ship the cross-route comparison harness.
+- Match the full matrix curvature and adjoint derivative of the chosen action, including the Dplus weak nonlinear sign, two-/three-gauge Ward recursion and labelled-field combinatorics. Keep reducible Yang-Mills tree attachments separate from 1PI kernels.
+- Establish UV finiteness at four or more external gauge fields for this primitive one-loop, single-seed/source, lowest-gauge-order family. This closes its external-gauge multiplicity hierarchy, not the EFT's other matter or coupling sectors.
+- Calculate the neutral charged-basis `A W^+ W^-` local contact, which can survive the selected pure-photon pole cancellation. No finite amplitude or scattering prediction follows.
+- Add six standard-library replay stages, for thirty-two quick and thirty-four full stages. Preserve earlier scientific inputs and receipts; record safe primary-method conventions and two bounded searches screening six distinct records, with no new usable benchmark found.
+
+The new pole matching does not establish a full physical operator basis, interacting source reduction, physical running, finite matching, novel mathematics, unification or empirical support. No new GitHub release, Zenodo version or DOI is created.
+
 ## TOE-GitHub-2026.10.15-candidate.5 — explicit field changes and neutral normalization
 
 - Implement the selected combined-packet residual certificate as indexed lepton, Higgs, Majorana sterile and real hypercharge-field substitutions. Derive the integrated derivative adjoints and literal variational source signs; preserve the constrained scalar conjugation and Majorana reality without an extra half.
