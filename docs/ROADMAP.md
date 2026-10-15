@@ -4,6 +4,8 @@
 
 The [October 1 audit](../checkpoint_2026_10_01/00_READ_FIRST.md) supplies a local representative and sourced-contact controls. Its six monomials are not a complete independent basis, and its static basis-change cancellation is not a physical beta function. The remaining target is:
 
+The [October 15 candidate](../checkpoint_2026_10_15/00_READ_FIRST.md) computes a transverse remainder for the two internal one-hypercharge attachments in a restricted coupling sector. Its immediate follow-up is an explicit action/sign and independent-basis map for those tensors, followed by the sourced gauge/light-field descendants and correlated counterterms. Repeating the zero-gauge or generic field-shift identities alone does not close this step.
+
 1. Fix a complete Green/operator basis and action, Fourier, metric and Majorana conventions.
    Calibrate the dimension-five sourced reduction against Zhang's Appendix A and compare the retained-field packet with the corrected sterile-neutrino basis. Pure SMEFT bases apply after sterile fields are removed.
 2. Map all four cubic momentum structures and both Higgs-mass structures in the evaluated seed.

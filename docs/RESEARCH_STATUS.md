@@ -1,6 +1,6 @@
 # Research status for the GitHub edition
 
-The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition adds a bounded local operator and sourced-contact audit; the older scientific inputs remain unchanged.
+The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition added a bounded local operator and sourced-contact audit. The October 15 candidate adds a restricted one-hypercharge-leg loop calculation; the older scientific inputs remain unchanged.
 
 ## Preserved results
 
@@ -14,6 +14,12 @@ The September 30 edition preserved the published September 4 baseline and Septem
 ## October operator audit
 
 The new representative identifies derivative placement and the signed Higgs-mass descendant, while keeping source and curvature contacts. An explicit transverse field-strength amplitude demonstrates information absent from the zero-gauge three-point restriction. Reducing one sterile cubic-derivative monomial yields a correlated Yukawa/Weinberg cancellation in the static Schur combination for arbitrary flavor coefficients, together with remaining derivative contacts. This is a basis-change identity, not a calculation of complete physical loop running. The full Green basis, remaining diagrams, gauge-leg matching, finite thresholds and observable remain open. Four-dimensional EOM identities alone do not classify evanescent structures in dimensional regularization.
+
+## October 15 gauge-leg candidate
+
+The [restricted four-point calculation](../checkpoint_2026_10_15/00_READ_FIRST.md) evaluates both internal hypercharge attachments at one seed, one conjugate sterile Yukawa and first hypercharge order. In a declared reduced-integral normalization, it gives the previously gauged representative plus an explicit transverse tensor. The transverse remainder is independent of the signed scalar mass and can have a nonzero free on-shell matrix element. Separate parameter/denominator and angular-expansion calculations agree. This advances the earlier example of an allowed transverse contact to a computed residue for a specified pair of integrals.
+
+It does not complete gauge-leg operator matching. The overall action/amplitude convention map, independent Green basis, sourced reductions, remaining coupling sectors, correlated counterterms and finite thresholds still require work before a physical coefficient can be claimed. The [source audit](../checkpoint_2026_10_15/LITERATURE_SCOPE.md) reports inherited references and blocked fresh access; no new literature discovery or external novelty determination is claimed.
 
 ## Withdrawn or unestablished claims
 

@@ -47,6 +47,7 @@ def main():
         shutil.copytree(ROOT/'baseline',work/'baseline')
         shutil.copytree(ROOT/'checkpoint_2026_09_06',work/'checkpoint_2026_09_06')
         shutil.copytree(ROOT/'checkpoint_2026_10_01',work/'checkpoint_2026_10_01')
+        shutil.copytree(ROOT/'checkpoint_2026_10_15',work/'checkpoint_2026_10_15')
         baseline=Path('baseline/TOE_N00AK_r1_PUBLIC')
         code=baseline/'code'
         cp=Path('checkpoint_2026_09_06')
@@ -60,6 +61,8 @@ def main():
             ('scalar continuum controls',cp/'continuum_bridge/verify_continuum_bridge.py',[]),
             ('local Green representative and gauge ambiguity',Path('checkpoint_2026_10_01/verify_green_representative.py'),[]),
             ('sourced sterile contacts and Schur invariance',Path('checkpoint_2026_10_01/verify_sourced_sterile_identity.py'),[]),
+            ('one-hypercharge-leg seed and transverse residue',Path('checkpoint_2026_10_15/verify_gauge_leg.py'),[]),
+            ('independent gauge-leg angular reduction',Path('checkpoint_2026_10_15/verify_gauge_asymptotic.py'),[]),
         ]
         if args.full:
             stages.extend([
@@ -87,7 +90,7 @@ def main():
             for key,rel in [('benchmark','fermion_portal/BENCHMARK_RESULTS.json'),('separate_review','fermion_portal/INDEPENDENT_REVIEW_RESULTS.json')]:
                 numerical[key]=json.loads((work/cp/rel).read_text())
         release=json.loads((ROOT/'PUBLIC_MANIFEST.json').read_text())['release']
-        report={'release':release,'status':'PASS','utc_completed':datetime.now(timezone.utc).isoformat(),'mode':'full' if args.full else 'quick','environment':environment,'payload_files_verified':count,'stages':results,'scientific_scope':'Declared tree/conditional algebra, one seed polynomial, local operator representative, sourced-contact and field-redefinition identities, inherited scalar comparisons, prescribed-background dynamics. No complete physical matching, independent human peer review or empirical validation.','publication_replay_assertions_active':True,'temporary_copy_used':True,'numerical_results':numerical}
+        report={'release':release,'status':'PASS','utc_completed':datetime.now(timezone.utc).isoformat(),'mode':'full' if args.full else 'quick','environment':environment,'payload_files_verified':count,'stages':results,'scientific_scope':'Declared tree/conditional algebra, one seed polynomial, local operator representative, sourced-contact and field-redefinition identities, two internal hypercharge attachments and their transverse UV residue, inherited scalar comparisons, prescribed-background dynamics. No complete physical matching, independent human peer review or empirical validation.','publication_replay_assertions_active':True,'temporary_copy_used':True,'numerical_results':numerical}
         if args.output:
             args.output.parent.mkdir(parents=True,exist_ok=True)
             args.output.write_text(json.dumps(report,indent=2)+'\n')
