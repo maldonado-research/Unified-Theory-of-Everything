@@ -1,5 +1,16 @@
 # Change log
 
+## TOE-GitHub-2026.10.15-candidate.3 — explicit two-hypercharge-leg matching
+
+- Evaluate seven one-loop diagrams at one derivative-seed insertion, one conjugate sterile Yukawa and second hypercharge order: two fermion orderings, two scalar orderings, two mixed assignments and one scalar seagull.
+- Recover the mass-independent two-B kernel predicted by the existing literal counterterm action, including its full sign and the scalar seagull's relative factor of minus two.
+- Compare the Feynman-parameter calculation with an independently authored large-momentum angular calculation; test the full local-polynomial coefficients, Bose symmetry, both Ward contractions and deliberate errors. Add a separate literal-vertex and integrand Ward audit.
+- Establish uniqueness of the two-B local polynomial under the specified momentum-degree and generic off-shell Ward assumptions. Keep the three-B vanishing statement conditional; no three-B loop integration is reported.
+- Add three standard-library verification stages, bringing the runner to eighteen quick and twenty full stages. Record the passing full replay in `verification/TWO_GAUGE_REPLAY_LINUX.json`, preserving the older receipts and scientific baselines.
+- Move the next research priority to action-consistent sourced EOM matching, correlated counterterms and a physical RGE in a complete retained-sterile basis.
+
+This matches a restricted off-shell pole and its chosen action lift. It does not establish a complete operator basis, physical beta function, finite threshold, observable or external novelty claim. No release, Zenodo deposit or new DOI is made.
+
 ## TOE-GitHub-2026.10.15-candidate.2 — action sign and sourced operator map
 
 - Fix a literal-action counterterm sign by following the charge-conjugated internal lepton; correct the earlier unconjugated physical charge labels while preserving every evaluated tensor.

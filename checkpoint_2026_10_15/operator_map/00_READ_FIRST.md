@@ -21,7 +21,9 @@ It does not calculate a complete anomalous dimension or an observable.
    Read [ACTION_SIGN.md](ACTION_SIGN.md) for the literal action, Fourier
    rules, slot normalization and charge-conjugated open line. Its two-B
    contacts are predictions of the chosen covariant lift, not evaluated
-   two-B loop amplitudes.
+   two-B loop amplitudes in this action audit. The subsequent
+   [seven-diagram continuation](../two_gauge_leg/00_READ_FIRST.md) now
+   matches those contacts by actual integration with independent checks.
 2. **The declared off-shell transverse space has five directions.** It
    assumes independent generic momenta, locality, degree two, the specified
    odd Clifford chain and constant coefficients. The loop occupies a

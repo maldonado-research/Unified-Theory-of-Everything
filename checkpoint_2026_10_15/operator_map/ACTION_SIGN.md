@@ -306,8 +306,11 @@ by `F/(16 pi^2 epsilon)` and the vertex factor `i`:
 Here `p=r+h+k_1+k_2`. Both assignments of the two identical gauge fields
 are included; the expression is Bose symmetric. This is the Fourier
 content of the **chosen covariant action**, not a reported evaluation of
-the two-B loop diagrams. That extra Green function remains a useful
-independent check of its embedding in a larger counterterm calculation.
+the two-B loop diagrams in this sign audit. The subsequent
+[seven-diagram calculation](../two_gauge_leg/TWO_B_DERIVATION.md) now tests
+this prediction by actual loop integration, with a separately authored
+angular extraction and unintegrated Ward audit. The provenance of the
+891-check sign audit below is unchanged.
 
 ## Reproduction, negative controls, and limits
 

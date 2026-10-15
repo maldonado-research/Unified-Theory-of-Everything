@@ -2,18 +2,18 @@
 
 ## Complete the dimension-seven physical reduction
 
-The [October 1 audit](../checkpoint_2026_10_01/00_READ_FIRST.md) supplies a local representative and sourced-contact controls. Its six monomials are not a complete independent basis, and its static basis-change cancellation is not a physical beta function. The remaining target is:
+The [October 1 audit](../checkpoint_2026_10_01/00_READ_FIRST.md) supplies a local representative and sourced-contact controls. Its six monomials are not a complete independent basis, and its static basis-change cancellation is not a physical beta function.
 
-The [October 15 candidate](../checkpoint_2026_10_15/00_READ_FIRST.md) computes a transverse remainder for the two internal one-hypercharge attachments in a restricted coupling sector. Its [continuation](../checkpoint_2026_10_15/operator_map/00_READ_FIRST.md) supplies a literal action/sign map, a restricted transverse tensor-space classification and two source-reduction routes. The next step is an accepted full operator/basis and subtraction map for the retained-sterile theory, followed by the remaining coupling sectors and correlated counterterms. The chosen covariant lift predicts higher-gauge-leg contacts that still need explicit loop matching. Repeating the zero-gauge or generic field-shift identities alone does not close this step.
+The [October 15 candidate](../checkpoint_2026_10_15/00_READ_FIRST.md) computes the one-B transverse residue and fixes its [literal action/source map](../checkpoint_2026_10_15/operator_map/00_READ_FIRST.md). The [two-B continuation](../checkpoint_2026_10_15/two_gauge_leg/00_READ_FIRST.md) now explicitly integrates all seven two-B diagrams and matches the predicted action vertex. That two-B vertex matching is complete for the declared coupling sector. Its restricted Ward uniqueness result uses locality, the momentum-degree bound and generic off-shell momenta. The three-B vanishing statement remains a conditional Ward prediction, with no explicit three-B integration.
 
-1. Fix a complete Green/operator basis and action, Fourier, metric and Majorana conventions.
-   Calibrate the dimension-five sourced reduction against Zhang's Appendix A and compare the retained-field packet with the corrected sterile-neutrino basis. Pure SMEFT bases apply after sterile fields are removed.
-2. Map all four cubic momentum structures and both Higgs-mass structures in the evaluated seed.
-3. Derive gauge completion and reduce using the sourced sterile, lepton and Higgs equations of motion.
-   Include all lower-order contributions required by power counting; dimension-five EOM corrections acting on redundant dimension-six terms can enter at order `Lambda^-3`.
-4. Carry correlated mass, coupling, field and contact changes together.
-5. Evaluate the resulting physical Schur combination and finite matching, whether or not a cancellation survives.
-6. Run the full coefficient vector to the relevant scale and connect it to one declared observable with uncertainties.
+The next priority is a concrete action-consistent sourced EOM reduction and physical renormalization-group calculation:
+
+1. Extend the fixed literal action, Fourier and Majorana conventions to a complete retained-sterile Green/operator basis and subtraction prescription. Use the corrected sterile-neutrino basis and the existing dimension-five source calibration; pure SMEFT bases apply after sterile fields are removed.
+2. Carry the already evaluated cubic-momentum, Higgs-mass and gauge kernels into that basis using the sourced sterile, lepton, Higgs and gauge equations. Match the retained-mass dipole, Yukawa contacts and full hypercharge-current descendants together, preserving the active-flavor source that need not vanish with the sterile-source tensor.
+3. Evaluate the remaining diagrams and coupling sectors required by power counting. Include lower-order insertions: dimension-five EOM corrections acting on redundant dimension-six terms can contribute at order `Lambda^-3`.
+4. Derive the correlated mass, coupling, field and contact counterterms from the same action and subtraction prescription. Combine them into the physical coefficient vector rather than identifying a selected off-shell pole with its beta function.
+5. Evaluate the physical Schur combination and finite matching, whether or not a cancellation survives.
+6. Run that coefficient vector to the relevant scale and connect it to one declared observable with uncertainties.
 
 ## Make the scalar branch physically interpretable
 

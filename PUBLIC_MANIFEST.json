@@ -1,13 +1,14 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.10.15-candidate.2",
+  "release": "TOE-GitHub-2026.10.15-candidate.3",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
     "verification/PUBLICATION_REPLAY.json",
     "verification/OPERATOR_REPLAY_LINUX.json",
     "verification/HYPERCHARGE_REPLAY_LINUX.json",
-    "verification/OPERATOR_MAP_REPLAY_LINUX.json"
+    "verification/OPERATOR_MAP_REPLAY_LINUX.json",
+    "verification/TWO_GAUGE_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -17,13 +18,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4394,
-      "sha256": "7724995465bf7247a8f0549612a417c706fa3bbb26a011bcb7e7f62b63953a56"
+      "bytes": 6014,
+      "sha256": "38023766ca49b7357f25284e0b86818d2453a6a96f1b42b078d60893a931c888"
     },
     {
       "path": "CITATION.cff",
       "bytes": 750,
-      "sha256": "f5977f0eb06180318c4f50bdb52ce8e7e73d526e1482a816d710da9731626670"
+      "sha256": "431f891d867990e457221728e81ddfb3e6fd6d97adb9e543646e0f19c267ae00"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -37,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6497,
-      "sha256": "24817cb29c5bc121f21683ab8e8dd8a344bcf7daf4513dede9ac173d0c899eba"
+      "bytes": 7316,
+      "sha256": "2d99dff3a489e362720f16e6cb0450e766f6f7a303c7ab452318cf805c57c1e7"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -357,8 +358,8 @@
     },
     {
       "path": "checkpoint_2026_10_15/00_READ_FIRST.md",
-      "bytes": 5219,
-      "sha256": "65e18d676bf5ae961d68ee8c75ac3a0296bfae1592d5b5f1a437120464928c4b"
+      "bytes": 7704,
+      "sha256": "e6708583e7b3f0843e04ce102a22f1ae8eb3a7b99ce751228c1f1037ec04f8a4"
     },
     {
       "path": "checkpoint_2026_10_15/GAUGE_CRITIC.md",
@@ -397,13 +398,13 @@
     },
     {
       "path": "checkpoint_2026_10_15/operator_map/00_READ_FIRST.md",
-      "bytes": 4796,
-      "sha256": "41d3f6ad8c3f3e0d57a9171dee782237be17c4f9b6c07322f4f1ce2f0b33fbd5"
+      "bytes": 4976,
+      "sha256": "a100093d8b6dc0f7a908e590f96ad7d795f488719e58119eb5449a2b7c82ac65"
     },
     {
       "path": "checkpoint_2026_10_15/operator_map/ACTION_SIGN.md",
-      "bytes": 13644,
-      "sha256": "7f17f72f8e290f648207c1f96a08423ac0181b976d428a4857a3a0cd7c9d6851"
+      "bytes": 13821,
+      "sha256": "b03511319776dbbf55fe5b75224b29ecf473d7b2ded948823aec12a3f27e22a6"
     },
     {
       "path": "checkpoint_2026_10_15/operator_map/FLAVOR_SOURCE.md",
@@ -461,6 +462,66 @@
       "sha256": "ead13d996a5907552245ed364022cf61da34ff308e2d1bc26f3372c5fbaaae0a"
     },
     {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/00_READ_FIRST.md",
+      "bytes": 2981,
+      "sha256": "3316f59aa477710ca3bc4e15f35aebba2ed30e0a1e13c6247ede7330c8ad0b66"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/INDEPENDENT_TWO_B_AUDIT.md",
+      "bytes": 9425,
+      "sha256": "d1defc263393a26c5ccceed3ba367eb106dc4c1d6d07890823c32385cbc3f45f"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/INDEPENDENT_TWO_B_CHECKS.json",
+      "bytes": 2909,
+      "sha256": "41e8c8128b7cf5feffb4d980c2c68b6bb1636aba30c01a61c4118f0200666d8f"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/SOURCE_METHOD.md",
+      "bytes": 12347,
+      "sha256": "5b1dd095ed03b425c8b9fc9a65ae40c0e2a7d5e85e915f0f44b964a496a59bcf"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/SOURCE_REQUEST_RECEIPTS.json",
+      "bytes": 1279,
+      "sha256": "4fb6f3d6abe7eac78d91d2cc671f55bb053fc636ef8ad56ae821c03c41640e72"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/TWO_B_CHECKS.json",
+      "bytes": 5076,
+      "sha256": "b6481d424d36ebc082accfbc68d8914d31ad603adcf1751826536a6fe6bbd434"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/TWO_B_DERIVATION.md",
+      "bytes": 9949,
+      "sha256": "2f0d51af0c6359ad60f218f6b3ea0c16f43029b7f8347136fff5b8ddc84ee92a"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/TWO_B_VERTEX_CHECKS.json",
+      "bytes": 1340,
+      "sha256": "fc1a8c79ea3e5d83af189eaab93146466f1f5c6e00ead3f1fb7ece8cac1a8cea"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/VERTEX_WARD_AUDIT.md",
+      "bytes": 9384,
+      "sha256": "23af7d521ef01746527df9de65601391ae4a75a7d11ccfe98b66905bf63fce7d"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/verify_two_b.py",
+      "bytes": 11050,
+      "sha256": "ec3d2f9f6ee5f4bf719c73665cf5a168f1bafc455614e2f8c5b26c3ce55e2d0f"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/verify_two_b_angular.py",
+      "bytes": 13556,
+      "sha256": "df3b035c6bd736384496c22951d249f9ec67009c55320b091174691b9a5aa677"
+    },
+    {
+      "path": "checkpoint_2026_10_15/two_gauge_leg/verify_two_b_vertices.py",
+      "bytes": 10491,
+      "sha256": "d9079e26a1038c9c985c0cf4b38fdb7f996e6daf0bf78fe7b93d7a1d8cd14699"
+    },
+    {
       "path": "checkpoint_2026_10_15/verify_gauge_asymptotic.py",
       "bytes": 10103,
       "sha256": "20326f3f010d12c55408a120f16ab65f9167ba6b2e9c0d05b9251aa0567732f2"
@@ -482,18 +543,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 6257,
-      "sha256": "f11d42f2bdca39ed0d298b74f3e34385fce9f0bee7424b19bf1a21ea07e34f6c"
+      "bytes": 7546,
+      "sha256": "33793505c676af286b096b492ef1ec1f70e33bcb19155ee11fedac5dc3ebbb7c"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 3078,
-      "sha256": "47fab5bf1f45fbe44363b6499768034631ac551f28e2aebd10b738a94369680a"
+      "bytes": 3450,
+      "sha256": "8ba1c017f56829d21f9841284e70374ba9705e6a37136e7eafe0f65baf464190"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 5862,
-      "sha256": "ba77e2828d7631e8e6e375c0e78ec8a3e890170753e0bf224ad3ffc0aa585a1e"
+      "bytes": 7185,
+      "sha256": "a6a345f5e5c03836a27f8dc47a72707c73cbe58ae6717a1c4a8ccb2cf98e0550"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -512,8 +573,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 7074,
-      "sha256": "d4e86838449b36a2d9879d0e2e785164ef2a182dcb8cefd2ef537dd3208b19e5"
+      "bytes": 7579,
+      "sha256": "f18fbb06cb0b095db309357b63fb80968899ac1ff4492ced4fc39d3e20bea231"
     }
   ]
 }
