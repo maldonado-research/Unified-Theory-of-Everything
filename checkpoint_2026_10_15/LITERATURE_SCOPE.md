@@ -1,99 +1,149 @@
-# Source scope for the one-hypercharge-gauge-leg checkpoint
+# Bounded primary-source audit for the hypercharge-leg checkpoint
 
-Prepared 15 October 2026. This is an audit of the project's existing source
-ledger, with a calculation-specific reading plan. It is not a fresh literature
-search, a novelty determination, or independent verification of a published
-anomalous-dimension matrix.
+Research cutoff and access: **15 October 2026**. This is a focused search for
+sterile-neutrino EFT renormalization, dimension-seven operator mixing, and
+one-loop gauge matching. It is not an exhaustive web survey or a novelty
+assessment. Earlier requests returned proxy HTTP 403; later normal HTTPS
+requests to arXiv and INSPIRE returned HTTP 200. The earlier no-fresh-access
+assessment is superseded by the successful retrievals described below.
 
-## Access and evidence boundary
+## Outcome
 
-The running cloud instance has restricted networking. Its startup policy does
-not include `arxiv.org`, `export.arxiv.org`, or `inspirehep.net`. The existing
-session's arXiv requests were denied by the HTTP proxy. A draft proposing domain
-additions does not change the running instance. No paper or new literature
-search result was retrieved for this audit, and the inherited source-version
-claims below have not been revalidated against today's primary records.
+Complete dimension-seven **SMEFT** running and numerical solvers already
+exist. Sterile-neutrino dimension-five/six running and implementations also
+exist. These are different scopes: a calculation with a surviving sterile
+external field cannot be identified directly with a pure-SMEFT anomalous
+dimension after sterile removal.
 
-The versioned links identify the editions recorded in the public 1 October
-source ledger. They make the intended calibration reproducible when access is
-available. The ledger's reported previous access is historical provenance,
-not evidence of access on 15 October.
+The inspected material did not provide a coefficient-level reproduction of
+this checkpoint's restricted off-shell `C_(7,seed) Y_nu^* g′` four-point UV
+residue. No full convention/basis translation was completed, so the search
+establishes neither novelty nor independent literature validation of that
+residue. The defensible project result remains the calculated local
+polynomial and its computational checks, with its stated restricted scope.
 
-## Sources that address the actual calculation
+## Successful searches and coverage
 
-| Source recorded by the project | Specific use | What it cannot establish |
-|---|---|---|
-| Di Zhang, *Threshold Effects on the Massless Neutrino in the Canonical Seesaw Mechanism*, [arXiv:2405.18017v3](https://arxiv.org/abs/2405.18017v3), recorded v3 date 1 April 2025 | Eqs. (2)–(4) fix the action and physical/redundant dimension-five operators. Appendix A, Eqs. (35)–(38), supplies a sourced-EOM calibration with both Yukawa and symmetric Weinberg descendants. | Its dimension-five pole does not determine the derivative seed's dimension-seven pole or its one-gauge-leg transverse component. |
-| Gitte Elgaard-Clausen and Michael Trott, *On expansions in neutrino effective field theory*, [arXiv:1703.04415v3](https://arxiv.org/abs/1703.04415v3), recorded v3 date 17 June 2018; [JHEP 11 (2017) 088](https://doi.org/10.1007/JHEP11(2017)088) | Section 2.1 addresses sourced EOM with sterile states still retained. Appendix A.2, Table 1, contains the known dimension-seven light hypercharge-dipole structure. | Tree-level sequential matching does not fix the new one-loop pole or finite matching. |
-| Yi Liao and Xiao-Dong Ma, *Operators up to Dimension Seven in Standard Model Effective Field Theory Extended with Sterile Neutrinos*, [arXiv:1612.04527v1](https://arxiv.org/abs/1612.04527v1), recorded date 14 December 2016; [Phys. Rev. D 96, 015012](https://doi.org/10.1103/PhysRevD.96.015012) | Corrected sterile-neutrino physical basis; useful for checking field content, dimensions, flavor symmetry, and redundant directions. | A minimal physical basis is not a complete off-shell Green basis for a particular calculation. Operator names alone do not translate coefficient normalizations. |
-| Di Zhang, *Renormalization Group Equations for the SMEFT Operators up to Dimension Seven*, [arXiv:2306.03008v2](https://arxiv.org/abs/2306.03008v2), recorded v2 date 16 October 2023 | Section 2 distinguishes Green and physical bases and includes lower-dimensional EOM corrections needed through order Lambda^-3. | SMEFT after sterile removal cannot replace the retained-sterile EFT without matching. |
-| Di Zhang, *Revisiting Renormalization Group Equations of the SMEFT Dimension-Seven Operators*, [arXiv:2310.11055v2](https://arxiv.org/abs/2310.11055v2), recorded v2 date 31 January 2024 | Reference workflow for off-shell diagrams, Green-basis counterterms, reduction, and physical running; a later implementation benchmark. | Its existence does not independently validate this checkpoint's routing, signs, pole normalization, or completeness. |
-| Juan Carlos Criado and Manuel Perez-Victoria, *Field redefinitions in effective theories at higher orders*, [arXiv:1811.09413v2](https://arxiv.org/abs/1811.09413v2), recorded v2 date 20 September 2019 | Sections 3–5 explain higher-order terms generated by field transformations. | A first-order EOM identity cannot justify omission of correlated higher-order contacts. |
-| Abdurrahman Barzinji, Michael Trott and Anagha Vasudevan, *Equations of Motion for the Standard Model Effective Field Theory: Theory and Applications*, [arXiv:1806.06354v2](https://arxiv.org/abs/1806.06354v2), recorded v2 date 7 December 2018 | Supports declaring the effective action and including its lower-dimensional source terms before reduction. | It does not supply the present coefficient or a replacement for the full field transformation. |
+All queries below returned HTTP 200 on 15 October 2026. Counts are the
+services' reported totals; screened counts are returned records, with overlap
+between searches. Screening used titles and relevant abstracts, not every
+paper's full text. Broad searches returned unrelated work and are not a
+completeness certificate.
 
-The recorded source conventions require care: Zhang's redundant derivative
-operator in Eq. (4) has no explicit `i`, its sterile chiral kinetic term has
-no factor of one half, and its Weinberg term does. A coefficient comparison
-must translate the action, Fourier convention, spinor tensor convention,
-flavor orientation, and Hermitian-conjugate normalization together. In
-particular, the dimension-five `3/2` is not a substitute for a derivative
-insertion calculation.
+| Service and exact query | Total | Screened |
+|---|---:|---:|
+| arXiv: `all:sterile AND all:"dimension-seven"`, latest submitted first | 3 | 3 |
+| INSPIRE: `sterile neutrino dimension seven`, most recent first | 6 | 5 |
+| arXiv: `(all:sterile OR all:"right-handed" OR all:nuSMEFT OR all:NRSMEFT) AND (all:renormalization OR all:anomalous)`, latest submitted first | 568 | 40 |
+| INSPIRE: `("dimension-seven" OR "dimension seven" OR "dimension-7") AND ("one-loop" OR renormalization)`, most recent first | 97 | 40 |
+| INSPIRE: `(nuSMEFT OR NRSMEFT OR "sterile neutrino") AND ("renormalization group" OR "anomalous dimension")`, most recent first | 24 | 24 |
+| INSPIRE: `(title:renormalization OR title:renormalisation OR title:anomalous) AND (title:neutrino OR title:sterile)`, most recent first | 208 | 50 |
 
-## What the one-gauge-leg calculation can add
+A separate successful arXiv ID lookup returned all five foundational records:
+`2405.18017v3`, `2306.03008v2`, `2310.11055v2`, `1703.04415v3`, and
+`1612.04527v1`. This revalidated their titles and latest version timestamps
+returned by the API. Four additional full HTML texts were retrieved
+successfully and selected sections inspected, as specified below. Full
+responses and equation extractions remain in a local cache outside the
+public repository. No downloaded paper or private archive excerpt is a
+publication artifact.
 
-The public checkpoint already explains that a field-strength contact can be
-invisible to the zero-gauge three-point restriction. A longitudinal Ward test
-also leaves transverse local terms undetermined: an antisymmetric Lorentz
-tensor obeys `k_mu Sigma^(mu nu) k_nu = 0`, while its contraction with a
-transverse polarization can be nonzero. This is established tensor algebra,
-not new operator mathematics.
+## Calibration checked against fresh primary equations
 
-The useful new object is therefore an explicitly computed, convention-fixed
-four-point UV local polynomial at order `W1 Y* g'`, with its transverse part
-resolved. Passing a Ward identity is a consistency check on that polynomial.
-It does not establish that every allowed counterterm has been matched, or
-that the resulting local coefficient is a physical beta function.
+**Di Zhang, *Threshold Effects on the Massless Neutrino in the Canonical
+Seesaw Mechanism*, [arXiv:2405.18017v3](https://arxiv.org/abs/2405.18017v3)**,
+latest API timestamp 1 April 2025. Fresh HTML Appendix A,
+[Eqs. (35)–(38)](https://arxiv.org/html/2405.18017v3#A1.E35), confirms the
+`-3/2` dimension-five momentum pole and the redundant derivative counterterm.
+Its sourced EOM produces **both** a Yukawa descendant and a symmetric Weinberg
+descendant, including both flavor orientations. Its derivative operator has
+no explicit `i`; action normalization and derivative conventions must be
+translated before comparing coefficients. The dimension-five `3/2` does not
+supply the derivative-insertion result or the transverse four-point term.
 
-The calculation should state the retained fields and action; count both
-operator contractions; attach the gauge field to every charged line required
-at this order; account for any reducible, contact, and counterterm pieces
-needed for the stated Green function; and distinguish ultraviolet poles from
-infrared artifacts. It should translate its result to a declared Green
-representative before any EOM reduction. Complete physical running still
-requires the remaining sectors, field and parameter renormalization, operator
-mixing, and finite threshold bookkeeping at the claimed accuracy.
+The other four foundational records were freshly checked at metadata level
+here; their equation-level discussion is inherited from the public
+[1 October ledger](../checkpoint_2026_10_01/CURRENT_LITERATURE.md).
+Elgaard-Clausen and Trott, *On expansions in neutrino effective field theory*,
+[1703.04415v3](https://arxiv.org/abs/1703.04415v3), addresses retained-field
+sources and sequential tree matching. Liao and Ma,
+[1612.04527v1](https://arxiv.org/abs/1612.04527v1), supplies the corrected
+sterile-neutrino operator basis. Zhang's
+[2306.03008v2](https://arxiv.org/abs/2306.03008v2) and
+[2310.11055v2](https://arxiv.org/abs/2310.11055v2) address pure-SMEFT
+Green/physical reduction and dimension-seven running. None of those metadata
+checks constitutes an independent reproduction of a loop calculation.
 
-## Recent leads and cross-project limits
+## Relevant returned papers and actual reading
 
-The inherited ledger includes 2026 arXiv identifiers such as `2608.11522`,
-`2608.07657`, and `2607.13592`. They are unverified inherited leads in this
-session and are not used to establish any new result here. Their recorded
-topics concern matching in a specific Majoron model, mixing into neutrinoless
-double-beta decay, and cosmological sterile production. None can substitute
-for computing the stated four-point pole. A model-dependent cosmological
-result requires its own action, initial state, energy accounting, and
-observable calculation before it can be applied to this hypothesis.
+**Yi Liao, Xiao-Dong Ma, Hao-Lin Wang and Xiang Zhao, *RGE solver for the
+complete dim-7 SMEFT interactions and its application to 0νββ decay*,
+[arXiv:2505.06499v2](https://arxiv.org/html/2505.06499v2), first submitted
+9 May 2025; [JHEP 08 (2025) 138](https://doi.org/10.1007/JHEP08(2025)138).**
+Fresh full HTML inspected: introduction, Section 2, and Appendix A's dipole
+RGEs. Section 2 explicitly notes a corrected charged-lepton Yukawa mixing
+term into `O_LHB,LHW` relative to earlier work; numerical comparisons should
+use corrected expressions. Appendix A,
+[Eqs. (15)–(16)](https://arxiv.org/html/2505.06499v2#A1.EGx14), gives
+`C_LHW` and `C_LHB` running, including mixing from derivative operators.
+This is a useful future check **after** matching to pure SMEFT; it does not
+contain the retained sterile external leg of the present four-point
+function. Section 2 also states that multiple effective-operator insertions
+are neglected in the implementation. No solver code was run here.
 
-No cross-project physical coefficient or private source excerpt is imported.
-General practices useful across projects include deriving identities from
-the declared action, retaining contact terms, and testing a nontrivial
-direction invisible to a restricted set of checks. Those practices are
-already applicable within the TOE checkpoint itself.
+**Jason Aebischer, Tejhas Kapoor and Jacky Kumar, *A package for
+renormalization group running in the SMEFT with sterile neutrinos*,
+[arXiv:2411.07220v1](https://arxiv.org/html/2411.07220v1), first submitted
+11 November 2024; [EPJC publication](https://doi.org/10.1140/epjc/s10052-025-14127-8).**
+Fresh full HTML inspected: Sections 2.1, 3, and conclusion. Its inventory is
+dimension five/six, and its `wilson` implementation is therefore not a
+ready-made solution of the present dimension-seven problem. The inspected
+version explicitly omits Majorana-mass-dependent dipole-to-Weinberg mixing
+and notes an upcoming inclusion of missing Yukawa terms. Those version
+limits preclude treating a package name as evidence of complete running at
+the requested order. Its reference to Ardu and Marcano,
+[2407.16751](https://arxiv.org/abs/2407.16751), is a further dimension-six
+renormalization lead; that paper was not separately inspected here.
 
-## Next source checks when the network configuration is active
+**Lukáš Gráf, Chandan Hati, Ana Martín-Galán and Oliver Scholer, *Flavorful
+Lepton-Number-Violating SMEFT: Loop Mixing, 0νββ and Rare Meson Decays*,
+[arXiv:2609.28382v1](https://arxiv.org/html/2609.28382v1), first submitted
+23 September 2026.** This is the newest directly relevant dimension-seven
+mixing result returned by the targeted INSPIRE query. Fresh full HTML
+inspected: Sections 1–2 and 8, plus the stated low-energy-input limitation
+in Section 5. It studies pure-SMEFT flavor mixing and complementary nuclear
+and meson observables, with a scalar-leptoquark UV example. It does not
+supply a surviving-sterile seed coefficient. Its single-operator/flavor
+assumptions and hadronic inputs cannot be transferred to a correlated
+coefficient packet without a new matching/observable analysis.
 
-1. Resolve the versioned primary records above and check for revisions or
-   errata. Compare the exact equations being used rather than relying on a
-   title or abstract.
-2. Search arXiv and INSPIRE for sterile-neutrino dimension-seven Green bases,
-   retained-sterile one-loop matching, and dipole/gauge-leg renormalization,
-   with coverage dates and failed requests recorded.
-3. Revalidate the 2026 leads before citing them as current evidence. If an
-   ancillary implementation is useful, inspect its provenance, licensing,
-   conventions, and inputs before running it.
-4. Compare a computed coefficient only after explicit convention and basis
-   translation. Report unresolved translations as unresolved.
+**Di Zhang, *Renormalization Group Equations for the Dimension-7 SMEFT
+Operators*, [arXiv:2409.02622v1](https://arxiv.org/html/2409.02622v1), first
+submitted 4 September 2024; [conference contribution](https://doi.org/10.22323/1.476.0776).**
+Fresh full HTML inspected: Sections 1–2 and summary. This summarizes the
+established Green-basis/physical-basis strategy and pure-SMEFT one-loop
+running through order Lambda^-3. It reinforces the need for lower-dimensional
+EOM corrections; it is not an independent retained-sterile calculation.
 
-This audit supports a focused next calculation. It establishes no experimental
-confirmation, unification result, external mathematical novelty, or
-comprehensive absence of relevant literature.
+Additional returned leads checked at record/abstract level only include
+Chala and Titov, *One-loop matching in the SMEFT extended with a sterile
+neutrino*, [2001.07732](https://arxiv.org/abs/2001.07732), and de Vries et al.,
+*Neutrinoless Double-Beta Decays from Operator Mixing*,
+[2608.07657](https://arxiv.org/abs/2608.07657). These do not supply an audited
+coefficient comparison in this session.
+
+## Consequence for the next calculation
+
+A longitudinal Ward contraction leaves transverse local terms undetermined.
+The new four-point residue should next be translated into an independent
+retained-sterile operator basis, including its correlated sourced descendants.
+Only after the remaining counterterms, field/parameter renormalization and
+threshold matching are included can physical running or an observable be
+tested. Existing dipole/mixing literature constrains that program; finding a
+nonzero transverse residue is not by itself discovery of a new operator,
+physical law, unified theory, or experimentally established effect.
+
+No search or primary-text request in this bounded recovery batch failed.
+Earlier HTTP 403 failures remain part of the access history. Neither
+successful retrieval nor an absence of a matching result in the screened
+subset establishes comprehensive literature coverage or novelty.

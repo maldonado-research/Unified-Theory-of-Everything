@@ -42,7 +42,7 @@ dimension-six insertion, or gauge loop is included.
 Define t=p-k, v=h+k, u=2p-k, and slash a=gamma_mu a^mu. The open gamma
 chain uses the public ordering inherited from the zero-gauge seed. Its
 rightmost chiral projector is suppressed in the algebra below and can
-be restored unchanged. The source dimension-five open chain reads, from
+be restored unchanged. The dimension-five source chain was freshly checked against [Zhang, Appendix A, Eq. (35)](https://arxiv.org/html/2405.18017v3#A1.E35) on 15 October 2026. Its `-3/2` reference pole and both sourced descendants in Eqs. (37)–(38) agree with the earlier calibration. This check does not fix the full four-point action-level sign. The source dimension-five open chain reads, from
 the outgoing lepton toward the sterile, seed P_R, lepton propagator,
 Yukawa P_L. The propagator adjacent to the seed carries q-k after photon
 emission; the propagator adjacent to the Yukawa vertex carries q. This

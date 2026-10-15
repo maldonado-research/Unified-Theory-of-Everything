@@ -6,7 +6,7 @@
 - Separate the previously gauged local representative from a mass-independent transverse UV residue, with an explicit nonzero on-shell matrix element.
 - Compare denominator/Feynman-parameter reduction with separately authored large-momentum angular reduction; retain wrong-formula controls and a Ward-invisible omission control.
 - Add an optional exact tensor-residue helper with Euclidean and Minkowski conventions, using the existing pinned symbolic-review dependencies.
-- Record the source audit's network limits and preserve all historical scientific checkpoints and replay receipts.
+- Record six bounded arXiv/INSPIRE searches, source-equation verification and four additional primary-text readings; distinguish existing SMEFT running from the retained-sterile sector. Preserve all historical scientific checkpoints and replay receipts.
 
 This provisional branch does not determine a physical beta function, a complete Green basis, a finite threshold or an observable. It creates no GitHub release or Zenodo deposit.
 

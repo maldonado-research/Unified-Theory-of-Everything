@@ -16,8 +16,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3032,
-      "sha256": "611f6648f1834a352fb4eeb7db40666599ab51b58f220ef40f51a1f62189d016"
+      "bytes": 3171,
+      "sha256": "3cc82b000130a1e04938433761fcbf998ab14cc9357bfa9482ee4c1e1acd1dc6"
     },
     {
       "path": "CITATION.cff",
@@ -366,8 +366,8 @@
     },
     {
       "path": "checkpoint_2026_10_15/GAUGE_LEG_DERIVATION.md",
-      "bytes": 9619,
-      "sha256": "9c5d69e2d1f35fb5e9d3a85579cd9d596fb0e4adc81293dfbe3377eb84799325"
+      "bytes": 9947,
+      "sha256": "48ab649f75864dd3680dcfc0505ee7cd741a675e2022cebfb3d224654bc29a31"
     },
     {
       "path": "checkpoint_2026_10_15/INDEPENDENT_GAUGE_AUDIT.md",
@@ -376,8 +376,8 @@
     },
     {
       "path": "checkpoint_2026_10_15/LITERATURE_SCOPE.md",
-      "bytes": 8347,
-      "sha256": "0700891cb805ed7a2ab23a650e2ad1174a3c1e9e3dc1e7db1d2bfc0399bd8fb8"
+      "bytes": 9253,
+      "sha256": "4d715e6b51b05b38521e4df67a70ab9396aecb3a0c1cc8c6d2da00fa56e8c580"
     },
     {
       "path": "checkpoint_2026_10_15/SECTOR.md",
@@ -421,8 +421,8 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 5618,
-      "sha256": "991c44eb3c42fbcfa7d2351779957d06f39c3de95c9db78322ccd8c032b01908"
+      "bytes": 5827,
+      "sha256": "89e723fa4fcef586c87d84460d16ecaf297aa0a291a4f4b00b0d7c8558b5d4ce"
     },
     {
       "path": "docs/ROADMAP.md",
