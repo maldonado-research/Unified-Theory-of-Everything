@@ -1,6 +1,6 @@
 # Research status for the GitHub edition
 
-The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition added a bounded local operator and sourced-contact audit. The October 15 candidate now includes restricted one-/two-hypercharge-leg and one-weak-leg loop calculations, their literal action map and a combined hypercharge reduction retaining its sources; the older scientific inputs remain unchanged.
+The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition added a bounded local operator and sourced-contact audit. The October 15 candidate now includes the restricted external-gauge loop hierarchy, its literal action map, and the selected interacting electroweak source reduction and normalization; the older scientific inputs remain unchanged.
 
 ## Preserved results
 
@@ -23,7 +23,7 @@ The [action/source continuation](../checkpoint_2026_10_15/operator_map/00_READ_F
 
 The [two-B continuation](../checkpoint_2026_10_15/two_gauge_leg/00_READ_FIRST.md) evaluates seven actual loop diagrams at one seed insertion, one conjugate sterile Yukawa and second hypercharge order: two fermion orderings, two scalar orderings, two mixed assignments and one scalar seagull. Their sum agrees with the two-B kernel previously predicted by the literal counterterm action, including its full sign. The residue is mass independent by ultraviolet degree counting. A Feynman-parameter calculation, a separate homogeneous angular calculation and an independent vertex/Ward audit provide distinct checks; the angular calculation also tests every coefficient of the restricted local polynomial. These calculations use generic off-shell kinematics and retain the full ordered Clifford expression.
 
-The [locality argument](../checkpoint_2026_10_15/two_gauge_leg/SOURCE_METHOD.md) shows that the lower-point Ward identities uniquely fix this two-B polynomial under the stated degree bound and generic off-shell assumptions. It does not classify an unrestricted operator basis. The corresponding three-B statement is a conditional Ward prediction of a vanishing local pole; no three-B loop integration is reported.
+The [locality argument](../checkpoint_2026_10_15/two_gauge_leg/SOURCE_METHOD.md) shows that the lower-point Ward identities uniquely fix this two-B polynomial under the stated degree bound and generic off-shell assumptions. It does not classify an unrestricted operator basis. Its then-conditional three-B prediction is now checked as a specialization of the integrated three-gauge result below.
 
 ## Electroweak and selected-source continuation
 
@@ -55,7 +55,19 @@ Power counting gives UV degree `3-n`; four or more external gauge fields are ind
 
 The [charged-basis projection](../checkpoint_2026_10_15/nonabelian_gauge/GAUGE_HIERARCHY_AND_PHOTON_PROJECTION.md) explicitly gives a nonzero neutral `A W^+ W^-` local UV contact. It is compatible with the selected pure-photon pole cancellation. No finite scattering amplitude, transition moment or experimental signal follows from that local counterterm alone.
 
-Two focused literature queries screened six distinct records without yielding another directly usable benchmark. The primary-method check instead verifies the effective-action Ward identity, reducible-tree distinction and actual convention conversion against named sources. Complete interacting source reduction/canonical normalization, weak-current descendants, the retained-sterile coefficient basis, lower-order insertions, remaining field/parameter/contact counterterms, subtraction/evanescent prescriptions, physical running, finite thresholds and an observable remain open.
+Two focused literature queries screened six distinct records without yielding another directly usable benchmark. The primary-method check instead verifies the effective-action Ward identity, reducible-tree distinction and actual convention conversion against named sources. The following continuation supplies the selected weak-current source map; the complete physical basis and running remain open.
+
+## Interacting electroweak source reduction
+
+The [matrix reduction](../checkpoint_2026_10_15/interacting_reduction/ELECTROWEAK_REDUCTION.md) uses the full matched curvature, covariant Bianchi identity and reference-action sources. It supplies explicit lepton, scalar, Majorana, real B and real adjoint W field changes. The combined curvature coefficient is `-1/12` in this representative, with scalar/source derivatives and both hypercharge and weak-current descendants retained. This is an action-coordinate identity for the existing loop packet, not another integration or physical dipole coefficient.
+
+The [independent audit](../checkpoint_2026_10_15/interacting_reduction/INDEPENDENT_EW_AUDIT.md) checks the non-Abelian action signs and a new weak/flavor exchange distinction. For `K=F Y_nu^T` and `P_ab=(T^I phi)_a phi_b`, the source projects as `K_A tensor P_S+K_S tensor P_A`. A flavor-symmetric weak source, including a one-flavor charged component, can survive. Applying the Abelian flavor-only antisymmetry would incorrectly delete it. The [current contraction](../checkpoint_2026_10_15/interacting_reduction/CURRENT_DESCENDANTS.md) separately retains the ordered fermion and scalar-current pieces and gives the neutral/charged field-coordinate projection.
+
+The [local differential normalization](../checkpoint_2026_10_15/interacting_reduction/INTERACTING_CANONICAL.md) extends the earlier neutral mixing into a covariant scalar-dependent action convention. Substitution of all six derivative placements separates the normalization anticommutator from explicit scalar-derivative and curvature remainders, with induced holomorphic mass and composite-source terms. The normalization contains at most one connection; the matched two-/three-gauge local kernels therefore remain in this convention. No claim is made that all derivative interactions have been removed or that a complete physical coefficient vector is canonical.
+
+The source reduction and local normalization are separate coordinate maps of the original packet. Using them together requires their explicit first-order composition on the full action and sources; their induced coefficient tables cannot simply be added. The normalization result does not establish that the source-reduced representative is already canonical.
+
+The [literature follow-up](../checkpoint_2026_10_15/interacting_reduction/LITERATURE_METHODS.md) records bounded searches and primary-source comparisons of retained-sterile operator classes and mixed-dimension field changes. The full coefficient basis, remaining external-matter loop sectors, lower-order insertions, correlated field/parameter/contact counterterms, subtraction and evanescent prescriptions, physical running, finite thresholds and an observable remain unresolved.
 
 ## Withdrawn or unestablished claims
 

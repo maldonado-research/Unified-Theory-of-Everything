@@ -1,5 +1,15 @@
 # Change log
 
+## TOE-GitHub-2026.10.15-candidate.7 — interacting electroweak source reduction
+
+Added the source-retaining matrix reduction of the already matched gauge action, with fully indexed real weak-field changes, covariant Bianchi and Yang–Mills variation controls. The explicit curvature coefficient remains `-1/12` in the declared representative; it is accompanied by all displayed source/current terms and is not a physical dipole prediction.
+
+An independently implemented Grassmann audit identifies the combined weak/flavor exchange projection `K_A tensor P_S+K_S tensor P_A`. A flavor-symmetric weak source can survive, including a one-flavor charged component. Separate exact weak-current contractions retain ordered fermion currents and the scalar norm derivative, and resolve the neutral/charged gauge-coordinate shifts.
+
+Extended the actual neutral normalization by a local covariant differential operator. Substitution of the six-placement packet gives an explicit scalar-derivative interaction remainder and retains the correlated mass and source transport. This particular normalization has at most one gauge connection and leaves the matched two-/three-gauge local kernels in the action. Four new standalone checks and a bounded literature/provenance follow-up are included; earlier scientific checkpoints and receipts are preserved.
+
+This continuation does not evaluate another loop, complete the physical operator basis, determine physical running or finite amplitudes, or establish novelty or unification. No new release, Zenodo version or DOI is created.
+
 ## TOE-GitHub-2026.10.15-candidate.6 — non-Abelian external-gauge hierarchy
 
 - Evaluate the ordered two-W and mixed-BW 1PI poles from the seven literal matter-loop diagrams. Extract the commutator polynomial invisible in the Abelian sum; independently reproduce it by angular integration and exhaust the declared local coefficients.

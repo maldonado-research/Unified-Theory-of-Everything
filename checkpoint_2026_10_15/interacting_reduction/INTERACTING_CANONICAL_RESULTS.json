@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "calculation": "actual selected six-placement packet: local differential normalization and retained interactions",
+  "arithmetic": "exact Gaussian rational finite Fourier sums; Python standard library only",
+  "tests_by_category": {
+    "clifford": 16,
+    "actual_six_placement_split": 3,
+    "curvature_product_rule": 3,
+    "local_weak_covariance": 12,
+    "neutral_composite_covariance": 3,
+    "current_transport": 9,
+    "integrated_operator_adjoints": 6,
+    "source_derivative_transport": 6,
+    "majorana_local_mass_congruence": 6,
+    "higher_gauge_contacts_retained": 12,
+    "neutral_projection_reproduction": 9
+  },
+  "positive_checks": 85,
+  "mutation_rejections": {
+    "omit_covariant_gradient": 3,
+    "reverse_covariant_gradient_sign": 3,
+    "omit_gradient_times_box": 3,
+    "omit_curvature_times_Dphi": 3,
+    "omit_current_transport": 3,
+    "naive_ordinary_Dphi_remainder": 3,
+    "drop_source_derivatives": 3,
+    "drop_upper_source_scalar_derivatives": 3,
+    "mass_adjoint_instead_of_transpose": 3,
+    "discard_higher_gauge_contact_2": 3,
+    "discard_higher_gauge_contact_3": 3
+  },
+  "negative_checks": 33,
+  "total_checks": 118,
+  "nonconstant_background_trials": 3,
+  "active_flavors": 2,
+  "sterile_flavors": 2,
+  "weak_components": 2,
+  "scope": [
+    "first order in selected counterterm",
+    "full local differential operator substitution, generic off-shell test fields",
+    "full covariant six-term O_J and curvature product rule",
+    "retained symmetric complex Majorana mass",
+    "selected normalization has at most one explicit gauge connection",
+    "not a complete basis, physical beta function, finite amplitude, or loop re-integration"
+  ]
+}

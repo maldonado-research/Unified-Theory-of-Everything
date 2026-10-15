@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.10.15-candidate.6",
+  "release": "TOE-GitHub-2026.10.15-candidate.7",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -11,7 +11,8 @@
     "verification/TWO_GAUGE_REPLAY_LINUX.json",
     "verification/ELECTROWEAK_SOURCE_REPLAY_LINUX.json",
     "verification/FIELD_REDEFINITION_REPLAY_LINUX.json",
-    "verification/NONABELIAN_GAUGE_REPLAY_LINUX.json"
+    "verification/NONABELIAN_GAUGE_REPLAY_LINUX.json",
+    "verification/INTERACTING_REDUCTION_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -21,13 +22,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 11979,
-      "sha256": "7b647bfe6c43f8511e8769b801d736d8879a2013e70ba9bb6962dd7fd836cb67"
+      "bytes": 13549,
+      "sha256": "81f82254c914b4d4b26358ff905571d113a4076ee2d2e2a74b9c9b710539c2f4"
     },
     {
       "path": "CITATION.cff",
       "bytes": 750,
-      "sha256": "c56bfddec83539e380fec5868f45813a064e8fc1657a15be7379a61bb7ab52ec"
+      "sha256": "2a1145b02c54bf48b6ef744421ee8d24779aae5e56569506c2652bca150d9633"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -41,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9510,
-      "sha256": "66cdf866f9f81d99da67a906fbc7c6c0b5712d1ae394a7b70397ce95b6665517"
+      "bytes": 10284,
+      "sha256": "9aa789e700256bdc7ac8882e28c3ecdcb01346e1260aa81f62c4aaedfbc5e9d1"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -550,6 +551,81 @@
       "sha256": "4ccddf6a26eddbdce7c86414cd941c343de653f8aabfaa815961ed23fc38d188"
     },
     {
+      "path": "checkpoint_2026_10_15/interacting_reduction/00_READ_FIRST.md",
+      "bytes": 4850,
+      "sha256": "242b5509e89e2ae5af4559c5728b167e46ef2aff3d1efa574150e346631e04d2"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/CURRENT_DESCENDANTS.md",
+      "bytes": 4501,
+      "sha256": "a56524984084f546b3a96340da1210493f5677ff1feddec7b7a1332d866c13c4"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/CURRENT_PROJECTION_RESULTS.json",
+      "bytes": 1205,
+      "sha256": "f394afb3812cd403da64159e4a91c3c32cab58cedd14dcb846b2c848bad810db"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/ELECTROWEAK_REDUCTION.md",
+      "bytes": 15079,
+      "sha256": "8654ba29d8a822ebde9ac98825d8cdd87a4cdfd5bf8e509152055e53d17f029e"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/ELECTROWEAK_REDUCTION_RESULTS.json",
+      "bytes": 3248,
+      "sha256": "4217490df83b2c949f863005fcaa5294689caca473d9c69ee44ef8ab3a9e6531"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/INDEPENDENT_EW_AUDIT.md",
+      "bytes": 11419,
+      "sha256": "b719340268e9f09c51738d5eeb3c8905efc3038070a7f3f23b1dafb230dcaed6"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/INDEPENDENT_EW_AUDIT_RESULTS.json",
+      "bytes": 9338,
+      "sha256": "5146f497cdf2651926aa4fe111897dff2c85bd2436c4c983500ae5596b373af0"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/INTERACTING_CANONICAL.md",
+      "bytes": 12485,
+      "sha256": "2a837f33972dfa70e2ee5e01861dcae9fd9072ed212c179dc709b7316e85021d"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/INTERACTING_CANONICAL_RESULTS.json",
+      "bytes": 1713,
+      "sha256": "d797d9e4a67c7b8d908b1cab0cc1568d1e80452fc309464d9e4510473af550f4"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/LITERATURE_METHODS.md",
+      "bytes": 10329,
+      "sha256": "94a9d5451f030434561d43de3b1199d3febb5055db923d0a973bad86baaff3ba"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/LITERATURE_PROVENANCE.json",
+      "bytes": 41422,
+      "sha256": "7c4e3aa8b2c04a00f9dc6cd29f20d8f16fa98086a0445eb4a9b07018c34e79a2"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/independent_ew_audit.py",
+      "bytes": 12178,
+      "sha256": "463357226d2486a6125cc9a5c49807bdecad4d212f6ae62d1d9f7841da6cd932"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/verify_current_projection.py",
+      "bytes": 5505,
+      "sha256": "a773c4e843a14aee2f5f28d009f9835ba00dbbbe30e1c88ff8b4bc7512914662"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/verify_electroweak_reduction.py",
+      "bytes": 30462,
+      "sha256": "eb78047d20f10c7dd97d3a77f7ed1517ea0525c25172e432189f0b00fd8c0862"
+    },
+    {
+      "path": "checkpoint_2026_10_15/interacting_reduction/verify_interacting_canonical.py",
+      "bytes": 18291,
+      "sha256": "8f5f1d72e9dcc54d5b0fd988108dcb7a5a6bdef99a6f0319e5d60e163ffff463"
+    },
+    {
       "path": "checkpoint_2026_10_15/nonabelian_gauge/00_READ_FIRST.md",
       "bytes": 4720,
       "sha256": "887d2833b4d79f92934faff5a36a62f9d95a6019b2bb541cd47df127aa49de58"
@@ -816,18 +892,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 14727,
-      "sha256": "e33254b109706434a3d073d8d5b5d27b5d5ea4b35174d120c9559e403f61b552"
+      "bytes": 17297,
+      "sha256": "35ea0b751a8d5ca5aca73572e6952138a8442903958576f8db1a42aa0c9f2851"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 5573,
-      "sha256": "3b5e0dbd8bd544b595ff452e6e4c213ddfd72d3ca6462ceedd6bb6a41c004a4e"
+      "bytes": 6227,
+      "sha256": "c2ee5e6da3055955061ac37835fa3460dbc8300a094408e2702b1813166b194e"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 12373,
-      "sha256": "8b5a56d8b09f173f85d49b9b49f8718ec6010114453f88bf367c496af0c2e423"
+      "bytes": 14180,
+      "sha256": "f8c691430766e7f3b680cf5a88cc853d270a6e1be7e2303a69cb43f6399226c1"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -846,8 +922,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 10540,
-      "sha256": "bc75d9a568f79cf0880a7f226eee620fb92c877b17ff3e2023271b4dccd95bfe"
+      "bytes": 11480,
+      "sha256": "3da064e55f421e119407d9511f732e3c8a05a8464a0e5c084b693ba62fdd9959"
     }
   ]
 }

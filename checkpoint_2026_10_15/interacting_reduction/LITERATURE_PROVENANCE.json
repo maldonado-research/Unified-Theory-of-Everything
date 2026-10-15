@@ -1,0 +1,1096 @@
+{
+  "title": "Bounded literature follow-up for interacting source reduction",
+  "accessed_date": "2026-10-15",
+  "scope": "Methodology only; not exhaustive web coverage, coefficient calculation, novelty assessment, physical running or unification evidence.",
+  "totals": {
+    "queries": 4,
+    "requested_per_query": 10,
+    "returned_per_query": [
+      10,
+      4,
+      6,
+      10
+    ],
+    "ranked_appearances": 30,
+    "distinct_search_papers": 23,
+    "duplicate_appearances": 7,
+    "metadata_inspections": 5,
+    "passage_requests": 4,
+    "papers_with_passages": 3,
+    "passages_returned": 11,
+    "new_managed_http_requests": 6,
+    "new_managed_http_200_responses": 5,
+    "new_primary_bodies_checked": 4,
+    "reused_primary_bodies_checked": 1,
+    "primary_body_hashes_verified": 5
+  },
+  "date_filter_note": "Provider inclusive filter applies to creation OR update. Two deliberately wider historical windows complement two 2025-2026 windows.",
+  "search_response_id_note": "Paper-index tools returned canonical IDs and scores but no query UUID.",
+  "searches": [
+    {
+      "label": "IR1",
+      "provider": "Firecrawl paper index",
+      "accessed_date": "2026-10-15",
+      "query": "nuSMEFT dimension seven operator basis corrected redundant operators equations of motion right handed neutrinos",
+      "from": "2024-01-01",
+      "to": "2026-10-15",
+      "requested_k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "paperId": "6281764731836376590",
+          "primaryId": "arxiv:2409.02622",
+          "title": "Renormalization Group Equations for the Dimension-7 SMEFT Operators",
+          "ids": {
+            "arxiv": [
+              "2409.02622"
+            ]
+          },
+          "score": 0.8405733129219832,
+          "rank": 1
+        },
+        {
+          "paperId": "2023073472807467328",
+          "primaryId": "arxiv:2602.02720",
+          "title": "Differentiating Dimension-6 and Dimension-8 Effects in νSMEFT at the HL-LHC",
+          "ids": {
+            "arxiv": [
+              "2602.02720"
+            ]
+          },
+          "score": 0.8311430478583168,
+          "rank": 2
+        },
+        {
+          "paperId": "5677745086390689659",
+          "primaryId": "arxiv:2510.14940",
+          "title": "Invisible neutron decay and light BSM particles",
+          "ids": {
+            "arxiv": [
+              "2510.14940"
+            ]
+          },
+          "score": 0.7223703647944805,
+          "rank": 3
+        },
+        {
+          "paperId": "5246078121595657825",
+          "primaryId": "arxiv:2412.14268",
+          "title": "Radiative neutrino masses from dim-7 SMEFT: a simplified multi-scale approach",
+          "ids": {
+            "arxiv": [
+              "2412.14268"
+            ]
+          },
+          "score": 0.6952966693475653,
+          "rank": 4
+        },
+        {
+          "paperId": "8462691033077978768",
+          "primaryId": "arxiv:2510.24843",
+          "title": "Impact of dim-6 νSMEFT operators on low-scale leptogenesis",
+          "ids": {
+            "arxiv": [
+              "2510.24843"
+            ],
+            "doi": [
+              "10.1007/JHEP06(2026)223"
+            ]
+          },
+          "score": 0.6899744811276125,
+          "rank": 5
+        },
+        {
+          "paperId": "169055094554646673",
+          "primaryId": "arxiv:2505.06499",
+          "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+          "ids": {
+            "arxiv": [
+              "2505.06499"
+            ]
+          },
+          "score": 0.6612232068109505,
+          "rank": 6
+        },
+        {
+          "paperId": "5577778222950120199",
+          "primaryId": "arxiv:2403.18732",
+          "title": "Identifying CP Basis Invariants in SMEFT",
+          "ids": {
+            "arxiv": [
+              "2403.18732"
+            ]
+          },
+          "score": 0.6485108747389209,
+          "rank": 7
+        },
+        {
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          },
+          "score": 0.6334102636778401,
+          "rank": 8
+        },
+        {
+          "paperId": "5191455394292901303",
+          "primaryId": "arxiv:2601.23060",
+          "title": "Complete Operator Basis for the modular invariant SMEFT",
+          "ids": {
+            "arxiv": [
+              "2601.23060"
+            ]
+          },
+          "score": 0.6024358782747795,
+          "rank": 9
+        },
+        {
+          "paperId": "5516790290005314586",
+          "primaryId": "arxiv:2407.16751",
+          "title": "Completing the one-loop νSMEFT Renormalization Group Evolution",
+          "ids": {
+            "arxiv": [
+              "2407.16751"
+            ]
+          },
+          "score": 0.6016871801828567,
+          "rank": 10
+        }
+      ]
+    },
+    {
+      "label": "IR2",
+      "provider": "Firecrawl paper index",
+      "accessed_date": "2026-10-15",
+      "query": "sterile neutrino effective field theory dimension seven renormalization lower dimensional insertions field redefinition Higgs current",
+      "from": "2025-01-01",
+      "to": "2026-10-15",
+      "requested_k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "paperId": "7182509398629873163",
+          "primaryId": "arxiv:2502.14303",
+          "title": "Baryon-number-violating nucleon decays in sterile neutrino effective field theories",
+          "ids": {
+            "arxiv": [
+              "2502.14303"
+            ]
+          },
+          "score": 0.8354835371034369,
+          "rank": 1
+        },
+        {
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          },
+          "score": 0.7674110777603648,
+          "rank": 2
+        },
+        {
+          "paperId": "610173422078621577",
+          "primaryId": "arxiv:2606.14320",
+          "title": "Unavoidable Loop-Induced Quintessence -- Higgs Mixing and Its Phenomenological Consequences",
+          "ids": {
+            "arxiv": [
+              "2606.14320"
+            ]
+          },
+          "score": 0.6370307944803831,
+          "rank": 3
+        },
+        {
+          "paperId": "244162652813224073",
+          "primaryId": "arxiv:2602.05461",
+          "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+          "ids": {
+            "arxiv": [
+              "2602.05461"
+            ]
+          },
+          "score": 0.6046790847140093,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "label": "IR3",
+      "provider": "Firecrawl paper index",
+      "accessed_date": "2026-10-15",
+      "query": "effective field theory field redefinitions gauge current covariant derivative dimension seven lower order operators redundant coefficients renormalization",
+      "from": "2025-01-01",
+      "to": "2026-10-15",
+      "requested_k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "paperId": "8237040307813920876",
+          "primaryId": "arxiv:2605.15176",
+          "title": "Matching higher-dimensional operators at finite temperature for general models",
+          "ids": {
+            "arxiv": [
+              "2605.15176"
+            ]
+          },
+          "score": 0.9139226791669082,
+          "rank": 1
+        },
+        {
+          "paperId": "3922933006330216858",
+          "primaryId": "arxiv:2601.18883",
+          "title": "One-loop matching of the LEFT to the QCD gradient flow",
+          "ids": {
+            "arxiv": [
+              "2601.18883"
+            ],
+            "doi": [
+              "10.1007/JHEP07(2026)047"
+            ]
+          },
+          "score": 0.903566843450814,
+          "rank": 2
+        },
+        {
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          },
+          "score": 0.8519528019683106,
+          "rank": 3
+        },
+        {
+          "paperId": "244162652813224073",
+          "primaryId": "arxiv:2602.05461",
+          "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+          "ids": {
+            "arxiv": [
+              "2602.05461"
+            ]
+          },
+          "score": 0.8041599598359659,
+          "rank": 4
+        },
+        {
+          "paperId": "7505251485981299684",
+          "primaryId": "arxiv:2606.17151",
+          "title": "Supersymmetric geometry in non-supersymmetric effective field theory",
+          "ids": {
+            "arxiv": [
+              "2606.17151"
+            ]
+          },
+          "score": 0.7729422593967386,
+          "rank": 5
+        },
+        {
+          "paperId": "5738481819054539487",
+          "primaryId": "arxiv:2608.19316",
+          "title": "Universal Two-Loop Current--Current Renormalization of Four-Fermion Operators",
+          "ids": {
+            "arxiv": [
+              "2608.19316"
+            ]
+          },
+          "score": 0.7525948948809733,
+          "rank": 6
+        }
+      ]
+    },
+    {
+      "label": "IR4",
+      "provider": "Firecrawl paper index",
+      "accessed_date": "2026-10-15",
+      "query": "nuSMEFT dimension seven corrected basis Majorana equation of motion current operator canonical normalization",
+      "from": "2020-01-01",
+      "to": "2026-10-15",
+      "requested_k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "paperId": "6281764731836376590",
+          "primaryId": "arxiv:2409.02622",
+          "title": "Renormalization Group Equations for the Dimension-7 SMEFT Operators",
+          "ids": {
+            "arxiv": [
+              "2409.02622"
+            ]
+          },
+          "score": 0.7359453939271484,
+          "rank": 1
+        },
+        {
+          "paperId": "9196221829856126217",
+          "primaryId": "arxiv:2310.11055",
+          "title": "Revisiting Renormalization Group Equations of the SMEFT Dimension-Seven Operators",
+          "ids": {
+            "arxiv": [
+              "2310.11055"
+            ]
+          },
+          "score": 0.7347290431150206,
+          "rank": 2
+        },
+        {
+          "paperId": "1108665703309991584",
+          "primaryId": "arxiv:2105.09329",
+          "title": "Operator Bases in Effective Field Theories with Sterile Neutrinos: d ≤ 9",
+          "ids": {
+            "arxiv": [
+              "2105.09329"
+            ]
+          },
+          "score": 0.7322856272178266,
+          "rank": 3
+        },
+        {
+          "paperId": "410284651801530881",
+          "primaryId": "arxiv:2306.03008",
+          "title": "Renormalization Group Equations for the SMEFT Operators up to Dimension Seven",
+          "ids": {
+            "arxiv": [
+              "2306.03008"
+            ]
+          },
+          "score": 0.7057850278370112,
+          "rank": 4
+        },
+        {
+          "paperId": "8953183334581686710",
+          "primaryId": "arxiv:2005.08013",
+          "title": "Extending low energy effective field theory with a complete set of dimension-7 operators",
+          "ids": {
+            "arxiv": [
+              "2005.08013"
+            ]
+          },
+          "score": 0.7018765769104728,
+          "rank": 5
+        },
+        {
+          "paperId": "169055094554646673",
+          "primaryId": "arxiv:2505.06499",
+          "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+          "ids": {
+            "arxiv": [
+              "2505.06499"
+            ]
+          },
+          "score": 0.6492228703501015,
+          "rank": 6
+        },
+        {
+          "paperId": "6962501293112275376",
+          "primaryId": "arxiv:2104.08248",
+          "title": "Neutrino masses in the Standard Model effective field theory",
+          "ids": {
+            "arxiv": [
+              "2104.08248"
+            ]
+          },
+          "score": 0.6370307944803831,
+          "rank": 7
+        },
+        {
+          "paperId": "5246078121595657825",
+          "primaryId": "arxiv:2412.14268",
+          "title": "Radiative neutrino masses from dim-7 SMEFT: a simplified multi-scale approach",
+          "ids": {
+            "arxiv": [
+              "2412.14268"
+            ]
+          },
+          "score": 0.6312306626164005,
+          "rank": 8
+        },
+        {
+          "paperId": "5577778222950120199",
+          "primaryId": "arxiv:2403.18732",
+          "title": "Identifying CP Basis Invariants in SMEFT",
+          "ids": {
+            "arxiv": [
+              "2403.18732"
+            ]
+          },
+          "score": 0.5820634899774857,
+          "rank": 9
+        },
+        {
+          "paperId": "3605955065598495334",
+          "primaryId": "arxiv:2208.11139",
+          "title": "The Geometric νSMEFT: Operators and Connections",
+          "ids": {
+            "arxiv": [
+              "2208.11139"
+            ]
+          },
+          "score": 0.5740605063432676,
+          "rank": 10
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "paperId": "6281764731836376590",
+      "primaryId": "arxiv:2409.02622",
+      "ids": {
+        "arxiv": [
+          "2409.02622"
+        ]
+      },
+      "title": "Renormalization Group Equations for the Dimension-7 SMEFT Operators",
+      "score": 0.8405733129219832,
+      "url": "https://arxiv.org/abs/2409.02622",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level overlap with the selected 2306.03008 mixed-order SMEFT methodology; talk, not a retained-sterile coefficient source.",
+      "abstract_sha256": "3c5f0c3c60bffab9ad817f94e5934e0e3b07264a3bec0a98ebe86880b9b46aa2",
+      "abstract_characters": 903
+    },
+    {
+      "paperId": "2023073472807467328",
+      "primaryId": "arxiv:2602.02720",
+      "ids": {
+        "arxiv": [
+          "2602.02720"
+        ]
+      },
+      "title": "Differentiating Dimension-6 and Dimension-8 Effects in νSMEFT at the HL-LHC",
+      "score": 0.8311430478583168,
+      "url": "https://arxiv.org/abs/2602.02720",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level dimension-eight sterile basis and collider study; not used for the selected dimension-seven packet.",
+      "abstract_sha256": "af40eed771577e61b78a4bd276cd56248c48303da996129930aea8cb9ef858cf",
+      "abstract_characters": 1213
+    },
+    {
+      "paperId": "5677745086390689659",
+      "primaryId": "arxiv:2510.14940",
+      "ids": {
+        "arxiv": [
+          "2510.14940"
+        ]
+      },
+      "title": "Invisible neutron decay and light BSM particles",
+      "score": 0.7223703647944805,
+      "url": "https://arxiv.org/abs/2510.14940",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level invisible neutron-decay phenomenology; different process, not used.",
+      "abstract_sha256": "f1735cf79cf279a13f04184bce11f3cfd6e781a7ce1474e8dace2e5b116c9f82",
+      "abstract_characters": 899
+    },
+    {
+      "paperId": "5246078121595657825",
+      "primaryId": "arxiv:2412.14268",
+      "ids": {
+        "arxiv": [
+          "2412.14268"
+        ]
+      },
+      "title": "Radiative neutrino masses from dim-7 SMEFT: a simplified multi-scale approach",
+      "score": 0.6952966693475653,
+      "url": "https://arxiv.org/abs/2412.14268",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level dimension-seven SMEFT UV completions without derivatives and multiscale neutrino masses; not the retained-sterile derivative reduction.",
+      "abstract_sha256": "844c02ceb151a7a0e0a87623c4d490df31f0ca16faf1eab66acd996718e8ae8a",
+      "abstract_characters": 1126
+    },
+    {
+      "paperId": "8462691033077978768",
+      "primaryId": "arxiv:2510.24843",
+      "ids": {
+        "arxiv": [
+          "2510.24843"
+        ],
+        "doi": [
+          "10.1007/JHEP06(2026)223"
+        ]
+      },
+      "title": "Impact of dim-6 νSMEFT operators on low-scale leptogenesis",
+      "score": 0.6899744811276125,
+      "url": "https://arxiv.org/abs/2510.24843",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level dimension-six sterile leptogenesis application; not used to infer this packet running.",
+      "abstract_sha256": "28504d63f0a8fcc9683d59c6f901c4d799df16f3c515d66dc1a02ace7d110ee7",
+      "abstract_characters": 1334
+    },
+    {
+      "paperId": "169055094554646673",
+      "primaryId": "arxiv:2505.06499",
+      "ids": {
+        "arxiv": [
+          "2505.06499"
+        ]
+      },
+      "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+      "score": 0.6612232068109505,
+      "url": "https://arxiv.org/abs/2505.06499",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level dimension-seven SMEFT RGE solver, without dynamical sterile fields; software not downloaded or executed.",
+      "abstract_sha256": "2616a0999f050d19dabb8c9707ea4c600e3a07dc9e731e2cac1e75261be1a8e8",
+      "abstract_characters": 1291
+    },
+    {
+      "paperId": "5577778222950120199",
+      "primaryId": "arxiv:2403.18732",
+      "ids": {
+        "arxiv": [
+          "2403.18732"
+        ]
+      },
+      "title": "Identifying CP Basis Invariants in SMEFT",
+      "score": 0.6485108747389209,
+      "url": "https://arxiv.org/abs/2403.18732",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level CP flavor-invariant classification; possible future invariant check, no coefficient imported.",
+      "abstract_sha256": "1a43eadd49419c01fa1b9291054dc78fc992f6fc4612e837af3e268ca4d5dba3",
+      "abstract_characters": 1257
+    },
+    {
+      "paperId": "5954995938910162112",
+      "primaryId": "arxiv:2504.00792",
+      "ids": {
+        "arxiv": [
+          "2504.00792"
+        ]
+      },
+      "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+      "score": 0.6334102636778401,
+      "url": "https://arxiv.org/abs/2504.00792",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Selected: source/derivative bare field substitutions, loop expansion and RG derivative/projection order. Reused primary body and rechecked hash.",
+      "abstract_sha256": "48ba09e0f0d3ff27a148f654af4e3f7aadd4624b0056846f23b8c409e073136a",
+      "abstract_characters": 1357
+    },
+    {
+      "paperId": "5191455394292901303",
+      "primaryId": "arxiv:2601.23060",
+      "ids": {
+        "arxiv": [
+          "2601.23060"
+        ]
+      },
+      "title": "Complete Operator Basis for the modular invariant SMEFT",
+      "score": 0.6024358782747795,
+      "url": "https://arxiv.org/abs/2601.23060",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level modular-invariant SMEFT restriction; different assumptions, not used.",
+      "abstract_sha256": "fd74efde11830438446ea9a92995b3fbdb9c3cb0a6a8fe43e024cad9f44e3ef7",
+      "abstract_characters": 1523
+    },
+    {
+      "paperId": "5516790290005314586",
+      "primaryId": "arxiv:2407.16751",
+      "ids": {
+        "arxiv": [
+          "2407.16751"
+        ]
+      },
+      "title": "Completing the one-loop νSMEFT Renormalization Group Evolution",
+      "score": 0.6016871801828567,
+      "url": "https://arxiv.org/abs/2407.16751",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Selected: dimension-six retained-sterile Yukawa-running and basis-convention benchmark; not a dimension-seven result.",
+      "abstract_sha256": "a0bc43a2f092023422474433b272f79bf8387e5bf0e90ab9e982ac322d4299b0",
+      "abstract_characters": 778
+    },
+    {
+      "paperId": "7182509398629873163",
+      "primaryId": "arxiv:2502.14303",
+      "ids": {
+        "arxiv": [
+          "2502.14303"
+        ]
+      },
+      "title": "Baryon-number-violating nucleon decays in sterile neutrino effective field theories",
+      "score": 0.8354835371034369,
+      "url": "https://arxiv.org/abs/2502.14303",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level baryon-violating sterile nucleon decay; different operator/process sector, not used.",
+      "abstract_sha256": "e153d49a4daeb04d1b51de98011d483239d2b0821df5ba230a08728931875851",
+      "abstract_characters": 1002
+    },
+    {
+      "paperId": "610173422078621577",
+      "primaryId": "arxiv:2606.14320",
+      "ids": {
+        "arxiv": [
+          "2606.14320"
+        ]
+      },
+      "title": "Unavoidable Loop-Induced Quintessence -- Higgs Mixing and Its Phenomenological Consequences",
+      "score": 0.6370307944803831,
+      "url": "https://arxiv.org/abs/2606.14320",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level quintessence/Higgs model; different field content, not used.",
+      "abstract_sha256": "207d99b1084fa0911c3b0aeb3569a0e4f0e89a92aa26f052f870b14d480ec7c5",
+      "abstract_characters": 1670
+    },
+    {
+      "paperId": "244162652813224073",
+      "primaryId": "arxiv:2602.05461",
+      "ids": {
+        "arxiv": [
+          "2602.05461"
+        ]
+      },
+      "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+      "score": 0.6046790847140093,
+      "url": "https://arxiv.org/abs/2602.05461",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level dimension-eight SMEFT renormalization; no dynamical sterile basis or selected coefficient established.",
+      "abstract_sha256": "ccc03b88bceeecb9858f64eff62e1f446e09a4e207ae1d23c0c5ef5c6c79bf7b",
+      "abstract_characters": 1496
+    },
+    {
+      "paperId": "8237040307813920876",
+      "primaryId": "arxiv:2605.15176",
+      "ids": {
+        "arxiv": [
+          "2605.15176"
+        ]
+      },
+      "title": "Matching higher-dimensional operators at finite temperature for general models",
+      "score": 0.9139226791669082,
+      "url": "https://arxiv.org/abs/2605.15176",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level finite-temperature general matching; different regime, not used.",
+      "abstract_sha256": "55e3dbb08832a23913cc40752707513793ea3f625efde933530bd08ce612f8b1",
+      "abstract_characters": 1244
+    },
+    {
+      "paperId": "3922933006330216858",
+      "primaryId": "arxiv:2601.18883",
+      "ids": {
+        "arxiv": [
+          "2601.18883"
+        ],
+        "doi": [
+          "10.1007/JHEP07(2026)047"
+        ]
+      },
+      "title": "One-loop matching of the LEFT to the QCD gradient flow",
+      "score": 0.903566843450814,
+      "url": "https://arxiv.org/abs/2601.18883",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level low-energy QCD gradient-flow matching; different effective theory, not used.",
+      "abstract_sha256": "6f6c439da097db9f4864883046b2ed3b4aac4dbaacf7d2d91073763ed87f491f",
+      "abstract_characters": 1366
+    },
+    {
+      "paperId": "7505251485981299684",
+      "primaryId": "arxiv:2606.17151",
+      "ids": {
+        "arxiv": [
+          "2606.17151"
+        ]
+      },
+      "title": "Supersymmetric geometry in non-supersymmetric effective field theory",
+      "score": 0.7729422593967386,
+      "url": "https://arxiv.org/abs/2606.17151",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level EFT geometric constraints; no selected source-reduction coefficient, not used.",
+      "abstract_sha256": "26d92c05332268e9cb2efa5f117bac6578e885337f305ea99195ccade4e0582b",
+      "abstract_characters": 518
+    },
+    {
+      "paperId": "5738481819054539487",
+      "primaryId": "arxiv:2608.19316",
+      "ids": {
+        "arxiv": [
+          "2608.19316"
+        ]
+      },
+      "title": "Universal Two-Loop Current--Current Renormalization of Four-Fermion Operators",
+      "score": 0.7525948948809733,
+      "url": "https://arxiv.org/abs/2608.19316",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level universal two-loop current-current renormalization; different loop/operator target, not used.",
+      "abstract_sha256": "a4002781fdee5e9d4a0945078ffc6f1aeb8b07423818945339ffc4073bb35df3",
+      "abstract_characters": 900
+    },
+    {
+      "paperId": "9196221829856126217",
+      "primaryId": "arxiv:2310.11055",
+      "ids": {
+        "arxiv": [
+          "2310.11055"
+        ]
+      },
+      "title": "Revisiting Renormalization Group Equations of the SMEFT Dimension-Seven Operators",
+      "score": 0.7347290431150206,
+      "url": "https://arxiv.org/abs/2310.11055",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level dimension-seven SMEFT self-mixing complement; not a retained-sterile physical anomalous dimension.",
+      "abstract_sha256": "5da449cc22849942a1644ddb53d3dc905e0b90ed90af049ceb131d22b4fd4735",
+      "abstract_characters": 1113
+    },
+    {
+      "paperId": "1108665703309991584",
+      "primaryId": "arxiv:2105.09329",
+      "ids": {
+        "arxiv": [
+          "2105.09329"
+        ]
+      },
+      "title": "Operator Bases in Effective Field Theories with Sterile Neutrinos: d ≤ 9",
+      "score": 0.7322856272178266,
+      "url": "https://arxiv.org/abs/2105.09329",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Selected: independent sterile basis classification and flavor projection, Section 4.3. Index full text absent; direct primary PDF checked.",
+      "abstract_sha256": "28f732e16f75eb4488a20a298a06e368cb119f876b5fadea64bb76accfcd6cda",
+      "abstract_characters": 754
+    },
+    {
+      "paperId": "410284651801530881",
+      "primaryId": "arxiv:2306.03008",
+      "ids": {
+        "arxiv": [
+          "2306.03008"
+        ]
+      },
+      "title": "Renormalization Group Equations for the SMEFT Operators up to Dimension Seven",
+      "score": 0.7057850278370112,
+      "url": "https://arxiv.org/abs/2306.03008",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Selected: mixed EFT orders in Green-to-physical reduction, including dimension-six redundancies times dimension-five operators.",
+      "abstract_sha256": "154135f5c6539d332c31134917d7e02857f87b11f6ab62b5dc1498c9052d26a1",
+      "abstract_characters": 962
+    },
+    {
+      "paperId": "8953183334581686710",
+      "primaryId": "arxiv:2005.08013",
+      "ids": {
+        "arxiv": [
+          "2005.08013"
+        ]
+      },
+      "title": "Extending low energy effective field theory with a complete set of dimension-7 operators",
+      "score": 0.7018765769104728,
+      "url": "https://arxiv.org/abs/2005.08013",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level LEFT dimension-seven classification and neutrino/photon application; different low-energy field content, not used.",
+      "abstract_sha256": "88b598304ac8d0626c2d3b72f62c09470e1a93021e68025bc3c36bf1605d18af",
+      "abstract_characters": 1153
+    },
+    {
+      "paperId": "6962501293112275376",
+      "primaryId": "arxiv:2104.08248",
+      "ids": {
+        "arxiv": [
+          "2104.08248"
+        ]
+      },
+      "title": "Neutrino masses in the Standard Model effective field theory",
+      "score": 0.6370307944803831,
+      "url": "https://arxiv.org/abs/2104.08248",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level dimension-seven SMEFT neutrino mass logarithms; different retained-field content and truncation, not used.",
+      "abstract_sha256": "dc4dc6ba2b09c6abc906cd057f49a95af1d9a4c1b4b58df0b3f93aa762ff96e8",
+      "abstract_characters": 826
+    },
+    {
+      "paperId": "3605955065598495334",
+      "primaryId": "arxiv:2208.11139",
+      "ids": {
+        "arxiv": [
+          "2208.11139"
+        ]
+      },
+      "title": "The Geometric νSMEFT: Operators and Connections",
+      "score": 0.5740605063432676,
+      "url": "https://arxiv.org/abs/2208.11139",
+      "screening_level": "abstract, except explicitly selected primary-source reviews",
+      "screening_disposition": "Abstract-level geometric sterile EFT construction; possible future normalization/invariant framework, not specialized or used.",
+      "abstract_sha256": "7f00c0b47b1f4f6c5009bfee2a7cab6b6c97711cee856428ebba89162a9be8f6",
+      "abstract_characters": 1040
+    }
+  ],
+  "metadata_inspections": [
+    {
+      "paperId": "1108665703309991584",
+      "ids": {
+        "arxiv": [
+          "2105.09329"
+        ]
+      },
+      "title": "Operator Bases in Effective Field Theories with Sterile Neutrinos: d ≤ 9",
+      "authors": "Hao-Lin Li, Zhe Ren, Ming-Lei Xiao, Jiang-Hao Yu, Yu-Hui Zheng",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Wed, 19 May 2021 18:00:04 GMT",
+      "updateDate": "2021-11-24",
+      "abstract_sha256": "28f732e16f75eb4488a20a298a06e368cb119f876b5fadea64bb76accfcd6cda",
+      "abstract_characters": 754
+    },
+    {
+      "paperId": "410284651801530881",
+      "ids": {
+        "arxiv": [
+          "2306.03008"
+        ]
+      },
+      "title": "Renormalization Group Equations for the SMEFT Operators up to Dimension Seven",
+      "authors": "Di Zhang",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "createdDate": "Mon, 5 Jun 2023 16:19:12 GMT",
+      "updateDate": "2023-10-18",
+      "abstract_sha256": "154135f5c6539d332c31134917d7e02857f87b11f6ab62b5dc1498c9052d26a1",
+      "abstract_characters": 962
+    },
+    {
+      "paperId": "5516790290005314586",
+      "ids": {
+        "arxiv": [
+          "2407.16751"
+        ]
+      },
+      "title": "Completing the one-loop νSMEFT Renormalization Group Evolution",
+      "authors": "Marco Ardu, Xabier Marcano",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Tue, 23 Jul 2024 18:00:01 GMT",
+      "updateDate": "2024-08-06",
+      "abstract_sha256": "a0bc43a2f092023422474433b272f79bf8387e5bf0e90ab9e982ac322d4299b0",
+      "abstract_characters": 778
+    },
+    {
+      "paperId": "5954995938910162112",
+      "ids": {
+        "arxiv": [
+          "2504.00792"
+        ]
+      },
+      "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+      "authors": "Di Zhang",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "createdDate": "Tue, 1 Apr 2025 13:50:58 GMT",
+      "updateDate": "2025-05-07",
+      "abstract_sha256": "48ba09e0f0d3ff27a148f654af4e3f7aadd4624b0056846f23b8c409e073136a",
+      "abstract_characters": 1357
+    },
+    {
+      "paperId": "5584642650654655823",
+      "ids": {
+        "arxiv": [
+          "1612.04527"
+        ]
+      },
+      "title": "Operators up to Dimension Seven in Standard Model Effective Field Theory Extended with Sterile Neutrinos",
+      "authors": "Yi Liao, Xiao-Dong Ma",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Wed, 14 Dec 2016 08:26:56 GMT",
+      "updateDate": "2017-07-19",
+      "discovery_route": "Cited corrected-basis antecedent in inspected 2407.16751; not one of the 23 search records."
+    }
+  ],
+  "passage_requests": [
+    {
+      "paperId": "arxiv:2105.09329",
+      "question": "Which previously published dimension seven sterile-neutrino operator bases have redundancy or missing operators and what is the corrected independent basis? Identify exact affected operators and use of equations of motion integration by parts and flavor relations.",
+      "requested_k": 4,
+      "passages_returned": 0,
+      "is_error": false
+    },
+    {
+      "paperId": "arxiv:2306.03008",
+      "question": "How do dimension six redundant Green basis operators combine with dimension five Weinberg insertions under field redefinitions to contribute at dimension seven? What basis reduction relations and lower-order insertions are required?",
+      "requested_k": 4,
+      "passages_returned": 4,
+      "is_error": false
+    },
+    {
+      "paperId": "arxiv:2407.16751",
+      "question": "What corrections or completion to one-loop νSMEFT renormalization group equations are obtained? What role do dimension five and dimension six operator insertions and redundancies field redefinitions play? What dimension is covered?",
+      "requested_k": 3,
+      "passages_returned": 3,
+      "is_error": false
+    },
+    {
+      "paperId": "arxiv:2504.00792",
+      "question": "Locate explicit field redefinitions equations 13 and 14, the sterile and lepton source terms, canonical normalization and statements on setting redundant operators to zero only after differentiating bare renormalization relations. How are lower-order dimension-five terms propagated under field redefinitions?",
+      "requested_k": 4,
+      "passages_returned": 4,
+      "is_error": false
+    }
+  ],
+  "primary_sources": [
+    {
+      "arxiv": "1612.04527",
+      "observed_version": "v1",
+      "observed_version_date": "2016-12-14",
+      "format": "PDF",
+      "requested_url": "https://arxiv.org/pdf/1612.04527",
+      "sections_checked": [
+        "Section 3, Eqs. (14), (17), (32)-(34)",
+        "Table 3 comparison of prior and corrected dimension-seven bases"
+      ],
+      "use": "Derivative placement and interacting-source retention; no coefficient imported.",
+      "bytes": 130434,
+      "sha256": "cad9ecc7634859bc79e4f730ea32bf095ca7940aeb05de770d29b7cd9200798e",
+      "local_sha256_verified": true
+    },
+    {
+      "arxiv": "2105.09329",
+      "observed_version": "v1",
+      "observed_version_date": "2021-05-19",
+      "format": "PDF",
+      "requested_url": "https://arxiv.org/pdf/2105.09329",
+      "sections_checked": [
+        "Sections 2-3: EoM/IBP, on-shell operator correspondence and flavor projection",
+        "Section 4.3: dimension-seven sterile inventory"
+      ],
+      "use": "Independent target inventory, not the current packet map.",
+      "version_cross_check": "The retrieved arXiv abstract page submission history lists only v1; index 2021-11-24 update is not treated as a version date.",
+      "bytes": 1586258,
+      "sha256": "b27d5d9d4cf1b3efc436c51e8a8f0663c6233af4cb8574eaba5239ad68c4de58",
+      "local_sha256_verified": true
+    },
+    {
+      "arxiv": "2306.03008",
+      "observed_version": "v2",
+      "observed_version_date": "2023-10-16",
+      "format": "HTML",
+      "requested_url": "https://arxiv.org/html/2306.03008",
+      "sections_checked": [
+        "Section 2: equations of motion including dimension-five terms",
+        "Section 2.2 and Table 3",
+        "Appendix A, especially Eqs. (41)-(42)",
+        "Conclusions on required lower-dimensional counterterms"
+      ],
+      "use": "Mixed-order field-change bookkeeping; SMEFT field content does not supply retained-sterile coefficients.",
+      "bytes": 1896610,
+      "sha256": "700b82b425899e5bd487096d6e73f316c724fa99d4e2985be72b3004640edc62",
+      "local_sha256_verified": true
+    },
+    {
+      "arxiv": "2407.16751",
+      "observed_version": "v2",
+      "observed_version_date": "2024-08-05",
+      "format": "HTML",
+      "requested_url": "https://arxiv.org/html/2407.16751",
+      "sections_checked": [
+        "Section 2 and Table 1",
+        "Section 3, Eqs. (5)-(7)",
+        "References 37-39 for corrected sterile-basis antecedents"
+      ],
+      "use": "Dimension-six retained-sterile comparison only; no matrix entry reproduced.",
+      "bytes": 776031,
+      "sha256": "5bf20f45297f1e1f798268455d8be87328609e176c0a176f6c9e7660b2a939b6",
+      "local_sha256_verified": true
+    },
+    {
+      "arxiv": "2504.00792",
+      "observed_version": "v2",
+      "observed_version_date": "2025-05-05",
+      "format": "HTML",
+      "requested_url": "https://arxiv.org/html/2504.00792v2",
+      "original_retrieval_utc": "2026-10-15T21:01:35.160444+00:00",
+      "reuse": "Saved earlier in the same session; no new primary HTTP request this round.",
+      "bytes": 1506975,
+      "sha256": "27a02c94440ffb3936bdadb89efd50185353b3b85d37e05d9ff26d70378a02d2",
+      "local_sha256_verified": true,
+      "sections_checked": [
+        "Section 3, Eqs. (13)-(15)",
+        "Section 6, Eq. (51) and subsequent derivative/projection discussion"
+      ],
+      "use": "Bare field substitutions and order of RG differentiation/projection. Covers through dimension five, not the selected dimension-seven coefficient."
+    }
+  ],
+  "http_request_receipts": [
+    {
+      "url": "https://arxiv.org/html/2105.09329",
+      "retrieved_utc": "2026-10-15T22:37:46.441325+00:00",
+      "tls_verification": "default enabled",
+      "proxy": "inherited managed session proxy",
+      "error_type": "HTTPError",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://arxiv.org/html/2306.03008",
+      "retrieved_utc": "2026-10-15T22:37:46.441864+00:00",
+      "tls_verification": "default enabled",
+      "proxy": "inherited managed session proxy",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2306.03008",
+      "bytes": 1896610,
+      "sha256": "700b82b425899e5bd487096d6e73f316c724fa99d4e2985be72b3004640edc62"
+    },
+    {
+      "url": "https://arxiv.org/html/2407.16751",
+      "retrieved_utc": "2026-10-15T22:37:46.442246+00:00",
+      "tls_verification": "default enabled",
+      "proxy": "inherited managed session proxy",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2407.16751",
+      "bytes": 776031,
+      "sha256": "5bf20f45297f1e1f798268455d8be87328609e176c0a176f6c9e7660b2a939b6"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2105.09329",
+      "retrieved_utc": "2026-10-15T22:38:01.303305+00:00",
+      "tls_verification": "default enabled",
+      "proxy": "inherited managed session proxy",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2105.09329",
+      "bytes": 1586258,
+      "sha256": "b27d5d9d4cf1b3efc436c51e8a8f0663c6233af4cb8574eaba5239ad68c4de58"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1612.04527",
+      "retrieved_utc": "2026-10-15T22:38:30.629116+00:00",
+      "tls_verification": "default enabled",
+      "proxy": "inherited managed session proxy",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1612.04527",
+      "bytes": 130434,
+      "sha256": "cad9ecc7634859bc79e4f730ea32bf095ca7940aeb05de770d29b7cd9200798e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.09329",
+      "retrieved_utc": "2026-10-15T22:38:30.629550+00:00",
+      "tls_verification": "default enabled",
+      "proxy": "inherited managed session proxy",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2105.09329",
+      "bytes": 42330,
+      "sha256": "20db14d3ac889fe17d81de2f896aba31b2256e9e53d31be4c6d60d97da31763c"
+    }
+  ],
+  "retrieval_limitations": [
+    "2105.09329 returned no indexed full-text passages; direct primary PDF was read.",
+    "2105.09329 HTML-body endpoint returned HTTP 404; PDF and abstract page succeeded.",
+    "Only cited sections were checked. No complete paper or supplement was exhaustively reviewed.",
+    "No Firecrawl scrape was attempted this round after prior account-credit failures.",
+    "External RGE/symbolic packages were not run; no selected coefficient was inferred from literature."
+  ],
+  "publication_note": "Full papers, verbatim abstract metadata, provider passage dumps and raw provider outputs remain in scratch storage and are not redistributed. Public abstract_sha256 values hash the exact UTF-8 abstract strings; abstract_characters counts Unicode characters. Query, record, rank, source identifier and date metadata remain public alongside our own screening summaries. Receipts identify exact bytes inspected, not independent validation of published formulas.",
+  "recommended_next_checks": [
+    "Map surviving interacting sources to one explicit corrected sterile basis with convention and flavor-order conversion.",
+    "Track EFT order and loop order independently when normalizing fields and changing lower-order operators.",
+    "Derive bare coefficient relations and counterterm expansion before RG projection.",
+    "Compare a flavor-invariant quantity after full basis and threshold conventions are fixed."
+  ]
+}
