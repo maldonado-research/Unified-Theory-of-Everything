@@ -8,7 +8,7 @@ It does not supply a complete dimension-seven anomalous-dimension matrix, a phys
 
 ## Computed object
 
-Let p enter on the sterile leg, with r, h and k leaving on the lepton, scalar and hypercharge legs; p=r+h+k. Retain the public positive-momentum seed convention, Minkowski metric (+---), signed scalar mass m_H² and a massless internal lepton. The separate charged-line residues are combined in the Ward normalization R=R_H-R_L, with the charge factor stripped. Full Feynman amplitude and counterterm signs require the separate coupling/vertex map; the formula below defines a reduced integral tensor.
+Let p enter on the sterile leg, with r, h and k leaving on the lepton, scalar and hypercharge legs; p=r+h+k. Retain the public positive-momentum seed convention, Minkowski metric (+---), signed scalar mass m_H² and a massless internal lepton. The separate charged-line residues are combined in the Ward normalization R=R_H-R_L, with the charge factor stripped. The formula below defines a reduced integral tensor. The [action/source continuation](operator_map/00_READ_FIRST.md) now fixes its full pole/counterterm sign in a literal action, correcting the earlier unconjugated internal charge labels.
 
 Let T(p,h) denote the previously computed bubble polynomial with lepton momentum p-h. Then k_nu R^nu=T(p,h+k)-T(p,h). Gauging the existing local representative gives, in this same normalization,
 
@@ -32,9 +32,9 @@ This can be nonzero. Agreement with the Ward identity therefore does not imply t
 
 Read [GAUGE_LEG_DERIVATION.md](GAUGE_LEG_DERIVATION.md) and the separately authored [INDEPENDENT_GAUGE_AUDIT.md](INDEPENDENT_GAUGE_AUDIT.md) for routing, pole reduction and exact controls. Validation compares parameter/denominator reduction with a separately derived large-momentum angular expansion. Deliberately altered coefficients, omitted attachments and omitted transverse terms must fail their stated checks. These are internal AI-assisted mathematical checks; no independent human peer review or empirical validation is claimed.
 
-The source audit identifies the primary papers and makes the fresh-access limitation explicit. No private raw research files, personal documents, historical transcripts or downloaded paper full texts are published here. Earlier source-calibration rounds are not relabeled as new results.
+The source audit identifies the primary papers and records its bounded successful search coverage. No private raw research files, personal documents, historical transcripts or downloaded paper full texts are published here. Earlier source-calibration rounds are not relabeled as new results.
 
-Next: map the transverse tensors into a declared independent retained-sterile Green basis, retain their sourced EOM descendants, determine all other counterterms at the chosen accuracy, and match the complete invariant combination with finite thresholds. Broader coupling sectors and a fresh literature comparison remain open. Author review and the remaining convention/basis work precede any decision to archive a new Zenodo version. The baseline DOI is unchanged.
+The [continuation](operator_map/00_READ_FIRST.md) maps the tensors into a declared five-direction off-shell space and derives their sourced descendants. The complete retained-sterile EFT basis, other coupling sectors, remaining counterterms and finite thresholds remain open. The source ledger records a bounded fresh literature comparison. Author review and the remaining convention/basis work precede any decision to archive a new Zenodo version. The baseline DOI is unchanged.
 
 ## Reproduce
 

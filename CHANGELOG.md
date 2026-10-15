@@ -1,5 +1,15 @@
 # Change log
 
+## TOE-GitHub-2026.10.15-candidate.2 — action sign and sourced operator map
+
+- Fix a literal-action counterterm sign by following the charge-conjugated internal lepton; correct the earlier unconjugated physical charge labels while preserving every evaluated tensor.
+- Classify the five-dimensional off-shell transverse polynomial space under explicit locality, momentum-degree and chirality assumptions; map the loop to local gauge-invariant operators.
+- Derive two equivalent source packets, retaining the full hypercharge current, retained-mass dipole and sterile Yukawa contact. Distinguish the separate sterile-source cancellation from a generally nonzero active antisymmetric source.
+- Prove the active-source spectral kernel, rank and norm statements; add exact flavor and deliberate-error controls, plus an independently authored symbolic audit.
+- Check the retained-sterile operator family and source equations against three versioned primary texts. Preserve historical receipts; append a separate full replay.
+
+These are restricted pole/action and source identities. Physical running, complete counterterms, finite thresholds, external novelty and observables remain open. No release or Zenodo deposit is made.
+
 ## TOE-GitHub-2026.10.15-candidate — one hypercharge leg
 
 - Compute the two internal hypercharge attachments of the declared derivative seed at exactly one seed, one conjugate sterile Yukawa and first hypercharge order.

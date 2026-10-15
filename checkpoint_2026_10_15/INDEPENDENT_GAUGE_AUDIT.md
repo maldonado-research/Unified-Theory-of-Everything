@@ -1,5 +1,7 @@
 # Independent audit of the one-hypercharge-leg reduced UV tensor
 
+> Continuation: [ACTION_SIGN.md](operator_map/ACTION_SIGN.md) resolves the physical charge and counterterm map. The displayed channel propagates `L^c` and `tilde H`, with charges `-y_L` and `y_L`; the physical pole is `-i g' y_L F(R_H-R_L)/(16 pi² epsilon)`. Earlier `Q_L/Q_H` or `y_L/y_H` weighting below is only the algebraic opposite-charge normalization, and must not be read as the physical charges of the conjugated internal fields. The evaluated reduced polynomials are unchanged.
+
 15 October 2026. This is a separately authored AI-assisted derivation, not external human peer review. The calculation below was performed by homogeneous large-loop-momentum expansion independently of the producer's parameter/denominator reduction. It accepts the declared two ordered integrals as its starting point and establishes their reduced UV residue. It does not establish a physical anomalous dimension, a complete operator basis, or an unqualified action-level sign.
 
 ## Verdict and conventions

@@ -3,7 +3,7 @@
 [Readable project overview](https://maldonado-research.github.io/projects/unified-theory-of-everything/) · [All research projects](https://maldonado-research.github.io/)
 
 
-**Ricardo Maldonado · hypothesis and reproducible research · gauge-leg candidate 15 October 2026**
+**Ricardo Maldonado · hypothesis and reproducible research · action/source candidate 15 October 2026**
 
 Could the universe's many rules come from something deeper? This project explores that question through specific calculations we can inspect and reproduce. The current work concerns selected neutrino kernels, a corrected quantum-loop argument, a conditional scalar continuum and a changing-mass toy model.
 
@@ -17,6 +17,7 @@ The program remains unfinished. This repository makes its limited results, corre
 - [6 September checkpoint, public adaptation](checkpoint_2026_09_06/00_READ_FIRST.md): the later seed-loop result and supporting diagnostics.
 - [1 October operator audit](checkpoint_2026_10_01/00_READ_FIRST.md): a local seed-operator representative, sourced interaction contacts and separate exact checks.
 - [15 October gauge-leg candidate](checkpoint_2026_10_15/00_READ_FIRST.md): two internal hypercharge attachments and their explicitly computed transverse UV residue.
+- [Action and source continuation](checkpoint_2026_10_15/operator_map/00_READ_FIRST.md): physical charge-conjugation signs, local operators, sourced currents and an exact flavor-contact criterion.
 - [Verification guide](docs/VERIFICATION.md): dependencies, quick checks, full replay and their limits.
 - [Next calculations](docs/ROADMAP.md): a concrete path toward a more complete physical test.
 
@@ -45,7 +46,7 @@ python verify.py
 python verify.py --full
 ```
 
-The quick command verifies the public payload and runs tree/conditional, routed-seed, weak-pulse, scalar, operator/contact and independently authored gauge-leg controls (twelve stages). The full command adds the six-case pulse benchmark and the separate rotated-basis Radau comparison (fourteen stages). The runner works on a temporary copy and leaves the shipped files intact. Do not add `-O` to checkpoint replay commands: the numerical review uses scientific assertions, and the publication copy rejects optimization explicitly.
+The quick command verifies the public payload and runs tree/conditional, routed-seed, weak-pulse, scalar, operator/contact and independently authored gauge-leg/action/source controls (fifteen stages). The full command adds the six-case pulse benchmark and the separate rotated-basis Radau comparison (seventeen stages). The runner works on a temporary copy and leaves the shipped files intact. Do not add `-O` to checkpoint replay commands: the numerical review uses scientific assertions, and the publication copy rejects optimization explicitly.
 
 Checks support reproducibility of the declared formulas and toy models. They are not experimental validation, a proof of the parent scalar assumptions or independent human peer review. [The earlier publication receipt](verification/PUBLICATION_REPLAY.json) retains the September replay; [the operator-edition receipt](verification/OPERATOR_REPLAY_LINUX.json) retains the October 1 full replay. The gauge-leg checkpoint records its own validation separately.
 
