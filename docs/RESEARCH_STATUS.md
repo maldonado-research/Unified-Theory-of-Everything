@@ -1,6 +1,6 @@
 # Research status for the GitHub edition
 
-The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition added a bounded local operator and sourced-contact audit. The October 15 candidate now includes restricted one- and two-hypercharge-leg loop calculations and their literal action/source map; the older scientific inputs remain unchanged.
+The September 30 edition preserved the published September 4 baseline and September 6 checkpoint. The October 1 edition added a bounded local operator and sourced-contact audit. The October 15 candidate now includes restricted one-/two-hypercharge-leg and one-weak-leg loop calculations, their literal action map and a combined hypercharge reduction retaining its sources; the older scientific inputs remain unchanged.
 
 ## Preserved results
 
@@ -23,7 +23,19 @@ The [action/source continuation](../checkpoint_2026_10_15/operator_map/00_READ_F
 
 The [two-B continuation](../checkpoint_2026_10_15/two_gauge_leg/00_READ_FIRST.md) evaluates seven actual loop diagrams at one seed insertion, one conjugate sterile Yukawa and second hypercharge order: two fermion orderings, two scalar orderings, two mixed assignments and one scalar seagull. Their sum agrees with the two-B kernel previously predicted by the literal counterterm action, including its full sign. The residue is mass independent by ultraviolet degree counting. A Feynman-parameter calculation, a separate homogeneous angular calculation and an independent vertex/Ward audit provide distinct checks; the angular calculation also tests every coefficient of the restricted local polynomial. These calculations use generic off-shell kinematics and retain the full ordered Clifford expression.
 
-The [locality argument](../checkpoint_2026_10_15/two_gauge_leg/SOURCE_METHOD.md) shows that the lower-point Ward identities uniquely fix this two-B polynomial under the stated degree bound and generic off-shell assumptions. It does not classify an unrestricted operator basis. The corresponding three-B statement is a conditional Ward prediction of a vanishing local pole; no three-B loop integration is reported. The next physical task is action-consistent sourced EOM matching in a complete retained-sterile basis, with the remaining coupling sectors and correlated counterterms needed for a physical RGE. Finite thresholds and an observable remain open.
+The [locality argument](../checkpoint_2026_10_15/two_gauge_leg/SOURCE_METHOD.md) shows that the lower-point Ward identities uniquely fix this two-B polynomial under the stated degree bound and generic off-shell assumptions. It does not classify an unrestricted operator basis. The corresponding three-B statement is a conditional Ward prediction of a vanishing local pole; no three-B loop integration is reported.
+
+## Electroweak and selected-source continuation
+
+The [one-W calculation](../checkpoint_2026_10_15/electroweak_source/ONE_W_DERIVATION.md) evaluates the first weak-gauge order of the same declared seed/Yukawa sector. Its pole is `-i g F T^I R/(16 pi^2 epsilon)`, with the same reduced tensor `R=G_J+D` as the hypercharge calculation and the weak generator `T^I=tau^I/2`. The direct weak contraction vanishes by the generator trace; the corresponding abelian direct residues cancel in the sum. The epsilon tensor and generator transpose, especially for `T^2`, are essential to this comparison. Independent group, tensor and deliberate-error controls accompany the result. Neither two-W nor mixed-BW loops have been integrated in this continuation.
+
+For a constant neutral Higgs background `phi=(v/sqrt(2),0)^T`, the combined one-B/one-W local UV vertex couples through `Q=y_L I+T^3=diag(0,-1)`. Its selected neutral-photon vertex therefore vanishes, while Z and charged channels can remain nonzero. This is a statement about this restricted ultraviolet pole and its cancelling local counterterm. It does not calculate the finite full photon amplitude or imply an all-orders absence of a dipole.
+
+The [combined hypercharge-packet reduction](../checkpoint_2026_10_15/electroweak_source/SELECTED_PACKET_REDUCTION.md) combines the previously evaluated `O_J+O_D` action terms before applying sourced equations. In its explicitly declared representative, the retained-mass/source sigma channel has coefficient `g_y(1/6-1/4)=-g_y/12`, where `g_y=g' y_L`; reducing the isolated transverse term would instead display `-g_y/4`. All remaining source derivatives, scalar and gauge-current descendants are retained, and an exact off-shell residual certificate records the equation terms discarded by the reduction. A different correlated representative can move the explicit dipole coefficient. This is a new reduction of existing loop inputs, not a new loop integration or a basis-independent physical dipole prediction.
+
+The [new primary-source check](../checkpoint_2026_10_15/electroweak_source/ELECTROWEAK_SOURCE_CHECK.md) fixes Pauli/generator and weak-current normalizations and records four fresh bounded 2025–2026 queries: 52 entries, 46 distinct records screened. Di Zhang's `2504.00792v2` supplies an explicit retained-sterile field-redefinition benchmark and flavor warning, with dimension-five scope. Recent dipole studies provide possible observable benchmarks after matching. They neither reproduce this dimension-seven coefficient nor establish its novelty.
+
+The next physical task is a fully indexed action-level field redefinition, including canonical normalization, in a complete retained-sterile basis and subtraction prescription. Remaining coupling sectors, correlated field/parameter/contact counterterms, finite thresholds and an observable remain open.
 
 ## Withdrawn or unestablished claims
 

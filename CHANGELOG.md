@@ -1,5 +1,17 @@
 # Change log
 
+## TOE-GitHub-2026.10.15-candidate.4 — one-W matching and combined sourced packet
+
+- Calculate the one-W UV pole in the declared derivative-seed/conjugate-Yukawa sector. Recover the same reduced tensor as the one-B result with the weak generator `T^I=tau^I/2`; retain the epsilon/generator transpose and direct-trace controls.
+- Verify the selected neutral-photon local-pole cancellation on a constant neutral Higgs background while retaining potentially nonzero Z and charged channels. This does not compute the finite full photon amplitude or an all-orders dipole prediction; two-W and mixed-BW loops remain unevaluated.
+- Reduce the sum `O_J+O_D` with the declared sources retained. Record its explicit mass/source sigma coefficient `g_y(1/6-1/4)=-g_y/12`, remaining source derivatives and current contacts, and an exact off-shell EOM-residual certificate. This uses existing loop inputs and does not define a basis-independent physical dipole coefficient.
+- Promote the existing SymPy/mpmath pins into the root requirements for the new source-packet stage; the prepared environment already contains these versions.
+- Add separate weak-group/tensor checks and an independent analytic packet audit, with deliberate-error controls. Add three verification stages, bringing the runner to twenty-one quick and twenty-three full stages; record the full pass in `verification/ELECTROWEAK_SOURCE_REPLAY_LINUX.json` and preserve earlier receipts and scientific baselines.
+- Check primary weak-generator/current conventions and the retained-sterile field-redefinition/flavor benchmark in `2504.00792v2`. Record four new bounded 2025–2026 searches screening 52 entries, 46 distinct records, with versioned retrieval metadata and recent observable leads.
+- Make fully indexed action-level field redefinitions, canonical normalization, a complete retained-sterile basis and correlated counterterms the next calculation priority.
+
+The new loop result and selected reduction do not establish complete physical running, finite matching, an observable, unification or external novelty. No release, Zenodo deposit or new DOI is made.
+
 ## TOE-GitHub-2026.10.15-candidate.3 — explicit two-hypercharge-leg matching
 
 - Evaluate seven one-loop diagrams at one derivative-seed insertion, one conjugate sterile Yukawa and second hypercharge order: two fermion orderings, two scalar orderings, two mixed assignments and one scalar seagull.

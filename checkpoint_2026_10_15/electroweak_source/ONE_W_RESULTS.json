@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "checks": 695,
+  "breakdown": {
+    "clifford": 16,
+    "weak_normalization": 12,
+    "epsilon_intertwiner": 3,
+    "literal_weak_contractions": 12,
+    "epsilon_contractions": 12,
+    "trace_and_crossed_weights": 8,
+    "mutation_rejections": 75,
+    "action_phases": 2,
+    "flavor_order": 1,
+    "crossed_triangle_integrations": 48,
+    "direct_triangle_integrations": 48,
+    "local_decomposition": 24,
+    "hypercharge_direct_cancellation": 24,
+    "full_open_weak_pole": 288,
+    "ward_identity": 24,
+    "transversality": 24,
+    "mass_independent_transverse_part": 24,
+    "neutral_photon_projection": 24,
+    "neutral_z_projection": 24,
+    "electromagnetic_charge_matrix": 1,
+    "nonzero_direct_photon_trace": 1
+  },
+  "scope": "selected simple UV residue; no finite-amplitude claim"
+}

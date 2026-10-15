@@ -69,6 +69,9 @@ def main():
             ('seven two-hypercharge-leg simplex residues',Path('checkpoint_2026_10_15/two_gauge_leg/verify_two_b.py'),[]),
             ('independent two-hypercharge-leg angular residues',Path('checkpoint_2026_10_15/two_gauge_leg/verify_two_b_angular.py'),[]),
             ('unintegrated two-hypercharge-leg vertices and Ward identity',Path('checkpoint_2026_10_15/two_gauge_leg/verify_two_b_vertices.py'),[]),
+            ('one-weak-field index contractions and triangle residues',Path('checkpoint_2026_10_15/electroweak_source/verify_one_w.py'),[]),
+            ('independent weak-field angular coefficients and photon projection',Path('checkpoint_2026_10_15/electroweak_source/verify_su2_independent.py'),[]),
+            ('combined hypercharge source packet and equation residuals',Path('checkpoint_2026_10_15/electroweak_source/verify_selected_packet.py'),[]),
         ]
         if args.full:
             stages.extend([
@@ -86,8 +89,8 @@ def main():
             if run.returncode:
                 print(run.stderr,file=sys.stderr)
                 raise SystemExit(run.returncode)
-        import numpy
-        environment={'python':platform.python_version(),'numpy':numpy.__version__,'platform':platform.system()+' '+platform.machine()}
+        import numpy, sympy, mpmath
+        environment={'python':platform.python_version(),'numpy':numpy.__version__,'sympy':sympy.__version__,'mpmath':mpmath.__version__,'platform':platform.system()+' '+platform.machine()}
         if args.full:
             import scipy
             environment['scipy']=scipy.__version__
@@ -96,7 +99,7 @@ def main():
             for key,rel in [('benchmark','fermion_portal/BENCHMARK_RESULTS.json'),('separate_review','fermion_portal/INDEPENDENT_REVIEW_RESULTS.json')]:
                 numerical[key]=json.loads((work/cp/rel).read_text())
         release=json.loads((ROOT/'PUBLIC_MANIFEST.json').read_text())['release']
-        report={'release':release,'status':'PASS','utc_completed':datetime.now(timezone.utc).isoformat(),'mode':'full' if args.full else 'quick','environment':environment,'payload_files_verified':count,'stages':results,'scientific_scope':'Declared tree/conditional algebra, one seed polynomial, local operator representative, sourced-contact and field-redefinition identities, one-hypercharge-leg transverse UV residue, literal action signs, restricted transverse tensor space and sourced flavor/current identities, seven-diagram two-hypercharge-leg UV pole matched to that action, unintegrated Ward controls, inherited scalar comparisons, prescribed-background dynamics. No three-gauge-leg integration, complete physical matching, independent human peer review or empirical validation.','publication_replay_assertions_active':True,'temporary_copy_used':True,'numerical_results':numerical}
+        report={'release':release,'status':'PASS','utc_completed':datetime.now(timezone.utc).isoformat(),'mode':'full' if args.full else 'quick','environment':environment,'payload_files_verified':count,'stages':results,'scientific_scope':'Declared tree/conditional algebra, one seed polynomial, local operator representative, sourced-contact and field-redefinition identities, one-hypercharge-leg transverse UV residue, literal action signs, restricted transverse tensor space and sourced flavor/current identities, seven-diagram two-hypercharge-leg UV pole matched to that action, unintegrated Ward controls, one-W weak-index and triangle matching, restricted neutral-photon pole cancellation, combined hypercharge source packet with off-shell equation-residual certificate, inherited scalar comparisons, prescribed-background dynamics. No three-gauge-leg, two-W or mixed BW integration, finite-photon prediction, complete physical matching, independent human peer review or empirical validation.','publication_replay_assertions_active':True,'temporary_copy_used':True,'numerical_results':numerical}
         if args.output:
             args.output.parent.mkdir(parents=True,exist_ok=True)
             args.output.write_text(json.dumps(report,indent=2)+'\n')

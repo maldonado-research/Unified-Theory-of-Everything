@@ -29,7 +29,11 @@ dual includes the conventional factor 1/2. Eq. (17) has **no explicit i and no
 gauge coupling** multiplying the operators. The displayed definitions also have
 no factor 1/2 for the mixed N-L bilinear. Do not carry the seed's symmetric
 identical-flavor normalization onto these mixed bilinears without deriving the
-translation. The matrices tau^I are Pauli matrices in the source's W operators.
+translation. We use Pauli matrices tau^I and generators T^I=tau^I/2 in the
+project's explicit dictionary. The source does not spell out that
+normalization equation in its body; the direct Warsaw convention check
+and coefficient translation are recorded in the subsequent
+[electroweak source audit](../electroweak_source/ELECTROWEAK_SOURCE_CHECK.md).
 The four operators are non-Hermitian; the conjugate channel must be retained
 when constructing a real action. Source Section 3 states that its dimension-seven
 operators carry two units of lepton number under its field conventions.

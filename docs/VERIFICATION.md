@@ -2,7 +2,7 @@
 
 ## Environment
 
-The publication checks use Python 3.12.14, NumPy 2.3.5 and SciPy 1.18.1. Install the root `requirements.txt` in a fresh virtual environment. The checkpoint's original dependency pins are retained as historical source metadata; they are not the environment used for this GitHub replay. Matplotlib is only needed to regenerate plots and is not required by the focused verification commands.
+The publication checks use Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1, SymPy 1.14.0 and mpmath 1.3.0. Install the root `requirements.txt` in a fresh virtual environment. The checkpoint's original dependency pins are retained as historical source metadata; they are not the environment used for this GitHub replay. Matplotlib is only needed to regenerate plots and is not required by the focused verification commands.
 
 ## Commands
 
@@ -29,19 +29,22 @@ The runner verifies the repository payload manifest, copies the scientific packa
 14. Seven two-hypercharge-leg diagrams from exact Feynman-simplex moments: 2232 checks, including every local polynomial coefficient and 60 mutation rejections.
 15. Independently authored angular extraction of those seven diagrams: 2483 checks, both Ward descents, Bose symmetry and six mutation classes.
 16. Exact unintegrated two-B vertices, charge-conjugated chains, phases and Ward shift identities: 338 positive checks and eight mutation classes at 24 rational points.
+17. One-W weak-index contractions and actual crossed-triangle integrations: 695 checks at 24 generic rational points.
+18. Independent one-W angular integration and exhaustive local-polynomial coefficient controls: 1461 checks, including neutral-photon, Z and charged projections.
+19. Combined hypercharge source packet: 142 exact identities, including eight full off-shell residual trials with independent sources, and 20 rejected mutations. This stage requires SymPy.
 
 The full mode adds:
 
-17. Six pulse cases with midpoint refinement and DOP853 comparison.
-18. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
+20. Six pulse cases with midpoint refinement and DOP853 comparison.
+21. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
 
 The baseline input-manifest check is an additional stage. The wrapper reports each stage and exits nonzero on any failure. Temporary outputs are not written over shipped receipts.
 
-Counting the root payload check gives eighteen quick stages and twenty full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/` and `checkpoint_2026_10_15/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two new integrations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
+Counting the root payload check gives twenty-one quick stages and twenty-three full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/` and `checkpoint_2026_10_15/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
 
-An additional independent symbolic review is reproducible with `python -m pip install -r checkpoint_2026_10_01/requirements-review.txt` followed by `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the root runner's twenty full stages; the cloud setup includes its dependencies.
+An additional independent symbolic review is reproducible in the root pinned environment with `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the root runner's twenty-three full stages. The same SymPy/mpmath pins are now root requirements because the selected source-packet stage requires them; the historical review requirements file remains unchanged.
 
-The same pinned symbolic environment supports the optional general tensor-residue audit: `python -B checkpoint_2026_10_15/tensor_engine.py --self-test` (73 exact checks, including 18 independent angular-expansion comparisons and three wrong-formula controls). This reusable UV-pole helper does not calculate finite threshold terms or distinguish the full integral's infrared poles. It is separate from the root runner's twenty full stages.
+The same pinned symbolic environment supports the optional general tensor-residue audit: `python -B checkpoint_2026_10_15/tensor_engine.py --self-test` (73 exact checks, including 18 independent angular-expansion comparisons and three wrong-formula controls). This reusable UV-pole helper does not calculate finite threshold terms or distinguish the full integral's infrared poles. It is separate from the root runner's twenty-three full stages.
 
 ## Publication correction to replay behavior
 
@@ -55,8 +58,10 @@ A passing check supports the named algebra, numerical tolerances and toy dynamic
 
 The time-tail bound, numerical refinement and finite momentum interval address different omissions. They must not be merged into one universal accuracy certificate. Results can vary slightly across compatible platforms; explicit scientific tolerances control acceptance.
 
-For a third derivation of the one-B pole, run `python -B checkpoint_2026_10_15/gauge_critic.py` in the pinned symbolic environment. It compares full shifted-numerator simplex integrals to the reduced residues, then checks source anchors, transverse terms, on-shell rows and deliberate omissions. Run without `-O`; the script rejects optimization because its scientific assertions must remain enabled. This symbolic check is optional and separate from the twenty-stage full root replay.
+For a third derivation of the one-B pole, run `python -B checkpoint_2026_10_15/gauge_critic.py` in the pinned symbolic environment. It compares full shifted-numerator simplex integrals to the reduced residues, then checks source anchors, transverse terms, on-shell rows and deliberate omissions. Run without `-O`; the script rejects optimization because its scientific assertions must remain enabled. This symbolic check is optional and separate from the twenty-three-stage full root replay.
 
 The action/source continuation adds an optional independent audit using the same pinned SymPy environment: `python -B checkpoint_2026_10_15/operator_map/verify_operator_critic.py`. Its 45 exact controls independently check the action charges, Fourier lift, dual sign, 19-column independence and Ward rank, total currents, and flavor spectral/null-block statements. The original hypercharge receipt remains unchanged; `verification/OPERATOR_MAP_REPLAY_LINUX.json` records the extended seventeen-stage replay.
 
 The two-B continuation is documented in `checkpoint_2026_10_15/two_gauge_leg/`. Its three standard-library scripts are included in both root modes and also run under `python3 -I -S -B -O`; they use explicit failures. The seven-diagram integration checks a previously predicted counterterm contact. The vertex audit instead checks the unintegrated Ward hierarchy including a loop-momentum shift; it is not a third integration. The new `verification/TWO_GAUGE_REPLAY_LINUX.json` records the twenty-stage replay. Earlier receipts retain their historical stage counts. The conditional three-B Ward consequence is not an integrated three-B result.
+
+The electroweak/source packet in `checkpoint_2026_10_15/electroweak_source/` adds two standard-library stages and one SymPy stage to both root modes. Its weak scripts also run with `python3 -I -S -B -O`; its source checker uses `python3 -I -B -O` in the pinned environment. The latter has explicit failures, not removable assertions. `verification/ELECTROWEAK_SOURCE_REPLAY_LINUX.json` records the extended full replay. The one-W pole is independently integrated; the combined source reduction instead certifies an EOM equivalence of previously matched operators. Neutral-photon cancellation concerns the selected simple pole after the constant neutral-Higgs projection, not a finite amplitude or a physical dipole beta function.
