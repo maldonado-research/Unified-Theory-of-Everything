@@ -1,0 +1,229 @@
+{
+  "status": "pass",
+  "python": "3.12.14",
+  "sympy": "1.14.0",
+  "method": "Independent common-auxiliary-mass large-q angular expansion and Gamma-function radial UV residues, cross-checked by numerator/tadpole identities; no Feynman parameters or repository inputs.",
+  "scope": "Pure-neutrino-Yukawa one-loop renormalizable two-point UV poles and cancelling action/parameter counterterms; no Yukawa-vertex, full beta function, seed-loop or observable claim.",
+  "computed_normalized_poles": {
+    "open_vector_moment": "1/2",
+    "closed_trace_before_fermion_minus": "-p_squared + 2*sterile_mass_squared",
+    "scalar_wave_after_fermion_minus": "1",
+    "scalar_mass_multiplier_after_fermion_minus": "-2",
+    "sterile_weak_multiplicity": "2"
+  },
+  "asymptotic_fermion_terms": [
+    {
+      "denominator_orders": [
+        0,
+        0
+      ],
+      "residue_before_d4": "0"
+    },
+    {
+      "denominator_orders": [
+        0,
+        1
+      ],
+      "residue_before_d4": "2/d"
+    },
+    {
+      "denominator_orders": [
+        0,
+        2
+      ],
+      "residue_before_d4": "0"
+    },
+    {
+      "denominator_orders": [
+        1,
+        0
+      ],
+      "residue_before_d4": "0"
+    },
+    {
+      "denominator_orders": [
+        1,
+        1
+      ],
+      "residue_before_d4": "0"
+    },
+    {
+      "denominator_orders": [
+        2,
+        0
+      ],
+      "residue_before_d4": "0"
+    }
+  ],
+  "asymptotic_scalar_terms": [
+    {
+      "denominator_orders": [
+        0,
+        0
+      ],
+      "residue_before_d4": "4*auxiliary_mass_squared"
+    },
+    {
+      "denominator_orders": [
+        0,
+        1
+      ],
+      "residue_before_d4": "2*(d*(-auxiliary_mass_squared - p_squared) - 2*p_squared)/d"
+    },
+    {
+      "denominator_orders": [
+        0,
+        2
+      ],
+      "residue_before_d4": "8*p_squared/d"
+    },
+    {
+      "denominator_orders": [
+        1,
+        0
+      ],
+      "residue_before_d4": "-2*auxiliary_mass_squared + 2*sterile_mass_squared"
+    },
+    {
+      "denominator_orders": [
+        1,
+        1
+      ],
+      "residue_before_d4": "0"
+    },
+    {
+      "denominator_orders": [
+        2,
+        0
+      ],
+      "residue_before_d4": "0"
+    }
+  ],
+  "exact_checks": 91,
+  "rejected_mutations": 13,
+  "mass_cases": [
+    {
+      "mass_case": 0,
+      "scalar_mass_trace": "(2 + I)*((2 - I)*((1 - I)*(1 + I) + (1 - 2*I)*(1 + 2*I) + 9) + (1 + 2*I)*(-2 + (1 - I)*(2 - I) - I)) + (4 + I)*((4 - I)*(5 + (2 - I)*(2 + I)) + (1 + 2*I)*(-2 + I + (1 + I)*(2 + I))) + (1 - 2*I)*((4 - I)*(-2 + (1 - I)*(2 - I) - I) + (1 + 2*I)*((1 - I)*(1 + I) + (1 - 2*I)*(1 + 2*I) + 9)) + (1 - 2*I)*((2 - I)*(-2 + I + (1 + I)*(2 + I)) + (1 + 2*I)*(5 + (2 - I)*(2 + I)))",
+      "mass_symmetric": true
+    },
+    {
+      "mass_case": 1,
+      "scalar_mass_trace": "(1 - I)*(1 + I) + (1 - 2*I)*(1 + 2*I) + (2 - I)*(2 + I) + 14 + I*(-2 + I + (1 + I)*(2 + I)) + I*(-2 - I*(5 + (2 - I)*(2 + I)) + I + (1 + I)*(2 + I)) - I*(-2 + (1 - I)*(2 - I) - I) + I*(2 - I*((1 - I)*(1 + I) + (1 - 2*I)*(1 + 2*I) + 9) + I - (1 - I)*(2 - I))",
+      "mass_symmetric": true
+    },
+    {
+      "mass_case": 2,
+      "scalar_mass_trace": "0",
+      "mass_symmetric": true
+    }
+  ],
+  "checks": [
+    "fermion regulator cancellation",
+    "scalar regulator cancellation",
+    "fermion internal-mass independence",
+    "open vector asymptotic versus numerator/tadpole identity",
+    "closed scalar asymptotic versus numerator/tadpole identity",
+    "IR regulator witness 1/3, mass 0",
+    "open IR regulator witness 1/3, mass 0",
+    "IR regulator witness 1/3, mass 2/5",
+    "open IR regulator witness 1/3, mass 2/5",
+    "IR regulator witness 1/3, mass 7",
+    "open IR regulator witness 1/3, mass 7",
+    "IR regulator witness 7/2, mass 0",
+    "open IR regulator witness 7/2, mass 0",
+    "IR regulator witness 7/2, mass 2/5",
+    "open IR regulator witness 7/2, mass 2/5",
+    "IR regulator witness 7/2, mass 7",
+    "open IR regulator witness 7/2, mass 7",
+    "IR regulator witness 11, mass 0",
+    "open IR regulator witness 11, mass 0",
+    "IR regulator witness 11, mass 2/5",
+    "open IR regulator witness 11, mass 2/5",
+    "IR regulator witness 11, mass 7",
+    "open IR regulator witness 11, mass 7",
+    "closed chiral trace coefficient 00",
+    "closed chiral trace coefficient 01",
+    "closed chiral trace coefficient 02",
+    "closed chiral trace coefficient 03",
+    "closed chiral trace coefficient 10",
+    "closed chiral trace coefficient 11",
+    "closed chiral trace coefficient 12",
+    "closed chiral trace coefficient 13",
+    "closed chiral trace coefficient 20",
+    "closed chiral trace coefficient 21",
+    "closed chiral trace coefficient 22",
+    "closed chiral trace coefficient 23",
+    "closed chiral trace coefficient 30",
+    "closed chiral trace coefficient 31",
+    "closed chiral trace coefficient 32",
+    "closed chiral trace coefficient 33",
+    "open mass numerator killed 0",
+    "closed linear mass trace killed 0",
+    "charge-conjugate gamma coefficient 0",
+    "open mass numerator killed 1",
+    "closed linear mass trace killed 1",
+    "charge-conjugate gamma coefficient 1",
+    "open mass numerator killed 2",
+    "closed linear mass trace killed 2",
+    "charge-conjugate gamma coefficient 2",
+    "open mass numerator killed 3",
+    "closed linear mass trace killed 3",
+    "charge-conjugate gamma coefficient 3",
+    "left chiral propagator mass term absent",
+    "fixed external lepton weak contraction",
+    "fixed external scalar weak contraction",
+    "sterile unitary",
+    "active unitary",
+    "Majorana conjugate channel and flavor transpose",
+    "Majorana half action equals left-Weyl wave counterterm",
+    "mass symmetry 0",
+    "right sterile propagator squared mass 0",
+    "no net Majorana chirality-flip action pole 0",
+    "Majorana parameter counterterm symmetric 0",
+    "scalar action kinetic pole cancels 0",
+    "scalar action mass pole cancels 0",
+    "bare scalar parameter plus field transport 0",
+    "active field-counterterm covariance 0",
+    "sterile left field-counterterm covariance 0",
+    "complex mass parameter congruence 0",
+    "scalar mass trace covariance 0",
+    "mass symmetry 1",
+    "right sterile propagator squared mass 1",
+    "no net Majorana chirality-flip action pole 1",
+    "Majorana parameter counterterm symmetric 1",
+    "scalar action kinetic pole cancels 1",
+    "scalar action mass pole cancels 1",
+    "bare scalar parameter plus field transport 1",
+    "active field-counterterm covariance 1",
+    "sterile left field-counterterm covariance 1",
+    "complex mass parameter congruence 1",
+    "scalar mass trace covariance 1",
+    "mass symmetry 2",
+    "right sterile propagator squared mass 2",
+    "no net Majorana chirality-flip action pole 2",
+    "Majorana parameter counterterm symmetric 2",
+    "scalar action kinetic pole cancels 2",
+    "scalar action mass pole cancels 2",
+    "bare scalar parameter plus field transport 2",
+    "active field-counterterm covariance 2",
+    "sterile left field-counterterm covariance 2",
+    "complex mass parameter congruence 2",
+    "scalar mass trace covariance 2"
+  ],
+  "mutations": [
+    "omit leading quadratic radial contribution",
+    "omit quadratic external-momentum denominator term",
+    "omit open numerator angular term",
+    "closed fermion loop minus omitted",
+    "sterile weak sum replaced by fixed component",
+    "Majorana channels incorrectly use same flavor matrix",
+    "Majorana half applied twice",
+    "wrong complex mass product in scalar pole",
+    "ordinary M squared substituted in scalar pole",
+    "omit mass parameter induced by field renormalization",
+    "scalar mass-action pole sign reversed",
+    "scalar action coefficient confused with bare parameter",
+    "weak multiplicity halved in sterile mass transport"
+  ]
+}

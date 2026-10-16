@@ -1,5 +1,13 @@
 # Change log
 
+## TOE-GitHub-2026.10.16-candidate.11 — one-loop Yukawa counterterm inputs
+
+Actually integrate the renormalizable pure-neutrino-Yukawa lepton, retained-Majorana and Higgs two-point UV poles. Feynman-parameter and independently authored asymptotic/radial routes agree on kinetic and retained-mass terms, with literal loop phases, weak sums, Majorana factors and UV/IR separation. The complex scalar mass trace uses the action-required `Tr(Y^dagger Y M^dagger M)` ordering.
+
+Exhaust the proper cubic Yukawa topology and chiral field flow. The pure-Yukawa proper vertex has no logarithmic UV pole; an allowed opposite-Majorana mass-insertion triangle is UV finite. Combine these results with bare-field expansion and canonical-epsilon differentiation to recover the established restricted renormalizable `beta_Y`, `beta_M` and `beta_mH2` benchmark. A direct varying-scalar seed substitution supplies its external-field parameter pole and RG contribution, with flavor transpose, scalar multiplicity and epsilon factors retained.
+
+Five standalone stages and four bounded literature searches screening twenty distinct records accompany the calculation. The full root runner extends to fifty-eight stages and preserves prior scientific files and receipts. These results do not supply proper dimension-seven vertex/mixing poles, a complete physical seed beta function, finite matching, an observable, external novelty or unification. The GitHub candidate stays in review; no merge, release or Zenodo version is made.
+
 ## TOE-GitHub-2026.10.16-candidate.10 — derivative placement and source projection
 
 Constructed the complete four-dimensional Lorentz/weak invariant space at the declared curvature-scalar derivative placement. The actual packet selects `(Fcal+i tilde Fcal)/2`. An independently checked boundary/source identity trades that placement for a row derivative while retaining both fermion sources and complete gauge currents. Applied to the displayed packet, the explicit curvature-source coefficient changes from `−1/12` to `+1/6`, and its current coefficient from `−1/6` to `+1/3`, with correlated terms retained. These are equivalent action coordinates, not different dipole predictions or proof of full EFT rank reduction.

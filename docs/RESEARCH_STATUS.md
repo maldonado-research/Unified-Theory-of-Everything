@@ -105,6 +105,16 @@ The [complex-mass extension](../checkpoint_2026_10_16/derivative_projection/COMP
 
 The [literature comparison](../checkpoint_2026_10_16/derivative_projection/LITERATURE_DERIVATIVE_PROJECTION.md) records four bounded searches screening 24 distinct papers and six checked primary bodies. A recent 2026 helicity/RG benchmark has applicability premises not supplied by this selected packet. No beta-function zero is imported. Complete derivative/EOM closure and total coefficients, other loop/counterterm sectors, lower-order insertions, quantum source/gauge-fixing and dimensional/evanescent prescriptions, finite matching and physical observables remain unfinished.
 
+## One-loop pure-neutrino-Yukawa inputs
+
+The [Yukawa-counterterm continuation](../checkpoint_2026_10_16/yukawa_counterterms/00_READ_FIRST.md) actually integrates the lepton, retained-Majorana and Higgs two-point poles in the unbroken pure-neutrino-Yukawa sector. Independent Feynman-parameter and common-auxiliary-mass angular/radial routes agree, including the closed-fermion sign, different weak multiplicities, Majorana normalization and nonzero Higgs mass pole. The direct sterile chirality-flipping mass pole vanishes; the Majorana mass parameter nevertheless runs through the field factors. For complex symmetric `M`, the scalar mass invariant is `Tr(Y^dagger Y M^dagger M)`.
+
+A separately audited enumeration of the proper cubic Yukawa topology finds no logarithmic vertex pole at pure order `Y^3`. The allowed opposite-Majorana orientation requires a mass insertion and is UV finite; no statement about its finite value follows. Bare-field expansion and canonical-epsilon differentiation recover the established one-loop pure-Yukawa contributions to `beta_Y`, `beta_M` and `beta_mH2` in fixed flavor coordinates and minimal subtraction. Gauge, other Yukawa, scalar quartic and higher-operator contributions remain outside this sector.
+
+Applying the calculated field poles to the literal symmetric derivative seed gives `delta C7|fields=kappa[(H_L C7+C7 H_L^T)/4+Tr(Y^dagger Y) C7]`. Its RG contribution has twice this residue after the correct bare-mu powers are differentiated. A varying-scalar Fourier/Grassmann substitution keeps all composite derivatives. This is an external-field input, not a total seed counterterm or physical anomalous dimension. Proper seed vertex and operator/source-mixing poles remain the next calculation. The earlier representative-dependent active projection is not identified with this field contribution or a physical coupling.
+
+Five explicit-guard stages and the focused primary-source assessment support these results; the full publication replay has fifty-eight stages. The renormalizable benchmark is known physics, and no new fundamental mathematics, external novelty, finite observable, empirical confirmation or unification is claimed. Earlier science and receipts remain unchanged; no new Zenodo version is made.
+
 ## Withdrawn or unestablished claims
 
 The old proposed physical dimension-seven loop coefficient, restricted EOM completion and all-odd physical extension are not established. Their retained cancellation formulas are conditional algebra. Algebraic cancellation with any common coefficient cannot determine the correct physical coefficient.
