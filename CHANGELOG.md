@@ -1,5 +1,15 @@
 # Change log
 
+## TOE-GitHub-2026.10.16-candidate.10 — derivative placement and source projection
+
+Constructed the complete four-dimensional Lorentz/weak invariant space at the declared curvature-scalar derivative placement. The actual packet selects `(Fcal+i tilde Fcal)/2`. An independently checked boundary/source identity trades that placement for a row derivative while retaining both fermion sources and complete gauge currents. Applied to the displayed packet, the explicit curvature-source coefficient changes from `−1/12` to `+1/6`, and its current coefficient from `−1/6` to `+1/3`, with correlated terms retained. These are equivalent action coordinates, not different dipole predictions or proof of full EFT rank reduction.
+
+Collected every zero-retained-sterile-field contribution of the declared neutrino-Yukawa/quartic sourced representative, including active neutral-Box, mass-squared, scalar, LNC derivative and full weak/flavor curvature sectors. Exact source substitution and an independent Fourier/Grassmann audit fix symmetry and normalization. The additional scalar-current EOM map does not commute with this field-content projection; its sterile Yukawa variation accounts for the difference. Standard Model spectator sources have an additional explicitly retained remainder. No retained sterile field is integrated out.
+
+Extended the selected chiral recurrences and integrated field-map rows to general constant complex symmetric Majorana mass, with ordered `M M^dagger` and `M M^dagger M`, and exact active/sterile flavor covariance including singular/zero masses. Five standalone stages and bounded literature/primary-source comparisons accompany this continuation.
+
+The derivative placement algebra and source projections are selected classical results. Complete derivative/EOM closure, total physical coefficients, other loops/counterterms and lower-order insertions, dimensional/evanescent prescriptions, quantum source transport, physical running and finite observables remain open. No new loop, fundamental mathematics, external novelty or empirical result is claimed; Zenodo remains unchanged.
+
 ## TOE-GitHub-2026.10.16-candidate.9 — selected action composition and scalar currents
 
 Explicitly related the source-reducing and local-normalizing field maps for every declared field. The lepton bridge simplifies to `F[i gamma(D phi)A_N N_L−phi P0 N_L]/3`; its scalar, gauge and Majorana companions must be retained. Direct substitution in the actual neutral kinetic, Yukawa, Majorana and scalar-potential action agrees with the sourced representative. An independent Grassmann calculation confirms the off-shell scalar-tadpole Hessian contribution and its cancellation by the bridge, including a stationary-background control and noncommuting flavor products.

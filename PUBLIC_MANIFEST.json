@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.10.16-candidate.9",
+  "release": "TOE-GitHub-2026.10.16-candidate.10",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -14,7 +14,8 @@
     "verification/NONABELIAN_GAUGE_REPLAY_LINUX.json",
     "verification/INTERACTING_REDUCTION_REPLAY_LINUX.json",
     "verification/OPERATOR_BASIS_REPLAY_LINUX.json",
-    "verification/ACTION_COMPLETION_REPLAY_LINUX.json"
+    "verification/ACTION_COMPLETION_REPLAY_LINUX.json",
+    "verification/DERIVATIVE_PROJECTION_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -24,13 +25,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 17121,
-      "sha256": "c80cdb7461c2feb161f7dff42991a7ac52289eb6981f0f0193743c3a7828fbf2"
+      "bytes": 19238,
+      "sha256": "0e7107b08ee05015c746854f4db71e5c845bf708bca7827f1e5597b0f34b64e9"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 750,
-      "sha256": "c9dbd315ca5ab456686aca84109dc1334595088c116b2328dbde755de8fc53c5"
+      "bytes": 751,
+      "sha256": "cf7de36938683f656a52bf254ecdef4f02a71a23911a16c7c99dcd9a28fc5ddd"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -44,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11782,
-      "sha256": "11396cd69efe365235e97d52a66614c132d5bd1a77a899dcab8bf289810db821"
+      "bytes": 12586,
+      "sha256": "70036f53717895423f96c65a581d8f9188dafadc317328bef72a77c011e5ee08"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -1063,6 +1064,96 @@
       "sha256": "df64a7be762a5d3df117ce69a938ef0a67c2b7acb0fbcf0761c117478021b1af"
     },
     {
+      "path": "checkpoint_2026_10_16/derivative_projection/00_READ_FIRST.md",
+      "bytes": 7021,
+      "sha256": "784f494af9f01d74bea9452ff2176442e2ae5abaf28f3c7dc66ca79e3b658eb9"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/ACTIVE_SOURCE_PROJECTION.md",
+      "bytes": 13775,
+      "sha256": "720742f527d61a90758b231d1ded78e4fb7dc1381a1f3bca7e877693c16f18f4"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/ACTIVE_SOURCE_PROJECTION_RESULTS.json",
+      "bytes": 6267,
+      "sha256": "fdf6cabee62a1deef435fbd0f140050e715b4782b98df8bb8e3a9a50b6030abe"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/COMPLEX_MASS_COVARIANCE.md",
+      "bytes": 6715,
+      "sha256": "2a72f2d6236701581131e24f7e8d875485adcb46ee06c14d61a9d0cbcaa4c47f"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/COMPLEX_MASS_RESULTS.json",
+      "bytes": 3107,
+      "sha256": "c7b18f22aa818c17d5a3171c9ba15ea24d561f50ddeca78aab0f88bd159ec368"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/CURVATURE_DERIVATIVE_BASIS.md",
+      "bytes": 15433,
+      "sha256": "e401f0fa6b77b40c5cab9a0c4eb77745aa958ae38c95d6e67a88b08d5d89b8d3"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/CURVATURE_DERIVATIVE_RESULTS.json",
+      "bytes": 4681,
+      "sha256": "27a1bb15954a7aeec51564199347ef936a87f1b09581c6690f016654563107d9"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/INDEPENDENT_ACTIVE_AUDIT.md",
+      "bytes": 11223,
+      "sha256": "7ad9594498ea895c8fcd0f0194f914017bac7447f20a35aed8cef37191f69cd2"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/INDEPENDENT_ACTIVE_RESULTS.json",
+      "bytes": 3802,
+      "sha256": "0d386cc76117a77a0ffea8bb3d736e716d94595f265cb47a4b79b7642342f796"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/INDEPENDENT_CURVATURE_AUDIT.md",
+      "bytes": 11603,
+      "sha256": "ed4b4bc9d9e771c08fb9c50d156776938f7ba07b360dd49af7b4d3edf6d6d97f"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/INDEPENDENT_CURVATURE_RESULTS.json",
+      "bytes": 3014,
+      "sha256": "4de51b9a1686e2607076138cf6e1b2997313857a8db45d154b26e2ecdc857ec1"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/LITERATURE_DERIVATIVE_PROJECTION.md",
+      "bytes": 10622,
+      "sha256": "8e846dedabacad4e28ec7aedf62ab9360fe7efde01b98aff90f6cabf684e0b33"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/LITERATURE_PROVENANCE.json",
+      "bytes": 41194,
+      "sha256": "1b20ec378092eeab474d4c3a9676f21e4082543e7673870a90b87cc4b6addbcc"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/independent_active_audit.py",
+      "bytes": 12662,
+      "sha256": "c0c62277d097aef188126acde74c2d843a03880294a58c5c7b53d1fd1ecd04ef"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/independent_curvature_audit.py",
+      "bytes": 25018,
+      "sha256": "01498db3a220a02e425f334e8fb9a7ba02006d83d20b06b676ddc1fb1c19253a"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/verify_active_source_projection.py",
+      "bytes": 26673,
+      "sha256": "f27402723da1642ed3c87a12a6c7319d577ddd3485bc9c761ea216b9b85b1b7d"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/verify_complex_mass_covariance.py",
+      "bytes": 7811,
+      "sha256": "031cad26b4c32b608236c9f313dae77ec292d651d7d73129e22d49ff1b83ac67"
+    },
+    {
+      "path": "checkpoint_2026_10_16/derivative_projection/verify_curvature_derivative.py",
+      "bytes": 23507,
+      "sha256": "6732eb1aac40d48d374d60de2a150dd6ab510115de77abe9427b71325afc426e"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -1074,18 +1165,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 23075,
-      "sha256": "ae16d4b3096b94922e7c60c6e71bdc78101fb6b14f29883f595e993ec0d0402b"
+      "bytes": 26913,
+      "sha256": "7d1b092e14e2ce9959e5b11168a829d09e3684fb4acac5ad781cceb00264cbcf"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 7364,
-      "sha256": "56cb09bb65f2f18dc5e2b9242e31371c87985efbdfc08f4a732278ac8bb5dfce"
+      "bytes": 8196,
+      "sha256": "6ae95cf69d1de2e33f8c8bfa716e81d8af5fd9c943617481ffbb2c2f6cc52cee"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 17982,
-      "sha256": "9c9eceeec3b384aaec05c7d75cfd6263be8f7e7472e60d90733f760516475247"
+      "bytes": 20107,
+      "sha256": "3e70ac1c57ae89a0f1fc36534385ba3cad896a4de48724c50c5eaebf0b49635c"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -1104,8 +1195,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 13745,
-      "sha256": "f6f692de2fd550f6c22ff1d96e8feb94882f76e42aa9ab3293d9fa4df54746d8"
+      "bytes": 14864,
+      "sha256": "f241a37b61bbf1d0d5d7ff2e9f31de02d50f9b508705a518875b945fc05be27e"
     }
   ]
 }
