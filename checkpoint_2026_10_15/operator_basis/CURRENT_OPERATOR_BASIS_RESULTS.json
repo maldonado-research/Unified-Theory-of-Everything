@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact Gaussian rational; standard library only",
+  "scope": "algebraic four-dimensional nonderivative four-fermion+phi sectors of the selected current representative",
+  "positive_checks": 427,
+  "positive_checks_by_category": {
+    "invariant_dimensions": 4,
+    "full_component_invariance": 288,
+    "weak_completeness": 16,
+    "identical_LL_exterior_fierz": 44,
+    "identical_LL_rank": 6,
+    "distinct_Q_rank": 2,
+    "right_current_exterior_fierz": 48,
+    "right_current_rank": 3,
+    "representative_coefficient_map": 15,
+    "one_flavor_L_limit": 1
+  },
+  "negative_checks": 112,
+  "mutation_rejections": {
+    "wrong_identical_LL_Fierz_sign": 44,
+    "wrong_right_current_scalar_sign": 48,
+    "Pauli_instead_of_T_L": 2,
+    "wrong_L_exchange_coefficient_sign": 2,
+    "spurious_L_barred_flavor_symmetry": 2,
+    "wrong_hypercharge_sign_L": 2,
+    "Pauli_instead_of_T_Q": 2,
+    "wrong_hypercharge_sign_Q": 2,
+    "wrong_hypercharge_sign_u": 2,
+    "wrong_hypercharge_sign_d": 2,
+    "wrong_hypercharge_sign_e": 2,
+    "one_flavor_L_incorrectly_zero": 1,
+    "O0_incorrectly_symmetric_in_barred_flavors": 1
+  },
+  "total_checks": 539,
+  "component_ranks": [
+    {
+      "species": "L",
+      "n_L": 1,
+      "n_N": 1,
+      "columns": 1,
+      "rank": 1,
+      "rank_with_exchange": 1
+    },
+    {
+      "species": "L",
+      "n_L": 2,
+      "n_N": 2,
+      "columns": 16,
+      "rank": 16,
+      "rank_with_exchange": 16
+    },
+    {
+      "species": "L",
+      "n_L": 3,
+      "n_N": 1,
+      "columns": 27,
+      "rank": 27,
+      "rank_with_exchange": 27
+    },
+    {
+      "species": "Q",
+      "n_L": 1,
+      "n_f": 1,
+      "n_N": 1,
+      "columns": 2,
+      "rank": 2
+    },
+    {
+      "species": "Q",
+      "n_L": 2,
+      "n_f": 2,
+      "n_N": 2,
+      "columns": 32,
+      "rank": 32
+    },
+    {
+      "species": "u",
+      "n_L": 2,
+      "n_f": 2,
+      "n_N": 2,
+      "columns": 16,
+      "rank": 16
+    },
+    {
+      "species": "d",
+      "n_L": 2,
+      "n_f": 2,
+      "n_N": 2,
+      "columns": 16,
+      "rank": 16
+    },
+    {
+      "species": "e",
+      "n_L": 2,
+      "n_f": 2,
+      "n_N": 2,
+      "columns": 16,
+      "rank": 16
+    }
+  ],
+  "invariant_dimensions": {
+    "weak_doublet": 2,
+    "LL_Lorentz": 1,
+    "LR_Lorentz": 1
+  },
+  "L_basis_dimension": "n_L^3 n_N",
+  "Q_basis_dimension": "2 n_L n_Q^2 n_N",
+  "singlet_basis_dimension_each": "n_L n_f^2 n_N",
+  "L_exchange_identity": "Oex(alpha,beta,gamma,i)=O0(beta,alpha,gamma,i)",
+  "L_coefficient": "[(g^2-gprime^2) F_alpha,i delta_beta,gamma /24 - g^2 F_beta,i delta_alpha,gamma /12]",
+  "one_flavor_L_coefficient": "-(g^2+gprime^2)F/24",
+  "Q_coefficients": {
+    "O0": "(3g^2+gprime^2) F delta /72",
+    "Oex": "-g^2 F delta /12"
+  },
+  "right_current_vector_coefficients": {
+    "u": "gprime^2 F delta /18",
+    "d": "-gprime^2 F delta /36",
+    "e": "-gprime^2 F delta /12"
+  },
+  "right_scalar_fierz_factor": -2,
+  "limitations": [
+    "selected source representative only",
+    "no derivative/EOM or other-operator quotient",
+    "strictly four-dimensional Lorentz and Fierz algebra",
+    "no finite evanescent prescription",
+    "no new loops, beta function, observable, or novelty claim"
+  ]
+}

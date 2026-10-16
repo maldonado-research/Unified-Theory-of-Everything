@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "Cite this GitHub edition by its release tag or commit. The earlier Zenodo DOI identifies only the unchanged N00AK-r1 baseline."
+message: "Cite this provisional GitHub candidate by its exact commit. The earlier Zenodo DOI identifies only the unchanged N00AK-r1 baseline."
 type: software
 title: "Unified Theory of Everything Research Program: GitHub Research and Reproducibility Edition"
 authors:
   - family-names: Maldonado
     given-names: Ricardo
     orcid: "https://orcid.org/0009-0009-3937-6527"
-version: "TOE-GitHub-2026.10.01"
-date-released: "2026-10-01"
+version: "TOE-GitHub-2026.10.16-candidate.11"
+date-released: "2026-10-16"
 url: "https://github.com/maldonado-research/Unified-Theory-of-Everything"
 repository-code: "https://github.com/maldonado-research/Unified-Theory-of-Everything"
 license: CC-BY-4.0

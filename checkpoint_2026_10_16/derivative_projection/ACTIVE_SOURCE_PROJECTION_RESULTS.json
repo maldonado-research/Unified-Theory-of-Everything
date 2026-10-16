@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "positive_checks": 48,
+  "checks_by_category": {
+    "literal_full_source_projection": 2,
+    "vanishing_source_classes": 14,
+    "scalar_flavor_statistics": 10,
+    "LNC_hermitian_transport": 2,
+    "original_coordinate_source_variation": 2,
+    "literal_action_normalization": 2,
+    "scalar_map_projection_noncommutation": 4,
+    "SM_spectator_remainder": 3,
+    "component_operator_ranks": 9
+  },
+  "negative_checks": 19,
+  "mutation_rejections": {
+    "spurious_extra_seed_half": 2,
+    "delete_retained_mass_source": 2,
+    "discard_active_projection_as_no_sterile_external_field": 2,
+    "derivative_only_on_lepton_not_phi": 2,
+    "omit_LNC_hermitian_conjugate": 2,
+    "scalar_subpacket_accidentally_zero_before_projection": 2,
+    "projection_commutes_with_scalar_field_map": 2,
+    "wrong_scalar_map_active_sign": 2,
+    "delete_all_SM_sources_when_N_is_zero": 1,
+    "antisymmetric_instead_of_symmetric_Box": 1,
+    "weak_strength_reduced_by_flavor_symmetry_alone": 1
+  },
+  "total_checks": 67,
+  "term_N_degree_records": [
+    {
+      "active_flavors": 1,
+      "term": "U",
+      "retained_N_degrees": [
+        0,
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 1157
+    },
+    {
+      "active_flavors": 1,
+      "term": "cR",
+      "retained_N_degrees": [
+        0,
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 1216
+    },
+    {
+      "active_flavors": 1,
+      "term": "KbarS_R",
+      "retained_N_degrees": [
+        1,
+        2
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 1,
+      "term": "Sphi_R",
+      "retained_N_degrees": [
+        1,
+        2
+      ],
+      "fermion_degrees": [
+        4
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 1,
+      "term": "barS_T",
+      "retained_N_degrees": [
+        1,
+        2
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 1,
+      "term": "m2barS_N",
+      "retained_N_degrees": [
+        2
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 1,
+      "term": "Vh",
+      "retained_N_degrees": [
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 1,
+      "term": "Eh",
+      "retained_N_degrees": [
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 1,
+      "term": "currents",
+      "retained_N_degrees": [
+        1
+      ],
+      "fermion_degrees": [
+        2,
+        4
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 1,
+      "term": "strength_R",
+      "retained_N_degrees": [
+        0,
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 512
+    },
+    {
+      "active_flavors": 2,
+      "term": "U",
+      "retained_N_degrees": [
+        0,
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 5428
+    },
+    {
+      "active_flavors": 2,
+      "term": "cR",
+      "retained_N_degrees": [
+        0,
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 4864
+    },
+    {
+      "active_flavors": 2,
+      "term": "KbarS_R",
+      "retained_N_degrees": [
+        1,
+        2
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 2,
+      "term": "Sphi_R",
+      "retained_N_degrees": [
+        1,
+        2
+      ],
+      "fermion_degrees": [
+        4
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 2,
+      "term": "barS_T",
+      "retained_N_degrees": [
+        1,
+        2
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 2,
+      "term": "m2barS_N",
+      "retained_N_degrees": [
+        2
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 2,
+      "term": "Vh",
+      "retained_N_degrees": [
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 2,
+      "term": "Eh",
+      "retained_N_degrees": [
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 2,
+      "term": "currents",
+      "retained_N_degrees": [
+        1
+      ],
+      "fermion_degrees": [
+        2,
+        4
+      ],
+      "zero_N_monomials": 0
+    },
+    {
+      "active_flavors": 2,
+      "term": "strength_R",
+      "retained_N_degrees": [
+        0,
+        1
+      ],
+      "fermion_degrees": [
+        2
+      ],
+      "zero_N_monomials": 2912
+    }
+  ],
+  "operator_ranks": [
+    {
+      "active_flavors": 1,
+      "scalar_complex_rank": 1,
+      "Box_complex_rank": 1,
+      "Hermitian_LNC_real_rank": 1
+    },
+    {
+      "active_flavors": 2,
+      "scalar_complex_rank": 3,
+      "Box_complex_rank": 3,
+      "Hermitian_LNC_real_rank": 4
+    },
+    {
+      "active_flavors": 3,
+      "scalar_complex_rank": 6,
+      "Box_complex_rank": 6,
+      "Hermitian_LNC_real_rank": 9
+    }
+  ],
+  "arithmetic": "exact Gaussian rational Fourier exterior algebra, standard library only",
+  "projection": "set retained-N component generators to zero; no sterile equation or integration used",
+  "scope": [
+    "complete zero-N field-content projection of the declared literal-neutrino-sourced representative",
+    "scalar/Box flavor symmetry, LNC integrated Hermiticity, literal action half normalization",
+    "independent direct reference-Yukawa variation under the actual source map at Nnew=0",
+    "additional scalar-current map generates active rho scalar source after projection",
+    "explicit e,d,u spectator-Yukawa remainder checked separately; no general extra-interaction exhaustion",
+    "real positive diagonal retained M; complex-mass extension is separate",
+    "coefficient projection only; no physical beta, matching, finite amplitude, or new loop"
+  ]
+}

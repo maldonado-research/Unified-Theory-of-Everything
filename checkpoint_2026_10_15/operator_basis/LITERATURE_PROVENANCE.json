@@ -1,0 +1,940 @@
+{
+  "title": "Bounded primary-source comparison for active tensor and retained-sterile current basis sectors",
+  "accessed_date": "2026-10-15",
+  "scope": "Structural operator definitions, flavor identities/counts and convention checks; no exhaustive search, novelty claim, direct beta coefficient or observable calculation.",
+  "totals": {
+    "queries": 3,
+    "requested_per_query": 10,
+    "returned_per_query": [
+      10,
+      6,
+      10
+    ],
+    "ranked_appearances": 26,
+    "distinct_search_papers": 22,
+    "duplicate_appearances": 4,
+    "new_metadata_inspections": 1,
+    "reused_metadata_inspections": 3,
+    "new_passage_requests": 0,
+    "new_http_requests": 1,
+    "new_http_200_responses": 1,
+    "new_primary_bodies_checked": 1,
+    "reused_primary_bodies_checked": 3,
+    "primary_body_hashes_verified": 4
+  },
+  "date_filter_note": "Inclusive created/updated date filtering. Two 2025-2026 windows and one deliberate historical window; provider updates are not treated as preprint version dates.",
+  "search_response_id_note": "Canonical paper IDs and ranking scores were returned; no paper-search UUID was provided.",
+  "searches": [
+    {
+      "label": "OB1",
+      "provider": "Firecrawl paper index",
+      "accessed_date": "2026-10-15",
+      "query": "dimension seven SMEFT O_LHB O_LHW lepton dipole operator flavor antisymmetric symmetric basis identities neutrino electromagnetic",
+      "from": "2025-01-01",
+      "to": "2026-10-15",
+      "k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "paperId": "7635615355971005930",
+          "primaryId": "arxiv:2512.10444",
+          "title": "Yukawa-assisted charged-lepton dipoles in resonant electromagnetic leptogenesis",
+          "ids": {
+            "arxiv": [
+              "2512.10444"
+            ]
+          },
+          "score": 0.7783798907523506
+        },
+        {
+          "rank": 2,
+          "paperId": "1740542032235715008",
+          "primaryId": "arxiv:2511.07089",
+          "title": "Beyond Universality: Probing Lepton Flavor in the SMEFT",
+          "ids": {
+            "arxiv": [
+              "2511.07089"
+            ]
+          },
+          "score": 0.7629189980361262
+        },
+        {
+          "rank": 3,
+          "paperId": "1956636334512127269",
+          "primaryId": "arxiv:2609.28382",
+          "title": "Flavorful Lepton-Number-Violating SMEFT: Loop Mixing, 0νββ and Rare Meson Decays",
+          "ids": {
+            "arxiv": [
+              "2609.28382"
+            ]
+          },
+          "score": 0.7537567806779163
+        },
+        {
+          "rank": 4,
+          "paperId": "3856808875920903241",
+          "primaryId": "arxiv:2511.21828",
+          "title": "Chasing the muon EDM to constrain the SMEFT and UV models",
+          "ids": {
+            "arxiv": [
+              "2511.21828"
+            ]
+          },
+          "score": 0.7147873411368072
+        },
+        {
+          "rank": 5,
+          "paperId": "169055094554646673",
+          "primaryId": "arxiv:2505.06499",
+          "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+          "ids": {
+            "arxiv": [
+              "2505.06499"
+            ]
+          },
+          "score": 0.6979384260080908
+        },
+        {
+          "rank": 6,
+          "paperId": "9082308932846852493",
+          "primaryId": "arxiv:2601.16422",
+          "title": "Feasibility Study of Lepton Number Violation in Rare B and K Meson Decays",
+          "ids": {
+            "arxiv": [
+              "2601.16422"
+            ],
+            "doi": [
+              "10.1007/JHEP06(2026)132"
+            ]
+          },
+          "score": 0.6899744811276125
+        },
+        {
+          "rank": 7,
+          "paperId": "3206226882297856155",
+          "primaryId": "arxiv:2609.12051",
+          "title": "Muon decay across scales: from LEFT to SMEFT",
+          "ids": {
+            "arxiv": [
+              "2609.12051"
+            ]
+          },
+          "score": 0.6743936819562297
+        },
+        {
+          "rank": 8,
+          "paperId": "5091947855724701673",
+          "primaryId": "arxiv:2602.18395",
+          "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+          "ids": {
+            "arxiv": [
+              "2602.18395"
+            ]
+          },
+          "score": 0.6442251064863697
+        },
+        {
+          "rank": 9,
+          "paperId": "5191455394292901303",
+          "primaryId": "arxiv:2601.23060",
+          "title": "Complete Operator Basis for the modular invariant SMEFT",
+          "ids": {
+            "arxiv": [
+              "2601.23060"
+            ]
+          },
+          "score": 0.6399160967377341
+        },
+        {
+          "rank": 10,
+          "paperId": "4129375628006248625",
+          "primaryId": "arxiv:2504.00081",
+          "title": "Importance of Loop Effects in Probing Lepton Number Violation",
+          "ids": {
+            "arxiv": [
+              "2504.00081"
+            ]
+          },
+          "score": 0.6195173196470847
+        }
+      ]
+    },
+    {
+      "label": "OB2",
+      "provider": "Firecrawl paper index",
+      "accessed_date": "2026-10-15",
+      "query": "nuSMEFT dimension seven sterile neutrino four fermion Higgs vector current operators flavor basis equations of motion",
+      "from": "2025-01-01",
+      "to": "2026-10-15",
+      "k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "paperId": "8065490052248333789",
+          "primaryId": "arxiv:2512.21724",
+          "title": "On-Shell Renormalization of Dim-8 SMEFT from Complete Amplitude Basis: I. Four-Fermion Operators",
+          "ids": {
+            "arxiv": [
+              "2512.21724"
+            ]
+          },
+          "score": 0.7147873411368072
+        },
+        {
+          "rank": 2,
+          "paperId": "169055094554646673",
+          "primaryId": "arxiv:2505.06499",
+          "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+          "ids": {
+            "arxiv": [
+              "2505.06499"
+            ]
+          },
+          "score": 0.6784973963901241
+        },
+        {
+          "rank": 3,
+          "paperId": "1956636334512127269",
+          "primaryId": "arxiv:2609.28382",
+          "title": "Flavorful Lepton-Number-Violating SMEFT: Loop Mixing, 0νββ and Rare Meson Decays",
+          "ids": {
+            "arxiv": [
+              "2609.28382"
+            ]
+          },
+          "score": 0.6187804337438501
+        },
+        {
+          "rank": 4,
+          "paperId": "3856808875920903241",
+          "primaryId": "arxiv:2511.21828",
+          "title": "Chasing the muon EDM to constrain the SMEFT and UV models",
+          "ids": {
+            "arxiv": [
+              "2511.21828"
+            ]
+          },
+          "score": 0.5763512275914047
+        },
+        {
+          "rank": 5,
+          "paperId": "5191455394292901303",
+          "primaryId": "arxiv:2601.23060",
+          "title": "Complete Operator Basis for the modular invariant SMEFT",
+          "ids": {
+            "arxiv": [
+              "2601.23060"
+            ]
+          },
+          "score": 0.574442516811659
+        },
+        {
+          "rank": 6,
+          "paperId": "598159445248990731",
+          "primaryId": "arxiv:2604.00952",
+          "title": "Renormalization-group-improved constraints on dimension-7 baryon-number-violating operators",
+          "ids": {
+            "arxiv": [
+              "2604.00952"
+            ],
+            "doi": [
+              "10.1016/j.physletb.2026.140678"
+            ]
+          },
+          "score": 0.4809662331817853
+        }
+      ]
+    },
+    {
+      "label": "OB3",
+      "provider": "Firecrawl paper index",
+      "accessed_date": "2026-10-15",
+      "query": "Majorana neutrino magnetic moment dimension seven O_B O_W plus minus symmetric antisymmetric flavor Bell Cirigliano Ramsey Musolf",
+      "from": "2000-01-01",
+      "to": "2026-10-15",
+      "k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "paperId": "1892034918869930112",
+          "primaryId": "arxiv:1602.03362",
+          "title": "Long-range contributions to double beta decay revisited",
+          "ids": {
+            "arxiv": [
+              "1602.03362"
+            ]
+          },
+          "score": 0.7005671424739729
+        },
+        {
+          "rank": 2,
+          "paperId": "7981423453665029261",
+          "primaryId": "arxiv:2010.05329",
+          "title": "Effects of nonstandard neutrino self-interactions and magnetic moment on collective Majorana neutrino oscillations",
+          "ids": {
+            "arxiv": [
+              "2010.05329"
+            ]
+          },
+          "score": 0.6757646010190476
+        },
+        {
+          "rank": 3,
+          "paperId": "8645924511965461161",
+          "primaryId": "arxiv:1507.03455",
+          "title": "Connecting Neutrino Masses and Dark Matter by High-dimensional Lepton Number Violation Operator",
+          "ids": {
+            "arxiv": [
+              "1507.03455"
+            ]
+          },
+          "score": 0.6477982179521103
+        },
+        {
+          "rank": 4,
+          "paperId": "6082458491395741403",
+          "primaryId": "arxiv:2301.02503",
+          "title": "Systematic study of one-loop realizations of d=7 long-range 0νββ decay operators",
+          "ids": {
+            "arxiv": [
+              "2301.02503"
+            ]
+          },
+          "score": 0.6435085368632992
+        },
+        {
+          "rank": 5,
+          "paperId": "4904252516665667828",
+          "primaryId": "arxiv:0707.1556",
+          "title": "How Magnetic is the Neutrino?",
+          "ids": {
+            "arxiv": [
+              "0707.1556"
+            ]
+          },
+          "score": 0.6261241772283034
+        },
+        {
+          "rank": 6,
+          "paperId": "7359889346783603766",
+          "primaryId": "arxiv:1901.10302",
+          "title": "Renormalization Group Evolution of Dimension-seven Operators in Standard Model Effective Field Theory and Relevant Phenomenology",
+          "ids": {
+            "arxiv": [
+              "1901.10302"
+            ]
+          },
+          "score": 0.6158274476249441
+        },
+        {
+          "rank": 7,
+          "paperId": "278015485459138462",
+          "primaryId": "arxiv:1312.0554",
+          "title": "Exotic properties of neutrinos using effective Lagrangians and specific models",
+          "ids": {
+            "arxiv": [
+              "1312.0554"
+            ]
+          },
+          "score": 0.6069178926870201
+        },
+        {
+          "rank": 8,
+          "paperId": "4923466869339557194",
+          "primaryId": "arxiv:1709.02930",
+          "title": "²θ W estimate and neutrino electromagnetic properties from low-energy solar data",
+          "ids": {
+            "arxiv": [
+              "1709.02930"
+            ]
+          },
+          "score": 0.598687660112452
+        },
+        {
+          "rank": 9,
+          "paperId": "5082396129364658441",
+          "primaryId": "arxiv:2610.08139",
+          "title": "The neutrino magnetic moment and supernovae with strong magnetic fields",
+          "ids": {
+            "arxiv": [
+              "2610.08139"
+            ]
+          },
+          "score": 0.5953043537941105
+        },
+        {
+          "rank": 10,
+          "paperId": "8367519443316833274",
+          "primaryId": "arxiv:2504.14276",
+          "title": "Magnetic moment of neutrinos in a left-right symmetric model and Interplay of type-I and type-II seesaw",
+          "ids": {
+            "arxiv": [
+              "2504.14276"
+            ]
+          },
+          "score": 0.5937977295234806
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "paperId": "7635615355971005930",
+      "primaryId": "arxiv:2512.10444",
+      "ids": {
+        "arxiv": [
+          "2512.10444"
+        ]
+      },
+      "title": "Yukawa-assisted charged-lepton dipoles in resonant electromagnetic leptogenesis",
+      "score": 0.7783798907523506,
+      "abstract_sha256": "40af038bf881a298466bdf78218fd20bd2fd6a4c6946f04ae1a4b45cc3ce0870",
+      "abstract_characters": 1239,
+      "url": "https://arxiv.org/abs/2512.10444",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level charged-lepton dipoles in an electromagnetic leptogenesis benchmark; different operator/observable target, not used for dimension-seven basis identities."
+    },
+    {
+      "paperId": "1740542032235715008",
+      "primaryId": "arxiv:2511.07089",
+      "ids": {
+        "arxiv": [
+          "2511.07089"
+        ]
+      },
+      "title": "Beyond Universality: Probing Lepton Flavor in the SMEFT",
+      "score": 0.7629189980361262,
+      "abstract_sha256": "b2094d0af33d11413f78ac3d94300b7b2abbc8884aaaa55205776558ddaf70fc",
+      "abstract_characters": 1140,
+      "url": "https://arxiv.org/abs/2511.07089",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-six lepton-flavor fit; not used for this dimension-seven classification."
+    },
+    {
+      "paperId": "1956636334512127269",
+      "primaryId": "arxiv:2609.28382",
+      "ids": {
+        "arxiv": [
+          "2609.28382"
+        ]
+      },
+      "title": "Flavorful Lepton-Number-Violating SMEFT: Loop Mixing, 0νββ and Rare Meson Decays",
+      "score": 0.7537567806779163,
+      "abstract_sha256": "88fc1596f38b7d86a30fe734dad436d70f06570d7be5c56b870381fb488843b8",
+      "abstract_characters": 1008,
+      "url": "https://arxiv.org/abs/2609.28382",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-seven lepton-number-violating SMEFT flavor running and meson phenomenology; no basis coefficient imported."
+    },
+    {
+      "paperId": "3856808875920903241",
+      "primaryId": "arxiv:2511.21828",
+      "ids": {
+        "arxiv": [
+          "2511.21828"
+        ]
+      },
+      "title": "Chasing the muon EDM to constrain the SMEFT and UV models",
+      "score": 0.7147873411368072,
+      "abstract_sha256": "24f1c4a58f1239ee39f9569f9ed056db46c954175ce760ec75ae7b397a9f21f3",
+      "abstract_characters": 1154,
+      "url": "https://arxiv.org/abs/2511.21828",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-six muon EDM constraints and models; not used."
+    },
+    {
+      "paperId": "169055094554646673",
+      "primaryId": "arxiv:2505.06499",
+      "ids": {
+        "arxiv": [
+          "2505.06499"
+        ]
+      },
+      "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+      "score": 0.6979384260080908,
+      "abstract_sha256": "2616a0999f050d19dabb8c9707ea4c600e3a07dc9e731e2cac1e75261be1a8e8",
+      "abstract_characters": 1291,
+      "url": "https://arxiv.org/abs/2505.06499",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-seven SMEFT RGE software; known earlier hit, not executed and not used to derive retained-sterile coefficients."
+    },
+    {
+      "paperId": "9082308932846852493",
+      "primaryId": "arxiv:2601.16422",
+      "ids": {
+        "arxiv": [
+          "2601.16422"
+        ],
+        "doi": [
+          "10.1007/JHEP06(2026)132"
+        ]
+      },
+      "title": "Feasibility Study of Lepton Number Violation in Rare B and K Meson Decays",
+      "score": 0.6899744811276125,
+      "abstract_sha256": "28dd0c19078dd9277087497f3216c548b63c97bbb0001ecaf3d3a3e760299e88",
+      "abstract_characters": 683,
+      "url": "https://arxiv.org/abs/2601.16422",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-seven rare meson phenomenology; not a direct basis convention check."
+    },
+    {
+      "paperId": "3206226882297856155",
+      "primaryId": "arxiv:2609.12051",
+      "ids": {
+        "arxiv": [
+          "2609.12051"
+        ]
+      },
+      "title": "Muon decay across scales: from LEFT to SMEFT",
+      "score": 0.6743936819562297,
+      "abstract_sha256": "a46044dba5c7547dc61e90a76e4f67dcf8487930722975726f60d8cb29ce03eb",
+      "abstract_characters": 1078,
+      "url": "https://arxiv.org/abs/2609.12051",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level muon decay and LEFT-to-SMEFT phenomenology; different target."
+    },
+    {
+      "paperId": "5091947855724701673",
+      "primaryId": "arxiv:2602.18395",
+      "ids": {
+        "arxiv": [
+          "2602.18395"
+        ]
+      },
+      "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+      "score": 0.6442251064863697,
+      "abstract_sha256": "5d5d64d6e799789eb6d0bcd9e667b5b55c56f26642fefb4b8abda29495bdcfe7",
+      "abstract_characters": 1178,
+      "url": "https://arxiv.org/abs/2602.18395",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-nine lepton-number-violating decomposition; different operator dimension."
+    },
+    {
+      "paperId": "5191455394292901303",
+      "primaryId": "arxiv:2601.23060",
+      "ids": {
+        "arxiv": [
+          "2601.23060"
+        ]
+      },
+      "title": "Complete Operator Basis for the modular invariant SMEFT",
+      "score": 0.6399160967377341,
+      "abstract_sha256": "fd74efde11830438446ea9a92995b3fbdb9c3cb0a6a8fe43e024cad9f44e3ef7",
+      "abstract_characters": 1523,
+      "url": "https://arxiv.org/abs/2601.23060",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level modular-flavor SMEFT assumptions; not imposed on the current classification."
+    },
+    {
+      "paperId": "4129375628006248625",
+      "primaryId": "arxiv:2504.00081",
+      "ids": {
+        "arxiv": [
+          "2504.00081"
+        ]
+      },
+      "title": "Importance of Loop Effects in Probing Lepton Number Violation",
+      "score": 0.6195173196470847,
+      "abstract_sha256": "dc1c31cbaa261fc2e9907e65f0cee005c1b2d49833004cf3b07abfbe5a5e9072",
+      "abstract_characters": 573,
+      "url": "https://arxiv.org/abs/2504.00081",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level loop effects on lepton-number-violating dimension-seven SMEFT bounds; no basis definition imported."
+    },
+    {
+      "paperId": "8065490052248333789",
+      "primaryId": "arxiv:2512.21724",
+      "ids": {
+        "arxiv": [
+          "2512.21724"
+        ]
+      },
+      "title": "On-Shell Renormalization of Dim-8 SMEFT from Complete Amplitude Basis: I. Four-Fermion Operators",
+      "score": 0.7147873411368072,
+      "abstract_sha256": "75ea9773f3e2973b86797bf51a9aa0c94472ba7e10da8b0c97b507a2264b2f47",
+      "abstract_characters": 961,
+      "url": "https://arxiv.org/abs/2512.21724",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-eight four-fermion on-shell RGE basis; different dimension, not used."
+    },
+    {
+      "paperId": "598159445248990731",
+      "primaryId": "arxiv:2604.00952",
+      "ids": {
+        "arxiv": [
+          "2604.00952"
+        ],
+        "doi": [
+          "10.1016/j.physletb.2026.140678"
+        ]
+      },
+      "title": "Renormalization-group-improved constraints on dimension-7 baryon-number-violating operators",
+      "score": 0.4809662331817853,
+      "abstract_sha256": "b6c061f9f985246518493bc459308fdc91002c5e3872578ddd9ad6255f3ff152",
+      "abstract_characters": 607,
+      "url": "https://arxiv.org/abs/2604.00952",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level baryon-number-violating dimension-seven constraints; different baryon-number sector."
+    },
+    {
+      "paperId": "1892034918869930112",
+      "primaryId": "arxiv:1602.03362",
+      "ids": {
+        "arxiv": [
+          "1602.03362"
+        ]
+      },
+      "title": "Long-range contributions to double beta decay revisited",
+      "score": 0.7005671424739729,
+      "abstract_sha256": "bd2a926d6964bf56cfa1ac667832399bc42642f9e6c0971a58499284102ebd04",
+      "abstract_characters": 1034,
+      "url": "https://arxiv.org/abs/1602.03362",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dimension-seven long-range double-beta decomposition; possible contextual reference, not primary basis evidence here."
+    },
+    {
+      "paperId": "7981423453665029261",
+      "primaryId": "arxiv:2010.05329",
+      "ids": {
+        "arxiv": [
+          "2010.05329"
+        ]
+      },
+      "title": "Effects of nonstandard neutrino self-interactions and magnetic moment on collective Majorana neutrino oscillations",
+      "score": 0.6757646010190476,
+      "abstract_sha256": "b7f63899d81c65fbd620ac9244a84ce5996a17a9d87b474863ca54fad2261886",
+      "abstract_characters": 1265,
+      "url": "https://arxiv.org/abs/2010.05329",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level supernova collective oscillations with transition moments; different physical regime."
+    },
+    {
+      "paperId": "8645924511965461161",
+      "primaryId": "arxiv:1507.03455",
+      "ids": {
+        "arxiv": [
+          "1507.03455"
+        ]
+      },
+      "title": "Connecting Neutrino Masses and Dark Matter by High-dimensional Lepton Number Violation Operator",
+      "score": 0.6477982179521103,
+      "abstract_sha256": "ab22f12c6ea0426e88e2a800456685a7ad592f2ba9d4fbea346519a38d4ee47f",
+      "abstract_characters": 884,
+      "url": "https://arxiv.org/abs/1507.03455",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level particular neutrino-mass/dark-matter UV model; not assumed."
+    },
+    {
+      "paperId": "6082458491395741403",
+      "primaryId": "arxiv:2301.02503",
+      "ids": {
+        "arxiv": [
+          "2301.02503"
+        ]
+      },
+      "title": "Systematic study of one-loop realizations of d=7 long-range 0νββ decay operators",
+      "score": 0.6435085368632992,
+      "abstract_sha256": "67324086b6f3d215304e7afc0d423f7f9abfbf67bd0b7b1dae48f8e8cbf5fcfc",
+      "abstract_characters": 610,
+      "url": "https://arxiv.org/abs/2301.02503",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level loop realizations of dimension-seven long-range double-beta operators; not selected for basis normalization."
+    },
+    {
+      "paperId": "4904252516665667828",
+      "primaryId": "arxiv:0707.1556",
+      "ids": {
+        "arxiv": [
+          "0707.1556"
+        ]
+      },
+      "title": "How Magnetic is the Neutrino?",
+      "score": 0.6261241772283034,
+      "abstract_sha256": "5bc458d9d4f300087ed1a469ff9c61f3ba2e0f81d9d493c2b18d112737821f11",
+      "abstract_characters": 745,
+      "url": "https://arxiv.org/abs/0707.1556",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level review of neutrino magnetic moments; the known original hep-ph/0606248 was inspected directly instead."
+    },
+    {
+      "paperId": "7359889346783603766",
+      "primaryId": "arxiv:1901.10302",
+      "ids": {
+        "arxiv": [
+          "1901.10302"
+        ]
+      },
+      "title": "Renormalization Group Evolution of Dimension-seven Operators in Standard Model Effective Field Theory and Relevant Phenomenology",
+      "score": 0.6158274476249441,
+      "abstract_sha256": "4326581d7c0c5e1ad44026e9a78a0c4b23340a10d08a4998667331b7b3afc4e0",
+      "abstract_characters": 1086,
+      "url": "https://arxiv.org/abs/1901.10302",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level flavor-dependent dimension-seven SMEFT RGE basis; the later already retrieved 2306.03008 body was used for explicit monomial definitions."
+    },
+    {
+      "paperId": "278015485459138462",
+      "primaryId": "arxiv:1312.0554",
+      "ids": {
+        "arxiv": [
+          "1312.0554"
+        ]
+      },
+      "title": "Exotic properties of neutrinos using effective Lagrangians and specific models",
+      "score": 0.6069178926870201,
+      "abstract_sha256": "041ffed1a74f57448a64fe47b6e8c11b5405f83b37acbf8f9a98dcedf445e016",
+      "abstract_characters": 1712,
+      "url": "https://arxiv.org/abs/1312.0554",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level dissertation covering exotic neutrino properties; not needed for the selected primary comparisons."
+    },
+    {
+      "paperId": "4923466869339557194",
+      "primaryId": "arxiv:1709.02930",
+      "ids": {
+        "arxiv": [
+          "1709.02930"
+        ]
+      },
+      "title": "²θ W estimate and neutrino electromagnetic properties from low-energy solar data",
+      "score": 0.598687660112452,
+      "abstract_sha256": "368a95f4ef603242da809f23e7a2cc7aa711ee0575cfaabcb8fa5e55bf121a5c",
+      "abstract_characters": 855,
+      "url": "https://arxiv.org/abs/1709.02930",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level low-energy solar-neutrino extraction; observational target, not basis classification."
+    },
+    {
+      "paperId": "5082396129364658441",
+      "primaryId": "arxiv:2610.08139",
+      "ids": {
+        "arxiv": [
+          "2610.08139"
+        ]
+      },
+      "title": "The neutrino magnetic moment and supernovae with strong magnetic fields",
+      "score": 0.5953043537941105,
+      "abstract_sha256": "970357e921aae8ab5fb59e10d042348af9fac94354a09c942124bc3a494b33e0",
+      "abstract_characters": 1077,
+      "url": "https://arxiv.org/abs/2610.08139",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level current supernova transition-moment simulation; no operator normalization or coefficient inferred."
+    },
+    {
+      "paperId": "8367519443316833274",
+      "primaryId": "arxiv:2504.14276",
+      "ids": {
+        "arxiv": [
+          "2504.14276"
+        ]
+      },
+      "title": "Magnetic moment of neutrinos in a left-right symmetric model and Interplay of type-I and type-II seesaw",
+      "score": 0.5937977295234806,
+      "abstract_sha256": "ee931c3065ceafbff5c07af56849bf0c24131f68ff3b9450be7356f850671344",
+      "abstract_characters": 1345,
+      "url": "https://arxiv.org/abs/2504.14276",
+      "screening_level": "abstract only",
+      "screening_disposition": "Abstract-level left-right-symmetric neutrino magnetic moments; model assumptions not adopted."
+    }
+  ],
+  "new_metadata_inspections": [
+    {
+      "paperId": "8321016250603604892",
+      "ids": {
+        "arxiv": [
+          "hep-ph/0606248"
+        ]
+      },
+      "title": "Model Independent Bounds on Magnetic Moments of Majorana Neutrinos",
+      "authors": "Nicole F. Bell, Mikhail Gorchtein, Michael J. Ramsey-Musolf, Petr Vogel, Peng Wang",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Thu, 22 Jun 2006 22:32:19 GMT",
+      "updateDate": "2009-11-11",
+      "abstract_sha256": "2060e9018d775a4df59643030370844e0ee87fe6b42a824a1023b3c625760736",
+      "abstract_characters": 876,
+      "discovery_route": "Known primary reference inspected directly; not one of the 22 returned search records."
+    }
+  ],
+  "reused_metadata_inspections": [
+    {
+      "paperId": "1108665703309991584",
+      "ids": {
+        "arxiv": [
+          "2105.09329"
+        ]
+      },
+      "title": "Operator Bases in Effective Field Theories with Sterile Neutrinos: d ≤ 9",
+      "authors": "Hao-Lin Li, Zhe Ren, Ming-Lei Xiao, Jiang-Hao Yu, Yu-Hui Zheng",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Wed, 19 May 2021 18:00:04 GMT",
+      "updateDate": "2021-11-24",
+      "abstract_sha256": "28f732e16f75eb4488a20a298a06e368cb119f876b5fadea64bb76accfcd6cda",
+      "abstract_characters": 754
+    },
+    {
+      "paperId": "410284651801530881",
+      "ids": {
+        "arxiv": [
+          "2306.03008"
+        ]
+      },
+      "title": "Renormalization Group Equations for the SMEFT Operators up to Dimension Seven",
+      "authors": "Di Zhang",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "createdDate": "Mon, 5 Jun 2023 16:19:12 GMT",
+      "updateDate": "2023-10-18",
+      "abstract_sha256": "154135f5c6539d332c31134917d7e02857f87b11f6ab62b5dc1498c9052d26a1",
+      "abstract_characters": 962
+    },
+    {
+      "paperId": "5584642650654655823",
+      "ids": {
+        "arxiv": [
+          "1612.04527"
+        ]
+      },
+      "title": "Operators up to Dimension Seven in Standard Model Effective Field Theory Extended with Sterile Neutrinos",
+      "authors": "Yi Liao, Xiao-Dong Ma",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Wed, 14 Dec 2016 08:26:56 GMT",
+      "updateDate": "2017-07-19",
+      "discovery_route": "Cited corrected-basis antecedent in inspected 2407.16751; not one of the 23 search records."
+    }
+  ],
+  "primary_sources": [
+    {
+      "arxiv": "2306.03008",
+      "observed_version": "v2",
+      "observed_version_date": "2023-10-16",
+      "format": "HTML",
+      "requested_url": "https://arxiv.org/html/2306.03008",
+      "bytes": 1896610,
+      "sha256": "700b82b425899e5bd487096d6e73f316c724fa99d4e2985be72b3004640edc62",
+      "retrieval": "Reused earlier primary body; no new HTTP request this continuation.",
+      "local_sha256_verified": true,
+      "sections_checked": [
+        "Section 2: Dminus definition and Pauli-matrix convention after Eq. (3)",
+        "Section 2.1, Table 1: active dimension-seven B/W tensor monomials and counts",
+        "Section 2.1, Eq. (5): B flavor antisymmetry",
+        "Section 2.2, Table 2: antisymmetric B coefficient and unrestricted W coefficient"
+      ],
+      "claim_limit": "Structural definition, flavor count and field-content comparison only; no current packet coefficient imported.",
+      "original_retrieval_receipt": {
+        "url": "https://arxiv.org/html/2306.03008",
+        "retrieved_utc": "2026-10-15T22:37:46.441864+00:00",
+        "tls_verification": "default enabled",
+        "proxy": "inherited managed session proxy",
+        "status": 200,
+        "final_url": "https://arxiv.org/html/2306.03008",
+        "bytes": 1896610,
+        "sha256": "700b82b425899e5bd487096d6e73f316c724fa99d4e2985be72b3004640edc62"
+      }
+    },
+    {
+      "arxiv": "1612.04527",
+      "observed_version": "v1",
+      "observed_version_date": "2016-12-14",
+      "format": "PDF",
+      "requested_url": "https://arxiv.org/pdf/1612.04527",
+      "bytes": 130434,
+      "sha256": "cad9ecc7634859bc79e4f730ea32bf095ca7940aeb05de770d29b7cd9200798e",
+      "retrieval": "Reused earlier primary body; no new HTTP request this continuation.",
+      "local_sha256_verified": true,
+      "sections_checked": [
+        "Section 3, Eq. (25): scalar Fierz representatives for N psi^3 H",
+        "Table 4: quark-doublet and repeated-lepton families"
+      ],
+      "claim_limit": "Structural definition, flavor count and field-content comparison only; no current packet coefficient imported.",
+      "original_retrieval_receipt": {
+        "url": "https://arxiv.org/pdf/1612.04527",
+        "retrieved_utc": "2026-10-15T22:38:30.629116+00:00",
+        "tls_verification": "default enabled",
+        "proxy": "inherited managed session proxy",
+        "status": 200,
+        "final_url": "https://arxiv.org/pdf/1612.04527",
+        "bytes": 130434,
+        "sha256": "cad9ecc7634859bc79e4f730ea32bf095ca7940aeb05de770d29b7cd9200798e"
+      }
+    },
+    {
+      "arxiv": "2105.09329",
+      "observed_version": "v1",
+      "observed_version_date": "2021-05-19",
+      "format": "PDF",
+      "requested_url": "https://arxiv.org/pdf/2105.09329",
+      "bytes": 1586258,
+      "sha256": "b27d5d9d4cf1b3efc436c51e8a8f0663c6233af4cb8574eaba5239ad68c4de58",
+      "retrieval": "Reused earlier primary body; no new HTTP request this continuation.",
+      "local_sha256_verified": true,
+      "sections_checked": [
+        "Section 4.3, Eqs. (4.78), (4.81), (4.83), (4.84), (4.85): spectator Q/u/d/L/e families and flavor projectors"
+      ],
+      "claim_limit": "Structural definition, flavor count and field-content comparison only; no current packet coefficient imported.",
+      "original_retrieval_receipt": {
+        "url": "https://arxiv.org/pdf/2105.09329",
+        "retrieved_utc": "2026-10-15T22:38:01.303305+00:00",
+        "tls_verification": "default enabled",
+        "proxy": "inherited managed session proxy",
+        "status": 200,
+        "final_url": "https://arxiv.org/pdf/2105.09329",
+        "bytes": 1586258,
+        "sha256": "b27d5d9d4cf1b3efc436c51e8a8f0663c6233af4cb8574eaba5239ad68c4de58"
+      }
+    },
+    {
+      "arxiv": "hep-ph/0606248",
+      "observed_version": "v2",
+      "observed_version_date": "2006-10-10",
+      "format": "PDF",
+      "requested_url": "https://arxiv.org/pdf/hep-ph/0606248",
+      "bytes": 304997,
+      "sha256": "e4a085dffa40b0df4a015dedcb312912f3288c5ef3475855dd8dacbcfc5757d0",
+      "local_sha256_verified": true,
+      "sections_checked": [
+        "Section II, Eqs. (7)-(8): couplings, Pauli insertion, epsilon and strength conventions",
+        "Section II, Eq. (10): W symmetric/antisymmetric projection with 1/2",
+        "Section II following Eqs. (12)-(13): antisymmetric neutral magnetic interaction",
+        "Appendix A, Eqs. (A4)-(A5): transpose and factor-two relations"
+      ],
+      "claim_limit": "Flavor-sector and convention corroboration only; older phenomenological bounds, loop matching and naturalness estimates were not reproduced."
+    }
+  ],
+  "new_http_request_receipts": [
+    {
+      "requested_url": "https://arxiv.org/pdf/hep-ph/0606248",
+      "accessed_utc": "2026-10-15T23:17:58.603579+00:00",
+      "proxy": "inherited managed proxy",
+      "tls_verification": "enabled",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/pdf/hep-ph/0606248",
+      "bytes": 304997,
+      "sha256": "e4a085dffa40b0df4a015dedcb312912f3288c5ef3475855dd8dacbcfc5757d0"
+    }
+  ],
+  "substantive_findings": [
+    "2306.03008 Table 1 counts active B n(n-1)/2 and active W n^2; Eq. (5) gives B flavor antisymmetry.",
+    "Its Table 2 keeps W as an unrestricted ordered-flavor monomial.",
+    "hep-ph/0606248 Eq. (10) defines W flavor projections with 1/2; only the antisymmetric part enters its tree-level neutrino magnetic interaction.",
+    "1612.04527 Eq. (25) and 2105.09329 Eqs. (4.78), (4.81), (4.83)-(4.85) identify target retained-sterile spectator-current field classes."
+  ],
+  "coefficient_conversion_limitations": [
+    "Hermitian conjugation, scalar epsilon conversion and spinor/flavor order must be fixed.",
+    "2306.03008 uses all-Dminus and Pauli insertion, whereas this packet uses all-Dplus and T=tau/2.",
+    "Bell includes explicit gauge couplings and uses epsilon=-i tau2, with a stated negative nonlinear weak curvature term.",
+    "Four-fermion vector-current to scalar-Fierz maps and repeated-lepton flavor identities require explicit conversion.",
+    "Neither these counts nor the selected current-class correspondence closes the full dimension-seven EFT."
+  ],
+  "publication_note": "Full bodies, verbatim abstract metadata and raw provider outputs remain in scratch storage and are not redistributed. Public abstract_sha256 hashes exact UTF-8 strings; abstract_characters counts Unicode characters. Own screening summaries and source identifiers remain public. Primary hashes record inspected bytes, not independent verification of published calculations."
+}

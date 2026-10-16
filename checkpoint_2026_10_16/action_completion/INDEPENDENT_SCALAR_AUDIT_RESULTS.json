@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "method": "exact rational complex weak-invariant kernels, commuting scalar jets and exterior Weyl components",
+  "tests_by_category": {
+    "charge_conjugation_matrix": 16,
+    "weak_invariant_kernels": 2,
+    "actual_component_basis_minor": 9,
+    "weak_invariant_representatives": 9,
+    "complete_neutral_current_divergence": 1,
+    "rho_current_product_rule": 1,
+    "literal_scalar_current_reconstruction": 3,
+    "off_shell_IBP_identity": 3,
+    "sourced_equation_residual": 3,
+    "full_off_shell_certificate": 3,
+    "additional_field_map_rows": 3,
+    "Grassmann_scalar_slot_symmetry": 8,
+    "Grassmann_conjugate_order": 4,
+    "explicit_Yukawa_source_orientation": 1,
+    "scalar_coefficient_projection": 2,
+    "additional_field_map_adjoint": 4,
+    "additional_field_map_Majorana_completion": 4
+  },
+  "positive_checks": 76,
+  "mutation_rejections": {
+    "discard_scalar_derivative_inside_divergence": 1,
+    "replace_complete_divergence_by_sterile_derivative": 1,
+    "omit_total_divergence": 3,
+    "omit_lepton_and_Majorana_sources": 3,
+    "reverse_Majorana_equation_sign": 3,
+    "extra_Majorana_map_half": 3,
+    "conjugate_without_reversing_odd_slots": 4,
+    "active_source_uses_Ydag_instead_of_Ytranspose": 1,
+    "discard_symmetric_scalar_channel": 1
+  },
+  "negative_checks": 20,
+  "total_checks": 96,
+  "weak_kernels": [
+    {
+      "derivative_on": "phi",
+      "unknowns": 16,
+      "constraint_rank": 14,
+      "invariant_dimension": 2
+    },
+    {
+      "derivative_on": "phi_dagger",
+      "unknowns": 12,
+      "constraint_rank": 11,
+      "invariant_dimension": 1
+    }
+  ],
+  "component_minor": {
+    "basis": [
+      "A=rho b Dphi",
+      "B=j phi_dagger Dphi",
+      "D=j (Dphi)_dagger phi"
+    ],
+    "matrix_real_imaginary_fraction_strings": [
+      [
+        [
+          "1/2",
+          "2"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "2"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "2"
+        ]
+      ]
+    ],
+    "determinant": "F_(00)^3; F_(00)=1/2+2i, nonzero"
+  },
+  "flavor_components": {
+    "active": 2,
+    "sterile": 2
+  },
+  "gauge_coefficient_trials": 3,
+  "scope": [
+    "only scalar-current contribution of selected sourced packet",
+    "full off-shell total derivative plus sourced lepton/Majorana residual certificate",
+    "four-dimensional fixed chirality; no physical total coefficient or beta function",
+    "basis independence is in this scalar-jet sector, not full EFT EOM closure"
+  ]
+}

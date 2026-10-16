@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independent_cubature_vs_producer_pairings_individual_graph_comparisons": 2112,
+  "full_free_word_tensor_basis_comparisons": 64,
+  "producer": "verify_three_gauge.py",
+  "independent_auditor": "verify_three_gauge_cubature.py",
+  "comparison_harness": "compare_three_gauge_routes.py",
+  "comparison_imports_both_cores": true,
+  "core_routes_remain_standalone": true,
+  "arithmetic": "exact standard-library integers and Fractions; cubature uses Gaussian integer pairs",
+  "meaning": "Every one of the 33 graph residues agrees at all 64 polarization basis triples before the separate 6-free-color-word total comparison."
+}
