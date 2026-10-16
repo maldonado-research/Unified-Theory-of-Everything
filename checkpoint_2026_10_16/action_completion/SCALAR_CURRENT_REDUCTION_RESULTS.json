@@ -1,0 +1,73 @@
+{
+  "arithmetic": "Exact Gaussian rational weak polynomials, connection jets and finite exterior algebra; standard library only.",
+  "checks_by_category": {
+    "active scalar Grassmann flavor symmetry": 4,
+    "active scalar independent flavor pair normalization": 1,
+    "active scalar source selects flavor symmetric part": 1,
+    "charged-lepton orthogonality polynomial": 1,
+    "charged-lepton source vanishes after Hdagger phi contraction": 1,
+    "complete explicit scalar-current Yukawa and retained-mass source expansion": 1,
+    "complete scalar derivative weak covariance nullity": 2,
+    "complete scalar hypercharge coefficient polynomial": 2,
+    "complete scalar weak coefficient polynomial": 2,
+    "complete scalar-current offshell IBP sourced residual": 8,
+    "complete weak scalar current polynomial": 2,
+    "explicit scalar derivative invariant solves covariance": 3,
+    "extra scalar map Majorana completed residual": 1,
+    "extra scalar map preserves Majorana reality": 4,
+    "full covariant fermion-current divergence jets": 8,
+    "literal Majorana Yukawa source conjugation": 3,
+    "literal scalar gauge currents match three-tensor form": 8,
+    "norm derivative includes both scalar slots": 8,
+    "scalar derivative invariant span is complete": 2,
+    "selected symmetric seed gives symmetric sterile scalar source": 1,
+    "sterile Majorana scalar flavor symmetry": 9,
+    "sterile scalar independent flavor pair normalization": 1,
+    "sterile scalar source selects flavor symmetric part": 1,
+    "three scalar derivative contractions are algebraically independent": 1
+  },
+  "input_candidate": "5f9889b76661faa155c681a5ecfac5d036398bc8",
+  "negative_control_count": 12,
+  "negative_controls_rejected": [
+    "active scalar incorrectly uses antisymmetric flavor projection",
+    "discard norm derivative in weak scalar current",
+    "discard scalar derivative remainder A",
+    "drop differentiated fermion composite in IBP",
+    "drop paired active Majorana source",
+    "drop scalar connection in current divergence",
+    "extra mixed Majorana half in source coefficient",
+    "half the extra scalar Majorana field map",
+    "hypercharge scalar current uses sum rather than difference",
+    "opposite retained-mass source sign",
+    "opposite sterile EOM source sign",
+    "wrong lepton-source sign"
+  ],
+  "positive_check_count": 75,
+  "python": "3.12.14",
+  "scope": "Complete selected scalar gauge-current subpacket transport in a specified representative; not full derivative-EFT closure or a physical Wilson coefficient/beta function.",
+  "status": "passed",
+  "trial_configuration": {
+    "active_flavors": 2,
+    "charged_lepton_flavors": 2,
+    "complete_weak_polynomial_coefficients": true,
+    "full_Grassmann_source_expansion": true,
+    "generic_offshell_covariant_jet_trials": 8,
+    "sterile_flavors": 3
+  },
+  "weak_covariance_systems": [
+    {
+      "derivative": "phi",
+      "equations": 48,
+      "nullity": 2,
+      "rank": 14,
+      "unknowns": 16
+    },
+    {
+      "derivative": "phi_dagger",
+      "equations": 36,
+      "nullity": 1,
+      "rank": 11,
+      "unknowns": 12
+    }
+  ]
+}

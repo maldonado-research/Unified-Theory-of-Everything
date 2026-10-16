@@ -1,5 +1,15 @@
 # Change log
 
+## TOE-GitHub-2026.10.16-candidate.9 — selected action composition and scalar currents
+
+Explicitly related the source-reducing and local-normalizing field maps for every declared field. The lepton bridge simplifies to `F[i gamma(D phi)A_N N_L−phi P0 N_L]/3`; its scalar, gauge and Majorana companions must be retained. Direct substitution in the actual neutral kinetic, Yukawa, Majorana and scalar-potential action agrees with the sourced representative. An independent Grassmann calculation confirms the off-shell scalar-tadpole Hessian contribution and its cancellation by the bridge, including a stationary-background control and noncommuting flavor products.
+
+Reduced the explicit scalar gauge-current contribution into retained derivative structures and full fermion interaction sources, with an exact off-shell residual and a separate invariant/component audit. The literal neutrino sources induce active-scalar, retained-mass and additional-sterile terms. Charged-lepton/quark spectator substitutions retain derivative and four-fermion contacts; their bridge cancellation is explicit. The chosen local-normalizing map gives zero spectator-Yukawa variation.
+
+Five standalone stages accompany the selected action calculation. Four bounded literature searches screened 32 distinct records; primary comparisons include a useful 2025 background-source benchmark and the distinction between classical substitutions and quantum effective-action maps.
+
+These are classical first-order action-coordinate results and contributions from specified subpackets. They do not complete interacting canonical normalization, the full derivative/EOM basis, total physical Wilson coefficients, finite matching or running. No loop integration, new fundamental mathematics, external novelty or empirical confirmation is claimed. Earlier scientific files and receipts remain unchanged; the candidate stays in review, with no new Zenodo version.
+
 ## TOE-GitHub-2026.10.15-candidate.8 — algebraic operator sectors and source image
 
 Constructed complete algebraic nonderivative bases for the explicit active/retained-mass tensor and fermion-current source sectors, with full weak/Lorentz invariant equations and independent Grassmann/component-rank audits. The active counts are `n(n-1)/2` for B and `n^2` for W; retained-mass mixed tensors have `n n_N` per strength. Exact coefficient tables retain flavor-pair, chirality, dual and generator factors.

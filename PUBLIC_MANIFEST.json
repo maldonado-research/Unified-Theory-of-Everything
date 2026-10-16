@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.10.15-candidate.8",
+  "release": "TOE-GitHub-2026.10.16-candidate.9",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -13,7 +13,8 @@
     "verification/FIELD_REDEFINITION_REPLAY_LINUX.json",
     "verification/NONABELIAN_GAUGE_REPLAY_LINUX.json",
     "verification/INTERACTING_REDUCTION_REPLAY_LINUX.json",
-    "verification/OPERATOR_BASIS_REPLAY_LINUX.json"
+    "verification/OPERATOR_BASIS_REPLAY_LINUX.json",
+    "verification/ACTION_COMPLETION_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -23,13 +24,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 15188,
-      "sha256": "356f10b54efa26f9ca7d4e49640cfb3cab9439872f9fe12294f2cbc3dc7ee513"
+      "bytes": 17121,
+      "sha256": "c80cdb7461c2feb161f7dff42991a7ac52289eb6981f0f0193743c3a7828fbf2"
     },
     {
       "path": "CITATION.cff",
       "bytes": 750,
-      "sha256": "0c0dd94d0747415830b0c236052789d2a97c920fdd47845716923367be796a2d"
+      "sha256": "c9dbd315ca5ab456686aca84109dc1334595088c116b2328dbde755de8fc53c5"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -43,8 +44,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10975,
-      "sha256": "ea5b5bec9aff6f828dae3f872eacfc6368a858651f94caab9c259363850de00b"
+      "bytes": 11782,
+      "sha256": "11396cd69efe365235e97d52a66614c132d5bd1a77a899dcab8bf289810db821"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -972,6 +973,96 @@
       "sha256": "6deb9514da910924fb68a02b00762d1a4b2d231614d751d152fc5184cd54261c"
     },
     {
+      "path": "checkpoint_2026_10_16/action_completion/00_READ_FIRST.md",
+      "bytes": 5754,
+      "sha256": "4d0c0f6ca96172325c6bbc7a1eebc26f86182fa8ba9bf578d9b58357e0735dd5"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/FIELD_MAP_COMPOSITION.md",
+      "bytes": 15578,
+      "sha256": "5427c669351ebeff2a3290e02e2810d59218567fc535699408ba0325c5bf0dd6"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/FIELD_MAP_COMPOSITION_RESULTS.json",
+      "bytes": 2869,
+      "sha256": "9c2a9feac9b123cf7aec7c2381b8eacf322667d5bb34bb47869506aa7208d535"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/INDEPENDENT_COMPOSITION_AUDIT.md",
+      "bytes": 9638,
+      "sha256": "43b00ff7da30e2a3a5f110c67ca1905d7fb5529984201e4a03e5e8133e21fe20"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/INDEPENDENT_COMPOSITION_AUDIT_RESULTS.json",
+      "bytes": 5511,
+      "sha256": "fbde1bb2a9963e88fccd97f87120a420b27a2b6bd6ecb44fb6731ac80b22daa5"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/INDEPENDENT_SCALAR_AUDIT.md",
+      "bytes": 9176,
+      "sha256": "2d13528ce6ae34d896b73fbefdeaba2c8f2d52c8c40476d114615549965b03c5"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/INDEPENDENT_SCALAR_AUDIT_RESULTS.json",
+      "bytes": 2815,
+      "sha256": "2ba42c7de673c37f32a7c444eb9975cf834dfcff547895abfd5af62e68be41bb"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/LITERATURE_ACTION_COMPLETION.md",
+      "bytes": 9808,
+      "sha256": "418ca6ee008f1dea01ce0b500e2185243abe465029ddb85bba2daae07a41e7a7"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/LITERATURE_PROVENANCE.json",
+      "bytes": 47156,
+      "sha256": "52aeddb5a0f896177cf2b2d8d9f93848c3e443729aca0bc9b0e0927c4aa514ed"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/SCALAR_CURRENT_REDUCTION.md",
+      "bytes": 11415,
+      "sha256": "069b9d13bdf8c841fdd72ccf5f5273899d289ef33570f0ee2d24a328fead525b"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/SCALAR_CURRENT_REDUCTION_RESULTS.json",
+      "bytes": 3148,
+      "sha256": "63ceb734fffcd8f9d28e6e3d9a5fdb982e61174e5ea2da32122e5b844b6ab5a0"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/SPECTATOR_YUKAWA_RESULTS.json",
+      "bytes": 2265,
+      "sha256": "d00bc865931176ce0061269343e8ec5ac4b4040da99633ad757ff220093fffbf"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/SPECTATOR_YUKAWA_TRANSPORT.md",
+      "bytes": 6678,
+      "sha256": "e642e63726ebde65bd3f82db1df5e9c33b64b6132b639aed59e87be6f815dde0"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/independent_composition_audit.py",
+      "bytes": 10759,
+      "sha256": "a58c7d385653a5090aa6d0c34716712c36bb8bb6adafdd8ca9cd9514da3e1c94"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/independent_scalar_audit.py",
+      "bytes": 20098,
+      "sha256": "57e6816f00eea0425699838fe78cc752e6ac1d404e68d64f853bc73d103a0a0b"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/verify_field_map_composition.py",
+      "bytes": 19229,
+      "sha256": "e678a031d76205729c82f6431343c40fc0f646c70a6ae1a8e166b9d22b132948"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/verify_scalar_current_reduction.py",
+      "bytes": 19256,
+      "sha256": "8fd293113c4923292de5d61edd5a84531a8cdecc2310eac0bff0dc4ed0fbd42b"
+    },
+    {
+      "path": "checkpoint_2026_10_16/action_completion/verify_spectator_yukawa.py",
+      "bytes": 9615,
+      "sha256": "df64a7be762a5d3df117ce69a938ef0a67c2b7acb0fbcf0761c117478021b1af"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -983,18 +1074,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 19986,
-      "sha256": "8f4d8845707729281c7692914f3fa8240ee3d0d9b8ed0d8341625e912669eebd"
+      "bytes": 23075,
+      "sha256": "ae16d4b3096b94922e7c60c6e71bdc78101fb6b14f29883f595e993ec0d0402b"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 6535,
-      "sha256": "3e2431b782b58025896ace42fd1500dc9e24173cb0507528fc57e2cb1ec0a802"
+      "bytes": 7364,
+      "sha256": "56cb09bb65f2f18dc5e2b9242e31371c87985efbdfc08f4a732278ac8bb5dfce"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 16035,
-      "sha256": "db2e7f3eea531f210b42728e7c6d3fbbfd643ca1dd303ee4456203fa374df100"
+      "bytes": 17982,
+      "sha256": "9c9eceeec3b384aaec05c7d75cfd6263be8f7e7472e60d90733f760516475247"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -1013,8 +1104,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 12597,
-      "sha256": "efcf20ef944c654b99e658a8ae195d2141798a7f160d3e0d8b09cbfc96912ff8"
+      "bytes": 13745,
+      "sha256": "f6f692de2fd550f6c22ff1d96e8feb94882f76e42aa9ab3293d9fa4df54746d8"
     }
   ]
 }
