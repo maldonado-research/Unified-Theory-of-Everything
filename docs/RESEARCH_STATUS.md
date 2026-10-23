@@ -115,6 +115,16 @@ Applying the calculated field poles to the literal symmetric derivative seed giv
 
 Five explicit-guard stages and the focused primary-source assessment support these results; the full publication replay has fifty-eight stages. The renormalizable benchmark is known physics, and no new fundamental mathematics, external novelty, finite observable, empirical confirmation or unification is claimed. Earlier science and receipts remain unchanged; no new Zenodo version is made.
 
+## Derivative-seed Yukawa matter loops
+
+The [October 23 continuation](../checkpoint_2026_10_23/seed_yukawa/00_READ_FIRST.md) exhausts the one-loop proper topology at one original derivative seed and total neutrino-Yukawa degree two. The original two-lepton/two-Higgs proper vertex has no graph. Its fixed original Green-coordinate coefficient therefore uses the preceding field poles in this projection; connected sterile-source bridges still require their own earlier three-point counterterms and sourced physical reduction. The zero proper graph is not a physical beta-function zero.
+
+Two new matter sectors are actually integrated by separate Feynman-parameter and auxiliary-mass angular/radial routes. A four-lepton contact contains `C7` and `Y* M Y^dagger`. The four-Higgs action has a complex two-derivative coefficient `Tr(C7 Y* M Y^dagger)` and a potential coefficient `Tr(C7 Y* M M^dagger M Y^dagger)`, with the literal seed half, Wick signs, weak contractions and complex mass order fixed. These are mass-dependent lower-dimensional poles from a dimension-seven insertion while the sterile field remains present. No threshold removal or prediction of the input parameters follows.
+
+The primitive four-lepton coefficient has a normalized symmetric-flavor-pair image of rank at most two per weak triplet. This restriction belongs to the single calculated contact, not a total physical coefficient or positivity bound. Explicit bare-mu differentiation gives the projected MS inputs in declared unreduced coordinates. A local Higgs phase change can remove the imaginary scalar derivative placement only with the induced Yukawa and scalar-probe terms retained. Four-dimensional Fierz/component controls do not close a dimensional/evanescent prescription.
+
+The mixed lepton/Higgs Majorana-mass triangle remains uncomputed. Its same-composite derivative placement is UV finite, but the opposite placement permits a momentum-linear pole. That coefficient, the original three-point source transport and the remaining physical operator map are the next priority. Six new explicit-guard stages bring the full replay to sixty-four stages. Three successful bounded literature queries screened eighteen distinct papers and five primary bodies were checked. The results remain internally AI-assisted research; finite observables, empirical confirmation, external novelty and unification are unestablished.
+
 ## Withdrawn or unestablished claims
 
 The old proposed physical dimension-seven loop coefficient, restricted EOM completion and all-odd physical extension are not established. Their retained cancellation formulas are conditional algebra. Algebraic cancellation with any common coefficient cannot determine the correct physical coefficient.

@@ -1,5 +1,15 @@
 # Change log
 
+## TOE-GitHub-2026.10.23-candidate.12 — derivative-seed matter poles
+
+Exhaust the one-loop one-original-seed/two-neutrino-Yukawa proper and reducible slot graphs. The original seed-shaped proper four-point vertex is absent at this monomial, while mass-dependent four-scalar, mixed and four-lepton triangles are allowed. Actual whole-composite momentum distinguishes a UV-finite mixed placement from the remaining potentially divergent placement; connected sterile-source bridges are retained separately.
+
+Actually integrate the four-lepton and four-Higgs poles, each by independent parameter and auxiliary-mass angular/radial routes. The four-lepton source is `C7` times `Y* M Y^dagger`; the scalar derivative and potential invariants contain the ordered mass products `M` and `M M^dagger M`. Literal Wick/closed-loop signs, seed/expansion factors, weak components, complex masses, Bose/Grassmann identities and constant-background controls agree. A dimension-seven insertion feeds lower-dimensional action terms without removing the retained sterile field.
+
+Normalize the primitive four-lepton flavor/weak pair image, derive projected counterterm-to-RG entries with explicit bare-mu weights, and retain the imaginary scalar derivative packet through an optional local phase change with Yukawa and probe sources. Six standalone stages extend the full replay to sixty-four stages. Three bounded successful literature queries screen eighteen distinct papers; five primary bodies are checked, including a February 2026 topology/matching comparison. Credit-blocked web retrieval attempts are recorded.
+
+These are specified primitive Green projections and action-coordinate inputs. The mixed matter coefficient, earlier three-point source transport, physical derivative/EOM and evanescent closure, remaining interactions, finite matching and observables remain open. No complete physical beta function, external novelty, new fundamental mathematics or unification is established. Earlier science and receipts are preserved; no merge, deployment, release or Zenodo version is made.
+
 ## TOE-GitHub-2026.10.16-candidate.11 — one-loop Yukawa counterterm inputs
 
 Actually integrate the renormalizable pure-neutrino-Yukawa lepton, retained-Majorana and Higgs two-point UV poles. Feynman-parameter and independently authored asymptotic/radial routes agree on kinetic and retained-mass terms, with literal loop phases, weak sums, Majorana factors and UV/IR separation. The complex scalar mass trace uses the action-required `Tr(Y^dagger Y M^dagger M)` ordering.
