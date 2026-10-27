@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "date": "26 October 2026 Pacific",
+  "scope": "Classical first-order correlated phase transport using previous pole inputs; no loop integration, complete physical basis or observable.",
+  "positive_checks": 16,
+  "rejected_mutations": 9,
+  "positive_categories": {
+    "Hermitian phase generator": 1,
+    "lepton kinetic variation cancels anti-Hermitian current": 1,
+    "scalar kinetic variation cancels trace current": 1,
+    "scalar norm invariant": 1,
+    "Higgs doublet inversion": 1,
+    "conjugate Higgs phase from actual inversion": 1,
+    "scalar probe source transport": 1,
+    "neutrino Yukawa source variation": 1,
+    "charged lepton Yukawa source variation": 1,
+    "up quark Yukawa source variation": 1,
+    "down quark Yukawa source variation": 1,
+    "literal dimension-five action variation": 1,
+    "rank-one compatible seed has nonzero generator": 1,
+    "rank-one Yukawa support satisfies phase cancellation": 1,
+    "one-flavor neutrino and neutral composite are invariant": 1,
+    "lepton probe source transport": 1
+  },
+  "negative_categories": {
+    "omit derivative of density": 1,
+    "drop scalar probe transport": 1,
+    "drop charged-lepton spectator": 1,
+    "drop quark spectator": 1,
+    "omit dimension-five times dimension-six field-change contact": 1,
+    "replace transpose by adjoint on charge-conjugate slot": 1,
+    "rank-one cancellation implies zero generator": 1,
+    "multi-flavor full-rank Yukawa phase cancels automatically": 1,
+    "drop lepton probe transport": 1
+  },
+  "no_project_imports": true,
+  "assertions_required": false
+}

@@ -133,6 +133,14 @@ An independently checked off-shell product-rule identity retains lepton interact
 
 Together with the preceding four-lepton and four-Higgs calculations, this evaluates the proper four-point matter sectors in the declared one-seed/two-Yukawa, zero-external-gauge family. The original reducible three-point source bridges remain separate. Other interactions, lower-order insertions, physical EOM/IBP and evanescent closure, finite matching and observables remain open. Three additional explicit-guard stages bring the full replay to sixty-seven stages. Earlier scientific files and receipts are unchanged.
 
+## Combined matter phase and retained sources
+
+The [combined matter continuation](../checkpoint_2026_10_26/combined_matter/00_READ_FIRST.md) relates the already evaluated mixed lepton/Higgs and four-scalar poles through correlated first-order lepton and scalar phase changes. It explicitly carries neutrino, charged-lepton, quark and probe sources and their Hermitian conjugates. A separately implemented action audit checks the selected transformation. An optional independently supplied dimension-five coefficient produces an explicit dimension-seven contact under the same change. This is a classical action-coordinate calculation using earlier loop inputs; it does not evaluate a new loop or complete the quantum source map.
+
+Writing the Hermitian phase generator as `A=(K-K^dagger)/(2i)` and `a=Tr A` for `K=C7 Y* M Y^dagger`, the neutrino source produced by this change is proportional to `(A-a I)Y`. An independently checked flavor argument gives: when `rank(Y)>=2`, this induced source vanishes if and only if `A=0`; at rank one it vanishes precisely when `A=a P`, with `P` the projector onto the Yukawa image. The rank-zero case has `A=0`. These are exact statements for this selected first-order map, not a full physical operator constraint or phenomenological bound.
+
+Other induced source/current terms, different action contributions, redundant-coefficient differentiation, dimensional/evanescent definitions, finite matching, physical running and observables remain open. Three new replay stages and a bounded literature comparison support the declared scope; no experimental validation or independent human peer review is claimed.
+
 ## Withdrawn or unestablished claims
 
 The old proposed physical dimension-seven loop coefficient, restricted EOM completion and all-odd physical extension are not established. Their retained cancellation formulas are conditional algebra. Algebraic cancellation with any common coefficient cannot determine the correct physical coefficient.

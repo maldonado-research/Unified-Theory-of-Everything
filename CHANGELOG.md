@@ -1,5 +1,13 @@
 # Change log
 
+## TOE-GitHub-2026.10.26-candidate.14 — combined matter source transport
+
+Apply correlated lepton and scalar phase changes to the imaginary-current parts of the already calculated mixed and scalar matter poles. Explicitly retain the induced neutrino, charged-lepton, quark and probe terms and their Hermitian conjugates. A separately implemented action audit checks the selected first-order substitution; an optional independently supplied symmetric dimension-five coefficient produces a checked dimension-seven contact. No new loop is integrated.
+
+For the induced neutrino source, derive a sharp rank-dependent obstruction using the image of the neutrino Yukawa matrix. At rank at least two, source-free transport in this selected map requires the Hermitian phase generator to vanish. At rank one, a nonzero generator can survive only on the coupled flavor direction. These are conditional algebraic statements about this action-coordinate choice, not physical predictions.
+
+Three standalone stages extend the full replay to seventy stages. The full quantum source map, other action contributions, the physical operator basis and running, finite amplitudes, external novelty and unification remain open. Earlier science and receipts are unchanged; both pull requests remain open and no Zenodo version is made.
+
 ## TOE-GitHub-2026.10.26-candidate.13 — mixed lepton/Higgs Majorana-mass pole
 
 Evaluate the mixed two-lepton/two-Higgs proper triangle at one original derivative seed and two neutrino-Yukawa insertions. Independent Feynman-parameter and large-momentum angular routes obtain the same momentum-linear UV residue with the retained Majorana mass and complex flavor order. The previously identified same-composite derivative placement is UV finite. Keep the full Hermitian conjugate, weak contractions, literal action phase and selected counterterm convention.
