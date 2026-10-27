@@ -1,0 +1,79 @@
+{
+  "title": "Bounded literature checks for the mixed lepton-Higgs sector",
+  "display_date": "2026-10-26",
+  "display_timezone": "America/Los_Angeles",
+  "accessed_date_utc": "2026-10-27",
+  "input_commit": "8999d3de1a0e3dc2576fe1586295426da687fc67",
+  "scope": "Method comparisons; no imported retained-sterile mixed-pole coefficient, full physical running, novelty or observable claim.",
+  "totals": {
+    "successful_paper_index_queries": 2,
+    "requested_per_query": 10,
+    "returned_per_query": [4, 7],
+    "ranked_appearances": 11,
+    "distinct_papers": 8,
+    "duplicate_appearances": 3,
+    "metadata_inspections": 2,
+    "passage_requests": 2,
+    "passages_returned": 7,
+    "arxiv_abstract_version_pages_http_200": 2,
+    "failed_ordinary_web_searches": 1
+  },
+  "searches": [
+    {
+      "provider": "Firecrawl paper index",
+      "query": "sterile neutrino dimension seven operator renormalization lepton Higgs derivative Majorana mass loop Green basis",
+      "from": "2025-01-01",
+      "to": "2026-10-27",
+      "filter_note": "Inclusive created or updated date in UTC; this is not an exhaustive search.",
+      "k": 10,
+      "result_ids": ["arxiv:2501.13150", "arxiv:2602.05461", "arxiv:2501.02682", "arxiv:2608.12646"]
+    },
+    {
+      "provider": "Firecrawl paper index",
+      "query": "neutrino effective field theory Majorana dimension seven lepton Higgs current operators field redefinitions one loop",
+      "from": "2025-01-01",
+      "to": "2026-10-27",
+      "filter_note": "Inclusive created or updated date in UTC; this is not an exhaustive search.",
+      "k": 10,
+      "result_ids": ["arxiv:2504.00081", "arxiv:2602.18395", "arxiv:2608.12646", "arxiv:2604.21492", "arxiv:2504.00792", "arxiv:2501.13150", "arxiv:2501.02682"]
+    }
+  ],
+  "selected_sources": [
+    {
+      "paper_id": "244162652813224073",
+      "id": "arxiv:2602.05461v1",
+      "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+      "authors": ["Álvaro Díaz-Carmona"],
+      "url": "https://arxiv.org/abs/2602.05461v1",
+      "published": "2026-02-05",
+      "arxiv_version_check": "Abstract page HTTP 200; only v1 listed. Provider passage body was unversioned.",
+      "passage_request": "What is the particle content and operator dimension of the one-loop Green-basis renormalisation, and what limitations apply to a retained Majorana sterile neutrino dimension-seven operator?",
+      "passage_count": 3,
+      "disposition": "Primary passages in chapters 5.5-5.6 support lower-order insertion and wave-function-renormalization bookkeeping; pure SMEFT and no direct retained-sterile seed coefficient."
+    },
+    {
+      "paper_id": "4129375628006248625",
+      "id": "arxiv:2504.00081v2",
+      "title": "Importance of Loop Effects in Probing Lepton Number Violation",
+      "authors": ["Lukáš Gráf", "Chandan Hati", "Ana Martín-Galán", "Oliver Scholer"],
+      "url": "https://arxiv.org/abs/2504.00081v2",
+      "version_submitted_utc": "2025-07-21",
+      "index_updated": "2025-07-22",
+      "arxiv_version_check": "Abstract page HTTP 200; v1 and v2 listed. Provider passage body was unversioned.",
+      "passage_request": "Which effective theory, particle field content and operators underlie the dimension-seven loop-induced lower-dimensional contributions, and do the authors retain sterile neutrinos?",
+      "passage_count": 4,
+      "disposition": "Primary passages discuss model-dependent SMEFT dim-5/dim-7 matching and LNV observables; do not supply the present retained-sterile mixed pole or an experimental bound on this hypothesis."
+    }
+  ],
+  "previously_checked_reference": {
+    "id": "arxiv:2504.00792v2",
+    "url": "https://arxiv.org/html/2504.00792v2",
+    "disposition": "Prior checkpoint's retained-sterile field-redefinition benchmark; body reading not repeated in this search."
+  },
+  "ordinary_web_search": {
+    "provider": "Firecrawl web search",
+    "query": "one loop matching massive Majorana neutrino effective field theory derivative Higgs lepton operators current",
+    "status": "Not executed: connected account reported insufficient credits; no retry.",
+    "search_id": null
+  }
+}

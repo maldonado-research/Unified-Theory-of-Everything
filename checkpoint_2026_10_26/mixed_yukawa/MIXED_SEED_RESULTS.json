@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "positive_checks": 41,
+  "adverse_controls": 9,
+  "scope": "Exact opposite-composite scalar/vector pole and complex flavor covariance; overall Wick normalisation is a separately justified action input.",
+  "vector_residue": "(p-h)/2",
+  "same_composite_UV_degree": -1,
+  "assumptions": "unbroken theory; one original seed; two conjugate neutrino Yukawa vertices; retained symmetric Majorana mass; generic off-shell kinematics",
+  "repository_imports": false,
+  "assertions_required": false
+}

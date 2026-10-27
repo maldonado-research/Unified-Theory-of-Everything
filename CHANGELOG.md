@@ -1,5 +1,13 @@
 # Change log
 
+## TOE-GitHub-2026.10.26-candidate.13 — mixed lepton/Higgs Majorana-mass pole
+
+Evaluate the mixed two-lepton/two-Higgs proper triangle at one original derivative seed and two neutrino-Yukawa insertions. Independent Feynman-parameter and large-momentum angular routes obtain the same momentum-linear UV residue with the retained Majorana mass and complex flavor order. The previously identified same-composite derivative placement is UV finite. Keep the full Hermitian conjugate, weak contractions, literal action phase and selected counterterm convention.
+
+Derive an exact off-shell integration-by-parts and lepton-source identity for the mixed local operator. A conjugate-safe lepton field change tracks its equation-residual terms while retaining interaction sources, the scalar current, boundary term and external-probe transformations. This is a selected action-coordinate identity, not a complete quantum effective-action or physical-basis map.
+
+The mixed result completes the primitive four-point matter-sector integrations in the declared one-seed/two-Yukawa, zero-external-gauge sector when combined with the preceding four-lepton and four-Higgs calculations. Three standalone stages extend the full replay to sixty-seven stages. A bounded literature follow-up records primary excerpts and retrieval limits. Other interactions, earlier three-point source transport, redundant-coefficient differentiation, dimensional/evanescent conventions, finite matching and observables remain open. No complete physical beta function, external novelty or unification is established; earlier science and receipts remain unchanged.
+
 ## TOE-GitHub-2026.10.23-candidate.12 — derivative-seed matter poles
 
 Exhaust the one-loop one-original-seed/two-neutrino-Yukawa proper and reducible slot graphs. The original seed-shaped proper four-point vertex is absent at this monomial, while mass-dependent four-scalar, mixed and four-lepton triangles are allowed. Actual whole-composite momentum distinguishes a UV-finite mixed placement from the remaining potentially divergent placement; connected sterile-source bridges are retained separately.
