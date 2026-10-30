@@ -1,5 +1,13 @@
 # Change log
 
+## TOE-GitHub-2026.10.30-candidate.15 — real matter normalization and scalar geometry
+
+Extend the preceding correlated phase map by conjugate-safe real lepton and radial scalar changes. They remove the selected scalar-dependent kinetic normalization terms while retaining a real lepton current, scalar derivative remainder, raw potential pole, four-lepton contact and every declared Yukawa/probe variation. The scalar-potential change is explicit; a separately supplied dimension-five coefficient produces a conditional dimension-seven term. This is first-order classical action algebra using previously calculated poles, with no new loop integral.
+
+Compute the linearized Riemann tensor of the selected four-real-component scalar kinetic metric before and after the radial map. Its equal nonzero curvature, for a nonzero real trace coefficient, prevents a local derivative-free scalar reparametrization from flattening all those selected two-derivative interactions. This is an application of established field-space geometry within the truncated scalar sector; it does not constrain every derivative-dependent EFT map or describe spacetime gravity.
+
+Three standalone stages extend the full replay to seventy-three stages. The earlier three-point source packet, correlated renormalizable inputs, full derivative/EOM and evanescent basis, quantum source map, external-gauge matter amplitudes, physical running and finite observables remain open. Earlier scientific files and receipts are unchanged; both pull requests remain open, and no live deployment, tag/release or Zenodo version is made.
+
 ## TOE-GitHub-2026.10.26-candidate.14 — combined matter source transport
 
 Apply correlated lepton and scalar phase changes to the imaginary-current parts of the already calculated mixed and scalar matter poles. Explicitly retain the induced neutrino, charged-lepton, quark and probe terms and their Hermitian conjugates. A separately implemented action audit checks the selected first-order substitution; an optional independently supplied symmetric dimension-five coefficient produces a checked dimension-seven contact. No new loop is integrated.

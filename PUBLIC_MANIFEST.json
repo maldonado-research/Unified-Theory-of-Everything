@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.10.26-candidate.14",
+  "release": "TOE-GitHub-2026.10.30-candidate.15",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -19,7 +19,8 @@
     "verification/YUKAWA_COUNTERTERM_REPLAY_LINUX.json",
     "verification/SEED_YUKAWA_REPLAY_LINUX.json",
     "verification/MIXED_YUKAWA_REPLAY_LINUX.json",
-    "verification/COMBINED_MATTER_REPLAY_LINUX.json"
+    "verification/COMBINED_MATTER_REPLAY_LINUX.json",
+    "verification/REAL_MATTER_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -29,13 +30,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 25771,
-      "sha256": "7fd1dfd8d2b8c9ff2e6f3033ffc40491636d1c1c07f20613592b3b51f0988b2a"
+      "bytes": 27368,
+      "sha256": "cf6c1963fba0cb769f6c32980042a793c025fef207984bcc857dcf9d4899cbce"
     },
     {
       "path": "CITATION.cff",
       "bytes": 751,
-      "sha256": "e5dbe43a3b878fb7dba7b7f326a204500ee4161633713811be9da0ca3a6af7d1"
+      "sha256": "0a2af2ff3bef7862a09a274dabe2cf842c03c42d9a1e84b63ed3e05c8d4851c7"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -49,8 +50,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15500,
-      "sha256": "4ae6ee5fffcd374e1f14396f6eca4ef3c43ee9f3be24b53a8211dd2062f3b081"
+      "bytes": 16502,
+      "sha256": "566d43041df65f5541901ce7f4577bbd4aaa35fe3e06d005b177e6d317a19353"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -1473,6 +1474,66 @@
       "sha256": "9e6432a55dad6433465033ea2af9aaaec59e748a0c3e62131dae0655ffb9be45"
     },
     {
+      "path": "checkpoint_2026_10_30/real_matter/00_READ_FIRST.md",
+      "bytes": 6057,
+      "sha256": "d873a1c732e44a5bc23fb8d2085534fd3f7001c4e3618fc447d68707751f961c"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/INDEPENDENT_REAL_AUDIT.md",
+      "bytes": 8132,
+      "sha256": "e8b4aa79521c4a503e64ea6b918ec9626ff01bce040baef05087b32d21629fd3"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/INDEPENDENT_REAL_RESULTS.json",
+      "bytes": 3074,
+      "sha256": "ce4b27bf74a2314d169e01c4c44cc9eb760b9252ba77ab1ebdc97c69c4a5f4a2"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/LITERATURE_PROVENANCE.json",
+      "bytes": 15258,
+      "sha256": "b86422b35cbe212c8072b08a8f4e103e5c37dd2086195d8af04660eb31c0970e"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/LITERATURE_REAL_MATTER.md",
+      "bytes": 6137,
+      "sha256": "0c5e3ab7844729f245ff790cd1bdbee1781b13662160acc0475378463dcc585b"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/REAL_MATTER_RESULTS.json",
+      "bytes": 3153,
+      "sha256": "75780dbdb053cd51f5ea06cbbaa282c9a5ee7cea94567565362d9766629fc626"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/REAL_MATTER_TRANSPORT.md",
+      "bytes": 7968,
+      "sha256": "df93e9198f1195b095366931ec5623cab8ef52cedbda24fa637fa2183e9859fc"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/SCALAR_GEOMETRY.md",
+      "bytes": 5778,
+      "sha256": "ef6437a418556718a686e3626b1350961f84043fa69350c6f4b580c7336864c1"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/SCALAR_GEOMETRY_RESULTS.json",
+      "bytes": 2618,
+      "sha256": "484036d75e86d3f9e33521e85aedab428385a19b64376641b6ff2142e7cfb600"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/independent_real_audit.py",
+      "bytes": 13763,
+      "sha256": "2a3b4f7c364fca8d3b3c06373cd427962ae05ad35905d12123433e97c19e0bf3"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/verify_real_matter.py",
+      "bytes": 13462,
+      "sha256": "7dd3a1a6f3c4b06241280907012b63b37015122c11fcb391ae16b5dc24801dd7"
+    },
+    {
+      "path": "checkpoint_2026_10_30/real_matter/verify_scalar_geometry.py",
+      "bytes": 7795,
+      "sha256": "93cb2d76d3a526d884da5dd7655931697340e4416d75ce8a2bdf886ff9512475"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -1484,18 +1545,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 34662,
-      "sha256": "d1f305f8ba112b450e253d4587150f62062a3e111ce6bf65010bfa95f262642f"
+      "bytes": 37164,
+      "sha256": "96134fa49ad16816eb6e531b747c11502e9fb4117f16e52b5e86225074021776"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 10649,
-      "sha256": "72d60699fd892d6291e345f47afa824d4417afcfe663d84b66e1966e4992e7c2"
+      "bytes": 11311,
+      "sha256": "820214886b78e56e61372cb0b8987b4426497be2ded533462d3e82b27b5b8e55"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 26834,
-      "sha256": "4d59cfc467acb38c13358c4fd05bcf7109b65f8305322d939d51eec76cff928f"
+      "bytes": 28241,
+      "sha256": "231d87382801d1f769390d3e5ad3172e05143b049251e017c2329cfb14708a2f"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -1514,8 +1575,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 18363,
-      "sha256": "32675ac5441d9e06ab575d6a7cf2f08d47c9d6ca0e5be1c2d27ed0e4ec482772"
+      "bytes": 19124,
+      "sha256": "a56e18b3e6bdebe2c1537dbb122d112b66a25a76433f44848ca46afecd8cb122"
     }
   ]
 }
