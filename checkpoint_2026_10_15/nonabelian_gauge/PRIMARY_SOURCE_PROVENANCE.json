@@ -1,0 +1,43 @@
+{
+  "date_accessed": "2026-10-15",
+  "new_live_primary_requests": 1,
+  "reused_cached_primary_bodies": 1,
+  "new_firecrawl_scrape_attempts": 0,
+  "primary_sources": [
+    {
+      "requested_url": "https://arxiv.org/html/hep-ph/9410338v2",
+      "resolved_url": "https://arxiv.org/html/hep-ph/9410338v2",
+      "status": 200,
+      "accessed_utc": "2026-10-15T21:33:27.053587+00:00",
+      "bytes": 949489,
+      "sha256": "30576b033d3bb5bc6efafb4a218988bfe82df9e9b7312fb24f20fe25d862fb83",
+      "observed_version": "hep-ph/9410338v2",
+      "observed_version_date": "21 Oct 1994",
+      "targeted_sections_checked": [
+        "Section 2.1 Eqs. (2), (4), (11): field strength, covariant derivative, neutral rotation",
+        "Section 2.2 around Eqs. (21)-(22): background transformations, Gamma vertex functions and separate S-matrix tree construction",
+        "Section 3 Eq. (23), text after Eq. (24): background functional Ward identity, conventional Slavnov-Taylor distinction, no background gauge-fixing in vertex functions"
+      ],
+      "claims_corroborated": true
+    },
+    {
+      "requested_url": "https://arxiv.org/html/2512.15866",
+      "accessed_utc": "2026-10-15T21:01:35.161046+00:00",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2512.15866",
+      "bytes": 1378254,
+      "sha256": "215a651053c6a95873bf3644396ce4af7a0db2056811a31c186a86dad8b5864a",
+      "title": "Renormalization of general Effective Field Theories: Renormalization of fermionic operators",
+      "observed_version": "2512.15866v1",
+      "observed_version_date": "17 Dec 2025",
+      "retrieval_in_this_round": false,
+      "targeted_sections_checked": [
+        "Section 2 Eqs. (1)-(4): F, adjoint derivative, Dminus matter convention",
+        "Section 2 Eqs. (6), (8): dipole operator uses full F and sigma=i[gamma,gamma]/2"
+      ],
+      "claims_corroborated": true
+    }
+  ],
+  "method": "Managed HTTPS via inherited proxy with certificate verification enabled; no direct route or TLS bypass. Only hashes, URLs and paraphrased notes are public-safe; raw HTML stays in scratch.",
+  "claim_boundary": "This is a convention and topology-method check. No UV coefficient, complete EFT basis, loop count, physical running, novelty or observable is established."
+}

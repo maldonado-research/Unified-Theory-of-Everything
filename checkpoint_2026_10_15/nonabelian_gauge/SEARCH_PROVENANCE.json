@@ -1,0 +1,127 @@
+{
+  "scope": "Two focused paper-index queries; abstract-level screen only; not exhaustive and no novelty conclusion.",
+  "totals": {
+    "queries": 2,
+    "requested_per_query": 10,
+    "returned_per_query": [
+      2,
+      4
+    ],
+    "ranked_appearances": 6,
+    "distinct_papers": 6,
+    "new_directly_used_search_candidates": 0
+  },
+  "searches": [
+    {
+      "label": "NQ1",
+      "date_accessed": "2026-10-15",
+      "provider": "Firecrawl paper index",
+      "query": "non-Abelian background field Ward identities effective field theory off-shell counterterms fermion scalar two gauge boson vertices",
+      "from": "2025-01-01",
+      "to": "2026-10-15",
+      "requested_k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "primaryId": "arxiv:2603.15092",
+          "paperId": "8672786625247736027",
+          "ids": {
+            "arxiv": [
+              "2603.15092"
+            ]
+          },
+          "title": "Gauge Symmetry Beyond Perturbation Theory: BRST and anti-BRST Structure, Background Fields, and Infrared Dynamics of Yang--Mills Theory",
+          "score": 0.6771325114087469,
+          "url": "https://arxiv.org/abs/2603.15092",
+          "screening_note": "Abstract-only background/BRST review; relevant conceptual context but not a direct selected EFT multi-gauge counterterm calculation; no source-passage verification performed."
+        },
+        {
+          "rank": 2,
+          "primaryId": "arxiv:2605.25578",
+          "paperId": "2912395589269626459",
+          "ids": {
+            "arxiv": [
+              "2605.25578"
+            ]
+          },
+          "title": "Fermion renormalized vertex functions, effective mass, and condensate in an external Yang-Mills gauge field",
+          "score": 0.6084079456547158,
+          "url": "https://arxiv.org/abs/2605.25578",
+          "screening_note": "Abstract-only external Yang-Mills plane-wave fermion analysis; different background/observable regime, not used."
+        }
+      ]
+    },
+    {
+      "label": "NQ2",
+      "date_accessed": "2026-10-15",
+      "provider": "Firecrawl paper index",
+      "query": "effective field theory nonabelian dipole curvature field strength covariant derivative two gauge boson operator completion",
+      "from": "2025-01-01",
+      "to": "2026-10-15",
+      "requested_k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "primaryId": "arxiv:2608.26085",
+          "paperId": "1976559777708279248",
+          "ids": {
+            "arxiv": [
+              "2608.26085"
+            ]
+          },
+          "title": "Massive Ghost Confinement, Dipole Equation and Multipole States in Quadratic Gravity",
+          "score": 0.5698526514141571,
+          "url": "https://arxiv.org/abs/2608.26085",
+          "screening_note": "Excluded topical false positive: dipole differential equations in quadratic gravity are not electromagnetic EFT dipole operators."
+        },
+        {
+          "rank": 2,
+          "primaryId": "arxiv:2508.14591",
+          "paperId": "7325304397547782720",
+          "ids": {
+            "arxiv": [
+              "2508.14591"
+            ]
+          },
+          "title": "Worldline Formulations of Covariant Fracton Theories",
+          "score": 0.5038085200915444,
+          "url": "https://arxiv.org/abs/2508.14591",
+          "screening_note": "Excluded topical false positive: fracton dipole-moment conservation differs from the present gauge-curvature packet."
+        },
+        {
+          "rank": 3,
+          "primaryId": "arxiv:2512.07958",
+          "paperId": "6209615109997930316",
+          "ids": {
+            "arxiv": [
+              "2512.07958"
+            ],
+            "doi": [
+              "10.1007/JHEP09(2026)117"
+            ]
+          },
+          "title": "Strong-field regime within effective field theory",
+          "score": 0.5004699705615953,
+          "url": "https://arxiv.org/abs/2512.07958",
+          "screening_note": "Abstract-only strong-field scalar QED covariant derivative expansion; Abelian and different expansion regime, not used."
+        },
+        {
+          "rank": 4,
+          "primaryId": "arxiv:2609.16455",
+          "paperId": "5739431161060460591",
+          "ids": {
+            "arxiv": [
+              "2609.16455"
+            ]
+          },
+          "title": "Stringy Gauge Structures",
+          "score": 0.49616706728404075,
+          "url": "https://arxiv.org/abs/2609.16455",
+          "screening_note": "Excluded model mismatch: string-derived gauge structures; no coefficient or Ward identity transferred."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": 642,
+  "kinematic_points": 12,
+  "exhaustive_two_gauge_momentum_polarization_coefficients": 256,
+  "exhaustive_three_gauge_polarization_coefficients": 64,
+  "negative_controls_rejected": 56,
+  "negative_control_counts": {
+    "wrong nonlinear curvature sign": 8,
+    "reversed row-curvature order": 8,
+    "wrong adjoint derivative sign": 8,
+    "dropped antisymmetric group sector": 8,
+    "dropped cubic": 8,
+    "wrong cubic curvature sign": 8,
+    "omitted lower-point Ward commutator": 8
+  },
+  "method": "literal square-free Fourier polynomial differentiation, exact Q(i) matrices; independent explicit kernels and two-/three-gauge Ward recursion",
+  "scope": "classical local action Fourier/group/Ward checks; no loop integration or physical-running calculation"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "input_commit": "d822e9f4d70ad5b455436f40abc3c2b45909bbef",
+  "scope": "Weak-index completeness, scalar and ordered fermion current descendants, finite weak covariance, real gauge-shift and source-current rotations. No loops or physical running.",
+  "positive_checks": 61,
+  "positive_categories": {
+    "Pauli completeness components": 16,
+    "ordered doublet-current contraction": 8,
+    "scalar weak-current contraction": 8,
+    "finite weak rotation unitarity": 8,
+    "weak scalar contraction covariance": 8,
+    "singlet current covariance": 8,
+    "neutral photon field shift": 1,
+    "neutral Z field shift": 1,
+    "positive charged field shift": 1,
+    "negative charged field shift": 1,
+    "full neutral and charged source-current projection": 1
+  },
+  "mutation_rejections": 20,
+  "mutation_categories": {
+    "missing weak singlet subtraction": 8,
+    "missing scalar norm derivative": 8,
+    "hypercharge-only photon shift": 1,
+    "wrong weak generator normalization": 1,
+    "swapped charged-current orientation": 1,
+    "free weak equation drops charged source": 1
+  },
+  "exact_arithmetic": true,
+  "repository_imports": false,
+  "assertions_required": false
+}

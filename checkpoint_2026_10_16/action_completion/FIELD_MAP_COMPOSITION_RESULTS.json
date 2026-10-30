@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact Gaussian rational Fourier exterior algebra, standard library only",
+  "positive_checks": 55,
+  "checks_by_category": {
+    "literal_packet_projection": 3,
+    "direct_actual_action_substitution": 6,
+    "nonlinear_scalar_hessian": 3,
+    "explicit_hessian_congruence": 9,
+    "graded_majorana": 24,
+    "normalization_transport": 3,
+    "independent_source_transport": 6,
+    "stationary_limit": 1
+  },
+  "negative_checks": 31,
+  "mutation_rejections": {
+    "omit_induced_mass_terms": 3,
+    "omit_source_transport": 3,
+    "omit_gauge_composite_source": 3,
+    "omit_scalar_composite_source": 3,
+    "apply_original_normalizer_directly_to_reduced_packet": 3,
+    "use_sum_instead_of_difference_bridge": 3,
+    "extra_Majorana_half": 3,
+    "omit_y_charge_conjugate": 3,
+    "commute_retained_mass_through_flavor": 3,
+    "omit_offshell_scalar_tadpole": 2,
+    "wrong_scalar_bridge_sign": 2
+  },
+  "total_checks": 86,
+  "neutral_trials": [
+    {
+      "p": [
+        "2",
+        "1",
+        "-1",
+        "1"
+      ],
+      "p_squared": "1",
+      "m_H_squared": "7/3",
+      "scalar_gradient_factor": "62/15",
+      "stationary": false,
+      "real_fermion_components": 32,
+      "original_kernel_monomials": 120,
+      "reduced_kernel_monomials": 368,
+      "normalized_kernel_monomials": 128,
+      "nonlinear_tadpole_monomials": 120
+    },
+    {
+      "p": [
+        "3",
+        "2",
+        "1",
+        "-1"
+      ],
+      "p_squared": "3",
+      "m_H_squared": "-4/3",
+      "scalar_gradient_factor": "7/15",
+      "stationary": false,
+      "real_fermion_components": 32,
+      "original_kernel_monomials": 120,
+      "reduced_kernel_monomials": 368,
+      "normalized_kernel_monomials": 128,
+      "nonlinear_tadpole_monomials": 120
+    },
+    {
+      "p": [
+        "2",
+        "0",
+        "1",
+        "1"
+      ],
+      "p_squared": "2",
+      "m_H_squared": "-9/5",
+      "scalar_gradient_factor": "0",
+      "stationary": true,
+      "real_fermion_components": 32,
+      "original_kernel_monomials": 128,
+      "reduced_kernel_monomials": 352,
+      "normalized_kernel_monomials": 128,
+      "nonlinear_tadpole_monomials": 0
+    }
+  ],
+  "all_field_bridge": "Xi_S=Xi_C+kappa(v_C-v_S), with maps evaluated on Xi_C",
+  "new_direct_substitution_scope": "neutral fermionic quadratic Hessian of declared neutrino/Yukawa/Majorana/scalar action, with nonlinear scalar shift and independent probes",
+  "limitations": [
+    "full interacting bridge uses prior checked residual and first variation, not a new component expansion of every electroweak vertex",
+    "first order in selected kappa F and inverse-scale order three",
+    "no gauge fixing or ghost pullback",
+    "no ordinary quantum 1PI coordinate-covariance claim",
+    "no new loops, complete physical basis, finite amplitude, or beta function"
+  ]
+}

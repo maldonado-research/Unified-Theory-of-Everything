@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "positive_checks": 80,
+  "checks_by_category": {
+    "one_particle_irreducibility": 2,
+    "literal_graph_enumeration": 5,
+    "charge_flow": 2,
+    "literal_clifford": 16,
+    "actual_majorana_propagator_chain": 18,
+    "UV_IR_separation": 3,
+    "weak_charge_flow": 4,
+    "renormalized_parameter_counterterms": 5,
+    "canonical_epsilon_running": 5,
+    "independent_homogeneity": 9,
+    "flavor_covariance": 6,
+    "massless_limit": 2,
+    "one_flavor_limit": 3
+  },
+  "negative_checks": 21,
+  "mutation_rejections": {
+    "treat_Majorana_mass_numerator_as_second_slash": 1,
+    "permit_charged_same_orientation_propagator": 2,
+    "omit_endpoint_chiral_projectors": 6,
+    "insert_UV_q_squared_numerator": 6,
+    "extra_weak_doublet_factor": 1,
+    "miss_factor_two_from_mu_epsilon": 1,
+    "insert_mu_epsilon_prefactor_for_mass": 1,
+    "use_adjoint_instead_of_Majorana_transpose": 1,
+    "omit_scalar_field_mass_transport": 1,
+    "omit_Y_vertex_field_transport": 1
+  },
+  "total_checks": 101,
+  "proper_cubic_topology_count": 1,
+  "reducible_topologies_excluded": 12,
+  "target_NR_allowed_triangles": [],
+  "opposite_Majorana_allowed_triangles": [
+    {
+      "vertex_orientations": [
+        "A",
+        "A",
+        "B"
+      ],
+      "external_fields": [
+        "Lbar",
+        "phi",
+        "NRbar"
+      ],
+      "edges": [
+        {
+          "endpoints": [
+            0,
+            1
+          ],
+          "fields": [
+            "NR",
+            "NR"
+          ],
+          "propagator": "sterile_M"
+        },
+        {
+          "endpoints": [
+            0,
+            2
+          ],
+          "fields": [
+            "phi",
+            "phibar"
+          ],
+          "propagator": "scalar"
+        },
+        {
+          "endpoints": [
+            1,
+            2
+          ],
+          "fields": [
+            "Lbar",
+            "L"
+          ],
+          "propagator": "light_q"
+        }
+      ],
+      "numerator_q_degree": 1,
+      "superficial_UV_degree": -1
+    }
+  ],
+  "proper_Yukawa_UV_pole": "zero",
+  "proper_sterile_mass_UV_pole": "zero in declared pure-neutrino-Yukawa sector",
+  "two_point_inputs": {
+    "deltaZ_L": "-kappa YYdagger/2",
+    "deltaZ_NR": "-kappa H",
+    "deltaZ_phi": "-kappa trH",
+    "raw_scalar_mass_counterterm": "-2kappa Qm",
+    "H": "YdaggerY",
+    "Qm": "Tr(H MdaggerM)"
+  },
+  "parameter_pole_coefficients": {
+    "deltaY/kappa": "3YH/4+(trH)Y/2",
+    "deltaM/kappa": "(H^T M+MH)/2",
+    "deltam_H_squared/kappa": "m_H_squared trH-2Qm"
+  },
+  "one_loop_4D_running": {
+    "16pi2 betaY": "3YH/2+(trH)Y",
+    "16pi2 betaM": "H^T M+MH",
+    "16pi2 beta_m_H_squared": "2m_H_squared trH-4Qm"
+  },
+  "arithmetic": "exact Gaussian rational, standard library only",
+  "scope": [
+    "known one-loop renormalizable pure-neutrino-Yukawa benchmark; unbroken background",
+    "proper vertex enumeration/chiral power counting independent of two-point input",
+    "RG coefficients additionally depend on separately calculated two-point inputs",
+    "fixed flavor coordinates; no gauge/other-Yukawa/quartic contributions included",
+    "no finite triangle amplitude, complete TOE/seed beta function, or novelty claim"
+  ]
+}

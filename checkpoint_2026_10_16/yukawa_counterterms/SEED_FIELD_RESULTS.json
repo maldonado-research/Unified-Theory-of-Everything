@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "input_commit": "0770c304c7e05f213dd796d3fd5a194107f38858",
+  "scope": "External-field contribution to seed parameter pole and its canonical-epsilon RG input; not the full seed anomalous dimension.",
+  "positive_checks": 17,
+  "positive_categories": {
+    "symmetric seed field-pole coefficient": 1,
+    "constant field coefficient formula": 1,
+    "literal four-field bare seed substitution": 2,
+    "integrated bare seed substitution": 2,
+    "field-specific parameter pole cancels field substitution": 2,
+    "scalar/Box symmetric coefficient": 2,
+    "formal epsilon residue-to-RG conversion": 1,
+    "field anomalous-dimension form": 1,
+    "seed bare mu exponent": 1,
+    "unitary active basis": 1,
+    "unitary sterile basis": 1,
+    "seed field-pole flavor covariance": 1,
+    "sterile-basis trace covariance": 1
+  },
+  "negative_checks": 15,
+  "negative_categories": {
+    "omit the field-induced seed pole": 2,
+    "miss one Higgs half-field contribution": 2,
+    "count each Higgs field twice": 2,
+    "adjoint instead of transpose on right seed slot": 2,
+    "extra Majorana half on seed parameter pole": 2,
+    "delete derivatives on Higgs inside Xc": 2,
+    "UV pole identified directly with beta": 1,
+    "scalar anomalous dimension counted once": 1,
+    "transpose discarded in complex basis": 1
+  },
+  "source_inputs": {
+    "delta_ZL_over_kappa": "-YYdagger/2",
+    "delta_Zphi_over_kappa": "-Tr(YdaggerY)"
+  },
+  "new_loop_integration": false,
+  "repository_imports": false,
+  "assertions_required": false
+}

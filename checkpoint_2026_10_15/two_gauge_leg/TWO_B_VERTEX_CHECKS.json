@@ -1,0 +1,38 @@
+{
+  "accepted_generic_points": 24,
+  "arithmetic": "exact Fraction; independent 8x8 realified Dirac matrices",
+  "attempted_points": 24,
+  "checks": {
+    "Bose diagram pairing": 96,
+    "Bose identity exact integrand": 24,
+    "Clifford algebra": 16,
+    "baseline loop phase": 1,
+    "charge conjugation gamma": 4,
+    "chirality projector": 1,
+    "first Ward identity projected": 24,
+    "first Ward identity with shift": 24,
+    "local action Bose identity": 24,
+    "local action Ward identity": 24,
+    "ordered two-insertion charge conjugation": 24,
+    "physical FF charge product": 1,
+    "physical mixed charge product": 1,
+    "scalar ordered contraction needs factor two": 24,
+    "scalar seagull functional factor": 24,
+    "seagull extra propagator relative phase": 1,
+    "second Ward identity with shift": 24,
+    "sequential insertion relative phase": 1
+  },
+  "mutations_detected_at_points": {
+    "discarding shift before integration": 24,
+    "half seagull": 24,
+    "missing seagull": 24,
+    "one missing FF ordering": 24,
+    "reversed FF chain": 24,
+    "wrong FF seed": 24,
+    "wrong mixed charges": 24,
+    "wrong seagull sign": 24
+  },
+  "scope": "seven unintegrated kernels, action phases, charge ordering, Bose and Ward identities; no loop integration",
+  "status": "passed",
+  "total_positive_checks": 338
+}

@@ -1,0 +1,593 @@
+{
+  "status": "PASS",
+  "date": "23 October 2026 Pacific",
+  "input_commit": "f1f9a892e15545c70e4fa05827ea7fefc5a438eb",
+  "calculation": "Literal one-loop 1PI topology and whole-composite derivative degree for one original seed and two pure-neutrino-Yukawa vertices",
+  "counts_are": "labelled literal-slot contractions; not graph symmetry factors or amplitude multiplicities",
+  "positive_checks": 960,
+  "checks_by_category": {
+    "unique proper cubic-seed topology": 1,
+    "proper internal degree at every vertex": 1,
+    "literal connected/proper slot counts SAA": 1,
+    "literal connected/proper slot counts SAB": 1,
+    "one-loop Euler identity": 104,
+    "four external fields": 104,
+    "hypercharge conservation": 104,
+    "literal connected/proper slot counts SBA": 1,
+    "literal connected/proper slot counts SBB": 1,
+    "all proper graphs have no sterile external slot": 24,
+    "proper graph has exactly one anomalous sterile propagator": 24,
+    "proper graph has no kinetic sterile propagator": 24,
+    "proper graph contains exactly one edge of every triangle pair": 24,
+    "no free weak trace": 24,
+    "fixed-component weak tensor is zero or one": 384,
+    "two external weak Kronecker pairs": 24,
+    "whole-composite loop weights are complementary": 24,
+    "complementary full seed momentum squares agree": 24,
+    "whole-composite quadratic loop polynomial": 24,
+    "same-composite linear loop polynomial also absent": 8,
+    "original derivative-seed target has no proper graph S": 1,
+    "literal connected/proper slot counts ScAA": 1,
+    "literal connected/proper slot counts ScAB": 1,
+    "literal connected/proper slot counts ScBA": 1,
+    "literal connected/proper slot counts ScBB": 1,
+    "original derivative-seed target has no proper graph Sc": 1,
+    "four-scalar slot count S": 1,
+    "mixed LNC slot count S": 1,
+    "four-lepton slot count S": 1,
+    "whole-composite derivative degree partition S": 1,
+    "massless sterile reference has no proper triangle S": 1,
+    "target reducible bridge split SAB": 1,
+    "target reducible bridge split SBA": 1,
+    "four-scalar slot count Sc": 1,
+    "mixed LNC slot count Sc": 1,
+    "four-lepton slot count Sc": 1,
+    "whole-composite derivative degree partition Sc": 1,
+    "massless sterile reference has no proper triangle Sc": 1,
+    "target reducible bridge split ScAB": 1,
+    "target reducible bridge split ScBA": 1,
+    "same-chirality sterile slash numerator absent": 4,
+    "opposite-chirality sterile slash numerator present": 4,
+    "actual anomalous charge-conjugate slash vanishes": 4,
+    "same-chirality sterile mass numerator remains": 1,
+    "left-Weyl holomorphic convention gives unbarred anomalous M": 1
+  },
+  "negative_checks": 41,
+  "mutations_by_category": {
+    "extra weak-doublet trace factor": 24,
+    "connected target graphs incorrectly called proper S": 1,
+    "same-charge charged propagators invented S": 1,
+    "connected target graphs incorrectly called proper Sc": 1,
+    "same-charge charged propagators invented Sc": 1,
+    "every mixed seed pairing falsely assigned q squared S": 1,
+    "P0 acts on lepton instead of composite S": 1,
+    "sterile mass insertion discarded but graph retained S": 1,
+    "sterile source bridge omitted SAB": 1,
+    "sterile source bridge omitted SBA": 1,
+    "every mixed seed pairing falsely assigned q squared Sc": 1,
+    "P0 acts on lepton instead of composite Sc": 1,
+    "sterile mass insertion discarded but graph retained Sc": 1,
+    "sterile source bridge omitted ScAB": 1,
+    "sterile source bridge omitted ScBA": 1,
+    "anomalous charge-conjugate mass numerator omitted": 1,
+    "Majorana mass numerator changed to second slash": 1,
+    "complex anomalous mass replaced by its conjugate": 1
+  },
+  "connected_structural_candidates": 14,
+  "proper_structural_candidates": 1,
+  "literal_graph_counts": {
+    "S": {
+      "AA": {
+        "connected": 0,
+        "proper": 0,
+        "reducible": 0
+      },
+      "AB": {
+        "connected": 8,
+        "proper": 0,
+        "reducible": 8
+      },
+      "BA": {
+        "connected": 8,
+        "proper": 0,
+        "reducible": 8
+      },
+      "BB": {
+        "connected": 36,
+        "proper": 12,
+        "reducible": 24
+      }
+    },
+    "Sc": {
+      "AA": {
+        "connected": 36,
+        "proper": 12,
+        "reducible": 24
+      },
+      "AB": {
+        "connected": 8,
+        "proper": 0,
+        "reducible": 8
+      },
+      "BA": {
+        "connected": 8,
+        "proper": 0,
+        "reducible": 8
+      },
+      "BB": {
+        "connected": 0,
+        "proper": 0,
+        "reducible": 0
+      }
+    }
+  },
+  "proper_oriented_slot_graphs": [
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "phi",
+        "phi",
+        "phib",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "L_kinetic",
+        "M"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 2,
+      "superficial_UV_degree": 2
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "phi",
+        "phi",
+        "phib",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "L_kinetic",
+        "M"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 2,
+      "superficial_UV_degree": 2
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "L",
+        "Lb",
+        "Lb"
+      ],
+      "propagators": [
+        "scalar",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 0,
+      "superficial_UV_degree": 0
+    },
+    {
+      "seed": "S",
+      "Y_vertices": "BB",
+      "external_field_types": [
+        "L",
+        "L",
+        "Lb",
+        "Lb"
+      ],
+      "propagators": [
+        "scalar",
+        "scalar",
+        "M"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 0,
+      "superficial_UV_degree": 0
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "phi",
+        "phi",
+        "phib",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "L_kinetic",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 2,
+      "superficial_UV_degree": 2
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "phi",
+        "phi",
+        "phib",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "L_kinetic",
+        "Mstar"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 2,
+      "superficial_UV_degree": 2
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 1,
+      "superficial_UV_degree": 1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "Lb",
+        "phi",
+        "phib"
+      ],
+      "propagators": [
+        "L_kinetic",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 0,
+      "seed_degree": 0,
+      "light_numerators": 1,
+      "superficial_UV_degree": -1
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "L",
+        "Lb",
+        "Lb"
+      ],
+      "propagators": [
+        "scalar",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": 1,
+      "seed_degree": 2,
+      "light_numerators": 0,
+      "superficial_UV_degree": 0
+    },
+    {
+      "seed": "Sc",
+      "Y_vertices": "AA",
+      "external_field_types": [
+        "L",
+        "L",
+        "Lb",
+        "Lb"
+      ],
+      "propagators": [
+        "scalar",
+        "scalar",
+        "Mstar"
+      ],
+      "seed_q_coefficient": -1,
+      "seed_degree": 2,
+      "light_numerators": 0,
+      "superficial_UV_degree": 0
+    }
+  ],
+  "restricted_target_proper_UV_pole": "zero: no allowed proper topology in this C7 Y^2 monomial",
+  "scope": [
+    "unbroken zero scalar background, generic off-shell UV extraction, retained constant symmetric Majorana mass",
+    "original fixed unreduced Green/action coordinates; both seed orientations included",
+    "mixed same-composite derivative placement is UV finite; opposite-composite degree is a bound, not a pole coefficient",
+    "no integration or local coefficient claimed for the allowed four-scalar, mixed, or four-lepton descendants here",
+    "older CY source bubbles and their sterile tree bridges survive outside the proper target vertex",
+    "not complete physical C7 running, operator closure, finite matching or observable prediction"
+  ],
+  "repository_imports": false,
+  "assertions_required": false
+}
