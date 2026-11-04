@@ -1,5 +1,15 @@
 # Change log
 
+## TOE-GitHub-2026.11.04-candidate.16 — common cancelling action and sector grading
+
+Combine the earlier selected source counterterm and the primitive matter-loop inputs with their literal signs: the cancelling action contains `+kappa P-kappa Q`, since `P` was already a counterterm and `Q` was a loop pole. The selected joint map is the earlier local normalizer minus the matter-pole map, with the standard renormalizable counterterms retained in their declared bare-field convention. The sourced and normalized coefficient tables are alternative coordinates and are not added together.
+
+Check a concrete neutral quadratic projection with the off-diagonal derivative normalizer, diagonal matter normalization, scalar-background change and induced mass/probe terms retained. Any additional inverse ordinary-field normalization also acts on the tree dimension-seven seed at linear seed order; that contribution cannot be discarded as a product of two one-loop terms.
+
+A separate grading calculation distinguishes canonical dimensions, field content, ordered Majorana-mass factors and lepton-number spurions. The selected pole monomials have a common one-loop canonical-epsilon weight difference of two, despite different recipient bare-mu exponents. This supplies consistency controls, not a complete physical beta function.
+
+Three standalone stages extend the full replay to seventy-six stages. No new loop, complete retained-sterile operator reduction, quantum source map, finite observable, novelty or unification is established. Earlier scientific files and receipts are preserved; both PRs remain open and no live deployment, release or Zenodo version is made.
+
 ## TOE-GitHub-2026.10.30-candidate.15 — real matter normalization and scalar geometry
 
 Extend the preceding correlated phase map by conjugate-safe real lepton and radial scalar changes. They remove the selected scalar-dependent kinetic normalization terms while retaining a real lepton current, scalar derivative remainder, raw potential pole, four-lepton contact and every declared Yukawa/probe variation. The scalar-potential change is explicit; a separately supplied dimension-five coefficient produces a conditional dimension-seven term. This is first-order classical action algebra using previously calculated poles, with no new loop integral.

@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.10.30-candidate.15",
+  "release": "TOE-GitHub-2026.11.04-candidate.16",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -20,7 +20,8 @@
     "verification/SEED_YUKAWA_REPLAY_LINUX.json",
     "verification/MIXED_YUKAWA_REPLAY_LINUX.json",
     "verification/COMBINED_MATTER_REPLAY_LINUX.json",
-    "verification/REAL_MATTER_REPLAY_LINUX.json"
+    "verification/REAL_MATTER_REPLAY_LINUX.json",
+    "verification/COMMON_ACTION_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -30,13 +31,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 27368,
-      "sha256": "cf6c1963fba0cb769f6c32980042a793c025fef207984bcc857dcf9d4899cbce"
+      "bytes": 29036,
+      "sha256": "83f3f59907365ef51d18b0140d322e14bcac94b4a1a93a1d77a8fa1739ca6305"
     },
     {
       "path": "CITATION.cff",
       "bytes": 751,
-      "sha256": "0a2af2ff3bef7862a09a274dabe2cf842c03c42d9a1e84b63ed3e05c8d4851c7"
+      "sha256": "729ab321cb184f0888cea366072afa6d142cf9d3f6eab9b740a3c1f4fbc9a000"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -50,8 +51,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 16502,
-      "sha256": "566d43041df65f5541901ce7f4577bbd4aaa35fe3e06d005b177e6d317a19353"
+      "bytes": 17267,
+      "sha256": "0a95b35d0fce36c94e9ce50e117731929168d47f8f0be909940969781d15fa28"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -1534,6 +1535,66 @@
       "sha256": "93cb2d76d3a526d884da5dd7655931697340e4416d75ce8a2bdf886ff9512475"
     },
     {
+      "path": "checkpoint_2026_11_04/common_action/00_READ_FIRST.md",
+      "bytes": 6550,
+      "sha256": "f7de1e4939309361ec285ef3612f4a66ac680cbeb738a134f4ff33f9fb376593"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/COMMON_ACTION_MAP.md",
+      "bytes": 13264,
+      "sha256": "63abaf34f32a44e1cdde19c5294b98a57966881668aeaf21e3d236548190de52"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/COMMON_ACTION_RESULTS.json",
+      "bytes": 3650,
+      "sha256": "415f72e907939ecece79f7e869e6c028c41b74d0fa321ae4be35a3424c48937a"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/INDEPENDENT_COMMON_AUDIT.md",
+      "bytes": 8857,
+      "sha256": "18d9a9a92c3652ec997958391d6d99f8f1d02fa2ca2d2e46d736c61ff80f0342"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/INDEPENDENT_COMMON_RESULTS.json",
+      "bytes": 7604,
+      "sha256": "c9e18a631b71e8feb208e970dbe5b88db9fdb18e60b16f82c07a911a3f042592"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/LITERATURE_COMMON_ACTION.md",
+      "bytes": 7678,
+      "sha256": "a1101455913db6dac1d20bd58d25e4cb56967c1347911878a5bf654638e43978"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/LITERATURE_PROVENANCE.json",
+      "bytes": 17071,
+      "sha256": "7d0d2b7d49fe7d647b930b7abf456d018d404993d94034691b5a82954574f29e"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/SECTOR_GRADING.md",
+      "bytes": 10397,
+      "sha256": "ec23d3772502aa6cc0ff972a450f22886eee7bab242016ef6aa59ebc7908e3e5"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/SECTOR_GRADING_RESULTS.json",
+      "bytes": 21372,
+      "sha256": "8b6a30389a023afa3422e952cdda9dd4e9708c50a70a2ca25db74c6b2c304b32"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/independent_common_audit.py",
+      "bytes": 13827,
+      "sha256": "f5306523c2d6dedf337292c638de7f75b9532e1f306dbcd953d15f67d5c19fc7"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/verify_common_action.py",
+      "bytes": 14085,
+      "sha256": "f0ee288121263f69be1eaf3707a0e05542ae28bce45ebe5c9431363bbe5b5596"
+    },
+    {
+      "path": "checkpoint_2026_11_04/common_action/verify_sector_grading.py",
+      "bytes": 13971,
+      "sha256": "bbafd3fe194ee952c8a8f3193fdef6b05bf4da66534f61e7838a5f1528adaff7"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -1545,18 +1606,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 37164,
-      "sha256": "96134fa49ad16816eb6e531b747c11502e9fb4117f16e52b5e86225074021776"
+      "bytes": 39427,
+      "sha256": "5974a821e00dbb89b617ec8bad6090aba9119fd2c1270f8d9b92ac5e416b4810"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 11311,
-      "sha256": "820214886b78e56e61372cb0b8987b4426497be2ded533462d3e82b27b5b8e55"
+      "bytes": 11884,
+      "sha256": "ea080a197a2f4f21ce7d9ce67ea7f3c868cab07a20cc0dfc82b43b254a58662d"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 28241,
-      "sha256": "231d87382801d1f769390d3e5ad3172e05143b049251e017c2329cfb14708a2f"
+      "bytes": 29346,
+      "sha256": "888a34460d7e341c71a9e7af3aedce5ff758a6dd2bd654d4d5d0c31ba6081105"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -1575,8 +1636,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 19124,
-      "sha256": "a56e18b3e6bdebe2c1537dbb122d112b66a25a76433f44848ca46afecd8cb122"
+      "bytes": 19884,
+      "sha256": "1d52d0b9ff2c652c9355675ae8ba0638a5473c7f000e6af1c81dd37b159712be"
     }
   ]
 }
