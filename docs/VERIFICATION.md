@@ -100,18 +100,24 @@ The runner verifies the repository payload manifest, copies the scientific packa
 75. Four-lepton evanescent Fierz convention and its finite dimension-six contact shift.
 76. Mass-resolved cancellation criterion and an explicit unequal-mass example with zero summed residue and nonzero subtracted kernel.
 
+77. On-shell four-lepton triangle projection and two-scalar discontinuity.
+78. Independent angular phase-space integration of the same cut with its spin, weak and mass factors.
+79. Sterile-mass cancellation conditions for the identical weak-component cut, including reciprocal squared masses.
+
+80. Mean forward and inverse transition-rate bound from the absorptive part in a stable gaugeless benchmark.
+
 The full mode also includes the following numerical comparisons.
 
-77. Six pulse cases with midpoint refinement and DOP853 comparison.
-78. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
+81. Six pulse cases with midpoint refinement and DOP853 comparison.
+82. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
 
 The baseline input-manifest check is an additional stage. The wrapper reports each stage and exits nonzero on any failure. Temporary outputs are not written over shipped receipts.
 
-Counting the root payload check gives seventy-eight quick stages and eighty full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
+Counting the root payload check gives 82 quick stages and 84 full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
 
-An additional independent symbolic review is reproducible in the root pinned environment with `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the root runner's eighty full stages. The same SymPy/mpmath pins are now root requirements because the selected source-packet stage requires them; the historical review requirements file remains unchanged.
+An additional independent symbolic review is reproducible in the root pinned environment with `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the root runner's 84 full stages. The same SymPy/mpmath pins are now root requirements because the selected source-packet stage requires them; the historical review requirements file remains unchanged.
 
-The same pinned symbolic environment supports the optional general tensor-residue audit: `python -B checkpoint_2026_10_15/tensor_engine.py --self-test` (73 exact checks, including 18 independent angular-expansion comparisons and three wrong-formula controls). This reusable UV-pole helper does not calculate finite threshold terms or distinguish the full integral's infrared poles. It is separate from the root runner's eighty full stages.
+The same pinned symbolic environment supports the optional general tensor-residue audit: `python -B checkpoint_2026_10_15/tensor_engine.py --self-test` (73 exact checks, including 18 independent angular-expansion comparisons and three wrong-formula controls). This reusable UV-pole helper does not calculate finite threshold terms or distinguish the full integral's infrared poles. It is separate from the root runner's 84 full stages.
 
 ## Publication correction to replay behavior
 
@@ -125,7 +131,7 @@ A passing check supports the named algebra, numerical tolerances and toy dynamic
 
 The time-tail bound, numerical refinement and finite momentum interval address different omissions. They must not be merged into one universal accuracy certificate. Results can vary slightly across compatible platforms; explicit scientific tolerances control acceptance.
 
-For a third derivation of the one-B pole, run `python -B checkpoint_2026_10_15/gauge_critic.py` in the pinned symbolic environment. It compares full shifted-numerator simplex integrals to the reduced residues, then checks source anchors, transverse terms, on-shell rows and deliberate omissions. Run without `-O`; the script rejects optimization because its scientific assertions must remain enabled. This symbolic check is optional and separate from the eighty-stage full root replay.
+For a third derivation of the one-B pole, run `python -B checkpoint_2026_10_15/gauge_critic.py` in the pinned symbolic environment. It compares full shifted-numerator simplex integrals to the reduced residues, then checks source anchors, transverse terms, on-shell rows and deliberate omissions. Run without `-O`; the script rejects optimization because its scientific assertions must remain enabled. This symbolic check is optional and separate from the 84-stage full root replay.
 
 The action/source continuation adds an optional independent audit using the same pinned SymPy environment: `python -B checkpoint_2026_10_15/operator_map/verify_operator_critic.py`. Its 45 exact controls independently check the action charges, Fourier lift, dual sign, 19-column independence and Ward rank, total currents, and flavor spectral/null-block statements. The original hypercharge receipt remains unchanged; `verification/OPERATOR_MAP_REPLAY_LINUX.json` records the extended seventeen-stage replay.
 
@@ -160,3 +166,5 @@ The October 30 real matter continuation in `checkpoint_2026_10_30/real_matter/` 
 The November 4 common action continuation in `checkpoint_2026_11_04/common_action/` adds three standalone symbolic stages. `verification/COMMON_ACTION_REPLAY_LINUX.json` records the extended seventy-six-stage full replay. These stages check a common cancelling-action convention for earlier selected counterterms and loop poles, its neutral mass/probe/source transport, ordinary-field action on the tree seed and the sector grading needed before RG projection. They use previous loop inputs and perform no new integration. They do not prove a complete physical operator basis, quantum source map, full anomalous dimension, finite matching or an observable. Earlier scientific files and receipts remain unchanged.
 
 The [November 19 calculation](../checkpoint_2026_11_19/four_lepton/00_READ_FIRST.md) adds four stages covering the finite subtracted four-lepton graph, its local Fierz-convention dependence and a condition for cancellation at every spacelike momentum. Its [full replay receipt](../verification/FINITE_FOUR_LEPTON_REPLAY_LINUX.json) records both historical and new checks. The graph is evaluated on a declared Euclidean momentum slice. Interpreting a physical process requires a complete amplitude.
+
+The [on-shell four-lepton calculation](../checkpoint_2026_11_19/on_shell/00_READ_FIRST.md) adds the triangle calculation, an independent two-scalar phase-space integral, a test of sterile-mass identifiability and a lower bound on the mean rate in a stable gaugeless flavor-transition benchmark. The [84-stage full replay](../verification/ON_SHELL_CUT_REPLAY_LINUX.json) includes these four checks. The amplitude is evaluated at one derivative seed and two neutrino Yukawa vertices with massless external leptons. Squaring its absorptive part enters the leading rate bound under the specified benchmark assumptions.

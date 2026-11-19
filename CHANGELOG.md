@@ -1,5 +1,11 @@
 # Change log
 
+## TOE-GitHub-2026.11.19-candidate.18 — the on-shell four-lepton two-scalar cut
+
+The [on-shell calculation](checkpoint_2026_11_19/on_shell/00_READ_FIRST.md) places four massless external leptons on shell in the unbroken gaugeless theory. The triangle discontinuity and an independent two-body phase-space integration determine the contribution from the two-scalar intermediate state at one derivative seed and two neutrino Yukawa vertices. The threshold is fixed by the scalar mass. The sterile masses enter through the exchanged propagator.
+
+The unequal-mass pole cancellation with sterile masses 1 and 4 gives a nonzero cut. A second result classifies cancellations in the identical weak-component projection. With scalar squared mass `a`, a pair of sterile squared masses `b` and `a²/b` and a third squared mass `a` admit weights that cancel the cut at every energy above threshold. In the stable gaugeless benchmark the phase-space normalized mean of the forward and inverse transition rates is bounded below by the squared absorptive amplitude with the same normalization. A fourth check verifies this bound. The full replay has 84 stages.
+
 ## TOE-GitHub-2026.11.19-candidate.17 — finite momentum dependence of a four-lepton triangle
 
 Evaluate the [selected four-lepton triangle](checkpoint_2026_11_19/four_lepton/00_READ_FIRST.md) at two Euclidean momentum settings with the same internal masses. Subtraction cancels its momentum-independent UV divergence. Feynman-parameter and angular integrations give independent checks of its finite momentum dependence and mass limits. A separate calculation tracks the finite local contact shift under a change in the evanescent Fierz convention.

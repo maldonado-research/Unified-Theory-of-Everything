@@ -1,0 +1,38 @@
+# Which scattering channel the two-scalar cut determines
+
+Take the unbroken, zero-background theory with massless external left-handed lepton doublets, a common positive scalar squared mass `a`, and retained sterile Majorana masses. Use the original fields of the [literal action](../../checkpoint_2026_10_23/seed_yukawa/FOUR_LEPTON_POLE.md). Select the perturbative coefficient with one derivative seed `C7` or its conjugate and total neutrino Yukawa degree two. Other interaction insertions and independent higher-operator inputs are set to zero in this comparison.
+
+## Exhaustion of connected contractions
+
+The derivative vertex contains two active leptons and two scalars. Each Yukawa vertex contains one active lepton, one scalar and one sterile field. A four-active-lepton matrix element uses **all four active slots as external fields**. In the displayed seed orientation its two scalar fields are both `φ`. Each must contract with a `φ†` from a conjugate Yukawa vertex. This requires one such Yukawa vertex at each end. The two remaining sterile endpoints join through the anomalous Majorana propagator. Connecting the scalars in the other order gives the exchange assignment. The conjugate seed reverses every field orientation. Both assignments and both seed orientations belong in the physical matrix element.
+
+This argument covers connected reducible graphs as well as proper ones. The contraction just described is a triangle with no bridge. The source bubbles and external-field attachments in the earlier topology count occur for other external field contents. There is no lower-order four-active-lepton tree in this restricted theory on which a lepton LSZ leg factor could act at the specified monomial. The seed has two scalar slots, and a pair of Yukawa vertices alone supplies just two active slots. [Earlier topology classification](../../checkpoint_2026_10_23/seed_yukawa/SEED_TOPOLOGY.md)
+
+Across the physical s channel for `LL → LL`, the two scalar edges separate the incoming lepton pair from the outgoing pair. The two sides of this cut are the seed contact and the two-Yukawa sterile-exchange tree, with the two choices of seed side. A cut through one scalar and the sterile line isolates a single external Yukawa leg of invariant mass zero. Its normal threshold is `(√a+m)²>0`. On the scalar cut, the sterile transfer has the form `t=a−s/2+(sβ/2)x`, with `β=√(1−4a/s)` and `−1≤x≤1`. Its maximum is `−a(1−β)/(1+β)<0` at finite `s≥4a`, so the uncut sterile propagator stays away from its mass pole. Thus the cut supplies the complete two-scalar s-channel discontinuity at the selected coupling order and field content. The statement uses fixed-order propagators. For a mass hierarchy that allows scalar decay, a width or a resolved decay-product final state is a separate calculation.
+
+An independent local four-lepton counterterm first inserted at this same loop order contributes a polynomial tree amplitude, with zero discontinuity across the scalar threshold. More general EFT inputs can change the cut itself. An independent dimension-five seed, for example, can modify a tree lepton-pair to scalar-pair subamplitude; its contribution carries a different input coefficient. A change of field variables requires the induced derivative and interaction vertices together. Calculating the cut from the original on-shell trees automatically fixes the reference for this comparison. A result from an EOM-reduced table alone would require checking those partner vertices. [Common action and truncation conventions](../../checkpoint_2026_11_04/common_action/00_READ_FIRST.md)
+
+## Resolving the external weak components
+
+Choose one active flavor. Let `p1,p2` be the incoming momenta and `p3,p4` the outgoing ones, each pair in its center-of-mass frame. Use properly antisymmetrized external fermions and factor out the helicity product `⟨12⟩[34]` up to the common external-state phase convention. Its magnitude in this kinematics is `s`, since `2p1·p2=2p3·p4=s`. Each spin contraction changes sign under exchange of its two momenta. A second minus from the exchange of odd field slots accounts for the plus between the two scalar assignments before attaching the helicity factor. Identifying four weak components does not set a back-to-back spin-singlet amplitude to zero.
+
+Write `D=δ_{w3,w1}δ_{w4,w2}` and `X=δ_{w3,w2}δ_{w4,w1}`. For identical weak components both are one. The two derivative placements on the scalar cut sum to `(p3−k1)²+(p3−k2)²=2a−s`. The scalar-pair state counting must be consistent with the exchanged contraction. For different weak components one can use the ordered process `(1,2) → (1,2)`, keeping the direction of the outgoing component 1. It has `D=1, X=0`. Reversing the outgoing weak labels gives `D=0, X=1`. A measurement or projection symmetrized over the two directions discards the odd angular information.
+
+For a squared sterile mass `b>0` let `T=a−s/2`, `U=sβ/2`, `z=cos θ` for the angle between `p1` and `p3`, and `J_b=(1/2)∫₋₁¹ dx/(b−T−Ux)`. In the direct weak contraction the numerator of the derivative vertex is `T+U n3·n` and the propagator denominator is `T−b+U n1·n`, where `n` specifies the direction of the cut scalar. At fixed `x=n1·n`, averaging over the azimuth replaces `n3·n` by `zx`. Removing the common mass-independent factors gives
+
+```text
+K_D(b,z) = −T J_b + z [1−(b−T) J_b],
+K_X(b,z) = K_D(b,−z).
+```
+
+Exchanging the seed and Yukawa sides also interchanges the axes `n1,n3`. The integral depends on their dot product, so that interchange gives the same real kinematic kernels on the cut. In a one-flavor elastic channel the two orientations weight each positive mass group by `2 Re(C7 r_b)`, where `r_b` is that group's complex anomalous-propagator Yukawa tensor entry. A test of this elastic discontinuity therefore resolves these real projections. A purely imaginary ordered source with `Re(C7 r_b)=0` is invisible in this channel.
+
+For clarity, the information added by the odd term can be recovered directly from its exchange denominators. Write `u=−T+U>a`. The transfer magnitudes range from `a²/u` to `u`, giving `2U J_b=log[(u+b)/(a²/u+b)]`. With finitely many positive mass groups, differentiating a vanishing sum of these logarithms gives a rational identity on an open interval, with individual terms
+
+```text
+1/u + 1/(u+b) − 1/(u+a²/b).
+```
+
+Its pole at zero forces the sum of the weights to vanish; its other simple poles equate the weights at reciprocal masses squared `b` and `a²/b`. A missing mass group has weight zero. These conditions are sufficient for the logarithm sum to vanish since each logarithm vanishes at `u=a`. They apply to the even kernel at all energies above threshold. Once they hold, the odd kernel weights its logarithms by `b r_b`, taking `r_b` here to denote the effective projected weight. Applying the same rational identity to these new weights requires `b r_b=(a²/b) r_{a²/b}`. Thus all non-self-reciprocal weights vanish if the angularly resolved cut is zero throughout an open energy and angle interval. The sum rule then forces the remaining weight at `b=a` to vanish. This reasoning covers the observable interference weights just specified and leaves a zero-mass sterile mode absent by its numerator.
+
+A threshold discontinuity is an on-shell analytic feature of this restricted amplitude. This coupling coefficient is an interference between two different tree amplitudes on the cut. Its sign is not a positive inclusive-probability statement. Computing a rate requires specifying all input couplings, the other terms in the amplitude, external-state normalization, and phase space.

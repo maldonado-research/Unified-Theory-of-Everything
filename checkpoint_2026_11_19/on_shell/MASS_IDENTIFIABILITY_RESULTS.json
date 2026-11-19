@@ -1,0 +1,31 @@
+{
+  "scope": "isolated flavor channel with seed on outgoing pair; common scalar squared mass a=1; ordered amplitude discontinuity",
+  "reciprocal_example": {
+    "sterile_masses": [
+      "1/2",
+      "1",
+      "2"
+    ],
+    "pole_weights": [
+      1,
+      -2,
+      1
+    ],
+    "sum_same_weak_components": "0 for all s>4",
+    "s": 9,
+    "cos_theta": "1/2",
+    "beta_times_direct_weak_kernel": "-0.040100985421633620625",
+    "beta_times_exchanged_weak_kernel": "0.040100985421633620625",
+    "direct_kernel_including_beta_over_cos_theta_beta_cubed_at_threshold": "-6/25"
+  },
+  "symbolic_residue_map_example": {
+    "squared_masses": [
+      "1/4",
+      "1",
+      "4",
+      "9"
+    ],
+    "rank_even": 3,
+    "rank_even_and_odd": 4
+  }
+}
