@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.11.19-candidate.21",
+  "release": "TOE-GitHub-2026.11.19-candidate.22",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -26,7 +26,8 @@
     "verification/ON_SHELL_CUT_REPLAY_LINUX.json",
     "verification/ENERGY_SCAN_REPLAY_LINUX.json",
     "verification/UV_COMPLETION_REPLAY_LINUX.json",
-    "verification/RADIATIVE_STABILITY_REPLAY_LINUX.json"
+    "verification/RADIATIVE_STABILITY_REPLAY_LINUX.json",
+    "verification/YUKAWA_CONTINUUM_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -36,13 +37,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 33670,
-      "sha256": "523423ee92184ed761716d9de50ca5a6a652c6dd684a46766c36620fffe46271"
+      "bytes": 34593,
+      "sha256": "48975d30de798d273d9dcf101816eebf497498883312b8f6daaa78b89f2a747f"
     },
     {
       "path": "CITATION.cff",
       "bytes": 751,
-      "sha256": "589e84577056731413ddb22be24e9d8a5025fe71252e438b1a54a71898bf880f"
+      "sha256": "6668314b9629fb77ce6daa116fee49104d8151d382df966f0abf307da6febb9a"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -56,8 +57,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 20871,
-      "sha256": "1c0d62e8b5a29c789ae8e22b943efd7e67acc9813ff54fdd8f961314786268a9"
+      "bytes": 21932,
+      "sha256": "3abc09b7d6df33a1931a635ace8061e47501d8fbfe85b1fdf7c01959c2995ba8"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -2050,6 +2051,156 @@
       "sha256": "dc70964cb63b4bb4f1bd383f81acb5a90384093167c015fd26a380b30eaa1395"
     },
     {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/00_READ_FIRST.md",
+      "bytes": 7647,
+      "sha256": "d39eb1368c9a7f43fac004a5d6851ce8a3b9f29fda860cbd563d1459e016586e"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/CONTINUUM.json",
+      "bytes": 1635,
+      "sha256": "38e97f1ed3c31400c3d222b5d44348617fdad62e6eb6a0015a1f332bc2d835e3"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/EXACT_MG.md",
+      "bytes": 5102,
+      "sha256": "86d0970ef24af5d273ecc435bb6180f78965148c8f93c342b6e08d71fdb915ed"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/EXTERNAL.md",
+      "bytes": 5861,
+      "sha256": "f1c16f5c2b97f4c4cf4abd11a2bf316a3796746eb910c765e7660a9f7318620c"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/FULL_THREE_BODY.json",
+      "bytes": 2330,
+      "sha256": "7bacca8f2167a6996a13859aeebbfd346e9569d26eaeb004f629fc2c7252c456"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/FULL_THREE_BODY.md",
+      "bytes": 9200,
+      "sha256": "59d34a8afab678caee42dc8ef70404d1994f9ef6dc5807f8c524018e4406f3da"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/MADGRAPH.json",
+      "bytes": 4418,
+      "sha256": "9686ca5ad91d75e8721df3df1e2a06acac12e1ee4de260608121efa36d87d760"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/PROJECTION.json",
+      "bytes": 1535,
+      "sha256": "5a491b281c214a9e4afda7c7afbdb56ab60fbbfb2be6b52436694cc9e687bbc1"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/PROJECTION.md",
+      "bytes": 4133,
+      "sha256": "e3f39dea2e96d6fa5ad71f613fd15f29fff06dd705f3940db0ffffb945ee4002"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/QCDLOOP_CONTINUUM.json",
+      "bytes": 5195,
+      "sha256": "9e61829bbe50279fd73f68882a5c66ccb6c97959872d8e5c153f84aaf55e6e9d"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/RG_LOG.json",
+      "bytes": 3122,
+      "sha256": "76cb5b44c238da5d077eb3595901f749e6d66ef4b1f9bfa1bc4db004007d6133"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/RG_LOG.md",
+      "bytes": 8406,
+      "sha256": "fe7efe2b6469cbf493c1eeb8e299f64b2effeb211c2968daa6920d934ba29922"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/SIMPLEX.md",
+      "bytes": 5763,
+      "sha256": "b010cb9962b8eaa3d7afc20cca0d1dfb2a4116568ce7a10ec6f0080e1d85cc3a"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/SOURCES.md",
+      "bytes": 6493,
+      "sha256": "be1cac96fb993eb535de7cd4246c469c07cc2175b5e4c8ff0c5de8d1a851713c"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/SOURCE_INDEX.json",
+      "bytes": 8680,
+      "sha256": "d74a48f3fa512d374798eb3b4a84766ad1f65aa14c4ef435539c4756011becd3"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/SPECTRUM.json",
+      "bytes": 1322,
+      "sha256": "0116df9ca8ddb79a0b6be7de6000b001e66caf96a67457f134d7ee53c65f3e0b"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/SPECTRUM.md",
+      "bytes": 9165,
+      "sha256": "e37690769b3c9414c24b6d4dc670afd010342675e2cd35b8e30ee2951313d99b"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/THREE_BODY.json",
+      "bytes": 1966,
+      "sha256": "6eb414815387d0cf7e608c005bff2ffe122540c4deee815a3d374458465fb4fd"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/THREE_BODY.md",
+      "bytes": 8318,
+      "sha256": "47b070f9793b63798b86c955ad57e3f31961ace3baf2ea14c9cca0076c815609"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/THRESHOLD_BOUND.json",
+      "bytes": 673,
+      "sha256": "6e3427093a5b204de3065d04b58892af49d0fcf703cd41a44457b8f7436ba1ad"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/THRESHOLD_BOUND.md",
+      "bytes": 5245,
+      "sha256": "c134ad9006edac4d3973a0dfc54110b952d38ecaae3f2a591fe1e1955358962d"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/check_continuum.py",
+      "bytes": 6347,
+      "sha256": "10b39b374369b96f64a057506b3db4d6cb36ecae75a1fefdb09f5e8374df213b"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/check_full_threebody.py",
+      "bytes": 8782,
+      "sha256": "93bd39698be651d7c1d20e14c45547eb75478d7c5d3da8f00423c878fce29554"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/check_projection.py",
+      "bytes": 4570,
+      "sha256": "57fa03b7ac175357feb7f33e10eda887d87cdef90e6a779b3f8aa8683961e86f"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/check_rg.py",
+      "bytes": 8552,
+      "sha256": "b875b3a171bd876f4a2e500f2149081227301bd7551da38d156c436a706bdcf8"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/check_spectrum.py",
+      "bytes": 6692,
+      "sha256": "288f4924e088a472a6723c8c19cc57d626f28a0f3f58a265b8c905aad78a4628"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/check_threebody.py",
+      "bytes": 7643,
+      "sha256": "f5592155d7564d7dbc9f2bd9f23991d57aae68e9fa5320d26104c46bdb0bd107"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/check_threshold.py",
+      "bytes": 2663,
+      "sha256": "949556ec65bb176b457e7bd1f15f004bf57627cde8be661981cfcaf9c2f7fea0"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/madgraph_reference.py",
+      "bytes": 10519,
+      "sha256": "64f0a4054ad441d697e4a69dd6895409c0e9b0e0d067393fe6757ed651f911fd"
+    },
+    {
+      "path": "checkpoint_2026_11_19/yukawa_continuum/qcdloop_continuum.cpp",
+      "bytes": 7613,
+      "sha256": "efe5f45e60d722138ca1df05400c9a1424a548b9e0de849008db49588f21898b"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -2061,18 +2212,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 45132,
-      "sha256": "e40958d4e82393078b9f5d0707898272d06a26354e8cc090a20d82166382357a"
+      "bytes": 45916,
+      "sha256": "858a9e3f01ae22333e8fd7d25d6f2e733dad8f5e9883c979db7d6e86ad2ed1a5"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 14879,
-      "sha256": "ea9fa25eff71b2fc9bec1b7cb26ec201a7ee2b2fe2ef8947ff181683d632f372"
+      "bytes": 15206,
+      "sha256": "68114b146525f95a899e2fdef0ca08e0afd541cf02820b933bb31ec4803644fd"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 34301,
-      "sha256": "09f92ece05933cf7551567296d46fd11bf022adf79839810612fd9dd397bb3f0"
+      "bytes": 35331,
+      "sha256": "a6f8beef986a4a044e6199da2e0d9940cd4ba7fd233ec29de97c3848cb977794"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -2091,8 +2242,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 26077,
-      "sha256": "1ebb5caa2616897a2c4457754e2ce464c277dfe86fef9fef56f6ecc96d3ef8d9"
+      "bytes": 27895,
+      "sha256": "a39292ef3f35158d28331faa93d861d40fb63e14c86ddc78066b01e7fe809a42"
     }
   ]
 }

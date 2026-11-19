@@ -1,5 +1,9 @@
 # Change log
 
+## TOE-GitHub-2026.11.19-candidate.22 — Yukawa corrections through the scalar propagator
+
+The [Yukawa continuum calculation](checkpoint_2026_11_19/yukawa_continuum/00_READ_FIRST.md) follows the charged scalar into a lepton and a Majorana singlet. It computes the finite two-loop contribution obtained by inserting this scalar spectrum on either side of the original box, including the physical three-particle discontinuity. The full coefficient of the explicit renormalization-scale logarithm follows from the running masses and couplings in the leading amplitude. The threshold analysis bounds the contributions of the remaining tree terms near the first new cut. The rate calculation also determines how the finite scalar insertion enters the four-rate test. A separate sewing calculation gives the complete three-particle cut between the first two thresholds. Seven replay stages reproduce the corresponding records.
+
 ## TOE-GitHub-2026.11.19-candidate.21 — radiative stability of the four-singlet benchmark
 
 The [radiative stability calculation](checkpoint_2026_11_19/radiative_stability/00_READ_FIRST.md) examines how one-loop Yukawa evolution acts on the electron and muon mass moments. It evaluates the scalar quartic contribution to the zero-momentum electron interaction and audits the dimension-five matching for this flavor texture. A separate calculation varies the electron coupling ratio in the leading four-lepton amplitude. The scalar rescattering calculation evaluates the term linear in the quartic coupling in the four-lepton amplitude. Three reciprocal mean rates and one directional rate difference give a consistency test for finite shifts in the Yukawa ratio. The wrapper reproduces six new numerical and algebraic records.

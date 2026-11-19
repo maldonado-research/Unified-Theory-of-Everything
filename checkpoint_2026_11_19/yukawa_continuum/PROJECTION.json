@@ -1,0 +1,61 @@
+{
+  "energy_order_s_over_m2": [
+    6,
+    8,
+    10
+  ],
+  "quartic_reference": {
+    "fractional_rate_shifts": [
+      -1.20304322,
+      -0.944268033,
+      -0.797846505
+    ],
+    "endpoint_ratio_shift": 0.725043685,
+    "log_contrast_shift": -0.000782439041,
+    "four_rate_invariant_shift": 5.21219006e-05
+  },
+  "finite_scalar_insertion_per_squared_base_yukawa": {
+    "muon": {
+      "fractional_rate_shifts": [
+        0.0472761537,
+        0.0496136312,
+        0.0515587089
+      ],
+      "endpoint_ratio_shift": 0.00766304243,
+      "log_contrast_shift": -0.00040580691,
+      "four_rate_invariant_shift": 2.70326841e-05
+    },
+    "electron": {
+      "fractional_rate_shifts": [
+        0.000962549486,
+        0.000862282006,
+        0.000778287411
+      ],
+      "endpoint_ratio_shift": -0.000329711595,
+      "log_contrast_shift": 1.77656251e-05,
+      "four_rate_invariant_shift": -1.18345085e-06
+    }
+  },
+  "explicit_scale_log_coefficient_per_squared_base_yukawa": {
+    "muon": {
+      "fractional_rate_shifts": [
+        -0.11752031,
+        -0.117533984,
+        -0.117484655
+      ],
+      "endpoint_ratio_shift": 6.37994838e-05,
+      "log_contrast_shift": -3.65133122e-05,
+      "four_rate_invariant_shift": 2.43232141e-06
+    },
+    "electron": {
+      "fractional_rate_shifts": [
+        -0.196749913,
+        -0.197182524,
+        -0.197669008
+      ],
+      "endpoint_ratio_shift": -0.00164459511,
+      "log_contrast_shift": 0.000156135578,
+      "four_rate_invariant_shift": -1.04009164e-05
+    }
+  }
+}

@@ -124,20 +124,29 @@ The runner verifies the repository payload manifest, copies the scientific packa
 94. Scalar rescattering contribution linear in the quartic coupling in the four-lepton amplitude.
 95. Consistency of three reciprocal mean rates and a directional rate difference for finite changes in the electron coupling ratio.
 
-For checks 86–95 the runner writes a fresh JSON file and compares its full content with the corresponding published record.
+96. Pole-normalized charged-scalar spectral density from the Yukawa interaction.
+97. Three-particle discontinuity for a lepton–singlet pair and the other scalar.
+98. Bound on the regular tree contributions near the first three-particle threshold.
+99. Complete three-particle cut between the first two singlet thresholds, including interference among tree diagrams.
+100. Explicit pure-Yukawa scale logarithm from running the parameters of the leading four-lepton amplitude.
+101. Finite two-loop amplitude and interference from the two scalar propagator insertions.
+
+102. Continuum and scale-log terms in the previous four-rate consistency relation.
+
+For checks 86–102 the runner writes a fresh JSON file and compares its full content with the corresponding published record.
 
 The full mode also includes the following numerical comparisons.
 
-96. Six pulse cases with midpoint refinement and DOP853 comparison.
-97. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
+103. Six pulse cases with midpoint refinement and DOP853 comparison.
+104. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
 
 The baseline input-manifest check is an additional stage. The wrapper reports each stage and exits nonzero on any failure. Temporary outputs are not written over shipped receipts.
 
-Counting the root payload check gives 97 quick stages and 99 full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
+Counting the root payload check gives 104 quick stages and 106 full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
 
-An additional independent symbolic review is reproducible in the root pinned environment with `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the root runner's 93 full stages. The same SymPy/mpmath pins are now root requirements because the selected source-packet stage requires them; the historical review requirements file remains unchanged.
+An additional independent symbolic review is reproducible in the root pinned environment with `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the default replay. The same SymPy/mpmath pins are now root requirements because the selected source-packet stage requires them; the historical review requirements file remains unchanged.
 
-The same pinned symbolic environment supports the optional general tensor-residue audit: `python -B checkpoint_2026_10_15/tensor_engine.py --self-test` (73 exact checks, including 18 independent angular-expansion comparisons and three wrong-formula controls). This reusable UV-pole helper does not calculate finite threshold terms or distinguish the full integral's infrared poles. It is separate from the root runner's 93 full stages.
+The same pinned symbolic environment supports the optional general tensor-residue audit: `python -B checkpoint_2026_10_15/tensor_engine.py --self-test` (73 exact checks, including 18 independent angular-expansion comparisons and three wrong-formula controls). This reusable UV-pole helper does not calculate finite threshold terms or distinguish the full integral's infrared poles. It is separate from the default replay.
 
 ## Publication correction to replay behavior
 
@@ -196,3 +205,5 @@ The [two-pair Majorana calculation](../checkpoint_2026_11_19/uv_completion/00_RE
 The [QCDLoop reference](../checkpoint_2026_11_19/uv_completion/QCDLOOP.md) supplies a pinned external scalar-integral library, a C++ driver and its numeric output. The offline replay compares the dispersion calculation with the stored external values. The separate commands in the reference regenerate them with QCDLoop.
 
 The [radiative stability calculation](../checkpoint_2026_11_19/radiative_stability/00_READ_FIRST.md) follows the tree-level electron cancellation in the four-singlet model. The [99-stage replay](../verification/RADIATIVE_STABILITY_REPLAY_LINUX.json) identifies the programs and matched records for the running, the scalar quartic term, the dimension-five matching audit, the change in the leading rate when the input Yukawa ratio varies, the scalar rescattering term, and the finite-detuning rate consistency test.
+
+The [Yukawa continuum calculation](../checkpoint_2026_11_19/yukawa_continuum/00_READ_FIRST.md) derives the scalar spectral density, checks its three-particle discontinuity and evaluates the propagator insertion in the four-lepton amplitude. It also determines the scale logarithm from one-loop running. The [full replay](../verification/YUKAWA_CONTINUUM_REPLAY_LINUX.json) verifies all seven records.
