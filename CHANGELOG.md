@@ -1,5 +1,9 @@
 # Change log
 
+## TOE-GitHub-2026.11.19-candidate.21 — radiative stability of the four-singlet benchmark
+
+The [radiative stability calculation](checkpoint_2026_11_19/radiative_stability/00_READ_FIRST.md) examines how one-loop Yukawa evolution acts on the electron and muon mass moments. It evaluates the scalar quartic contribution to the zero-momentum electron interaction and audits the dimension-five matching for this flavor texture. A separate calculation varies the electron coupling ratio in the leading four-lepton amplitude. The scalar rescattering calculation evaluates the term linear in the quartic coupling in the four-lepton amplitude. Three reciprocal mean rates and one directional rate difference give a consistency test for finite shifts in the Yukawa ratio. The wrapper reproduces six new numerical and algebraic records.
+
 ## TOE-GitHub-2026.11.19-candidate.20 — matching a two-pair Majorana model to the four-lepton cut
 
 The [matching calculation](checkpoint_2026_11_19/uv_completion/00_READ_FIRST.md) gives the electron and muon distinct pairs of singlet Majorana fermions in the unbroken gaugeless model. The chosen electron couplings cancel the tree-level dimension-five contact. The surviving momentum dependence can be traced to the exact heavy propagators, so the error from expanding them can be bounded over a specified energy range. The two-scalar discontinuity gives a lower bound on the leading flavor-transition rate for these inputs. A dispersion calculation and a direct box evaluation both determine the real and absorptive parts of the amplitude and its integrated rate at the benchmark energies. The four new replay stages recompute the tree matching, the cut and the two full-box evaluations and compare them to the published records.

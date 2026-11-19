@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "rate_units": "m^2 sigma / |y_e y_mu|^4",
+  "M_over_m": 10,
+  "detuning": "Y_e2^2 = -2 y_e^2 (1+delta), masses and base couplings fixed",
+  "full_direct_rate": "a + 2 Re(delta*b) + |delta|^2*c",
+  "s_over_m2": {
+    "6": {
+      "a": 4.0092537e-11,
+      "b_real": 1.348826146e-09,
+      "b_imag": 6.418794982e-10,
+      "c": 5.565484167e-08,
+      "scaled_rates": {
+        "minus_one_percent": 1.868149825e-11,
+        "tuned": 4.0092537e-11,
+        "plus_one_percent": 7.263454408e-11,
+        "plus_one_percent_i": 3.28204312e-11,
+        "minus_one_percent_i": 5.849561113e-11
+      },
+      "dlog_rate_dRe_delta_at_zero": 67.2856469844582,
+      "exclusive_reciprocal_asymmetry_at_plus_one_percent_i": -0.2811683388
+    },
+    "8": {
+      "a": 5.618215429e-11,
+      "b_real": 1.475452123e-09,
+      "b_imag": 8.157403654e-10,
+      "c": 5.059261363e-08,
+      "scaled_rates": {
+        "minus_one_percent": 3.173237319e-11,
+        "tuned": 5.618215429e-11,
+        "plus_one_percent": 9.075045812e-11,
+        "plus_one_percent_i": 4.492660835e-11,
+        "minus_one_percent_i": 7.755622296e-11
+      },
+      "dlog_rate_dRe_delta_at_zero": 52.5238713896537,
+      "exclusive_reciprocal_asymmetry_at_plus_one_percent_i": -0.2664015378
+    },
+    "10": {
+      "a": 7.174007086e-11,
+      "b_real": 1.586924973e-09,
+      "b_imag": 9.102832354e-10,
+      "c": 4.66542038e-08,
+      "scaled_rates": {
+        "minus_one_percent": 4.466699178e-11,
+        "tuned": 7.174007086e-11,
+        "plus_one_percent": 1.081439907e-10,
+        "plus_one_percent_i": 5.819982653e-11,
+        "minus_one_percent_i": 9.461115595e-11
+      },
+      "dlog_rate_dRe_delta_at_zero": 44.240964742569,
+      "exclusive_reciprocal_asymmetry_at_plus_one_percent_i": -0.2382769146
+    }
+  },
+  "rate_ratio_10_over_6": {
+    "minus_one_percent": 2.390974812,
+    "tuned": 1.789362216,
+    "plus_one_percent": 1.48887822
+  },
+  "one_percent_complex_disk_ratio_extrema": [
+    {
+      "ratio": 1.488217766,
+      "delta_real": 0.009943271732,
+      "delta_imag": -0.001063648088,
+      "unconstrained_vertex_radius": 0.01168906625
+    },
+    {
+      "ratio": 2.535899864,
+      "delta_real": -0.009312466236,
+      "delta_imag": 0.003643895252,
+      "unconstrained_vertex_radius": 0.02083949124
+    }
+  ]
+}

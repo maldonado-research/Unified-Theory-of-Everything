@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.11.19-candidate.20",
+  "release": "TOE-GitHub-2026.11.19-candidate.21",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -25,7 +25,8 @@
     "verification/FINITE_FOUR_LEPTON_REPLAY_LINUX.json",
     "verification/ON_SHELL_CUT_REPLAY_LINUX.json",
     "verification/ENERGY_SCAN_REPLAY_LINUX.json",
-    "verification/UV_COMPLETION_REPLAY_LINUX.json"
+    "verification/UV_COMPLETION_REPLAY_LINUX.json",
+    "verification/RADIATIVE_STABILITY_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -35,13 +36,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 32841,
-      "sha256": "4c65e7eeda94601fa72ff02225f24a100e607ed23af3f71e526d67508fb4e2af"
+      "bytes": 33670,
+      "sha256": "523423ee92184ed761716d9de50ca5a6a652c6dd684a46766c36620fffe46271"
     },
     {
       "path": "CITATION.cff",
       "bytes": 751,
-      "sha256": "0e8c9b86b1883ba96e3192185452b009daf35d83e7aa0410f07c570e7df6728d"
+      "sha256": "589e84577056731413ddb22be24e9d8a5025fe71252e438b1a54a71898bf880f"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -55,8 +56,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 20323,
-      "sha256": "5cb1ae72dee1b7f59d15619d3db9be4060a15341d11fce0890c5ad288be1122a"
+      "bytes": 20871,
+      "sha256": "1c0d62e8b5a29c789ae8e22b943efd7e67acc9813ff54fdd8f961314786268a9"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -1839,6 +1840,126 @@
       "sha256": "bd373d0429bd1037ce4914e92d0664fd1fbd5607f0db6de206d46e70d9d184f5"
     },
     {
+      "path": "checkpoint_2026_11_19/radiative_stability/00_READ_FIRST.md",
+      "bytes": 6458,
+      "sha256": "cd737e56112b1921fb565be133e0e30310f6295f2092334e8cdda2ecc7b79d72"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/AUDIT.json",
+      "bytes": 877,
+      "sha256": "0dceed3ff197bef2424ce381f422086511558abf324ea62771d8a51b1870353d"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/CLOSURE.json",
+      "bytes": 1224,
+      "sha256": "f56026da056744c46c89545c112b4fd76217796bece97f96f2769aafeb1d5cd3"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/CLOSURE.md",
+      "bytes": 5023,
+      "sha256": "2f5473720f84751ab110bef6a7753a04a3fb0c8ad5f7205f54d7dda7b89e2554"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/DETUNING.json",
+      "bytes": 2316,
+      "sha256": "41a050868c4c14cf01858e80a949356d6e975498a454a25d1b19ac6a872a31c4"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/DETUNING.md",
+      "bytes": 5604,
+      "sha256": "52d3d19480a56489b2d960170c99c502db68b07ced932e87df4750fd5d22cf97"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/MATCHING_AUDIT.md",
+      "bytes": 10931,
+      "sha256": "78f3872800b48e81677f32d30100e161a3d5ce0f3aaca604d1c4f61612efcc2d"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/QCDLOOP.md",
+      "bytes": 1950,
+      "sha256": "5ef0f71a60f929158146349b8bbb6f2a7a67880861c283456fbeda33862c7577"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/QCDLOOP_TRIANGLES.json",
+      "bytes": 1421,
+      "sha256": "4751b38e47c53b95640fa02ad6bb0ad8fc79b4550fa858a2e782952641660019"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/QUARTIC.json",
+      "bytes": 952,
+      "sha256": "099d06f4235b846ef0be6a288ae0cf924896a02b63e5033528c06cda8d22d9b3"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/QUARTIC.md",
+      "bytes": 9294,
+      "sha256": "97ff407834e4b661261fbc26b538f2b5e472d16c8579428ab852b0ef17e8b62f"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/RESCATTERING.json",
+      "bytes": 3267,
+      "sha256": "d21c91c0e024715b49089b7f24c7099d7a8c0a556ded7c192c727f0dd6d6f357"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/RESCATTERING.md",
+      "bytes": 8885,
+      "sha256": "f141860be0cfa47463ffee987361bc20fd10fce06035401f199283625cb25087"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/RUNNING.json",
+      "bytes": 742,
+      "sha256": "6c2b211c6bafa274f4b068d94c375317af1227ad4b6a3e12179ce668648e032d"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/RUNNING.md",
+      "bytes": 9486,
+      "sha256": "dd70557139c7e12ddf04c2d0de6e2ba6e70acefec2c4fe5402e78c5e737e7fcc"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/SOURCES.md",
+      "bytes": 6676,
+      "sha256": "a2c3d05146c0ec6f1558dde654a11091994574b431a0a72c60c1d401274b4d61"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/SOURCE_INDEX.json",
+      "bytes": 6984,
+      "sha256": "058569cd159b77ba3dda09ca2d9cacfee33ac1eda84136b4151237a26d8fa416"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/check_audit.py",
+      "bytes": 6946,
+      "sha256": "103311738154ee6290c4d98e0fb9bdfa6d4225bf7edb5de1bff2e17914ba40b1"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/check_closure.py",
+      "bytes": 5873,
+      "sha256": "22bb26ab5f06ad92483016433d2c10c261a7d405a71f1559ccb5eb001b45aeff"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/check_detuning.py",
+      "bytes": 7324,
+      "sha256": "54f44d0c6c319b7705b890ff1f7665f6f4680ea39b8c38b8ea74d08d3fa7c81a"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/check_quartic.py",
+      "bytes": 4722,
+      "sha256": "2b8e8d71dbe6cb9b2fcfa1b2c5c38eda0c65e3dda505a64d755af1369330da31"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/check_rescattering.py",
+      "bytes": 7801,
+      "sha256": "7e13df820fa09fff0424bde33d1e5d7e75ecd7796cfe312f16839623307201f1"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/check_running.py",
+      "bytes": 7479,
+      "sha256": "ab89a843cdb75a8f30273803eff1b5afd4ec6744f582051cf7e940cc9b989270"
+    },
+    {
+      "path": "checkpoint_2026_11_19/radiative_stability/qcdloop_triangles.cpp",
+      "bytes": 1583,
+      "sha256": "c46880dea5d2c38baba8ff2a5e5aaed9426ee2d2f8d5cf1b44ae2a17b9a98534"
+    },
+    {
       "path": "checkpoint_2026_11_19/uv_completion/00_READ_FIRST.md",
       "bytes": 5249,
       "sha256": "0aeb68937b6365e8d43010a6e026ba4fa96ab584987d3e67097c382af7ee00fd"
@@ -1940,18 +2061,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 43962,
-      "sha256": "953d5c80633b3da1300c10efe87e526e1ebb96f69c49977982c1153169079bec"
+      "bytes": 45132,
+      "sha256": "e40958d4e82393078b9f5d0707898272d06a26354e8cc090a20d82166382357a"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 14130,
-      "sha256": "c10ef61ddc064956f3169683bf101639719fb7025efe62c0908b18631708d496"
+      "bytes": 14879,
+      "sha256": "ea9fa25eff71b2fc9bec1b7cb26ec201a7ee2b2fe2ef8947ff181683d632f372"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 33225,
-      "sha256": "18a52a08b674d46a9165c71eb6bacaf3a2ded1e774fda9a65b14e85c7d64d4cd"
+      "bytes": 34301,
+      "sha256": "09f92ece05933cf7551567296d46fd11bf022adf79839810612fd9dd397bb3f0"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -1970,8 +2091,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 24519,
-      "sha256": "06106f157be1cc37b30ee1034500a7b78f03754a0c712f15df45986401b543b2"
+      "bytes": 26077,
+      "sha256": "1ebb5caa2616897a2c4457754e2ce464c277dfe86fef9fef56f6ecc96d3ef8d9"
     }
   ]
 }

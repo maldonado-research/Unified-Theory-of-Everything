@@ -1,0 +1,94 @@
+{
+  "charged_scalar_pairings_by_number_of_quartic_self_contractions": [
+    4,
+    16,
+    4
+  ],
+  "three_energy_reciprocal_log_contrast": {
+    "weight_on_10_over_6": "0.6405718879507737",
+    "derivative_in_lambda": "-0.0007824393240994324",
+    "real_detuning_per_lambda_mimicking_endpoint_ratio": "-0.01758308953574645",
+    "actual_contrast_at_real_plus_0p01": "0.003024297344930731",
+    "actual_contrast_at_real_minus_0p01": "0.006730226485293007",
+    "real_detuning_log_slopes": {
+      "6": "67.2856470020842",
+      "8": "52.52387138392873",
+      "10": "44.24096474888818"
+    }
+  },
+  "mass_units": "m=1, physical scalar pole mass fixed",
+  "coupling_convention": "V contains +lambda (H dagger H)^2",
+  "normalization": "amplitudes divided by gamma, rates m^2 sigma / |gamma|^2",
+  "max_relative_complex_triangle_difference_from_QCDLoop": "3.253273532010964e-16",
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "muon_triangle_sum": {
+        "real": "0.4953413165717231",
+        "imag": "0.5884781635433385"
+      },
+      "electron_triangle_sum": {
+        "real": "-0.1408732430073683",
+        "imag": "-0.00263810360535839"
+      },
+      "leading_angle_mean": {
+        "real": "-0.0001412541964699959",
+        "imag": "-6.504208765871014e-5"
+      },
+      "two_loop_amplitude_per_lambda": {
+        "real": "6.566494837504136e-5",
+        "imag": "8.104440139708107e-5"
+      },
+      "scaled_rate_at_leading_order": "4.009253700143359e-11",
+      "scaled_rate_derivative_at_lambda_zero": "-4.823305466527857e-11",
+      "fractional_rate_derivative_at_lambda_zero": "-1.203043216336095"
+    },
+    {
+      "s_over_m2": 8,
+      "muon_triangle_sum": {
+        "real": "0.2734934350304412",
+        "imag": "0.5744358959259329"
+      },
+      "electron_triangle_sum": {
+        "real": "-0.1425576452721069",
+        "imag": "-0.004765923693102942"
+      },
+      "leading_angle_mean": {
+        "real": "-0.0001720231837369997",
+        "imag": "-0.0001248688278711123"
+      },
+      "two_loop_amplitude_per_lambda": {
+        "real": "4.651883882699332e-5",
+        "imag": "0.0001067581021465613"
+      },
+      "scaled_rate_at_leading_order": "5.618215429072867e-11",
+      "scaled_rate_derivative_at_lambda_zero": "-5.305101233639195e-11",
+      "fractional_rate_derivative_at_lambda_zero": "-0.9442680332595679"
+    },
+    {
+      "s_over_m2": 10,
+      "muon_triangle_sum": {
+        "real": "0.1549126078119704",
+        "imag": "0.5250184315573046"
+      },
+      "electron_triangle_sum": {
+        "real": "-0.1438785840457742",
+        "imag": "-0.006849239854231104"
+      },
+      "leading_angle_mean": {
+        "real": "-0.0001925962568240416",
+        "imag": "-0.0001871551124339088"
+      },
+      "two_loop_amplitude_per_lambda": {
+        "real": "2.998409417368871e-5",
+        "imag": "0.0001228708822962431"
+      },
+      "scaled_rate_at_leading_order": "7.174007085765494e-11",
+      "scaled_rate_derivative_at_lambda_zero": "-5.723756479902715e-11",
+      "fractional_rate_derivative_at_lambda_zero": "-0.797846504955322"
+    }
+  ],
+  "leading_rate_ratio_10_over_6": "1.789362216092479",
+  "rate_ratio_derivative_at_lambda_zero": "0.7250436854296848",
+  "log_rate_ratio_derivative_at_lambda_zero": "0.405196711380773"
+}

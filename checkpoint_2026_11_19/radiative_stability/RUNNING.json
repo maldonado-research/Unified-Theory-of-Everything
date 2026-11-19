@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact complex and algebraic matrices in SymPy",
+  "shared_column_derivatives_Kee_then_Ree_in_two_examples": [
+    "1",
+    "5"
+  ],
+  "Takagi_log_ratio_rates_mass_then_squared_Yukawa_over_abs_first_Yukawa_squared": {
+    "electron": [
+      "2",
+      "2"
+    ],
+    "muon": [
+      "-3/2",
+      "3/2"
+    ]
+  },
+  "sequential_quartic_leading_log_over_lambda_y_squared_log2_div_16pi2_M": "4",
+  "checks": [
+    "weak-basis tensor product rules, active and sterile covariance",
+    "rank-one blocks, unequal mass eigenvalue and Yukawa ratio evolution",
+    "complex symmetric mass beta and infinitesimal Takagi rotation",
+    "dimension-five sequential EFT feedback and total pure-Y cancellation"
+  ]
+}

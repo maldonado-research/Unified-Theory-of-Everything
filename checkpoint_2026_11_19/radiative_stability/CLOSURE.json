@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "energies_s_over_m2": [
+    6,
+    8,
+    10
+  ],
+  "matrix_determinant": -345.94016818,
+  "quartic_solution_derivatives_U_V_W_over_normalization": [
+    0.019980546943,
+    -0.019251910921,
+    5.2121900633e-05
+  ],
+  "quartic_closure_slope_one_ppm_input_enclosure": [
+    5.163604318420192e-05,
+    5.260839223640911e-05
+  ],
+  "reciprocal_mean_first_order_absolute_error_gain": 0.13322929432,
+  "signed_half_difference_coefficients": [
+    -32.01989927,
+    -29.03912731,
+    -25.37726056
+  ],
+  "exact_complex_identity": true,
+  "independent_box_examples": [
+    {
+      "normalization": 0.37,
+      "delta_real": 0.01,
+      "delta_imag": 0.0,
+      "reconstructed_real": 0.01,
+      "reconstructed_imag": 0.0,
+      "closure_absolute_below_1e_minus_9": true
+    },
+    {
+      "normalization": 2.4,
+      "delta_real": -0.007,
+      "delta_imag": 0.006,
+      "reconstructed_real": -0.007,
+      "reconstructed_imag": 0.006,
+      "closure_absolute_below_1e_minus_9": true
+    },
+    {
+      "normalization": 7.1,
+      "delta_real": 0.0,
+      "delta_imag": 0.018,
+      "reconstructed_real": 0.0,
+      "reconstructed_imag": 0.018,
+      "closure_absolute_below_1e_minus_9": true
+    }
+  ]
+}

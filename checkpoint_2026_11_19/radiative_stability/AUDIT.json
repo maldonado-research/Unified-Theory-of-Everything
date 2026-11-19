@@ -1,0 +1,37 @@
+{
+  "charged_four_lepton_contractions_by_quartic_self_pairs": {
+    "0": 4,
+    "1": 16,
+    "2": 4
+  },
+  "dimension_five_quartic_shift_in_units_lambda_y2_over_16pi2_M": 2.7725887222398,
+  "double_triangle_prefactor_relative_to_positive_simplex_box": -4,
+  "finite_scalar_mass_electron_triangle": [
+    {
+      "M_times_S_e_zero": -1.3862943611199,
+      "a_over_M2": 0
+    },
+    {
+      "M_times_S_e_zero": -1.3304555353823,
+      "a_over_M2": 0.01
+    },
+    {
+      "M_times_S_e_zero": -0.9567331930908,
+      "a_over_M2": 0.25
+    },
+    {
+      "M_times_S_e_zero": -0.6311899753243,
+      "a_over_M2": 1.0
+    },
+    {
+      "M_times_S_e_zero": -0.3206993734578,
+      "a_over_M2": 4.0
+    }
+  ],
+  "status": "PASS",
+  "yukawa_LLHH_graph_assignment_counts": {
+    "disconnected": 3,
+    "light_irreducible_with_mixed_sterile_bridge": 12,
+    "light_reducible": 12
+  }
+}
