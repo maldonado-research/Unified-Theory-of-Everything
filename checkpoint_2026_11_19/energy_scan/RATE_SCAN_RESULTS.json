@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "point_exposure": {
+    "xi": [
+      6,
+      10
+    ],
+    "probabilities": [
+      0.5,
+      0.5
+    ]
+  },
+  "bin_exposure": {
+    "xi_intervals": [
+      [
+        5,
+        7
+      ],
+      [
+        9,
+        11
+      ]
+    ],
+    "density_per_xi_on_union": 0.25
+  },
+  "inputs": {
+    "b_over_a": [
+      1,
+      16
+    ],
+    "w_over_w0": [
+      1,
+      -1
+    ]
+  },
+  "numerics": "58 decimal digits, log gap with tanh-sinh energy integration versus 52-point Gauss–Legendre transfer and energy rules",
+  "results": {
+    "two_points": {
+      "moments_S0_S1_S2": [
+        "0.000003856761149263343254764976015",
+        "0.000012111669743342158162235201",
+        "0.00004181592926594620293529139789"
+      ],
+      "optimal_g5_over_g7": "3.140373301482653479157862611",
+      "a_times_profiled_reciprocal_mean_floor_over_abs_g7_squared": "0.000003780764967579227394853636648",
+      "difference_between_floor_quadratures": "1.22567e-39"
+    },
+    "two_bins": {
+      "moments_S0_S1_S2": [
+        "0.000003808394015601257602685610193",
+        "0.00001207577767934233679279397812",
+        "0.00004216482257025195521009274959"
+      ],
+      "optimal_g5_over_g7": "3.170832017347304316547971672",
+      "a_times_profiled_reciprocal_mean_floor_over_abs_g7_squared": "0.000003874560070225344490195267183",
+      "difference_between_floor_quadratures": "3.8e-38"
+    }
+  }
+}

@@ -1,5 +1,9 @@
 # Change log
 
+## TOE-GitHub-2026.11.19-candidate.19 — energy scans with an independent dimension-five coefficient
+
+The [energy-scan calculation](checkpoint_2026_11_19/energy_scan/00_READ_FIRST.md) includes both the dimension-five and derivative lepton-pair contacts in the gaugeless model. The dimension-five coefficient can cancel the absorptive contribution at a single energy. Minimizing the reciprocal-rate bound over one shared complex coefficient across the scan gives a residual controlled by the weighted variance of the energy. The single-direction calculation uses the full complex triangle and allows an additional constant and linear local amplitude. Five checks cover the lower-operator kernel, the rate scan, the on-shell contact projection, the one-direction calculation and its numerical certificate.
+
 ## TOE-GitHub-2026.11.19-candidate.18 — the on-shell four-lepton two-scalar cut
 
 The [on-shell calculation](checkpoint_2026_11_19/on_shell/00_READ_FIRST.md) places four massless external leptons on shell in the unbroken gaugeless theory. The triangle discontinuity and an independent two-body phase-space integration determine the contribution from the two-scalar intermediate state at one derivative seed and two neutrino Yukawa vertices. The threshold is fixed by the scalar mass. The sterile masses enter through the exchanged propagator.

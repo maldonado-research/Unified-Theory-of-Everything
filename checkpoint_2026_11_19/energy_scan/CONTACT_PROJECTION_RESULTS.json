@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "method": "exact symbolic two-component spinors and both external exchange projectors",
+  "ordered_chain_rows": [
+    "p1",
+    "p2",
+    "k1",
+    "k2"
+  ],
+  "polynomial_identity_checks": {
+    "on-shell Mandelstam sum": 1,
+    "antisymmetric lepton determinant": 1,
+    "ordered Weyl matrix elements": 16,
+    "Weyl anticommutator": 16,
+    "external exchanges leave only s and scalar mass squared": 32,
+    "rank of derivative images as both a and s vary": 1,
+    "scalar derivative contraction": 1,
+    "lepton derivative contraction": 1,
+    "scalar self-contraction": 1,
+    "mean literal composite derivative": 1,
+    "Bose projection of scalar-pair sigma tensor": 1,
+    "mixed sigma tensor retains an energy slope": 1,
+    "ordered t transfer differs from its Bose average": 1,
+    "discarding all tensor representatives loses a slope": 1,
+    "derivative slopes can cancel the literal seed": 1,
+    "two derivative representatives cancel for all energies": 1,
+    "four derivatives permit even angular dependence": 1
+  },
+  "checks": 78,
+  "derivative_rank_varying_s_and_a": 2,
+  "fixed_mass_shapes_through_dimension_seven": [
+    "constant",
+    "s"
+  ],
+  "repository_imports": false,
+  "assertions_required": false
+}
