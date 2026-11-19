@@ -1,5 +1,11 @@
 # Change log
 
+## TOE-GitHub-2026.11.19-candidate.17 — finite momentum dependence of a four-lepton triangle
+
+Evaluate the [selected four-lepton triangle](checkpoint_2026_11_19/four_lepton/00_READ_FIRST.md) at two Euclidean momentum settings with the same internal masses. Subtraction cancels its momentum-independent UV divergence. Feynman-parameter and angular integrations give independent checks of its finite momentum dependence and mass limits. A separate calculation tracks the finite local contact shift under a change in the evanescent Fierz convention.
+
+Grouping terms by distinct positive sterile mass gives a criterion for identically vanishing momentum dependence. An explicit unequal-mass example has zero summed pole and a nonzero finite kernel. Four new stages extend the full replay to 80. The result concerns an off-shell proper graph. A scattering observable requires additional amplitude and matching inputs.
+
 ## TOE-GitHub-2026.11.04-candidate.16 — common cancelling action and sector grading
 
 Combine the earlier selected source counterterm and the primitive matter-loop inputs with their literal signs: the cancelling action contains `+kappa P-kappa Q`, since `P` was already a counterterm and `Q` was a loop pole. The selected joint map is the earlier local normalizer minus the matter-pole map, with the standard renormalizable counterterms retained in their declared bare-field convention. The sourced and normalized coefficient tables are alternative coordinates and are not added together.
