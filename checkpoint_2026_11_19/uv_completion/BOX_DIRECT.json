@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "scalar_mass_unit": 1,
+  "M_over_m": 10,
+  "y": 1,
+  "g": 1,
+  "B34_conjugate_times_B12_over_s": 1,
+  "central_cos_theta": 0,
+  "orders_parameter_and_angle": [
+    [
+      64,
+      6
+    ],
+    [
+      128,
+      10
+    ],
+    [
+      224,
+      16
+    ]
+  ],
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "refinement": [
+        {
+          "central_re": -0.000141437581,
+          "central_im": -6.50671294e-05,
+          "mean_re": -0.000141254239,
+          "mean_im": -6.50420877e-05,
+          "m2_sigma": 4.00925569e-11,
+          "m2_sigma_from_imaginary_part": 7.01354996e-12
+        },
+        {
+          "central_re": -0.000141437539,
+          "central_im": -6.50671294e-05,
+          "mean_re": -0.000141254197,
+          "mean_im": -6.50420877e-05,
+          "m2_sigma": 4.00925371e-11,
+          "m2_sigma_from_imaginary_part": 7.01354996e-12
+        },
+        {
+          "central_re": -0.000141437538,
+          "central_im": -6.50671294e-05,
+          "mean_re": -0.000141254197,
+          "mean_im": -6.50420877e-05,
+          "m2_sigma": 4.0092537e-11,
+          "m2_sigma_from_imaginary_part": 7.01354996e-12
+        }
+      ],
+      "m2_sigma_floor_J0": 7.01354913e-12
+    },
+    {
+      "s_over_m2": 10,
+      "refinement": [
+        {
+          "central_re": -0.000193381197,
+          "central_im": -0.000187570707,
+          "mean_re": -0.000192596328,
+          "mean_im": -0.000187155112,
+          "m2_sigma": 7.17400981e-11,
+          "m2_sigma_from_imaginary_part": 3.48421746e-11
+        },
+        {
+          "central_re": -0.000193381127,
+          "central_im": -0.000187570707,
+          "mean_re": -0.000192596257,
+          "mean_im": -0.000187155112,
+          "m2_sigma": 7.1740071e-11,
+          "m2_sigma_from_imaginary_part": 3.48421746e-11
+        },
+        {
+          "central_re": -0.000193381126,
+          "central_im": -0.000187570707,
+          "mean_re": -0.000192596257,
+          "mean_im": -0.000187155112,
+          "m2_sigma": 7.17400709e-11,
+          "m2_sigma_from_imaginary_part": 3.48421746e-11
+        }
+      ],
+      "m2_sigma_floor_J0": 3.48420371e-11
+    }
+  ]
+}

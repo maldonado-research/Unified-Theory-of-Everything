@@ -1,0 +1,81 @@
+{
+  "m": 1,
+  "M_over_m": 10,
+  "scalar_mass_over_m": 1,
+  "squared_yukawa_strengths": [
+    1,
+    1
+  ],
+  "B34_conjugate_times_B12_over_s": 1,
+  "polar_order": 28,
+  "azimuthal_order": 32,
+  "m2_floor_J0_over_beta2_at_threshold": 6.726917812e-12,
+  "rows": [
+    {
+      "s_over_m2": 5.0,
+      "cut_at_c0": -3.654399338e-05,
+      "m_F_mu_mean": 0.3731881475,
+      "m_F_e_mean": -0.001100506074,
+      "J0_cut_analytic": -3.653973796e-05,
+      "J0_cut_from_boxes": -3.653973796e-05,
+      "J2_moment_from_boxes": 1.702169865e-09,
+      "m2_sigma_floor_J0": 2.656201403e-12,
+      "m2_sigma_floor_full_cut": 2.656201432e-12
+    },
+    {
+      "s_over_m2": 6.0,
+      "cut_at_c0": -6.506712938e-05,
+      "m_F_mu_mean": 0.3244450159,
+      "m_F_e_mean": -0.001454462747,
+      "J0_cut_analytic": -6.504208766e-05,
+      "J0_cut_from_boxes": -6.504208766e-05,
+      "J2_moment_from_boxes": 1.001675087e-08,
+      "m2_sigma_floor_J0": 7.013549127e-12,
+      "m2_sigma_floor_full_cut": 7.013549958e-12
+    },
+    {
+      "s_over_m2": 8.0,
+      "cut_at_c0": -0.000125016928,
+      "m_F_mu_mean": 0.2585870048,
+      "m_F_e_mean": -0.002145419431,
+      "J0_cut_analytic": -0.0001248688279,
+      "J0_cut_from_boxes": -0.0001248688279,
+      "J2_moment_from_boxes": 5.924168202e-08,
+      "m2_sigma_floor_J0": 1.938734024e-11,
+      "m2_sigma_floor_full_cut": 1.938736206e-11
+    },
+    {
+      "s_over_m2": 9.0,
+      "cut_at_c0": -0.0001560792919,
+      "m_F_mu_mean": 0.2351423307,
+      "m_F_e_mean": -0.002482671553,
+      "J0_cut_analytic": -0.0001558175903,
+      "J0_cut_from_boxes": -0.0001558175903,
+      "J2_moment_from_boxes": 1.046852654e-07,
+      "m2_sigma_floor_J0": 2.683432079e-11,
+      "m2_sigma_floor_full_cut": 2.683438136e-11
+    },
+    {
+      "s_over_m2": 10.0,
+      "cut_at_c0": -0.0001875707071,
+      "m_F_mu_mean": 0.2157491296,
+      "m_F_e_mean": -0.002814601256,
+      "J0_cut_analytic": -0.0001871551124,
+      "J0_cut_from_boxes": -0.0001871551124,
+      "J2_moment_from_boxes": 1.662488781e-07,
+      "m2_sigma_floor_J0": 3.484203712e-11,
+      "m2_sigma_floor_full_cut": 3.484217458e-11
+    },
+    {
+      "s_over_m2": 11.0,
+      "cut_at_c0": -0.0002193286604,
+      "m_F_mu_mean": 0.1994167992,
+      "m_F_e_mean": -0.003141325296,
+      "J0_cut_analytic": -0.000218715799,
+      "J0_cut_from_boxes": -0.000218715799,
+      "J2_moment_from_boxes": 2.451673651e-07,
+      "m2_sigma_floor_J0": 4.325813335e-11,
+      "m2_sigma_floor_full_cut": 4.325840512e-11
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Change log
 
+## TOE-GitHub-2026.11.19-candidate.20 — matching a two-pair Majorana model to the four-lepton cut
+
+The [matching calculation](checkpoint_2026_11_19/uv_completion/00_READ_FIRST.md) gives the electron and muon distinct pairs of singlet Majorana fermions in the unbroken gaugeless model. The chosen electron couplings cancel the tree-level dimension-five contact. The surviving momentum dependence can be traced to the exact heavy propagators, so the error from expanding them can be bounded over a specified energy range. The two-scalar discontinuity gives a lower bound on the leading flavor-transition rate for these inputs. A dispersion calculation and a direct box evaluation both determine the real and absorptive parts of the amplitude and its integrated rate at the benchmark energies. The four new replay stages recompute the tree matching, the cut and the two full-box evaluations and compare them to the published records.
+
 ## TOE-GitHub-2026.11.19-candidate.19 — energy scans with an independent dimension-five coefficient
 
 The [energy-scan calculation](checkpoint_2026_11_19/energy_scan/00_READ_FIRST.md) includes both the dimension-five and derivative lepton-pair contacts in the gaugeless model. The dimension-five coefficient can cancel the absorptive contribution at a single energy. Minimizing the reciprocal-rate bound over one shared complex coefficient across the scan gives a residual controlled by the weighted variance of the energy. The single-direction calculation uses the full complex triangle and allows an additional constant and linear local amplitude. Five checks cover the lower-operator kernel, the rate scan, the on-shell contact projection, the one-direction calculation and its numerical certificate.

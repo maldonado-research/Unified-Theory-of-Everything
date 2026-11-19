@@ -1,0 +1,29 @@
+{
+  "QCDLoop_max_relative_difference": "2.828e-15",
+  "model": "m=1, sterile masses (1,4;10,20), base Yukawas divided out",
+  "method": "fixed spacelike transfer, unsubtracted spectral integral",
+  "cross_section_units": "m^2 sigma / |y_e y_mu|^4",
+  "upper_rim": {
+    "6": {
+      "central_amplitude_real": "-0.0001414375384210674",
+      "central_amplitude_imaginary": "-6.50671293826863e-5",
+      "scaled_full_rate": "4.009253700143359e-11",
+      "scaled_absorptive_rate": "7.013549958234366e-12",
+      "scaled_absorptive_J0_floor": "7.013549126522978e-12"
+    },
+    "10": {
+      "central_amplitude_real": "-0.0001933811260743525",
+      "central_amplitude_imaginary": "-0.0001875707070531797",
+      "scaled_full_rate": "7.174007085765494e-11",
+      "scaled_absorptive_rate": "3.484217458099298e-11",
+      "scaled_absorptive_J0_floor": "3.484203711742833e-11"
+    }
+  },
+  "cut_error": {
+    "range_s_over_mass_squared": "(4,11]",
+    "max_minus_transfer_over_M_squared": "9/100",
+    "lower_exact_over_dimension_seven_cut": "40000/44581",
+    "upper_dimension_seven_error_over_exact_cut": "4581/40000",
+    "upper_dimension_seven_plus_nine_error_over_exact_cut": "34749/3200000"
+  }
+}
