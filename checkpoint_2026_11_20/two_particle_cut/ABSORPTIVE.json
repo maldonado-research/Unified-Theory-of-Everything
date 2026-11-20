@@ -1,0 +1,273 @@
+{
+  "process": "mu_L- mu_L- -> e_L- e_L-, gaugeless unbroken doublet, stated four-singlet benchmark",
+  "units": "scalar pole m=1; MSbar flavor and sterile parameters at mu=m; B34* B12=s",
+  "normalization": "anti-Hermitian s-channel cut divided by gamma; corrections multiply |y|^2 or |g|^2; J_l=<P_l A>",
+  "observable": "rate component m^2 <(A/gamma)^2>/(32 pi s), coefficients linear in the extra Yukawa pair",
+  "angular_checks": "even Legendre moments through 16; direct sphere at c=0,0.37,1; orders 36 and 56",
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "leading_J0": -6.5042087659e-05,
+      "sterile_J0": {
+        "electron": -2.7753949593e-09,
+        "muon": 3.4458746174e-08
+      },
+      "vertex_J0": {
+        "electron": 1.1098931387e-06,
+        "muon": 6.4622676033e-07
+      },
+      "external_J0": {
+        "electron": -1.493880282e-05,
+        "muon": 1.1065480725e-06
+      },
+      "two_particle_J0": {
+        "electron": -1.3831685077e-05,
+        "muon": 1.787233579e-06
+      },
+      "three_particle_J0_per_muon": -4.3568921499e-07,
+      "combined_J0": {
+        "electron": -1.3831685077e-05,
+        "muon": 1.351544364e-06
+      },
+      "fractional_J0": {
+        "electron": 0.2126574588,
+        "muon": -0.020779535415
+      },
+      "combined_J2": {
+        "electron": 2.0513367915e-09,
+        "muon": -9.4382721217e-11
+      },
+      "combined_at_cosine_zero": {
+        "electron": -1.3836813115e-05,
+        "muon": 1.3517803206e-06
+      },
+      "leading_absorptive_rate_part": 7.0135499582e-12,
+      "absorptive_rate_interference": {
+        "electron": 2.9829674095e-12,
+        "muon": -2.9147660059e-13
+      }
+    },
+    {
+      "s_over_m2": 8,
+      "leading_J0": -0.00012486882787,
+      "sterile_J0": {
+        "electron": -2.6150997452e-08,
+        "muon": -3.041359246e-08
+      },
+      "vertex_J0": {
+        "electron": 2.1327767188e-06,
+        "muon": 1.5800883285e-06
+      },
+      "external_J0": {
+        "electron": -2.8679749761e-05,
+        "muon": 2.1243684784e-06
+      },
+      "two_particle_J0": {
+        "electron": -2.6573124039e-05,
+        "muon": 3.6740432145e-06
+      },
+      "three_particle_J0_per_muon": -1.4575774937e-06,
+      "combined_J0": {
+        "electron": -2.6573124039e-05,
+        "muon": 2.2164657207e-06
+      },
+      "fractional_J0": {
+        "electron": 0.21280830847,
+        "muon": -0.017750352578
+      },
+      "combined_J2": {
+        "electron": 1.1923447423e-08,
+        "muon": -4.9420280179e-10
+      },
+      "combined_at_cosine_zero": {
+        "electron": -2.6602927325e-05,
+        "muon": 2.2177012183e-06
+      },
+      "leading_absorptive_rate_part": 1.9387362062e-11,
+      "absorptive_rate_interference": {
+        "electron": 8.2515829483e-12,
+        "muon": -6.8826461376e-13
+      }
+    },
+    {
+      "s_over_m2": 10,
+      "leading_J0": -0.00018715511243,
+      "sterile_J0": {
+        "electron": -8.0406214798e-08,
+        "muon": -1.6491782255e-07
+      },
+      "vertex_J0": {
+        "electron": 3.2005214588e-06,
+        "muon": 2.8183043011e-06
+      },
+      "external_J0": {
+        "electron": -4.2985602432e-05,
+        "muon": 3.1840326221e-06
+      },
+      "two_particle_J0": {
+        "electron": -3.9865487188e-05,
+        "muon": 5.8374191006e-06
+      },
+      "three_particle_J0_per_muon": -2.9612002947e-06,
+      "combined_J0": {
+        "electron": -3.9865487188e-05,
+        "muon": 2.8762188059e-06
+      },
+      "fractional_J0": {
+        "electron": 0.21300773818,
+        "muon": -0.015368101723
+      },
+      "combined_J2": {
+        "electron": 3.3027600804e-08,
+        "muon": -1.1834308593e-09
+      },
+      "combined_at_cosine_zero": {
+        "electron": -3.9948029162e-05,
+        "muon": 2.8791773064e-06
+      },
+      "leading_absorptive_rate_part": 3.4842174581e-11,
+      "absorptive_rate_interference": {
+        "electron": 1.4843301658e-11,
+        "muon": -1.0709138984e-12
+      }
+    }
+  ],
+  "leading_signed_J0_ratio_10_over_6": 2.8774462685,
+  "fractional_correction_to_J0_ratio_10_over_6": {
+    "electron": 0.00035027938,
+    "muon": 0.005411433692
+  },
+  "muon_energy_dependence": {
+    "scan_columns": [
+      "s/m^2",
+      "two-particle",
+      "three-particle",
+      "sum"
+    ],
+    "muon_J0_scan": [
+      [
+        5,
+        9.6465607095e-07,
+        -1.3466680995e-07,
+        8.29989261e-07
+      ],
+      [
+        6,
+        1.787233579e-06,
+        -4.3568921499e-07,
+        1.351544364e-06
+      ],
+      [
+        7,
+        2.6919349044e-06,
+        -8.8096241505e-07,
+        1.8109724893e-06
+      ],
+      [
+        8,
+        3.6740432145e-06,
+        -1.4575774937e-06,
+        2.2164657207e-06
+      ],
+      [
+        9,
+        4.7250590379e-06,
+        -2.1543091562e-06,
+        2.5707498817e-06
+      ],
+      [
+        10,
+        5.8374191006e-06,
+        -2.9612002947e-06,
+        2.8762188059e-06
+      ],
+      [
+        11,
+        7.0047778e-06,
+        -3.8694073832e-06,
+        3.1353704169e-06
+      ],
+      [
+        12,
+        8.221801414e-06,
+        -4.8710607736e-06,
+        3.3507406405e-06
+      ],
+      [
+        13,
+        9.4839474975e-06,
+        -5.9591338086e-06,
+        3.5248136889e-06
+      ],
+      [
+        14,
+        1.078729139e-05,
+        -7.1273264119e-06,
+        3.6599649779e-06
+      ],
+      [
+        15,
+        1.2128397257e-05,
+        -8.3699649001e-06,
+        3.7584323569e-06
+      ],
+      [
+        16,
+        1.3504222724e-05,
+        -9.6819171365e-06,
+        3.8223055876e-06
+      ],
+      [
+        17,
+        1.4912047616e-05,
+        -1.105852114e-05,
+        3.8535264759e-06
+      ],
+      [
+        18,
+        1.6349419883e-05,
+        -1.2495525077e-05,
+        3.8538948056e-06
+      ],
+      [
+        19,
+        1.7814113881e-05,
+        -1.3989036729e-05,
+        3.8250771513e-06
+      ],
+      [
+        20,
+        1.9304097635e-05,
+        -1.5535480775e-05,
+        3.7686168599e-06
+      ],
+      [
+        21,
+        2.0817506755e-05,
+        -1.7131562527e-05,
+        3.6859442283e-06
+      ],
+      [
+        22,
+        2.2352623333e-05,
+        -1.8774236989e-05,
+        3.5783863435e-06
+      ],
+      [
+        23,
+        2.3907858641e-05,
+        -2.0460682325e-05,
+        3.4471763158e-06
+      ],
+      [
+        24,
+        2.5481738766e-05,
+        -2.2188276982e-05,
+        3.2934617839e-06
+      ]
+    ],
+    "half_cancellation_s_over_m2": 9.8498375589,
+    "local_maximum_s_over_m2": 17.509969798,
+    "local_maximum_combined_J0": 3.8574615318e-06
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "model": "gaugeless symmetric phase, fixed Re scalar pole m=1, MSbar masses, Y at mu=m",
+  "G": "|g|^2",
+  "M1pole_over_m_minus_one_per_G": "-0.006332573977646111",
+  "nominal_m_plus_M1pole_over_m_minus_two_per_G": "-0.006332573977646111",
+  "stable_two_N1_two_mu_threshold_over_m_minus_two_per_G": "-0.01266514795529222",
+  "charged_scalar_partial_width_over_m_per_G_cubed": "3.191175432669322e-6",
+  "partial_width_over_gap_per_G_squared": "0.000503930225518742",
+  "scope": "one-loop pole shift and leading threshold-induced two-body partial width",
+  "determinant_checks": [
+    {
+      "G_over_16pi2": "0.0001",
+      "mass_gap_over_m_alpha": "0.999695424861",
+      "partial_width_over_leading": "0.999291036329"
+    },
+    {
+      "G_over_16pi2": "2.5e-5",
+      "mass_gap_over_m_alpha": "0.999923780031",
+      "partial_width_over_leading": "0.999822571743"
+    },
+    {
+      "G_over_16pi2": "6.25e-6",
+      "mass_gap_over_m_alpha": "0.999980939594",
+      "partial_width_over_leading": "0.999955629918"
+    }
+  ],
+  "pole_degeneracy_retuning": {
+    "changed_input": "raise only MSbar M1(m) by m G/(16 pi^2); fixed Yukawas",
+    "two_loop_reduced_J0_cut_shifts": [
+      {
+        "s_over_m2": 6,
+        "shift_per_G": "-5.946308212043328e-8"
+      },
+      {
+        "s_over_m2": 8,
+        "shift_per_G": "-1.884071103305769e-7"
+      },
+      {
+        "s_over_m2": 10,
+        "shift_per_G": "-3.64692049047611e-7"
+      }
+    ],
+    "kappa1_muon_shift": "0",
+    "kappa3_muon_shift": "-1.244241439763813e-7"
+  }
+}

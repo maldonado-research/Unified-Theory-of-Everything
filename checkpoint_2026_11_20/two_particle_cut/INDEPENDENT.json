@@ -1,0 +1,75 @@
+{
+  "scheme": "Full-theory MSbar Yukawas and sterile masses at mu=m, scalar pole mass m=1",
+  "cut": "J=0 scalar pair, divided by gamma, coefficients per extra coupling modulus squared",
+  "relative_dispersion_simplex_tolerance": 3e-12,
+  "checks": {
+    "u_over_m2": [
+      1.013,
+      2,
+      6,
+      84
+    ],
+    "z_over_m2": [
+      -0.013,
+      -1,
+      -8.9,
+      0,
+      0.46
+    ],
+    "vertex_angular_helicity_tests": 18,
+    "polar_orders": [
+      32,
+      48
+    ]
+  },
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "leading": -6.50420876587e-05,
+      "electron": {
+        "proper_vertex": 1.10989313869e-06,
+        "sterile": -2.77539495927e-09,
+        "external_L_and_phi": -1.49388028202e-05,
+        "total": -1.38316850765e-05
+      },
+      "muon": {
+        "proper_vertex": 6.46226760331e-07,
+        "sterile": 3.44587461735e-08,
+        "external_L_and_phi": 1.10654807246e-06,
+        "total": 1.78723357896e-06
+      }
+    },
+    {
+      "s_over_m2": 8,
+      "leading": -0.000124868827871,
+      "electron": {
+        "proper_vertex": 2.13277671877e-06,
+        "sterile": -2.61509974517e-08,
+        "external_L_and_phi": -2.86797497606e-05,
+        "total": -2.65731240393e-05
+      },
+      "muon": {
+        "proper_vertex": 1.58008832854e-06,
+        "sterile": -3.04135924598e-08,
+        "external_L_and_phi": 2.1243684784e-06,
+        "total": 3.67404321447e-06
+      }
+    },
+    {
+      "s_over_m2": 10,
+      "leading": -0.000187155112434,
+      "electron": {
+        "proper_vertex": 3.20052145882e-06,
+        "sterile": -8.0406214798e-08,
+        "external_L_and_phi": -4.29856024321e-05,
+        "total": -3.98654871881e-05
+      },
+      "muon": {
+        "proper_vertex": 2.81830430106e-06,
+        "sterile": -1.64917822545e-07,
+        "external_L_and_phi": 3.1840326221e-06,
+        "total": 5.83741910061e-06
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.11.19-candidate.22",
+  "release": "TOE-GitHub-2026.11.20-candidate.23",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -27,7 +27,8 @@
     "verification/ENERGY_SCAN_REPLAY_LINUX.json",
     "verification/UV_COMPLETION_REPLAY_LINUX.json",
     "verification/RADIATIVE_STABILITY_REPLAY_LINUX.json",
-    "verification/YUKAWA_CONTINUUM_REPLAY_LINUX.json"
+    "verification/YUKAWA_CONTINUUM_REPLAY_LINUX.json",
+    "verification/TWO_PARTICLE_CUT_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -37,13 +38,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 34593,
-      "sha256": "48975d30de798d273d9dcf101816eebf497498883312b8f6daaa78b89f2a747f"
+      "bytes": 35411,
+      "sha256": "4c7de9fec686bd491194dcbb84aab54a6f3bdb9cbff9e3d2e5217ad299cf579b"
     },
     {
       "path": "CITATION.cff",
       "bytes": 751,
-      "sha256": "6668314b9629fb77ce6daa116fee49104d8151d382df966f0abf307da6febb9a"
+      "sha256": "89ac2ad2f482ee58478d3300406a8df48db91330646de3cb5dcb3c21c5698728"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -57,8 +58,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 21932,
-      "sha256": "3abc09b7d6df33a1931a635ace8061e47501d8fbfe85b1fdf7c01959c2995ba8"
+      "bytes": 22813,
+      "sha256": "2b2f3739a13f30152ce3eed1131a1580d66a6de299863e7fe0adca0c69d83c37"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -2201,6 +2202,136 @@
       "sha256": "efe5f45e60d722138ca1df05400c9a1424a548b9e0de849008db49588f21898b"
     },
     {
+      "path": "checkpoint_2026_11_20/two_particle_cut/00_READ_FIRST.md",
+      "bytes": 3635,
+      "sha256": "3b3e762b192cf3907ae13ba444a43c17c07af4109e769e96a923aa321dae30d2"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/ABSORPTIVE.json",
+      "bytes": 6572,
+      "sha256": "364a66944f74b407b2453ea1e7d88a9c498188924e3774969480a5d8b8ecb948"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/ABSORPTIVE.md",
+      "bytes": 9524,
+      "sha256": "d9e530e785d6a785b3f821359bfa1302384f1359a2ebe474e5d9e65ac0dd5c86"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/CUSP.json",
+      "bytes": 1198,
+      "sha256": "7d7cae115ebfa1459dcc95ad28d34c6e4b883d3b700b6fb2e8db2177cfa6dbc2"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/CUSP.md",
+      "bytes": 6731,
+      "sha256": "c4d1bdcd991cc2d70aba12f1e6bb1b1cdf27473a9548602156817cf9494f6f1a"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/EXTERNAL.json",
+      "bytes": 2219,
+      "sha256": "14ee8f73d14039158450254ce9e6b4adb4005230fc404b1436f1d2a1c2da9b82"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/EXTERNAL.md",
+      "bytes": 8801,
+      "sha256": "6dec0cdfa8962fe4f3293d6ed9d3e521ec617603e5c0e187692bacb01b84b39d"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/INDEPENDENT.json",
+      "bytes": 1889,
+      "sha256": "ecd728d8174061cf69d3e5886b57dd3750eb234686d978d91c9777e9a019b6c9"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/INDEPENDENT.md",
+      "bytes": 7159,
+      "sha256": "b061e593caf50a8facf4dff8d4359aca502ed829e4d669c42016291a1d5b7ffd"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/POLE_THRESHOLD.json",
+      "bytes": 1535,
+      "sha256": "cc8c229a87976c0863d83d7c47a2779e80301d680e6c320972ef1cb772d543ef"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/POLE_THRESHOLD.md",
+      "bytes": 7788,
+      "sha256": "03d89795529e6a922f1515c99860ef884b7d21b2b059a65edf2dda12862ac25b"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/QCDLOOP_VERTEX.json",
+      "bytes": 685,
+      "sha256": "b49b8f286de20a271174706925a0b37009ea27c3842550d50a373f5c25758c3b"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/SOURCES.json",
+      "bytes": 12225,
+      "sha256": "dac1ed3ae67700cfbc71bdbf20f6c88f83c1b9fbdc68a0569550942949c7bd9f"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/SOURCES.md",
+      "bytes": 7120,
+      "sha256": "fe5809932f85e582fa2b65fbce13bcbb757e20da2938825524e8e2322b75382d"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/STERILE.json",
+      "bytes": 1528,
+      "sha256": "7b65ae27a60e1b5bb80f0ea5b33f5782e898f0029857de0750b8abe70e7b863e"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/STERILE.md",
+      "bytes": 6547,
+      "sha256": "84b312de1030ecbd49c65de2f284129e62a5214ea1a75870054355a2f3553e5c"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/VERTEX.json",
+      "bytes": 1277,
+      "sha256": "5351b5b926774bab04006d4f4225f7e0544ec4174179204c4be89a33373a14a0"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/VERTEX.md",
+      "bytes": 9463,
+      "sha256": "5697fd3b2625905c6aa9c7091e4963e1b5588e3cd07182256264ed4289e341dd"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/check_absorptive.py",
+      "bytes": 11280,
+      "sha256": "09f8a837499b5746373e2eb7b2e47a42a0032d80886b36e91c8a06e9e443edb6"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/check_cusp.py",
+      "bytes": 7131,
+      "sha256": "b3b0400644fd0390c9fb1ea93d3d2c91ed6e869d57f0b4350130e7f98f761e28"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/check_external.py",
+      "bytes": 9380,
+      "sha256": "4ced0ad5c46b477bd093bf0c5720f65c9bf1d68271be19a30bb95c57b0b3c75a"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/check_independent.py",
+      "bytes": 6684,
+      "sha256": "a0789e9a090f428886867e4881ad6464103399ba7fd1b8e9675d6dd196d0cf0d"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/check_pole_threshold.py",
+      "bytes": 5998,
+      "sha256": "725e8ad7a70e3e9705434d6c24ef773113eeebda1c78b2da52b02ee9c2b7d9f9"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/check_sterile.py",
+      "bytes": 6220,
+      "sha256": "00493d7c4fd18596164bdfb431741a867e7714ea204039c5d0395d48d462421c"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/check_vertex.py",
+      "bytes": 4818,
+      "sha256": "f18372e649652323738663f214ae1df1dce70dab951307ebabcfb94eaf1cf9c0"
+    },
+    {
+      "path": "checkpoint_2026_11_20/two_particle_cut/vertex_qcdloop.cpp",
+      "bytes": 1372,
+      "sha256": "88703813575678cb8065bf134509d677fec766e9d9d0295f14d8df53b4d44234"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -2212,18 +2343,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 45916,
-      "sha256": "858a9e3f01ae22333e8fd7d25d6f2e733dad8f5e9883c979db7d6e86ad2ed1a5"
+      "bytes": 46692,
+      "sha256": "255a39eb330ab5fcf08d7af8c72c1f4ba56ad69bff9051f8ecdc0e1eb4426f51"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 15206,
-      "sha256": "68114b146525f95a899e2fdef0ca08e0afd541cf02820b933bb31ec4803644fd"
+      "bytes": 15545,
+      "sha256": "6c273c95fd24f99f348b68f1cde7748a72d39c093ce0f1cb62cd9bcbb81b8085"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 35331,
-      "sha256": "a6f8beef986a4a044e6199da2e0d9940cd4ba7fd233ec29de97c3848cb977794"
+      "bytes": 36361,
+      "sha256": "1f3bfc33891cad597fd7b07f60e7f313b37bae0badcea01ac87092b45878673f"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -2242,8 +2373,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 27895,
-      "sha256": "a39292ef3f35158d28331faa93d861d40fb63e14c86ddc78066b01e7fe809a42"
+      "bytes": 29711,
+      "sha256": "f4d2df957c4e9b6a838139fcaa53e514698b7f3435ed01daeec6ebe8d23de933"
     }
   ]
 }

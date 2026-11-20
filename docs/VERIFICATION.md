@@ -133,16 +133,24 @@ The runner verifies the repository payload manifest, copies the scientific packa
 
 102. Continuum and scale-log terms in the previous four-rate consistency relation.
 
-For checks 86–102 the runner writes a fresh JSON file and compares its full content with the corresponding published record.
+103. Sterile propagator insertion on the internal Majorana line.
+104. Finite on-shell lepton and scalar vertex corrections.
+105. External scalar and lepton residues and the renormalization-scale dependence.
+106. Independent calculation of the finite vertex for production of two scalars.
+107. Combined angular-averaged absorptive contributions in the declared coupling sector.
+108. First two nonanalytic terms below the scalar-pair threshold in the real angular-averaged amplitude.
+109. One-loop conversion of the lightest sterile running mass to a pole and the scalar decay threshold.
+
+For checks 86–109 the runner writes a fresh JSON file and compares its full content with the corresponding published record.
 
 The full mode also includes the following numerical comparisons.
 
-103. Six pulse cases with midpoint refinement and DOP853 comparison.
-104. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
+110. Six pulse cases with midpoint refinement and DOP853 comparison.
+111. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
 
 The baseline input-manifest check is an additional stage. The wrapper reports each stage and exits nonzero on any failure. Temporary outputs are not written over shipped receipts.
 
-Counting the root payload check gives 104 quick stages and 106 full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
+Counting the root payload check gives 111 quick stages and 113 full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
 
 An additional independent symbolic review is reproducible in the root pinned environment with `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the default replay. The same SymPy/mpmath pins are now root requirements because the selected source-packet stage requires them; the historical review requirements file remains unchanged.
 
@@ -207,3 +215,5 @@ The [QCDLoop reference](../checkpoint_2026_11_19/uv_completion/QCDLOOP.md) suppl
 The [radiative stability calculation](../checkpoint_2026_11_19/radiative_stability/00_READ_FIRST.md) follows the tree-level electron cancellation in the four-singlet model. The [99-stage replay](../verification/RADIATIVE_STABILITY_REPLAY_LINUX.json) identifies the programs and matched records for the running, the scalar quartic term, the dimension-five matching audit, the change in the leading rate when the input Yukawa ratio varies, the scalar rescattering term, and the finite-detuning rate consistency test.
 
 The [Yukawa continuum calculation](../checkpoint_2026_11_19/yukawa_continuum/00_READ_FIRST.md) derives the scalar spectral density, checks its three-particle discontinuity and evaluates the propagator insertion in the four-lepton amplitude. It also determines the scale logarithm from one-loop running. The [full replay](../verification/YUKAWA_CONTINUUM_REPLAY_LINUX.json) verifies all seven records.
+
+The [November 20 two-particle calculation](../checkpoint_2026_11_20/two_particle_cut/00_READ_FIRST.md) adds 7 stages. The calculations check the sterile propagator and external residues, the production vertex by two routes, the sum over the open intermediate states, its fixed-order threshold expansion and the effect of converting the sterile mass to its pole value. [Full replay receipt](../verification/TWO_PARTICLE_CUT_REPLAY_LINUX.json)

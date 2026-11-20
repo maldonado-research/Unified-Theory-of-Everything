@@ -1,5 +1,9 @@
 # Change log
 
+## TOE-GitHub-2026.11.20-candidate.23 — Two- and three-particle contributions to four-lepton scattering
+
+In the four-singlet benchmark, the two- and three-particle cuts determine the fixed-order, two-loop Yukawa imaginary part of the four-lepton amplitude between the first two thresholds. Their opposite signs partly cancel in the muon-coupling correction. The same calculation fixes the first two terms of the subthreshold real cusp. Converting the lightest singlet mass to its pole value splits the coincident thresholds and opens a narrow scalar decay. The next-order cross section requires the remaining real amplitude. Resolving the narrow threshold region also requires treating the split thresholds and unstable scalar. [Calculation and conventions](checkpoint_2026_11_20/two_particle_cut/00_READ_FIRST.md)
+
 ## TOE-GitHub-2026.11.19-candidate.22 — Yukawa corrections through the scalar propagator
 
 The [Yukawa continuum calculation](checkpoint_2026_11_19/yukawa_continuum/00_READ_FIRST.md) follows the charged scalar into a lepton and a Majorana singlet. It computes the finite two-loop contribution obtained by inserting this scalar spectrum on either side of the original box, including the physical three-particle discontinuity. The full coefficient of the explicit renormalization-scale logarithm follows from the running masses and couplings in the leading amplitude. The threshold analysis bounds the contributions of the remaining tree terms near the first new cut. The rate calculation also determines how the finite scalar insertion enters the four-rate test. A separate sewing calculation gives the complete three-particle cut between the first two thresholds. Seven replay stages reproduce the corresponding records.

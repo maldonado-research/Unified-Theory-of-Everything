@@ -1,0 +1,47 @@
+{
+  "sector": "two-scalar cut with one renormalized internal sterile self-energy insertion",
+  "scheme": "MSbar Yukawas and four sterile masses at mu=m, fixed scalar pole mass m=1",
+  "normalization": "A0_insert/gamma=|y_e|^2 electron + |g|^2 muon; B34* B12=s",
+  "scale": "explicit derivative with respect to ln(mu) at fixed renormalized inputs",
+  "checks": {
+    "precision_decimal_digits": 48,
+    "angular_orders": [
+      40,
+      64
+    ],
+    "angular_refinement_relative_tolerance": "1e-20",
+    "propagator_and_RG_relative_tolerance": "1e-21",
+    "spacelike_transfers_over_m2": [
+      "0.2",
+      "2",
+      "7"
+    ],
+    "coordinate_test": "complex sterile unitary and external row rephasing"
+  },
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "leading_over_gamma": "-6.504208765871014e-5",
+      "electron": "-2.775394959268713e-9",
+      "muon": "3.445874617353765e-8",
+      "d_ln_mu_electron": "6.029910348597054e-8",
+      "d_ln_mu_muon": "9.468543378213581e-7"
+    },
+    {
+      "s_over_m2": 8,
+      "leading_over_gamma": "-0.0001248688278711123",
+      "electron": "-2.615099745171625e-8",
+      "muon": "-3.041359245977263e-8",
+      "d_ln_mu_electron": "1.776719648829285e-7",
+      "d_ln_mu_muon": "1.930750408413887e-6"
+    },
+    {
+      "s_over_m2": 10,
+      "leading_over_gamma": "-0.0001871551124339088",
+      "electron": "-8.040621479798071e-8",
+      "muon": "-1.649178225453693e-7",
+      "d_ln_mu_electron": "3.549311204212775e-7",
+      "d_ln_mu_muon": "3.008703910865591e-6"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "scheme": "MSbar Y,M; fixed scalar pole m=1; unit external residues",
+  "factors": "E=|y_e|\u00b2; G=|g|\u00b2; 1/(16\u03c0\u00b2) included; derivatives in ln(mu/m)",
+  "field_residue_coefficients_mu_eq_m": {
+    "scalar": {
+      "E": 0.09548300015445728,
+      "G": -0.00913487789313441
+    },
+    "lepton": {
+      "E": 0.03871301766223735,
+      "G": 0.0012569551168508059
+    }
+  },
+  "two_lepton_two_scalar_factors_mu_eq_m": {
+    "e": {
+      "E": 0.13419601781669463,
+      "G": -0.00913487789313441
+    },
+    "mu": {
+      "E": 0.09548300015445728,
+      "G": -0.007877922776283604
+    }
+  },
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "J0": {
+        "leading": -6.504208765871016e-05,
+        "explicit_log_E": 6.238556579875849e-06,
+        "explicit_log_G": 3.5211282863171397e-06
+      },
+      "c0": {
+        "leading": -6.506712938268637e-05,
+        "explicit_log_E": 6.2402164507967016e-06,
+        "explicit_log_G": 3.521982615145096e-06
+      }
+    },
+    {
+      "s_over_m2": 8,
+      "J0": {
+        "leading": -0.00012486882787111252,
+        "explicit_log_E": 1.2038788314819606e-05,
+        "explicit_log_G": 6.872882220887503e-06
+      },
+      "c0": {
+        "leading": -0.00012501692802803404,
+        "explicit_log_E": 1.2048725270290125e-05,
+        "explicit_log_G": 6.87846285635551e-06
+      }
+    },
+    {
+      "s_over_m2": 10,
+      "J0": {
+        "leading": -0.00018715511243390924,
+        "explicit_log_E": 1.8132535042157364e-05,
+        "explicit_log_G": 1.0416038878255626e-05
+      },
+      "c0": {
+        "leading": -0.00018757070705318002,
+        "explicit_log_E": 1.816074925644201e-05,
+        "explicit_log_G": 1.043271191866031e-05
+      }
+    }
+  ],
+  "J0_cut10_over_cut6": {
+    "leading": 2.8774462685753943,
+    "explicit_log_E": -0.0027893275973720003,
+    "explicit_log_G": -0.0043691929310181645
+  },
+  "checks": {
+    "fixed_basis_complex_flavor_max_relative_residual": 5e-12,
+    "archive": [
+      "central upper-rim imaginary part, leading and both explicit logs"
+    ],
+    "angular_orders": [
+      24,
+      36
+    ],
+    "fixed_basis_step_E_G": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        0.7,
+        1.4
+      ]
+    ]
+  }
+}
