@@ -1,6 +1,6 @@
 {
   "schema": "toe-github-public-sha256-v1",
-  "release": "TOE-GitHub-2026.11.20-candidate.23",
+  "release": "TOE-GitHub-2026.11.20-candidate.24",
   "excluded_self_and_receipts": [
     "PUBLIC_MANIFEST.json",
     "SHA256SUMS.txt",
@@ -28,7 +28,8 @@
     "verification/UV_COMPLETION_REPLAY_LINUX.json",
     "verification/RADIATIVE_STABILITY_REPLAY_LINUX.json",
     "verification/YUKAWA_CONTINUUM_REPLAY_LINUX.json",
-    "verification/TWO_PARTICLE_CUT_REPLAY_LINUX.json"
+    "verification/TWO_PARTICLE_CUT_REPLAY_LINUX.json",
+    "verification/WALL_FERMION_REPLAY_LINUX.json"
   ],
   "files": [
     {
@@ -38,13 +39,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 35411,
-      "sha256": "4c7de9fec686bd491194dcbb84aab54a6f3bdb9cbff9e3d2e5217ad299cf579b"
+      "bytes": 36573,
+      "sha256": "3c708aa603f5c3b4f59c21a19689a45206057af51d60b9786355b11a4675fec2"
     },
     {
       "path": "CITATION.cff",
       "bytes": 751,
-      "sha256": "89ac2ad2f482ee58478d3300406a8df48db91330646de3cb5dcb3c21c5698728"
+      "sha256": "420b58977af57bf377c75fba1a3c26c49e85dcd57137224d7f7a456fb88fff7b"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -58,8 +59,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 22813,
-      "sha256": "2b2f3739a13f30152ce3eed1131a1580d66a6de299863e7fe0adca0c69d83c37"
+      "bytes": 23905,
+      "sha256": "4027e4ff9523f81f819fef3464d8c823429ad43055b9aa3961e645d5321a797d"
     },
     {
       "path": "baseline/TOE_N00AK_r1_PUBLIC/00_READ_FIRST.md",
@@ -2332,6 +2333,126 @@
       "sha256": "88703813575678cb8065bf134509d677fec766e9d9d0295f14d8df53b4d44234"
     },
     {
+      "path": "checkpoint_2026_11_20/wall_fermions/00_READ_FIRST.md",
+      "bytes": 7618,
+      "sha256": "681dd06285e978a6d8e2480cb0230aff88da2d9069bd63b25176ac01c9903a42"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/BAND.json",
+      "bytes": 4590,
+      "sha256": "147afb65e7661335e954541ae7fcbfa4d1f75024b917edf472b02936ab4b3ff4"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/BAND.md",
+      "bytes": 4708,
+      "sha256": "1c228664b95016b9488c18400323fa13327843eababa3267eec5f17693941b8f"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/BRIDGE.json",
+      "bytes": 3369,
+      "sha256": "dc483d3c7ea8e97da0ed2be7d481902fb70679c920d0d25ae463e0ab0e2f375c"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/BRIDGE.md",
+      "bytes": 9430,
+      "sha256": "5eeb3ee5292a338c2fd6cf090b3f92874010212bb5f48f4ab6cf2c884074095c"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/CALIBRATION.json",
+      "bytes": 4250,
+      "sha256": "8b49e90a9b157533127330b7635a2a9c5c39396108f686e9e2d9267dc7a1150a"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/CALIBRATION.md",
+      "bytes": 7821,
+      "sha256": "979ee919f40ba523efad3d48e16265bee6032a5d55d222fc69bcc00e82440d23"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/CARRIERS.json",
+      "bytes": 5231,
+      "sha256": "cbc4475a978dcd53b18d5fe6c2291620a2a48f0fefd8b387f8932a1ce770a9ff"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/CARRIERS.md",
+      "bytes": 11754,
+      "sha256": "fb84f168ac169e780564c72d2b03c478219d94a5c98f011ade864e3ce2979319"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/HD_INPUTS.json",
+      "bytes": 1106,
+      "sha256": "0eee4e8396f783388f148fb492337c493b6ab5fd1feb8c12c410a4d5e3a1b190"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/MODES.json",
+      "bytes": 11671,
+      "sha256": "d7459be0eba53df28544f137bfc816c2d586637c3020e0557b5e84ddaf71b613"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/MODES.md",
+      "bytes": 8708,
+      "sha256": "5b54458c6d31ad4f0b2daed8fbf9a13c4961c0d88d4cefe70fdc5e30fa828334"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/SOURCES.json",
+      "bytes": 13756,
+      "sha256": "6bcc3637372ea11d4b452cd120a0c65ba082ce7f6e237abbbdf038973ecb3a6d"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/SOURCES.md",
+      "bytes": 8321,
+      "sha256": "b0aec10193585bf032d3a4d0aa6513e479bc9d51d774facd424d0d821f0628da"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/TAIL.json",
+      "bytes": 1799,
+      "sha256": "24464703b0e3f90c334fddf522e8d799a3ddaba50e3a6c853cce791b837e14ac"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/TAIL.md",
+      "bytes": 7552,
+      "sha256": "4651f65d9aaeb7ee0b5e8dc2d764939d5e13330e838e75482780d3791eeb91c3"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/band_evolution.cpp",
+      "bytes": 4885,
+      "sha256": "5d9728bc1d37ecba11080fc0f44ea3a9cb0877554a5273beece4a26b6effad40"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/check_band.py",
+      "bytes": 4723,
+      "sha256": "91f5806e9859644f9e2a31b6ea55c6528c53ebb7535e1c97417ee6dd3cb5599d"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/check_bridge.py",
+      "bytes": 13699,
+      "sha256": "6e9e47a96bdef79417f5015ddc914adea164cbe6160d1aff595297c148d47f4e"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/check_calibration.py",
+      "bytes": 8144,
+      "sha256": "9497ad6b1f878c7fc8c6a7885aa387bde8bd33ca3e477ae86a94f40831a03d59"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/check_carriers.py",
+      "bytes": 10789,
+      "sha256": "4834b4814d221993eaebe46313495d2793ba4d3c4ad520ba3f5846f4e255ba5a"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/check_modes.py",
+      "bytes": 10550,
+      "sha256": "e06457e7fef254a71e8578f0e98850de0eee766843240cc4efc5cae763fc5fc6"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/check_tail.py",
+      "bytes": 8673,
+      "sha256": "c29312dc7d869583cafd5601b7dbe03c236652d56c2d3871518d5348811d3e81"
+    },
+    {
+      "path": "checkpoint_2026_11_20/wall_fermions/trace_geometry.csv.gz",
+      "bytes": 549759,
+      "sha256": "736c67483d6969ed02801b4b1d7e1d9d33aa71e3035193de592686efa0aa45be"
+    },
+    {
       "path": "docs/GITHUB_RELEASE_NOTES.md",
       "bytes": 2266,
       "sha256": "6e5acce518053af1d2644b853d6be40a772a0a0fc4d5ac6ad4f8346eccfb09ea"
@@ -2343,18 +2464,18 @@
     },
     {
       "path": "docs/RESEARCH_STATUS.md",
-      "bytes": 46692,
-      "sha256": "255a39eb330ab5fcf08d7af8c72c1f4ba56ad69bff9051f8ecdc0e1eb4426f51"
+      "bytes": 47812,
+      "sha256": "d52a6067ed58fc3129d117bada0ce34a66374d2ca85572e7280054af4f19381b"
     },
     {
       "path": "docs/ROADMAP.md",
-      "bytes": 15545,
-      "sha256": "6c273c95fd24f99f348b68f1cde7748a72d39c093ce0f1cb62cd9bcbb81b8085"
+      "bytes": 15871,
+      "sha256": "c254620ede39934988bdf989c3f249fce3bea7f4f7cc1944a1887b5aaff15cb8"
     },
     {
       "path": "docs/VERIFICATION.md",
-      "bytes": 36361,
-      "sha256": "1f3bfc33891cad597fd7b07f60e7f313b37bae0badcea01ac87092b45878673f"
+      "bytes": 37651,
+      "sha256": "b70383631e9cbc418483fe80a5e4a594685f056147de08b54b63dc19710029c0"
     },
     {
       "path": "docs/ZENODO_OPERATOR_UPDATE.md",
@@ -2373,8 +2494,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 29711,
-      "sha256": "f4d2df957c4e9b6a838139fcaa53e514698b7f3435ed01daeec6ebe8d23de933"
+      "bytes": 30976,
+      "sha256": "bf929c6f07abb0056f378ae387065246744b38b74470d83c0744a3a0163d058a"
     }
   ]
 }

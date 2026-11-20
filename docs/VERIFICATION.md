@@ -2,7 +2,7 @@
 
 ## Environment
 
-The publication checks use Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1, SymPy 1.14.0 and mpmath 1.3.0. Install the root `requirements.txt` in a fresh virtual environment. The checkpoint's original dependency pins are retained as historical source metadata; they are not the environment used for this GitHub replay. Matplotlib is only needed to regenerate plots and is not required by the focused verification commands.
+The publication checks use Python 3.12.14, NumPy 2.3.5, SciPy 1.18.1, SymPy 1.14.0 and mpmath 1.3.0. Install the root `requirements.txt` in a fresh virtual environment. The extended wall-fermion calculation builds a small C++17 program in a temporary directory during replay. The publication run uses g++. The checkpoint's original dependency pins are retained as historical source metadata; they are not the environment used for this GitHub replay. Matplotlib is only needed to regenerate plots and is not required by the focused verification commands.
 
 ## Commands
 
@@ -141,16 +141,23 @@ The runner verifies the repository payload manifest, copies the scientific packa
 108. First two nonanalytic terms below the scalar-pair threshold in the real angular-averaged amplitude.
 109. One-loop conversion of the lightest sterile running mass to a pole and the scalar decay threshold.
 
-For checks 86–109 the runner writes a fresh JSON file and compares its full content with the corresponding published record.
+110. Independent calibration of the closed-sphere fermion modes.
+111. Neutral fermion propagation on the archived closed-wall background.
+112. Extended shell sums at the bounce, the expanding slice and turnaround, with numerical controls.
+113. Upper bounds on contributions from the uncomputed fermion modes.
+114. Conditional charged-matter yield in the specified singlet conversion model.
+115. Geometric and matter-budget checks relating the two benchmark calculations.
+
+For checks 86–115 the runner writes a fresh JSON file and compares its full content with the corresponding published record.
 
 The full mode also includes the following numerical comparisons.
 
-110. Six pulse cases with midpoint refinement and DOP853 comparison.
-111. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
+116. Six pulse cases with midpoint refinement and DOP853 comparison.
+117. A separate Hadamard-rotated Radau review, sign and zero-momentum controls, and weak-pulse comparison.
 
 The baseline input-manifest check is an additional stage. The wrapper reports each stage and exits nonzero on any failure. Temporary outputs are not written over shipped receipts.
 
-Counting the root payload check gives 111 quick stages and 113 full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
+Counting the root payload check gives 117 quick stages and 119 full stages. `verification/PUBLICATION_REPLAY.json` preserves the earlier September replay; `verification/OPERATOR_REPLAY_LINUX.json` records the October 1 edition. The root and numerical checkpoint commands must run without `-O`. The scientific derivations and limits are documented in `checkpoint_2026_10_01/`, `checkpoint_2026_10_15/` and `checkpoint_2026_10_16/`; case counts are implementation controls, not proof by sampling or proof of a complete operator basis. The two-B implementations also exhaust the 256 coefficients of their declared degree-one local momentum polynomial, bilinear in polarizations; this completeness statement relies on the proved UV degree bound.
 
 An additional independent symbolic review is reproducible in the root pinned environment with `python -B checkpoint_2026_10_01/independent_clifford_checks.py`. Its four exact control groups include a noncommuting gauge connection and a physical-polarization trace. This optional review uses pinned SymPy/mpmath and is separate from the default replay. The same SymPy/mpmath pins are now root requirements because the selected source-packet stage requires them; the historical review requirements file remains unchanged.
 
@@ -217,3 +224,5 @@ The [radiative stability calculation](../checkpoint_2026_11_19/radiative_stabili
 The [Yukawa continuum calculation](../checkpoint_2026_11_19/yukawa_continuum/00_READ_FIRST.md) derives the scalar spectral density, checks its three-particle discontinuity and evaluates the propagator insertion in the four-lepton amplitude. It also determines the scale logarithm from one-loop running. The [full replay](../verification/YUKAWA_CONTINUUM_REPLAY_LINUX.json) verifies all seven records.
 
 The [November 20 two-particle calculation](../checkpoint_2026_11_20/two_particle_cut/00_READ_FIRST.md) adds 7 stages. The calculations check the sterile propagator and external residues, the production vertex by two routes, the sum over the open intermediate states, its fixed-order threshold expansion and the effect of converting the sterile mass to its pole value. [Full replay receipt](../verification/TWO_PARTICLE_CUT_REPLAY_LINUX.json)
+
+The [closed-wall fermion calculation](../checkpoint_2026_11_20/wall_fermions/00_READ_FIRST.md) adds 6 regenerated records. The publication replay ran in two phases. It ran the inherited stages on a fresh disposable archive of candidate.23, verified that their stage definitions, pinned environment and published computational inputs exactly match those in candidate.24, and ran the new stages on the final verified candidate.24 snapshot. The receipt records both manifests, the parent commit and which stages ran on each snapshot. The command above replays the entire candidate directly in one invocation. [Combined replay receipt](../verification/WALL_FERMION_REPLAY_LINUX.json)

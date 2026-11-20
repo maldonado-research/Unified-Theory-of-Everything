@@ -1,0 +1,155 @@
+{
+  "inputs": {
+    "mL": 1.0,
+    "M2L": 4.0,
+    "abs_g": 1.0,
+    "Q": 100000000.0,
+    "K_initial": 0.001,
+    "K_late": 13200.04,
+    "initial_radius": 2.0,
+    "initial_total_cold_rest_density": 0.0001,
+    "individual_shells_through": 32,
+    "grouped_shells_through": 2048,
+    "tail_from_shell": 2049
+  },
+  "partial_width_L_per_sign_and_weak_component": 0.0087426421,
+  "total_N2_width_L": 0.034970569,
+  "secondary_phi_two_body_width_L_leading": 3.1911754e-06,
+  "parent_rest_frame": {
+    "momentum": 1.875,
+    "charged_scalar_energy": 2.125,
+    "charged_lepton_energy": 1.875,
+    "scalar_speed": 0.88235294,
+    "scalar_isotropic_pressure_over_energy": 0.25951557
+  },
+  "two_independent_trials": {
+    "bounce_to_reference_onset_time": {
+      "start_time": 0.8677053,
+      "stop_time": 10.5017,
+      "start_radius": 1.8809481,
+      "stop_radius": 9.5362603,
+      "initial_individual_N2": 0.029667744,
+      "all_channel_decay_probability_at_rest": 0.28602424,
+      "charged_branch_events_per_prepared_N2_upper": 0.14301212,
+      "shell_0_and_32_proper_times": [
+        9.5850597,
+        5.2122114
+      ],
+      "shell_0_and_32_all_channel_probabilities": [
+        0.28480138,
+        0.16662703
+      ],
+      "mean_prompt_charged_scalar_births": 0.0033316222,
+      "mean_prompt_charged_lepton_births": 0.0033316222,
+      "mean_charged_scalar_births_per_N2": 0.11229779,
+      "mean_charged_scalar_birth_energy_sum": 0.0095147659,
+      "mean_charged_lepton_birth_energy_sum": 0.0083953817,
+      "mean_scalar_readout_energy_over_rest_lower": 1.0661955,
+      "max_secondary_two_body_probability": 3.0743295e-05,
+      "S0_upper_if_all_seed_carriers_are_these_scalar_daughters": 0.21097744,
+      "S0_upper_even_for_filled_N2_band": 237095.2,
+      "all_shells": {
+        "charged_scalar_births_by_band_brackets": {
+          "33_128": [
+            0.00035912004,
+            0.00099911967
+          ],
+          "129_512": [
+            2.1620275e-05,
+            8.1195161e-05
+          ],
+          "513_2048": [
+            1.1756624e-06,
+            4.648274e-06
+          ]
+        },
+        "charged_scalar_births_tail_from_2049_upper": 2.0686616e-07,
+        "full_tower_charged_scalar_births_bracket": [
+          0.0037135381,
+          0.0044167921
+        ],
+        "full_tower_charged_lepton_births_bracket": [
+          0.0037135381,
+          0.0044167921
+        ],
+        "full_tower_charged_scalar_birth_energy_bracket": [
+          0.014767314,
+          0.015020266
+        ],
+        "full_tower_charged_lepton_birth_energy_bracket": [
+          0.013029983,
+          0.013253176
+        ],
+        "S0_upper_for_massive_scalar_seed_count": 0.27969663,
+        "minimum_required_over_maximum_supplied_at_late_perturbativity_threshold": 646619670000.0
+      }
+    },
+    "expanding_slice_to_turnaround": {
+      "start_time": 11.03911,
+      "stop_time": 12.421633,
+      "start_radius": 9.6369087,
+      "stop_radius": 9.7440126,
+      "initial_individual_N2": 0.049280197,
+      "all_channel_decay_probability_at_rest": 0.047197489,
+      "charged_branch_events_per_prepared_N2_upper": 0.023598745,
+      "shell_0_and_32_proper_times": [
+        1.3814931,
+        1.0468293
+      ],
+      "shell_0_and_32_all_channel_probabilities": [
+        0.047163161,
+        0.035946236
+      ],
+      "mean_prompt_charged_scalar_births": 0.0010382156,
+      "mean_prompt_charged_lepton_births": 0.0010382156,
+      "mean_charged_scalar_births_per_N2": 0.021067603,
+      "mean_charged_scalar_birth_energy_sum": 0.0024777933,
+      "mean_charged_lepton_birth_energy_sum": 0.0021862882,
+      "mean_scalar_readout_energy_over_rest_lower": 2.1068374,
+      "max_secondary_two_body_probability": 4.4118647e-06,
+      "S0_upper_if_all_seed_carriers_are_these_scalar_daughters": 0.065745772,
+      "S0_upper_even_for_filled_N2_band": 39123.601,
+      "all_shells": {
+        "charged_scalar_births_by_band_brackets": {
+          "33_128": [
+            0.00034731912,
+            0.00089400007
+          ],
+          "129_512": [
+            4.7575081e-05,
+            0.00017902904
+          ],
+          "513_2048": [
+            3.2649083e-06,
+            1.2953491e-05
+          ]
+        },
+        "charged_scalar_births_tail_from_2049_upper": 1.6570378e-06,
+        "full_tower_charged_scalar_births_bracket": [
+          0.0014363747,
+          0.0021258553
+        ],
+        "full_tower_charged_lepton_births_bracket": [
+          0.0014363747,
+          0.0021258553
+        ],
+        "full_tower_charged_scalar_birth_energy_bracket": [
+          0.0067186154,
+          0.0069402306
+        ],
+        "full_tower_charged_lepton_birth_energy_bracket": [
+          0.0059281901,
+          0.0061237329
+        ],
+        "S0_upper_for_massive_scalar_seed_count": 0.13462136,
+        "minimum_required_over_maximum_supplied_at_late_perturbativity_threshold": 1343452100000.0
+      }
+    }
+  },
+  "massive_scalar_seed_match": {
+    "required_individual_charged_scalars_per_S0": 0.015791367,
+    "dimensionless_single_field_charge": 173205080.0,
+    "S0_lower_for_local_alpha_below_one_initial": 2.3873241e+18,
+    "S0_lower_for_local_alpha_below_one_late": 180857340000.0
+  }
+}

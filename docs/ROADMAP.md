@@ -66,3 +66,5 @@ For the four-singlet benchmark, the three rates at squared energies 6, 8 and 10 
 Combine the [scalar propagator contribution](../checkpoint_2026_11_19/yukawa_continuum/00_READ_FIRST.md) with the remaining two-loop Yukawa diagrams and counterterms at the same parameter definitions. Check cancellation of the explicit scale logarithm against the running of the masses and couplings in the leading amplitude.
 
 Reconstruct the smooth real two-loop terms at fixed renormalized inputs, including the crossed channels and subtraction data. To predict the line shape within the pole-mass splitting, resolve the shifted threshold and include the charged scalar decay. [November 20 calculation](../checkpoint_2026_11_20/two_particle_cut/00_READ_FIRST.md)
+
+Test other microscopic carrier assignments against the cold-state count, charge response and energy budget at the actual mobility switch. A reheating calculation would evolve their distribution and collisions with the gauge field and geometry. [Closed-wall benchmark](../checkpoint_2026_11_20/wall_fermions/00_READ_FIRST.md)
