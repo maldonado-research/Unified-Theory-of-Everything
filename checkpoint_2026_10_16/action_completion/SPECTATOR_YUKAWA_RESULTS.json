@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "input_commit": "5f9889b76661faa155c681a5ecfac5d036398bc8",
+  "scope": "Classical first-order spectator charged-lepton and quark Yukawa transport under the declared source and local-normalizing maps. Not total physical coefficient matching.",
+  "positive_checks": 54,
+  "positive_categories": {
+    "e direct source-map transport": 3,
+    "e local-normalizing transport zero": 3,
+    "e coordinate-bridge spectator cancellation": 3,
+    "e conjugate transport": 3,
+    "e adjoint involution": 3,
+    "d direct source-map transport": 3,
+    "d local-normalizing transport zero": 3,
+    "d coordinate-bridge spectator cancellation": 3,
+    "d conjugate transport": 3,
+    "d adjoint involution": 3,
+    "u direct source-map transport": 3,
+    "u local-normalizing transport zero": 3,
+    "u coordinate-bridge spectator cancellation": 3,
+    "u conjugate transport": 3,
+    "u adjoint involution": 3,
+    "differentiated scalar charged-lepton source": 3,
+    "literal variational scalar and lepton sources": 3,
+    "scalar adjoint involution": 3
+  },
+  "negative_checks": 33,
+  "negative_categories": {
+    "e omitted source-map spectator": 3,
+    "e reversed scalar-shift sign": 3,
+    "d omitted source-map spectator": 3,
+    "d reversed scalar-shift sign": 3,
+    "u omitted source-map spectator": 3,
+    "u reversed scalar-shift sign": 3,
+    "charged-lepton derivative adjoint sign": 3,
+    "missing scalar source": 3,
+    "missing derivative lepton source": 3,
+    "Majorana half inserted into t": 3,
+    "conjugate fermion order unreversed": 3
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "source_map_monomials": {
+        "e": 208,
+        "d": 256,
+        "u": 256
+      },
+      "total_with_conjugate_monomials": 1440
+    },
+    {
+      "trial": 1,
+      "source_map_monomials": {
+        "e": 208,
+        "d": 256,
+        "u": 256
+      },
+      "total_with_conjugate_monomials": 1440
+    },
+    {
+      "trial": 2,
+      "source_map_monomials": {
+        "e": 208,
+        "d": 256,
+        "u": 256
+      },
+      "total_with_conjugate_monomials": 1440
+    }
+  ],
+  "arithmetic": "exact Gaussian rational SymPy coefficients and exterior Grassmann generators",
+  "repository_imports": false,
+  "assertions_required": false
+}

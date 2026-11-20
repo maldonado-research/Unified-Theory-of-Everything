@@ -1,0 +1,385 @@
+{
+  "retrieved": "2026-11-20",
+  "paper_index": "Firecrawl research_search_papers",
+  "queries": [
+    {
+      "query": "CP asymmetry lepton number violating two body scattering lepton Higgs scattering one loop Majorana neutrinos vertex wave function mixing unitarity Buchmüller Plümacher off shell",
+      "k": 10,
+      "ranked_ids": [
+        "arxiv:hep-ph/9712468",
+        "arxiv:hep-ph/9710460",
+        "arxiv:1612.07656",
+        "arxiv:hep-ph/0701005",
+        "arxiv:1403.2555",
+        "arxiv:2501.13150",
+        "arxiv:1403.8009",
+        "arxiv:hep-ph/0209120",
+        "arxiv:2203.11430",
+        "arxiv:1010.2209"
+      ]
+    },
+    {
+      "query": "one loop same sign charged lepton scattering into two charged Higgs or longitudinal W inverse neutrinoless double beta Majorana exchange electroweak radiative corrections e-e- to W-W-",
+      "k": 8,
+      "ranked_ids": [
+        "arxiv:hep-ph/9804372",
+        "arxiv:hep-ph/0701005",
+        "arxiv:hep-ph/0003077",
+        "arxiv:0709.1075",
+        "arxiv:2412.08015",
+        "arxiv:1610.02618",
+        "arxiv:1508.04937",
+        "arxiv:hep-ph/0611289"
+      ]
+    },
+    {
+      "query": "type I seesaw one loop threshold correction Higgs lepton wave function finite heavy Majorana neutrino self energy vertex matching Weinberg operator Yukawa",
+      "k": 8,
+      "ranked_ids": [
+        "arxiv:2507.21691",
+        "arxiv:2201.00840",
+        "arxiv:2107.12133",
+        "arxiv:2609.00888",
+        "arxiv:1905.12634",
+        "arxiv:2405.18017",
+        "arxiv:2102.04954",
+        "arxiv:2211.04397"
+      ]
+    },
+    {
+      "query": "Majorana neutrino lepton Higgs scattering resummed propagator effective vertex one loop off-shell amplitudes unbroken electroweak heavy neutrino mixing resonant leptogenesis",
+      "k": 10,
+      "ranked_ids": [
+        "arxiv:0805.1677",
+        "arxiv:2603.01652",
+        "arxiv:hep-ph/0309342",
+        "arxiv:1905.12634",
+        "arxiv:2604.21492",
+        "arxiv:hep-ph/9908417",
+        "pmid:34558926",
+        "arxiv:2605.00095",
+        "arxiv:hep-ph/0209120",
+        "arxiv:hep-ph/9810211"
+      ]
+    },
+    {
+      "query": "one-loop neutrino Yukawa seesaw scattering amplitudes cuts lepton number violation Higgs Majorana matching",
+      "from": "2025-11-20",
+      "to": "2026-11-20",
+      "sort": "date_desc",
+      "k": 8,
+      "ranked_ids": [
+        "arxiv:2611.18060",
+        "arxiv:2604.00866",
+        "arxiv:2610.31658",
+        "arxiv:2604.06345",
+        "arxiv:2610.14708",
+        "arxiv:2610.10688",
+        "arxiv:2602.04168",
+        "arxiv:2512.22756"
+      ]
+    },
+    {
+      "query": "Pilaftsis Majorana neutrino Higgs mass absorptive vertex one loop nonzero Higgs mass function f(x,alpha) Passarino V+ V0 leptogenesis massive Higgs Cutkosky spacelike off shell",
+      "k": 7,
+      "ranked_ids": [
+        "arxiv:1007.5512",
+        "arxiv:1201.4770",
+        "arxiv:1905.12634",
+        "arxiv:1011.3122",
+        "arxiv:2608.12646",
+        "arxiv:hep-ph/9402314",
+        "arxiv:2107.12133"
+      ]
+    },
+    {
+      "query": "type-I seesaw leptogenesis triangle heavy-neutrino Yukawa vertex arbitrary Higgs mass lepton mass zero temperature Cutkosky thermal masses vertex correction exact",
+      "k": 7,
+      "ranked_ids": [
+        "pmid:42789908",
+        "arxiv:1905.12634",
+        "pmcid:PMC6560901",
+        "arxiv:2111.03419",
+        "arxiv:2003.06312",
+        "pmid:40531022",
+        "arxiv:2609.24990"
+      ]
+    }
+  ],
+  "ranked_entries": 58,
+  "distinct_index_ids": 52,
+  "versioned_primary_pdfs_cited": [
+    {
+      "arxiv": "hep-ph/9710460v2",
+      "pdf": "https://arxiv.org/pdf/hep-ph/9710460v2",
+      "sha256": "f881e718e97b6b0a572e53303e1133ed2fd7e1b2dee3f1230a57ac58d0bccdda",
+      "title": "CP asymmetry in Majorana neutrino decays",
+      "doi": "10.1016/S0370-2693(97)01548-7",
+      "journal": "Phys.Lett.B",
+      "inspire_abstract_url": "https://inspirehep.net/literature/450227"
+    },
+    {
+      "arxiv": "hep-ph/9712468v1",
+      "pdf": "https://arxiv.org/pdf/hep-ph/9712468v1",
+      "sha256": "7f1ea83b676eb08386aacf3cf5802c0eaeadd618da73cd78d48280d1aacd0f28",
+      "title": "On the CP asymmetries in Majorana neutrino decays",
+      "doi": "10.1016/S0370-2693(98)00135-X",
+      "journal": "Phys.Lett.B",
+      "inspire_abstract_url": "https://inspirehep.net/literature/452737"
+    },
+    {
+      "arxiv": "hep-ph/9707235v1",
+      "pdf": "https://arxiv.org/pdf/hep-ph/9707235v1",
+      "sha256": "e39c85fd1bc32aa028bdbcfa21eb86d3ac5ace0449c280a098b7d905c4e312a6",
+      "title": "CP violation and baryogenesis due to heavy Majorana neutrinos",
+      "doi": "10.1103/PhysRevD.56.5431",
+      "journal": "Phys.Rev.D",
+      "inspire_abstract_url": "https://inspirehep.net/literature/445198"
+    },
+    {
+      "arxiv": "2201.00840v2",
+      "pdf": "https://arxiv.org/pdf/2201.00840v2",
+      "sha256": "1718283232bb8f773e467fe83642d7d26f94bef1b3cb1966cf2c56715a8ff992",
+      "title": "One-loop matching conditions in neutrino effective theory",
+      "doi": "10.1016/j.nuclphysb.2022.115729",
+      "journal": "Nucl.Phys.B",
+      "inspire_abstract_url": "https://inspirehep.net/literature/2000328"
+    },
+    {
+      "arxiv": "hep-ph/0701005v2",
+      "pdf": "https://arxiv.org/pdf/hep-ph/0701005v2",
+      "sha256": "ceda9122d003d52b6f45c34a878706d84122399fd0410cbfc00e1e5204c72f3e",
+      "title": "Signature of heavy Majorana neutrinos at a linear collider: Enhanced charged Higgs pair production",
+      "doi": "10.1103/PhysRevD.76.033004",
+      "journal": "Phys.Rev.D",
+      "inspire_abstract_url": "https://inspirehep.net/literature/741549"
+    },
+    {
+      "arxiv": "2412.08015v1",
+      "pdf": "https://arxiv.org/pdf/2412.08015v1",
+      "sha256": "c5fd38378f1a98b2dcfcd329dd71d47a09398d10630f622887954803a751275a",
+      "title": "On Radiative Corrections to Lepton-Number-Violating Processes",
+      "doi": "10.1093/ptep/ptaf126",
+      "journal": "PTEP",
+      "inspire_abstract_url": "https://inspirehep.net/literature/2858293"
+    },
+    {
+      "arxiv": "2604.06345v2",
+      "pdf": "https://arxiv.org/pdf/2604.06345v2",
+      "sha256": "55b2751c6da27c2f50b8e4cb05e1be7b67adca21eb32d30303d215e7469e6a88",
+      "title": "Insights into one-loop corrections to the neutrino low-scale type-I seesaw mechanism",
+      "doi": "10.1103/yzmm-t2cs",
+      "journal": "Phys.Rev.D",
+      "inspire_abstract_url": "https://inspirehep.net/literature/3141802"
+    }
+  ],
+  "zenodo": {
+    "creator_query": "metadata.creators.person_or_org.name:\"Maldonado, Ricardo\"",
+    "endpoint": "https://zenodo.org/api/records",
+    "sort": "mostrecent",
+    "page_size": 25,
+    "allversions_true_pages": 4,
+    "allversions_false_pages": 1,
+    "distinct_version_records": 99,
+    "concept_count": 9,
+    "creator_name": "Maldonado, Ricardo",
+    "creator_orcid": "0009-0009-3937-6527",
+    "version_records_with_matching_orcid": 89,
+    "version_ids_with_name_only": [
+      17872788,
+      17925419,
+      17934374,
+      17968738,
+      18048513,
+      18050020,
+      18050129,
+      18089007,
+      18103077,
+      18157426
+    ],
+    "concepts": [
+      {
+        "concept": 17088132,
+        "latest_version": 24387565,
+        "title": "A curved HDblast wall coupled to a Maxwell field and a surface scalar",
+        "version_ids": [
+          17968738,
+          18048513,
+          18089007,
+          18157426,
+          18158842,
+          18236838,
+          18341882,
+          18406745,
+          18807647,
+          19499967,
+          19747409,
+          20313949,
+          21367209,
+          21998599,
+          22285737,
+          22287013,
+          22347452,
+          23114217,
+          23225288,
+          23228395,
+          23244754,
+          23294979,
+          23335485,
+          24351089,
+          24351909,
+          24352252,
+          24352632,
+          24353248,
+          24353557,
+          24354293,
+          24354840,
+          24355584,
+          24355836,
+          24356257,
+          24356734,
+          24356875,
+          24357251,
+          24357388,
+          24358059,
+          24360096,
+          24361277,
+          24374531,
+          24375564,
+          24376497,
+          24377289,
+          24378057,
+          24378925,
+          24379598,
+          24380589,
+          24381850,
+          24382645,
+          24383815,
+          24385102,
+          24386416,
+          24387565
+        ]
+      },
+      {
+        "concept": 23068055,
+        "latest_version": 24382132,
+        "title": "Mutation by Natural Dominance — forecasting the leading yeast lineage from early abundance",
+        "version_ids": [
+          23068056,
+          23075312,
+          23113326,
+          23219776,
+          23970140,
+          24356344,
+          24356808,
+          24377555,
+          24377898,
+          24378187,
+          24379400,
+          24382132
+        ]
+      },
+      {
+        "concept": 22922927,
+        "latest_version": 23111008,
+        "title": "HDBLAST: Scalar Junction Consistency and a Corrected Static de Sitter Branch",
+        "version_ids": [
+          22922928,
+          23111008
+        ]
+      },
+      {
+        "concept": 17335714,
+        "latest_version": 22398093,
+        "title": "Theory of Mutation by Natural Dominance (TMD) — v2.6.5: portable campaign execution and stricter result acceptance",
+        "version_ids": [
+          17934374,
+          18133653,
+          18166188,
+          18501085,
+          20186340,
+          22398093
+        ]
+      },
+      {
+        "concept": 18193771,
+        "latest_version": 22400470,
+        "title": "AntiMatter: Wilson-Line and Cosmology Audit - Efficiency-Dependent Energy Bounds and Reproducibility (v1.23.1)",
+        "version_ids": [
+          18193772,
+          18489895,
+          20186901,
+          22400470
+        ]
+      },
+      {
+        "concept": 18135951,
+        "latest_version": 22399940,
+        "title": "DMDE Triplepoint + CosmoGate: Five-Channel Weak-Rate Closure and Frozen-Pair Differential-Response Design (v0.9.20)",
+        "version_ids": [
+          18135952,
+          18165708,
+          18613652,
+          20187862,
+          22399940
+        ]
+      },
+      {
+        "concept": 18050128,
+        "latest_version": 22400638,
+        "title": "Quantized Horizon Response (HRF): Composite-Alternative Separation and Fixed-Conditioning GW250114 Replay - v5.3",
+        "version_ids": [
+          18050129,
+          18103077,
+          18166094,
+          18806067,
+          20192925,
+          22400638
+        ]
+      },
+      {
+        "concept": 17872787,
+        "latest_version": 22319172,
+        "title": "Unified Theory of Everything Research Program: TOE-N00AK-r1 - Exact Tree-Level Majorana Kernels and a Dimension-Seven Scope Correction",
+        "version_ids": [
+          17872788,
+          17925419,
+          18050020,
+          18165756,
+          18509529,
+          20241403,
+          22319172
+        ]
+      },
+      {
+        "concept": 17726159,
+        "latest_version": 20218030,
+        "title": "Einstein Audit for Faster-Than-Light Hidden Sectors (FTL-only): A2 Strict Protocol Freeze and Provider-Return Gate",
+        "version_ids": [
+          18499411,
+          20218030
+        ]
+      }
+    ],
+    "new_version_ids_since_2026_11_19": [
+      24381850,
+      24382132,
+      24382645,
+      24383815,
+      24385102,
+      24386416,
+      24387565
+    ],
+    "removed_version_ids_since_2026_11_19": []
+  },
+  "hdblast": {
+    "commit": "aee9b3ed9c1f25257df2fcecbd8e47ceb2c7656a",
+    "commit_url": "https://github.com/maldonado-research/HDblast/commit/aee9b3ed9c1f25257df2fcecbd8e47ceb2c7656a",
+    "repository": "https://github.com/maldonado-research/HDblast/tree/main",
+    "site": "https://maldonado-research.github.io/HDblast/",
+    "site_http_status": 200,
+    "compared_study": "https://github.com/maldonado-research/HDblast/blob/aee9b3ed9c1f25257df2fcecbd8e47ceb2c7656a/research/HDBLAST_CURVED_MAXWELL_SCALAR_WALL_20261120/README.md",
+    "study_markdown_sha256": "64d528d2b28add39a037272c9abb66bc7a20f8f78d46355869bc062ac0d19c04",
+    "archive": "https://doi.org/10.5281/zenodo.24387565"
+  }
+}

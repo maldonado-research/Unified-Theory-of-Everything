@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "charged_photon_control": 1,
+    "crossed_pole": 317,
+    "direct_fermion_pole": 317,
+    "direct_pole_cancellation": 317,
+    "direct_scalar_pole": 317,
+    "epsilon_group_route": 3,
+    "epsilon_pseudoreality": 3,
+    "hypercharge_control": 1,
+    "mutation_rejections": 10,
+    "neutral_Z_projection": 1,
+    "phi_group_route": 3,
+    "photon_projection": 1,
+    "photon_projection_with_couplings": 1,
+    "ward_identity": 169
+  },
+  "limits": "one external W only; no physical anomalous dimension; no two-W or mixed BW matching; no EOM reduction",
+  "result": "SU(2) direct trace vanishes; crossed +/-T; direct abelian UV poles cancel; R_W=G_J+D; neutral photon pole cancels",
+  "status": "PASS",
+  "total_checks": 1461
+}

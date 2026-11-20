@@ -1,0 +1,120 @@
+{
+  "arithmetic": "Exact Gaussian rational Clifford, Lorentz/weak covariance, connection jets and exterior Grassmann algebra; standard library only.",
+  "checks_by_category": {
+    "B and W selected coefficient matrices are correlated": 2,
+    "B dual coefficient is positive i ordinary": 2,
+    "Lorentzian dual squared is minus one": 48,
+    "W dual coefficient is positive i ordinary": 2,
+    "actual selected Higgs derivative source is one dual channel": 8,
+    "charged hypercharge source vanishes algebraically": 1,
+    "chiral triple gamma gives the positive i dual source": 8,
+    "chiral vector bilinear spans four vector components": 1,
+    "circular Fourier mode dual eigenvalue": 12,
+    "complete derivative weak intertwiner nullity": 2,
+    "complete sourced curvature placement certificate": 8,
+    "every triple-gamma dual coefficient": 64,
+    "exact row Clifford equation before EOM": 8,
+    "exact sterile Clifford equation before EOM": 8,
+    "explicit ordinary or dual solves all Lorentz equations": 2,
+    "explicit weak intertwiner solves every equation": 2,
+    "full Lorentz covariance nullity": 1,
+    "full matrix divergence splits into gauge currents and residuals": 8,
+    "full placement IBP with explicit boundary": 8,
+    "lepton tensor source expands into sterile and charged terms": 1,
+    "literal OD equals row route before EOM": 8,
+    "normalized B plus channel coefficient": 2,
+    "normalized W plus channel coefficient": 2,
+    "ordinary IBP retains row scalar divergence sterile placements": 8,
+    "ordinary and dual span complete Lorentz nullspace": 1,
+    "placement map Majorana completion cancels both channels": 1,
+    "placement map indexed x is the actual tensor row adjoint": 1,
+    "placement map preserves Majorana reality": 4,
+    "placement map x is left chiral": 1,
+    "retained mass tensor has ordered FM coefficient": 1,
+    "selected algebraic coefficient image has one matrix freedom": 2,
+    "selected neutrino lepton-source tensor cancels by Grassmann symmetry": 1,
+    "selected selfdual Fourier channel": 12,
+    "selected sterile tensor flavor matrix is symmetric": 1,
+    "sterile Majorana tensor is flavor antisymmetric": 54,
+    "sterile Yukawa tensor source retains full active weak tensor": 1,
+    "triple-gamma IBP retains both matter derivative placements": 8,
+    "two vector boundaries reproduce compact Clifford boundary": 8,
+    "whole selected packet correlated coefficients": 8
+  },
+  "circular_Fourier_modes": [
+    {
+      "dual_eigenvalue": "-i",
+      "polarization_y": "i",
+      "selected_channel_nonzero": true
+    },
+    {
+      "dual_eigenvalue": "+i",
+      "polarization_y": "-i",
+      "selected_channel_nonzero": false
+    }
+  ],
+  "input_candidate": "4ed8560e019dfe74ed6c5178b0f990fe3ccb3008",
+  "lorentz_covariance_system": {
+    "equations": 576,
+    "nullity": 2,
+    "rank": 94,
+    "unknowns": 96
+  },
+  "negative_control_count": 12,
+  "negative_controls_rejected": [
+    "charged weak source incorrectly discarded",
+    "delete covariant boundary term",
+    "delete lepton tensor source",
+    "delete sterile tensor source",
+    "delete the transferred current",
+    "discard charged-lepton tensor in alternative source map",
+    "dual sign selects opposite circular channel",
+    "extra half in placement Majorana map",
+    "keep old current coefficient after changing placement",
+    "keep old dipole coefficient after changing placement",
+    "opposite chiral dual sign",
+    "ordinary derivative IBP drops curvature divergence"
+  ],
+  "positive_check_count": 320,
+  "python": "3.12.14",
+  "raw_F_coefficient_image": [
+    {
+      "active_flavors": 1,
+      "algebraic_coordinates": 4,
+      "raw_F_source_image_rank": 1,
+      "sterile_flavors": 1
+    },
+    {
+      "active_flavors": 2,
+      "algebraic_coordinates": 24,
+      "raw_F_source_image_rank": 6,
+      "sterile_flavors": 3
+    }
+  ],
+  "scope": "Algebraic derivative-onphi basis and exact sourced placement transport of selected packet; not a complete derivative-EFT quotient or a physical helicity amplitude/Wilson coefficient/beta function.",
+  "status": "passed",
+  "trial_configuration": {
+    "active_flavors": 2,
+    "charged_lepton_flavors": 2,
+    "complete_Lorentz_and_weak_coefficient_systems": true,
+    "complete_triple_gamma_components": 64,
+    "generic_noncommuting_connection_IBP_source_trials": 8,
+    "sterile_flavors": 3
+  },
+  "weak_covariance_systems": [
+    {
+      "equations": 12,
+      "nullity": 1,
+      "rank": 3,
+      "strength": "B",
+      "unknowns": 4
+    },
+    {
+      "equations": 36,
+      "nullity": 1,
+      "rank": 11,
+      "strength": "W",
+      "unknowns": 12
+    }
+  ]
+}

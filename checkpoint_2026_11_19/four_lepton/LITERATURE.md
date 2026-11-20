@@ -1,0 +1,23 @@
+# Literature comparison for the subtracted four-lepton triangle
+
+19 November 2026 (Pacific). Two questions guide this comparison. Which part of a spacelike subtraction can be checked against a standard scalar integral? How does the choice of a four-fermion operator in dimensional regularization affect a finite local term?
+
+## Scalar integral and operator convention
+
+**Denner, arXiv:0709.1075v1 (7 September 2007).** Section 4.3.2, Eq. (4.23), gives the scalar two-point function as a momentum-independent UV term minus the integral of a logarithm. At spacelike momentum squared $-s$, its mass polynomial in the paper’s parameter order is $D_s=xa+(1-x)b+x(1-x)s$. Subtracting the zero-momentum bubble gives $-\int_0^1 dx\,\log(D_s/D_0)$. Applying $(1+a\partial_a)$ to the scalar-line propagator $1/(k^2+a)$ produces the triangle factor $k^2/(k^2+a)^2$. The bubble convention checks the sign and mass dependence of this integral. The flavor and spin normalizations come from the project’s action. [Versioned paper](https://arxiv.org/pdf/0709.1075v1)
+
+**Fuentes-Martín et al., arXiv:2211.09144v2 (8 February 2023).** Section 3.2.3 gives the Fierz projection of crossed fermion lines. Appendix A shows how an order-$\epsilon$ change to a projection combines with a simple pole to shift the finite local action. This justifies keeping the ordered four-lepton product separate from its current-current representative until the dimensional convention has been specified. A momentum-independent finite shift cancels in a difference between two momenta for this fixed graph. Absolute local matching still requires the rest of the chosen theory and scheme. [Versioned paper](https://arxiv.org/pdf/2211.09144v2)
+
+**Ferrando Solera, Jäger and Vale Silva, arXiv:2602.03683v1 (3 February 2026).** Sections 2.2–2.4 and 3 address another issue that arises in dimensional regularization of chiral theories. In the Breitenlohner–Maison–’t Hooft–Veltman scheme, dimension-six SMEFT four-fermion insertions can require finite counterterms to restore Slavnov–Taylor identities. Their calculation identifies a separate condition on a future gauge-complete computation. Specifying one Fierz projection in an open fermion channel leaves that condition untested. [Versioned paper](https://arxiv.org/pdf/2602.03683v1)
+
+## Matching and the sterile field
+
+**Zhang and Zhou, arXiv:2107.12133v3 (20 January 2022).** Section 2 derives hard-region matching. Sections 4–5 give dimension-six four-lepton terms in Green and Warsaw coordinates after integrating out heavy Majorana singlets in the type-I seesaw. Their separation of hard and soft contributions supplies a criterion for calling a result a threshold coefficient. The present spacelike momentum difference keeps the sterile propagator and its full mass dependence inside the graph. [Versioned paper](https://arxiv.org/pdf/2107.12133v3)
+
+**Duan et al., arXiv:2611.02500v1 (2 November 2026).** This recent comparison from the previous checkpoint was rechecked. Sections 2.1 and 4.2.2 describe the global symmetry forbidding a Majorana mass and the role of evanescent structures when matching a heavy scalar doublet with right-handed neutrinos retained. Appendix A supplies the authors’ operator conventions. This is a concrete scheme example for the matching procedure. The mass insertion in the present triangle requires a different symmetry assumption. [Versioned paper](https://arxiv.org/pdf/2611.02500v1)
+
+## Search coverage
+
+Three Firecrawl paper-index requests each returned six records (18 distinct arXiv identifiers). Two relevance-ranked requests searched for four-fermion Fierz scheme shifts and Majorana seesaw four-lepton matching through 19 November. A third, date-ranked request covered 1–19 November for neutrino SMEFT evanescent matching. Its six results included cosmology and neutrino propagation records outside this graph calculation. Four targeted paper-passage requests returned 12 passages. Five versioned arXiv PDFs cited above were retrieved successfully and the indicated portions checked against their text.
+
+A separate arXiv API title search over new submissions in hep-ph or hep-th from 5 through 19 November returned zero entries for `evanescent`, `Fierz`, or `matching` combined with `neutrino`, `seesaw` or `SMEFT`. An INSPIRE date/title query returned eight records, including older papers with later database dates. Those dates were unsuitable for establishing new submission dates. An ordinary web search restricted to arXiv and INSPIRE returned four excerpts about integration methods. The direct Denner paper supplied the actual two-point formula. The bounded searches provide methodological comparisons. Novelty, other wordings and unindexed work remain open.

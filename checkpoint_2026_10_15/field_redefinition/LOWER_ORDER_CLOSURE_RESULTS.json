@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "positive_and_mutation_controls": 124,
+  "exact_matrix_trials": 6,
+  "rejected_mutations": 21,
+  "mutation_labels": [
+    "omit dimension-five cross term 0",
+    "omit dimension-five cross term 1",
+    "dagger instead of transpose 1",
+    "reverse holomorphic source adjoint 1",
+    "wrong mass congruence 1",
+    "omit dimension-five cross term 2",
+    "dagger instead of transpose 2",
+    "reverse holomorphic source adjoint 2",
+    "wrong mass congruence 2",
+    "omit dimension-five cross term 3",
+    "dagger instead of transpose 3",
+    "reverse holomorphic source adjoint 3",
+    "wrong mass congruence 3",
+    "omit dimension-five cross term 4",
+    "dagger instead of transpose 4",
+    "reverse holomorphic source adjoint 4",
+    "wrong mass congruence 4",
+    "omit dimension-five cross term 5",
+    "dagger instead of transpose 5",
+    "reverse holomorphic source adjoint 5",
+    "wrong mass congruence 5"
+  ],
+  "scope": "Declared optional dimension-five sterile-scalar and dimension-six kinetic operators; exact formal action substitution through inverse-scale order three. No loop coefficient, complete EFT closure, physical running or observable is calculated.",
+  "uses_mass_inverse": false,
+  "checks_active_under_optimization": true
+}

@@ -1,0 +1,95 @@
+{
+  "assumptions": "three free Dirac species (particles and antiparticles), common mass and response, instantaneous positive energies, mean kinetic/rest <= 0.1; local alpha < 1 for demand bound",
+  "neutral_single_mode_late_segment_probability_bound": 7.66089394882e-06,
+  "sites": {
+    "initial_if_already_charged": {
+      "three_Dirac_species": {
+        "1": {
+          "gauge_shift": 0.0,
+          "maximum_cold_count": 0.0,
+          "marginal_kinetic_per_rest": 0.25,
+          "required_count_strictly_above": 37699111843077512,
+          "cold_fraction_upper": 0.0,
+          "conservative_count_ceiling": 0
+        },
+        "4": {
+          "gauge_shift": 0.0,
+          "maximum_cold_count": 387.204876,
+          "marginal_kinetic_per_rest": 0.147347484,
+          "required_count_strictly_above": 150796447372310048,
+          "cold_fraction_upper": 2.56773208e-15,
+          "conservative_count_ceiling": 960
+        }
+      },
+      "necessary_mass_L_above": 44924790.4
+    },
+    "reference_magnetic_zero": {
+      "three_Dirac_species": {
+        "1": {
+          "gauge_shift": 0.0,
+          "maximum_cold_count": 677.236679,
+          "marginal_kinetic_per_rest": 0.153886298,
+          "required_count_strictly_above": 2855984666,
+          "cold_fraction_upper": 2.37128962e-07,
+          "conservative_count_ceiling": 1680
+        },
+        "4": {
+          "gauge_shift": 0.0,
+          "maximum_cold_count": 46608.422431,
+          "marginal_kinetic_per_rest": 0.160470105,
+          "required_count_strictly_above": 11423938667,
+          "cold_fraction_upper": 4.07989081e-06,
+          "conservative_count_ceiling": 124800
+        }
+      },
+      "necessary_mass_L_above": 1184.330858
+    },
+    "actual_mobility_switch": {
+      "three_Dirac_species": {
+        "1": {
+          "gauge_shift": -43.96453934,
+          "maximum_cold_count": 4014.373845,
+          "marginal_kinetic_per_rest": 0.273648235,
+          "required_count_strictly_above": 2855984666,
+          "cold_fraction_upper": 1.40560063e-06,
+          "conservative_count_ceiling": 999600
+        },
+        "4": {
+          "gauge_shift": -175.85815734,
+          "maximum_cold_count": 68007.952681,
+          "marginal_kinetic_per_rest": 0.219047476,
+          "required_count_strictly_above": 11423938667,
+          "cold_fraction_upper": 5.95310905e-06,
+          "conservative_count_ceiling": 64963200
+        }
+      },
+      "necessary_mass_L_above": 52.94680821
+    }
+  },
+  "switch_mass_window": {
+    "strictly_zero_kinetic_fraction_upper": 9.25e-08,
+    "excluded_mass_L_at_or_below": 1970,
+    "admissible_trial": {
+      "mass_L": 2000,
+      "S0_over_local_minimum": 1.01,
+      "individual_kinetic_cut": 0.1625,
+      "count_lower": 5811869612934,
+      "count_upper": 5811873274998,
+      "mean_kinetic_over_rest_upper": 0.099786
+    },
+    "at_mass_2000_inverse_alpha_strictly_below": 1.03,
+    "local_alpha_at_most_point_one": {
+      "excluded_mass_L_at_or_below": 6240,
+      "admissible_trial": {
+        "mass_L": 6500,
+        "S0_over_local_minimum": 10.1,
+        "individual_kinetic_cut": 0.1625,
+        "count_lower": 199512966694884,
+        "count_upper": 199513018735572,
+        "mean_kinetic_over_rest_upper": 0.0997874
+      }
+    },
+    "lower_certificate_quadrature_bins": 4096,
+    "trial_certificate_quadrature_bins": 384
+  }
+}

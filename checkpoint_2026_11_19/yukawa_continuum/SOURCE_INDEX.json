@@ -1,0 +1,304 @@
+{
+  "date": "2026-11-19",
+  "paper_index": "Firecrawl research_search_papers",
+  "queries": [
+    {
+      "query": "Two-loop box diagrams fermion self energy bubble insertion dispersion relation one-loop box with effective mass subloop insertion crossing the physical cut one dimensional integration Bauberger Freitas Hollik Weiglein",
+      "sort": "relevance",
+      "limit": 8,
+      "ids": [
+        "pmid:36763407",
+        "arxiv:1809.05592",
+        "arxiv:1804.08914",
+        "arxiv:2512.15700",
+        "arxiv:1905.07936",
+        "arxiv:2101.00308",
+        "arxiv:2209.07612",
+        "arxiv:hep-ph/9409388"
+      ]
+    },
+    {
+      "query": "Dispersive treatment subloop insertion of self-energy two-loop box one-loop integral renormalized self energy on shell subtraction spectral density massive fermion Cutkosky phase space",
+      "sort": "relevance",
+      "limit": 8,
+      "ids": [
+        "pmid:36763407",
+        "arxiv:hep-ph/9607255",
+        "arxiv:1905.07936",
+        "arxiv:1804.08914",
+        "arxiv:1809.05592",
+        "arxiv:1908.09887",
+        "arxiv:hep-th/9410130",
+        "arxiv:hep-ph/9812202"
+      ]
+    },
+    {
+      "query": "Three-particle cut two-loop Feynman integral threshold asymptotic massive two particles and one massless, phase space factorization recursive spectral density threshold behavior sunrise",
+      "sort": "relevance",
+      "limit": 8,
+      "ids": [
+        "arxiv:hep-ph/9711391",
+        "arxiv:hep-ph/9903328",
+        "arxiv:hep-ph/0103014",
+        "arxiv:hep-ph/9602396",
+        "arxiv:hep-ph/0003115",
+        "pmid:20365974",
+        "arxiv:hep-ph/0603227",
+        "arxiv:0907.4791"
+      ]
+    },
+    {
+      "query": "same-sign lepton scattering electron electron muon muon Majorana neutrino scalar boxes finite momentum threshold flavor changing two particles polarized",
+      "sort": "relevance",
+      "limit": 8,
+      "ids": [
+        "arxiv:hep-ph/0003077",
+        "arxiv:2610.31312",
+        "arxiv:2308.02240",
+        "arxiv:2411.15303",
+        "arxiv:hep-ph/0209120",
+        "arxiv:2304.04483",
+        "arxiv:2510.18390",
+        "arxiv:0907.2533"
+      ]
+    },
+    {
+      "query": "Numerical two-loop massive Feynman integrals dispersion relations physical threshold box self energy insertion subtracted spectral internal lines analytic continuation",
+      "from": "2025-11-01",
+      "to": "2026-11-19",
+      "sort": "date_desc",
+      "limit": 8,
+      "ids": [
+        "arxiv:2611.18386",
+        "arxiv:2611.17171",
+        "arxiv:2611.12661",
+        "arxiv:2610.42062",
+        "arxiv:2610.41872",
+        "arxiv:2610.40772",
+        "arxiv:2610.39052",
+        "arxiv:2610.35655"
+      ]
+    },
+    {
+      "query": "factorisation recursive Lorentz invariant phase space dPhi_n = ds /(2 pi) dPhi_2 dPhi_{n-1} massive three particle decay phase space Byckling Kajantie Monte Carlo event generation phase space factorization",
+      "sort": "relevance",
+      "limit": 8,
+      "ids": [
+        "arxiv:2608.15142",
+        "arxiv:2012.08537",
+        "arxiv:hep-ph/0405248",
+        "arxiv:hep-ph/0405247",
+        "arxiv:2611.15861",
+        "arxiv:hep-ph/0201036",
+        "arxiv:2608.27104",
+        "arxiv:2303.12204"
+      ]
+    },
+    {
+      "query": "charged scalar decays to sterile Majorana neutrino and charged lepton two body width Yukawa coupling m_H/(16π) (1-M_N^2/m_H^2)^2 inert scalar scotogenic charged scalar lifetime",
+      "sort": "relevance",
+      "limit": 8,
+      "ids": [
+        "pmcid:PMC4423905",
+        "arxiv:2609.17530",
+        "arxiv:1901.07798",
+        "arxiv:2207.07382",
+        "arxiv:1706.06815",
+        "arxiv:2411.15120",
+        "arxiv:1303.5700",
+        "arxiv:2208.00500"
+      ]
+    }
+  ],
+  "returned_count": 56,
+  "distinct_record_count": 52,
+  "cited_pdfs": [
+    {
+      "arxiv_version": "2207.07382v2",
+      "sha256": "c4a214b60c9645801fa23e1b6fbdcd18b39706ee2efb0d1a69a728b381a46244",
+      "comparison": "Eq. (5.6), chiral charged-scalar partial width"
+    },
+    {
+      "arxiv_version": "1804.08914v6",
+      "sha256": "a10974d157874514faa78c8ca55cdd9637a0e325184379014ee012791c749d38",
+      "comparison": "Fig. 1 and Eqs. (12)–(16), renormalized self-energy insertion"
+    },
+    {
+      "arxiv_version": "1905.07936v1",
+      "sha256": "7c2e9755ddb533a5489f1a213408b2383adae30213ed03c9277a20635761f014",
+      "comparison": "Eqs. (5)–(6), multiply-subtracted dispersion kernel"
+    },
+    {
+      "arxiv_version": "2101.00308v2",
+      "sha256": "9e5300599741686e803373bf6bee54073efdd9ec95cd78e06fabaa93881c04e1",
+      "comparison": "Eqs. (2)–(3), scalar bubble discontinuity and box method"
+    },
+    {
+      "arxiv_version": "hep-ph/9409388v2",
+      "sha256": "e3c1c7e009c03e063e863cf16b25c2b93c17f6acf644bbe1c5ab2d625348b509",
+      "comparison": "Eqs. (4)–(5), mass convolution for a three-particle cut"
+    },
+    {
+      "arxiv_version": "hep-ph/0405248v2",
+      "sha256": "234eafc39185b08d93c523e07822445ebd4035fe809d8df4964a8283c72d16cc",
+      "comparison": "Eq. (19), recursive phase space"
+    },
+    {
+      "arxiv_version": "hep-ph/0209120v2",
+      "sha256": "7e2eafa16107af43e8325b8a682697300120a495b6690a46010f2d4897fb7843",
+      "comparison": "Fig. 1 and Eq. (4), Majorana and charged-Goldstone boxes"
+    },
+    {
+      "arxiv_version": "2610.35655v1",
+      "sha256": "085126219d5181fd4e9a29349633ba3f58117a4ae5cd369d6d80598e03ec0727",
+      "comparison": "Introduction and local threshold subtraction for fermion bubbles"
+    },
+    {
+      "arxiv_version": "2610.41872v1",
+      "sha256": "d7f69b70daf46a1d9db4e1edb6ef39131e7611b0fa8686a7ea3bbbbcb7d063ce",
+      "comparison": "Sections 4.2 and 5, proof of concept in physical kinematics"
+    }
+  ],
+  "zenodo": {
+    "endpoint": "https://zenodo.org/api/records",
+    "q": "metadata.creators.person_or_org.name:\"Maldonado, Ricardo\"",
+    "size": 25,
+    "sort": "mostrecent",
+    "allversions_true_pages": 4,
+    "latest_count": 9,
+    "version_count": 92,
+    "latest_ids_by_concept": {
+      "17088132": 24380589,
+      "23068055": 24379400,
+      "22922927": 23111008,
+      "17335714": 22398093,
+      "18193771": 22400470,
+      "18135951": 22399940,
+      "18050128": 22400638,
+      "17872787": 22319172,
+      "17726159": 20218030
+    },
+    "all_version_ids_by_concept": {
+      "17088132": [
+        17968738,
+        18048513,
+        18089007,
+        18157426,
+        18158842,
+        18236838,
+        18341882,
+        18406745,
+        18807647,
+        19499967,
+        19747409,
+        20313949,
+        21367209,
+        21998599,
+        22285737,
+        22287013,
+        22347452,
+        23114217,
+        23225288,
+        23228395,
+        23244754,
+        23294979,
+        23335485,
+        24351089,
+        24351909,
+        24352252,
+        24352632,
+        24353248,
+        24353557,
+        24354293,
+        24354840,
+        24355584,
+        24355836,
+        24356257,
+        24356734,
+        24356875,
+        24357251,
+        24357388,
+        24358059,
+        24360096,
+        24361277,
+        24374531,
+        24375564,
+        24376497,
+        24377289,
+        24378057,
+        24378925,
+        24379598,
+        24380589
+      ],
+      "17335714": [
+        17934374,
+        18133653,
+        18166188,
+        18501085,
+        20186340,
+        22398093
+      ],
+      "17726159": [
+        18499411,
+        20218030
+      ],
+      "17872787": [
+        17872788,
+        17925419,
+        18050020,
+        18165756,
+        18509529,
+        20241403,
+        22319172
+      ],
+      "18050128": [
+        18050129,
+        18103077,
+        18166094,
+        18806067,
+        20192925,
+        22400638
+      ],
+      "18135951": [
+        18135952,
+        18165708,
+        18613652,
+        20187862,
+        22399940
+      ],
+      "18193771": [
+        18193772,
+        18489895,
+        20186901,
+        22400470
+      ],
+      "22922927": [
+        22922928,
+        23111008
+      ],
+      "23068055": [
+        23068056,
+        23075312,
+        23113326,
+        23219776,
+        23970140,
+        24356344,
+        24356808,
+        24377555,
+        24377898,
+        24378187,
+        24379400
+      ]
+    },
+    "added_since_radiative_stability": [
+      24380589
+    ],
+    "removed_since_radiative_stability": []
+  },
+  "hdblast": {
+    "sha": "579f71405079f9048704e2bcd51cde6a6865a24e",
+    "url": "https://github.com/maldonado-research/HDblast/commit/579f71405079f9048704e2bcd51cde6a6865a24e",
+    "subject": "Merge pull request #180 from maldonado-research/research/closed-two-field-energy-exchange",
+    "site_status": 200
+  }
+}

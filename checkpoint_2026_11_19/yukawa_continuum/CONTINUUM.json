@@ -1,0 +1,73 @@
+{
+  "s_over_m2": {
+    "6": {
+      "delta_g_central": [
+        -3.8668327719e-06,
+        -3.9970254437e-07
+      ],
+      "delta_y_central": [
+        -8.2449428239e-08,
+        0.0
+      ],
+      "delta_g_mean": [
+        -3.8629137737e-06,
+        -3.9962017905e-07
+      ],
+      "delta_y_mean": [
+        -8.2395986766e-08,
+        0.0
+      ],
+      "m2_sigma0": 4.0092537001e-11,
+      "m2_sigma_slope_g": 1.8954209411e-12,
+      "m2_sigma_slope_y": 3.8591050868e-14
+    },
+    "8": {
+      "delta_g_central": [
+        -5.6083335013e-06,
+        -1.2646859937e-06
+      ],
+      "delta_y_central": [
+        -1.1336958561e-07,
+        0.0
+      ],
+      "delta_g_mean": [
+        -5.5984781986e-06,
+        -1.2637960836e-06
+      ],
+      "delta_y_mean": [
+        -1.1324514833e-07,
+        0.0
+      ],
+      "m2_sigma0": 5.6182154291e-11,
+      "m2_sigma_slope_g": 2.787400685e-12,
+      "m2_sigma_slope_y": 4.844486068e-14
+    },
+    "10": {
+      "delta_g_central": [
+        -7.2831107075e-06,
+        -2.4629227674e-06
+      ],
+      "delta_y_central": [
+        -1.4595956994e-07,
+        0.0
+      ],
+      "delta_g_mean": [
+        -7.2634672892e-06,
+        -2.4594698051e-06
+      ],
+      "delta_y_mean": [
+        -1.4572078386e-07,
+        0.0
+      ],
+      "m2_sigma0": 7.1740070858e-11,
+      "m2_sigma_slope_g": 3.6988254278e-12,
+      "m2_sigma_slope_y": 5.5834393985e-14
+    }
+  },
+  "QCDLoop_relative_difference_below": 3e-08,
+  "normalization": "m=1; amplitudes divided by gamma and rates by |gamma|^2",
+  "relative_endpoint_ratio_slopes": {
+    "g": 0.0042825551812,
+    "y": -0.00018426207502
+  }
+}

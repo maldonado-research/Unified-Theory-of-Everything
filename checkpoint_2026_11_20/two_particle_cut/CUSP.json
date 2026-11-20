@@ -1,0 +1,57 @@
+{
+  "coordinate": "beta=sqrt(1-4/s), s in fixed scalar pole mass units",
+  "coefficient_order": [
+    "kappa_1",
+    "kappa_3"
+  ],
+  "complete_cut_over_gamma": {
+    "LO": [
+      "-5.201013511020999e-5",
+      "-0.0001153778085968021"
+    ],
+    "E": [
+      "-1.105637786233809e-5",
+      "-2.452921529062164e-5"
+    ],
+    "G": [
+      "1.31099848240231e-6",
+      "2.29468997904125e-6"
+    ]
+  },
+  "muon_two_scalar": [
+    "1.31099848240231e-6",
+    "3.172978054168648e-6"
+  ],
+  "muon_three_particle": [
+    "0.0",
+    "-8.782880751273976e-7"
+  ],
+  "below_threshold_nonanalytic_terms": "-kappa_1*eta + kappa_3*eta^3, eta=sqrt(4/s-1)",
+  "leading_J2_over_beta5": 5.133006549629e-08,
+  "checks": {
+    "independent_unexpanded_cut_beta": [
+      0.08,
+      0.06,
+      0.04,
+      0.02
+    ],
+    "relative_tolerances_kappa1_kappa3": [
+      1e-09,
+      1e-07
+    ],
+    "below_threshold_real_LO_box_eta": "0, 0.0005, ..., 0.0035",
+    "real_LO_box_relative_tolerances_linear_cubic": [
+      3e-13,
+      2e-10
+    ],
+    "local_dispersion_eta": [
+      0.01,
+      0.04
+    ],
+    "local_cutoff_beta": [
+      0.2,
+      0.4
+    ],
+    "light_triangle_at_threshold": "pi^2/8 - ln(2)"
+  }
+}

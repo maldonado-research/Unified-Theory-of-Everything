@@ -1,0 +1,32 @@
+{
+  "scope": "ordered off-shell triangle and its conjugate orientation at the same labeled momenta in the one-flavor example",
+  "normalization": "a=1, Takagi masses 1 and 4, conjugated Yukawa row (1,i/2), C=1; 1/(32 pi\u00b2) stripped",
+  "pole_weights": [
+    "1",
+    "-1"
+  ],
+  "summed_pole_weight": "0",
+  "slope_at_zero": "-0.0624726290438045332047",
+  "rigorous_slope_upper_bound": "-5/96 (strict)",
+  "finite_response_at_Q_squared_1": "-0.0618436554236212649769",
+  "conjugate_routing_slope_difference": "0.369504801974060000877",
+  "paired_slope_at_zero": "0.307032172930255467672",
+  "paired_finite_response_at_Q_squared_1": "0.3076611465504387359",
+  "threshold_limits": [
+    {
+      "scalar_mass": 1,
+      "sterile_mass": 1,
+      "relative_error_at_delta_over_T_1e-12": "3.8197141e-6"
+    },
+    {
+      "scalar_mass": 2,
+      "sterile_mass": 3,
+      "relative_error_at_delta_over_T_1e-12": "4.5575336e-6"
+    },
+    {
+      "scalar_mass": 3,
+      "sterile_mass": 1,
+      "relative_error_at_delta_over_T_1e-12": "2.7169515e-6"
+    }
+  ]
+}

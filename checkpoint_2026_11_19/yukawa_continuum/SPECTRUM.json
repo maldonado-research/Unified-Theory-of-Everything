@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "pole_mass_squared_a_in_mass_units": 1,
+  "density_unit": "|Y|^2/(16*pi^2)",
+  "spectral_integral": "integral_b^infty du rho_reduced(u)/(u-z)",
+  "samples": [
+    {
+      "b_over_a": 1,
+      "a_times_stieltjes_at_z_minus_2a": 0.5493061443340549
+    },
+    {
+      "b_over_a": 16,
+      "a_times_stieltjes_at_z_minus_2a": 0.020857316682073298
+    },
+    {
+      "b_over_a": 100,
+      "a_times_stieltjes_at_z_minus_2a": 0.0033334330085012156
+    },
+    {
+      "b_over_a": 400,
+      "a_times_stieltjes_at_z_minus_2a": 0.0008333348945396031
+    }
+  ],
+  "absolute_weight_factors_electron_then_muon": [
+    [
+      1.0,
+      2.0
+    ],
+    [
+      1.0,
+      0.25
+    ]
+  ],
+  "spectator_connected_insertions_per_outer_pairing": [
+    2,
+    2
+  ],
+  "spectator_disconnected_assignments": 2,
+  "spacelike_and_zero_max_relative_difference": 3.313027325414958e-61,
+  "checks": [
+    "explicit two-component spin trace and integrated distinguishable phase space",
+    "absorptive upper rim and per-component scalar spectral normalization",
+    "twice-subtracted tensor-reduced closed loop and Feynman parameter against continuum",
+    "stable pole at a branch endpoint, weak-index normalization, complex texture moduli",
+    "spectator scalar Wick contractions after imposing flavor and charge"
+  ]
+}

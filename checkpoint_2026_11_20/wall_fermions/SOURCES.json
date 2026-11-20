@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-20",
+  "paper_index": "Firecrawl research_search_papers",
+  "queries": [
+    {
+      "query": "closed Friedmann Robertson Walker cosmology Dirac Majorana spinor field three-sphere eigenvalues omega_n=n+3/2 degeneracy (n+1)(n+2) Fock quantization fermionic particle creation",
+      "k": 10,
+      "ranked_ids": [
+        "arxiv:2607.26318",
+        "arxiv:1603.00037",
+        "pmid:9957764",
+        "pmid:10013278",
+        "arxiv:gr-qc/9507005",
+        "pmid:10014051",
+        "arxiv:gr-qc/9507004",
+        "arxiv:1509.09086",
+        "arxiv:1001.0946",
+        "arxiv:1609.07904"
+      ]
+    },
+    {
+      "query": "exact gravitational fermionic particle production in smooth expanding Robertson Walker universe Dirac tanh scale factor Bogoliubov coefficients mass quench exact analytical benchmark hyperbolic sinh Duncan",
+      "k": 10,
+      "ranked_ids": [
+        "arxiv:2610.00410",
+        "arxiv:2206.14204",
+        "arxiv:2510.09481",
+        "arxiv:1612.02240",
+        "arxiv:1109.2524",
+        "arxiv:1801.01865",
+        "arxiv:2408.06405",
+        "arxiv:0911.0769",
+        "arxiv:2005.00391",
+        "arxiv:2401.02894"
+      ]
+    },
+    {
+      "query": "cosmological gravitational production of massive spin one-half fermions nonadiabatic Bogoliubov coefficients adiabatic initial vacuum comoving energy ultraviolet renormalization Chung Everett Gerbino",
+      "k": 10,
+      "ranked_ids": [
+        "pmid:40153633",
+        "arxiv:1311.4958",
+        "arxiv:2206.14204",
+        "arxiv:2610.08597",
+        "arxiv:2502.12249",
+        "arxiv:2610.00410",
+        "arxiv:2005.00391",
+        "arxiv:2511.22465",
+        "arxiv:hep-ph/0003045",
+        "arxiv:1503.08430"
+      ]
+    },
+    {
+      "query": "gravitational production right-handed Majorana neutrinos reheating gravitational leptogenesis massive fermion oscillation dark matter decays",
+      "k": 10,
+      "ranked_ids": [
+        "arxiv:2601.02458",
+        "arxiv:2103.06896",
+        "arxiv:1905.12423",
+        "arxiv:2507.09728",
+        "arxiv:2410.19048",
+        "arxiv:2210.05716",
+        "arxiv:1405.0013",
+        "arxiv:2410.16381",
+        "arxiv:1104.2750",
+        "arxiv:2001.07637"
+      ]
+    },
+    {
+      "query": "cosmological gravitational massive fermion production and nonthermal reheating right handed Majorana fermions particle creation expanding universe closed reheating",
+      "from": "2025-11-20",
+      "to": "2026-11-20",
+      "sort": "date_desc",
+      "k": 10,
+      "ranked_ids": [
+        "arxiv:2611.18337",
+        "arxiv:2611.10090",
+        "arxiv:2605.09571",
+        "arxiv:2610.36137",
+        "arxiv:2610.29335",
+        "arxiv:2610.17084",
+        "arxiv:2610.10688",
+        "arxiv:2604.07326",
+        "arxiv:2610.08597",
+        "arxiv:2605.24163"
+      ]
+    },
+    {
+      "query": "Dirac field entanglement in an expanding spacetime Fuentes Mann Martin-Martinez Moradi tanh scale factor exact Bogoliubov coefficients sinh hyperbolic mass expansion cosine Dirac coefficients",
+      "k": 8,
+      "ranked_ids": [
+        "arxiv:1309.6163",
+        "arxiv:1007.1569",
+        "arxiv:2311.09218",
+        "arxiv:1812.07317",
+        "arxiv:2101.11567",
+        "arxiv:1507.06811",
+        "arxiv:1811.00575",
+        "arxiv:1612.08954"
+      ]
+    },
+    {
+      "query": "exactly solvable fermionic mass quench tanh time dependent Dirac mass smooth quantum quench fermion particle pair sinh difference Bogoliubov occupation hypergeometric mass quench free fermion",
+      "k": 8,
+      "ranked_ids": [
+        "arxiv:1712.01400",
+        "arxiv:2609.31884",
+        "arxiv:1505.05224",
+        "arxiv:1301.4132",
+        "arxiv:1810.00537",
+        "arxiv:1903.07682",
+        "arxiv:1602.08547",
+        "arxiv:1307.0376"
+      ]
+    }
+  ],
+  "ranked_entries": 66,
+  "distinct_index_ids": 62,
+  "cited_versioned_primary_pdfs": [
+    {
+      "arxiv": "1603.00037v2",
+      "title": "Unique Fock quantization of a massive fermion field in a cosmological scenario",
+      "doi": [
+        "10.1103/PhysRevD.93.084053"
+      ],
+      "pdf": "https://arxiv.org/pdf/1603.00037v2",
+      "pdf_sha256": "82cb266c763f270e0fd0077e988cb419681ed42cd465654bc02dcbe1dafa4058"
+    },
+    {
+      "arxiv": "1109.2524v1",
+      "title": "Gravitational Fermion Production in Inflationary Cosmology",
+      "doi": [
+        "10.1016/j.physletb.2012.04.066"
+      ],
+      "pdf": "https://arxiv.org/pdf/1109.2524v1",
+      "pdf_sha256": "ac3033f2e936a6c1c3c1d6c48723e24fdc139e19462c306b1d6f226eeab4df9f"
+    },
+    {
+      "arxiv": "1311.4958v2",
+      "title": "Adiabatic regularization and particle creation for spin one-half fields",
+      "doi": [
+        "10.1103/PhysRevD.89.044030"
+      ],
+      "pdf": "https://arxiv.org/pdf/1311.4958v2",
+      "pdf_sha256": "81a45d7e7ff60a2e04577be67da80d4df7aeac6395143954d117f2e17fd2cf60"
+    },
+    {
+      "arxiv": "2610.00410v1",
+      "title": "Fermionic particle creation in curved spacetime: Physical Bloch-vector dynamics and exact de Sitter scaling",
+      "doi": [
+        "10.1016/j.aop.2026.170733"
+      ],
+      "pdf": "https://arxiv.org/pdf/2610.00410v1",
+      "pdf_sha256": "62fc28693e51b458f587572f21ebf734186aac60361e6c50c364b6943d88c88d"
+    },
+    {
+      "arxiv": "1905.12423v3",
+      "title": "Dark matter and baryon-number generation in quintessential inflation via hierarchical right-handed neutrinos",
+      "doi": [
+        "10.1016/j.physletb.2019.135024"
+      ],
+      "pdf": "https://arxiv.org/pdf/1905.12423v3",
+      "pdf_sha256": "ace73b9a866a221a36190880b81bd9a9766321a1cc232d4b558f565eb717dfb7"
+    },
+    {
+      "arxiv": "hep-ph/9707235v1",
+      "title": "CP violation and baryogenesis due to heavy Majorana neutrinos",
+      "doi": [
+        "10.1103/PhysRevD.56.5431"
+      ],
+      "pdf": "https://arxiv.org/pdf/hep-ph/9707235v1",
+      "pdf_sha256": "e39c85fd1bc32aa028bdbcfa21eb86d3ac5ace0449c280a098b7d905c4e312a6"
+    },
+    {
+      "arxiv": "2604.07326v3",
+      "title": "Analytic approximations for fermionic preheating",
+      "doi": [
+        "10.1103/p5hl-gkxv"
+      ],
+      "pdf": "https://arxiv.org/pdf/2604.07326v3",
+      "pdf_sha256": "cd235abcc4d0349023b62b253f2356f5dc5189fca53bc302868980bed3bdf09f"
+    }
+  ],
+  "finite_endpoint_de_Sitter_check": {
+    "source_equation": "arXiv:2610.00410v1 Eq. (A.16); instantaneous negative preparation, instantaneous positive readout",
+    "x": "k/(aH)",
+    "rows": [
+      {
+        "mass_over_H": 0.2,
+        "initial_x": 8,
+        "final_x": 0.25,
+        "Whittaker_P": 0.04085885340664992,
+        "DOP853_P": 0.04085885340672401
+      },
+      {
+        "mass_over_H": 0.55,
+        "initial_x": 8,
+        "final_x": 0.25,
+        "Whittaker_P": 0.04783619338433926,
+        "DOP853_P": 0.047836193384361556
+      },
+      {
+        "mass_over_H": 1.0,
+        "initial_x": 8,
+        "final_x": 0.25,
+        "Whittaker_P": 0.009110979486389349,
+        "DOP853_P": 0.009110979486363566
+      }
+    ]
+  },
+  "zenodo": {
+    "query": "metadata.creators.person_or_org.name:\"Maldonado, Ricardo\"",
+    "endpoint": "https://zenodo.org/api/records",
+    "retrieval": {
+      "sort": "mostrecent",
+      "page_size": 25,
+      "all_versions_pages": 4,
+      "latest_versions_pages": 1
+    },
+    "author_name_matched_versions": 100,
+    "orcid": "0009-0009-3937-6527",
+    "matching_orcid_count": 90,
+    "new_since_candidate_23": [
+      24405438
+    ],
+    "removed_since_candidate_23": [],
+    "concepts": [
+      {
+        "concept": 17088132,
+        "latest": 24405438,
+        "title": "Can electromagnetic waves heat charged matter on a curved HDblast wall?",
+        "version_ids": [
+          17968738,
+          18048513,
+          18089007,
+          18157426,
+          18158842,
+          18236838,
+          18341882,
+          18406745,
+          18807647,
+          19499967,
+          19747409,
+          20313949,
+          21367209,
+          21998599,
+          22285737,
+          22287013,
+          22347452,
+          23114217,
+          23225288,
+          23228395,
+          23244754,
+          23294979,
+          23335485,
+          24351089,
+          24351909,
+          24352252,
+          24352632,
+          24353248,
+          24353557,
+          24354293,
+          24354840,
+          24355584,
+          24355836,
+          24356257,
+          24356734,
+          24356875,
+          24357251,
+          24357388,
+          24358059,
+          24360096,
+          24361277,
+          24374531,
+          24375564,
+          24376497,
+          24377289,
+          24378057,
+          24378925,
+          24379598,
+          24380589,
+          24381850,
+          24382645,
+          24383815,
+          24385102,
+          24386416,
+          24387565,
+          24405438
+        ]
+      },
+      {
+        "concept": 23068055,
+        "latest": 24382132,
+        "title": "Mutation by Natural Dominance — forecasting the leading yeast lineage from early abundance",
+        "version_ids": [
+          23068056,
+          23075312,
+          23113326,
+          23219776,
+          23970140,
+          24356344,
+          24356808,
+          24377555,
+          24377898,
+          24378187,
+          24379400,
+          24382132
+        ]
+      },
+      {
+        "concept": 22922927,
+        "latest": 23111008,
+        "title": "HDBLAST: Scalar Junction Consistency and a Corrected Static de Sitter Branch",
+        "version_ids": [
+          22922928,
+          23111008
+        ]
+      },
+      {
+        "concept": 17335714,
+        "latest": 22398093,
+        "title": "Theory of Mutation by Natural Dominance (TMD) — v2.6.5: portable campaign execution and stricter result acceptance",
+        "version_ids": [
+          17934374,
+          18133653,
+          18166188,
+          18501085,
+          20186340,
+          22398093
+        ]
+      },
+      {
+        "concept": 18193771,
+        "latest": 22400470,
+        "title": "AntiMatter: Wilson-Line and Cosmology Audit - Efficiency-Dependent Energy Bounds and Reproducibility (v1.23.1)",
+        "version_ids": [
+          18193772,
+          18489895,
+          20186901,
+          22400470
+        ]
+      },
+      {
+        "concept": 18135951,
+        "latest": 22399940,
+        "title": "DMDE Triplepoint + CosmoGate: Five-Channel Weak-Rate Closure and Frozen-Pair Differential-Response Design (v0.9.20)",
+        "version_ids": [
+          18135952,
+          18165708,
+          18613652,
+          20187862,
+          22399940
+        ]
+      },
+      {
+        "concept": 18050128,
+        "latest": 22400638,
+        "title": "Quantized Horizon Response (HRF): Composite-Alternative Separation and Fixed-Conditioning GW250114 Replay - v5.3",
+        "version_ids": [
+          18050129,
+          18103077,
+          18166094,
+          18806067,
+          20192925,
+          22400638
+        ]
+      },
+      {
+        "concept": 17872787,
+        "latest": 22319172,
+        "title": "Unified Theory of Everything Research Program: TOE-N00AK-r1 - Exact Tree-Level Majorana Kernels and a Dimension-Seven Scope Correction",
+        "version_ids": [
+          17872788,
+          17925419,
+          18050020,
+          18165756,
+          18509529,
+          20241403,
+          22319172
+        ]
+      },
+      {
+        "concept": 17726159,
+        "latest": 20218030,
+        "title": "Einstein Audit for Faster-Than-Light Hidden Sectors (FTL-only): A2 Strict Protocol Freeze and Provider-Return Gate",
+        "version_ids": [
+          18499411,
+          20218030
+        ]
+      }
+    ]
+  },
+  "hdblast": {
+    "repository": "https://github.com/maldonado-research/HDblast",
+    "commit": "030a4a0b4c2e65fdbce15fbe76b458a7addffdc9",
+    "site": "https://maldonado-research.github.io/HDblast/",
+    "site_http_status": 200,
+    "PR": 187,
+    "archive": "https://doi.org/10.5281/zenodo.24405438",
+    "files": {
+      "README.md": {
+        "url": "https://github.com/maldonado-research/HDblast/blob/030a4a0b4c2e65fdbce15fbe76b458a7addffdc9/research/HDBLAST_CHARGED_MATTER_HEATING_20261120/README.md",
+        "sha256": "f2084b13af9087cf705b4fce1da869b22b510ab4d52bd303695a11959dceaa4a"
+      },
+      "synthesis/BRIDGE.md": {
+        "url": "https://github.com/maldonado-research/HDblast/blob/030a4a0b4c2e65fdbce15fbe76b458a7addffdc9/research/HDBLAST_CHARGED_MATTER_HEATING_20261120/synthesis/BRIDGE.md",
+        "sha256": "2c3fbb65e49d03fdc1fda90b968998d204ff5f7046b6fb357d423586ccbe0f3e"
+      },
+      "coupled/COUPLED.md": {
+        "url": "https://github.com/maldonado-research/HDblast/blob/030a4a0b4c2e65fdbce15fbe76b458a7addffdc9/research/HDBLAST_CHARGED_MATTER_HEATING_20261120/coupled/COUPLED.md",
+        "sha256": "19257b82943460168c2f98d546902f964b4ce80487bf11be04f133728b3a1933"
+      },
+      "background/BACKGROUND.md": {
+        "url": "https://github.com/maldonado-research/HDblast/blob/030a4a0b4c2e65fdbce15fbe76b458a7addffdc9/research/HDBLAST_CHARGED_MATTER_HEATING_20261120/background/BACKGROUND.md",
+        "sha256": "53c9dc2c59c93299b419e34f98673d08e7a9f7abd8de173306e845848b605a79"
+      },
+      "quantum/PAIRS.md": {
+        "url": "https://github.com/maldonado-research/HDblast/blob/030a4a0b4c2e65fdbce15fbe76b458a7addffdc9/research/HDBLAST_CHARGED_MATTER_HEATING_20261120/quantum/PAIRS.md",
+        "sha256": "82d2c2c81c6098d9a7ae23f6dbaacdabd4d99252635b2c4d26508c244d65456c"
+      },
+      "theory/SPECTRUM.md": {
+        "url": "https://github.com/maldonado-research/HDblast/blob/030a4a0b4c2e65fdbce15fbe76b458a7addffdc9/research/HDBLAST_CHARGED_MATTER_HEATING_20261120/theory/SPECTRUM.md",
+        "sha256": "735929c8a57a09ead5e34ec834ba726e3de3d502c1ae7c1cdbcd497e2f29a8c1"
+      }
+    }
+  }
+}

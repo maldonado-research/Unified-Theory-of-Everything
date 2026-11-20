@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "domain": "0 < Delta = s/m^2 - 4 <= 1/100",
+  "final_state": "charged scalar, muon, N1",
+  "outward_transfer_bounds": [
+    0.89,
+    1.12
+  ],
+  "scalar_propagator_gap_lower_bound": "19/10",
+  "weyl_matrix_norm_bound": "527/500",
+  "direct_norm_squared_times_omega_lower_bound": "10986328125/8458143383",
+  "one_exchange_norm_squared_divided_by_omega_upper_bound": "436688648945150807/567695044901250000",
+  "relative_cut_over_Delta_bound_squared": "3693575206506637228164160081/24947536152886962890625000000",
+  "outward_relative_cut_bound": "(2/5) Delta",
+  "proof_arithmetic": "exact rational inequalities between squared positive quantities"
+}

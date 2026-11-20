@@ -1,0 +1,43 @@
+{
+  "mass_unit": "m=1",
+  "spin_phase": "B34* B12=s",
+  "couplings_removed": {
+    "A2_vertex_mu": "gamma |g|^2",
+    "A2_vertex_e": "gamma |y|^2"
+  },
+  "energies_s_over_m2": {
+    "6": {
+      "mean_F_mu": 0.324445015886,
+      "mean_F_e": -0.00145446274675,
+      "mean_V_mu": -0.0032235289344,
+      "mean_V_e": 2.48192867298e-05,
+      "A2_vertex_mu": 6.46226760331e-07,
+      "A2_vertex_e": 1.10989313869e-06
+    },
+    "8": {
+      "mean_F_mu": 0.258587004844,
+      "mean_F_e": -0.00214541943123,
+      "mean_V_mu": -0.00327215619168,
+      "mean_V_e": 3.66440583525e-05,
+      "A2_vertex_mu": 1.58008832854e-06,
+      "A2_vertex_e": 2.13277671877e-06
+    },
+    "10": {
+      "mean_F_mu": 0.215749129617,
+      "mean_F_e": -0.00281460125639,
+      "mean_V_mu": -0.00324889174569,
+      "mean_V_e": 4.81322235976e-05,
+      "A2_vertex_mu": 2.81830430106e-06,
+      "A2_vertex_e": 3.20052145882e-06
+    }
+  },
+  "A2_vertex_over_beta_at_threshold": {
+    "muon": 3.49057757719e-07,
+    "electron": 8.87028601874e-07
+  },
+  "checks": [
+    "Feynman parameters vs scalar-leg dispersion at all scan energies",
+    "light scalar-leg spectral density vs Candidate.22 three-particle exchange",
+    "zero scalar mass vs Buchmuller-Plumacher Eqs. (17)-(18) and I(b,b)=1/b"
+  ]
+}

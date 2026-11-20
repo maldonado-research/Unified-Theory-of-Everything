@@ -1,0 +1,271 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact rational Cl(1,3) and formal free color words",
+  "route": "actual homogeneous large-q logarithmic angular integration with auxiliary IR mass",
+  "checks": {
+    "Clifford basis": 16,
+    "baseline source phase": 1,
+    "ordinary insertion phase": 1,
+    "seagull propagator vertex phase before anticommutator": 1,
+    "angular radial trace": 3,
+    "33 distinct topologies": 76,
+    "individual angular vs analytic": 2508,
+    "cancelled vs uncancelled seed q\u00b2": 2508,
+    "formal free-color-word cubic action match": 76,
+    "pure Abelian cubic residue zero": 76,
+    "direct loop A Wplus Wminus neutral projection": 76,
+    "full Bose symmetry": 456,
+    "mutation rejected: drop_seagulls": 1,
+    "mutation rejected: wrong_seagull_sign": 1,
+    "mutation rejected: drop_FFF012": 1,
+    "mutation rejected: same_internal_generators": 1,
+    "mutation rejected: reverse_scalar_fermion_color": 1,
+    "mutation rejected: drop_sigma_curvature": 1,
+    "mutation rejected: drop_adjoint_curvature": 1
+  },
+  "complete_polarization_basis_points": 64,
+  "generic_rational_points": 12,
+  "matter_topologies_per_point": 33,
+  "mutations_detected_at_points": {
+    "drop_seagulls": 52,
+    "wrong_seagull_sign": 52,
+    "drop_FFF012": 48,
+    "same_internal_generators": 48,
+    "reverse_scalar_fermion_color": 48,
+    "drop_sigma_curvature": 72,
+    "drop_adjoint_curvature": 48
+  },
+  "imports_repository_code": false,
+  "result": "33 selected three-gauge 1PI matter diagrams match independently derived cubic action kernel",
+  "full_loop_phase": "-i F/(16*pi^2*epsilon) times generator-coupling-valued residue",
+  "scope": "single derivative seed, conjugate Yukawa, three external gauge fields; no extra internal gauge propagators or 1PR tree attachments; no physical RGE or finite amplitude",
+  "first_nonzero_exact_witness": {
+    "polarizations": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "loop_sum": {
+      "((0, 1, 2), 2)": "-1/6",
+      "((0, 2, 1), 2)": "-1/6",
+      "((1, 0, 2), 2)": "-1/6",
+      "((1, 2, 0), 2)": "-1/6",
+      "((2, 0, 1), 2)": "1/3",
+      "((2, 1, 0), 2)": "1/3"
+    },
+    "action": {
+      "((0, 1, 2), 2)": "-1/6",
+      "((0, 2, 1), 2)": "-1/6",
+      "((1, 0, 2), 2)": "-1/6",
+      "((1, 2, 0), 2)": "-1/6",
+      "((2, 0, 1), 2)": "1/3",
+      "((2, 1, 0), 2)": "1/3"
+    },
+    "individual_diagrams": [
+      [
+        "('O', (), (0, 1, 2))",
+        {
+          "2": "1/3"
+        }
+      ],
+      [
+        "('O', (), (0, 2, 1))",
+        {
+          "2": "1/3"
+        }
+      ],
+      [
+        "('O', (), (1, 0, 2))",
+        {
+          "2": "1/3"
+        }
+      ],
+      [
+        "('O', (), (1, 2, 0))",
+        {
+          "2": "1/3"
+        }
+      ],
+      [
+        "('O', (), (2, 0, 1))",
+        {
+          "2": "1/3"
+        }
+      ],
+      [
+        "('O', (), (2, 1, 0))",
+        {
+          "2": "1/3"
+        }
+      ],
+      [
+        "('O', (0,), (1, 2))",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('O', (0,), (2, 1))",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('O', (1,), (0, 2))",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('O', (1,), (2, 0))",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('O', (2,), (0, 1))",
+        {
+          "2": "2/3"
+        }
+      ],
+      [
+        "('O', (2,), (1, 0))",
+        {
+          "2": "2/3"
+        }
+      ],
+      [
+        "('O', (0, 1), (2,))",
+        {
+          "2": "-1/6"
+        }
+      ],
+      [
+        "('O', (0, 2), (1,))",
+        {
+          "2": "-1/6"
+        }
+      ],
+      [
+        "('O', (1, 0), (2,))",
+        {
+          "2": "-1/6"
+        }
+      ],
+      [
+        "('O', (1, 2), (0,))",
+        {
+          "2": "-1/6"
+        }
+      ],
+      [
+        "('O', (2, 0), (1,))",
+        {
+          "2": "-1/6"
+        }
+      ],
+      [
+        "('O', (2, 1), (0,))",
+        {
+          "2": "-1/6"
+        }
+      ],
+      [
+        "('O', (0, 1, 2), ())",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('O', (0, 2, 1), ())",
+        {
+          "2": "2/3"
+        }
+      ],
+      [
+        "('O', (1, 0, 2), ())",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('O', (1, 2, 0), ())",
+        {
+          "2": "2/3"
+        }
+      ],
+      [
+        "('O', (2, 0, 1), ())",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('O', (2, 1, 0), ())",
+        {
+          "2": "-1/3"
+        }
+      ],
+      [
+        "('GS', (0, 1), 2, 'GthenS')",
+        {
+          "2": "1/2"
+        }
+      ],
+      [
+        "('GS', (0, 1), 2, 'SthenG')",
+        {
+          "2": "1/2"
+        }
+      ],
+      [
+        "('GF', (0, 1), 2)",
+        {
+          "2": "1/2"
+        }
+      ],
+      [
+        "('GS', (0, 2), 1, 'GthenS')",
+        {}
+      ],
+      [
+        "('GS', (0, 2), 1, 'SthenG')",
+        {}
+      ],
+      [
+        "('GF', (0, 2), 1)",
+        {}
+      ],
+      [
+        "('GS', (1, 2), 0, 'GthenS')",
+        {}
+      ],
+      [
+        "('GS', (1, 2), 0, 'SthenG')",
+        {}
+      ],
+      [
+        "('GF', (1, 2), 0)",
+        {}
+      ]
+    ]
+  },
+  "total_checks": 5805,
+  "positive_checks": 5798,
+  "negative_control_rejections": 7
+}

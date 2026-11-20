@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "date": "26 October 2026 Pacific",
+  "positive_checks": 17,
+  "rejected_mutations": 4,
+  "positive_categories": {
+    "scalar product rule": 1,
+    "lepton-current product rule": 4,
+    "local off-shell source and boundary identity": 4,
+    "integrated off-shell source identity": 4,
+    "complex-flavor off-shell identity": 1,
+    "complete Hermitian-conjugate identity": 1,
+    "barred equation is minus adjoint": 1,
+    "conjugate-safe field variation gives both residuals": 1
+  },
+  "negative_categories": {
+    "omit all interaction sources": 1,
+    "wrong row-derivative coefficient": 1,
+    "discard scalar-current term": 1,
+    "use independent nonconjugate fermion changes": 1
+  },
+  "scope": "Formal coefficient-independent off-shell source and boundary identity with a conjugate-safe first-order fermion field change; not a loop integration or complete EFT reduction.",
+  "no_project_imports": true,
+  "assertions_required": false
+}

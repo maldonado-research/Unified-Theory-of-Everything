@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "method": "exact rational complex Clifford/Weyl components, exterior fermions, non-Abelian connection jets and independently solved invariant kernels",
+  "tests_by_category": {
+    "charge_conjugation_components": 1,
+    "Clifford_components": 16,
+    "triple_gamma_and_chirality": 128,
+    "Lorentz_kernel_invariant_vectors": 1152,
+    "weak_kernel_invariant_vectors": 48,
+    "invariant_dimensions": 3,
+    "actual_chiral_component_minor": 16,
+    "selected_image_component_minor": 4,
+    "fixed_coupling_raw_F_column": 3,
+    "Hodge_star": 4,
+    "nonAbelian_Bianchi": 128,
+    "dual_curvature_component_identity": 2,
+    "selected_chiral_image": 2,
+    "row_Clifford_route": 2,
+    "separate_derivative_placements": 10,
+    "covariant_IBP_Bianchi_route": 2,
+    "alternative_derivative_placement": 2,
+    "nonzero_matter_sources": 2,
+    "charged_lepton_source": 2,
+    "actual_Yukawa_sources": 6,
+    "gauge_source_certificate": 2
+  },
+  "positive_checks": 1535,
+  "mutation_rejections": {
+    "Weyl_bilinear_not_a_full_vector_module": 1,
+    "ordinary_and_dual_are_identical": 1,
+    "selected_chiral_image_zero": 1,
+    "selected_fixed_coupling_raw_F_column_zero": 1,
+    "reverse_dual_sign": 2,
+    "drop_boundary_term": 2,
+    "omit_gauge_divergence": 2,
+    "omit_sterile_derivative_term": 2,
+    "omit_actual_lepton_sterile_sources": 2,
+    "weak_inserted_charged_lepton_source_zero": 2,
+    "delete_weak_charged_Yukawa_source": 2,
+    "omit_neutrino_sterile_Yukawa_source": 2,
+    "replace_gauge_equation_by_free_equation": 2,
+    "discard_gauge_residual_off_shell": 2
+  },
+  "negative_checks": 24,
+  "total_checks": 1559,
+  "Lorentz_kernel": {
+    "unknowns": 96,
+    "constraint_rows": 576,
+    "rank": 94,
+    "nullity": 2
+  },
+  "weak_kernels": [
+    {
+      "strength": "B",
+      "unknowns": 4,
+      "constraint_rank": 3,
+      "nullity": 1
+    },
+    {
+      "strength": "W",
+      "unknowns": 12,
+      "constraint_rank": 11,
+      "nullity": 1
+    }
+  ],
+  "fixed_scalar_derivative_placement_rank": 4,
+  "independent_channel_chiral_projector_rank": 2,
+  "fixed_coupling_raw_F_rank_per_flavor": 1,
+  "fixed_coupling_raw_F_column_real_imaginary_strings": [
+    [
+      "-3/20",
+      "0"
+    ],
+    [
+      "0",
+      "-3/20"
+    ],
+    [
+      "7/12",
+      "0"
+    ],
+    [
+      "0",
+      "7/12"
+    ]
+  ],
+  "actual_chiral_component_minor_diagonal": [
+    "-1",
+    "1",
+    "-1/2",
+    "1/2"
+  ],
+  "conventions": {
+    "metric": "+---",
+    "epsilon_contravariant_0123": 1,
+    "gamma5": "i gamma0 gamma1 gamma2 gamma3",
+    "dual_lower": "eta_mu eta_nu epsilon^(mu nu rho sigma) F_(rho sigma)/2",
+    "selected_curvature": "(H(F)+i H(star F))/2; star eigenvalue -i"
+  },
+  "scope": [
+    "fixed barL N_L Dphi B/W field-strength placement algebraic invariant rank",
+    "alternative derivative placement retains row, sterile, gauge-divergence and source terms",
+    "not full EFT IBP/EOM independence, finite matching, physical beta function or observable"
+  ]
+}

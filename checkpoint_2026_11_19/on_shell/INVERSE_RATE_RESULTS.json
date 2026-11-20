@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "method": "transfer-angle integral, helicity determinants, two-body flux and reciprocal phase-space integration",
+  "benchmark": {
+    "s_over_a": 8,
+    "b_over_a": [
+      1,
+      16
+    ],
+    "weights_over_w0": [
+      1,
+      -1
+    ],
+    "Delta_rho": "0.54854587395620257876015855",
+    "abs_A_over_abs_g": "0.17460757470558682638173414",
+    "a_times_rate_floor_over_abs_g_squared": "0.000037908475724846626436143541",
+    "threshold_a_times_rate_floor_over_abs_g_squared_beta_squared": "0.000012260413142486694870672986"
+  },
+  "positive_checks": 31,
+  "positive_categories": {
+    "tree transfer integral versus cut logarithms": 3,
+    "scale-independent spectral gap": 3,
+    "two-body phase space and beam flux": 3,
+    "reverse ordered helicity factor": 3,
+    "external spinor magnitude": 3,
+    "anti-Hermitian coefficient as a Hermitian matrix": 3,
+    "pointwise complex reciprocal probabilities": 5,
+    "integrated mean minus integrated dispersive excess": 1,
+    "literal angular integral at saturation": 1,
+    "contact tuning zero direct probability": 1,
+    "same contact doubles inverse amplitude": 1,
+    "two-mass threshold coefficient": 1,
+    "threshold rate coefficient": 1,
+    "inverse-square mass scaling at fixed dimensionless inputs": 2
+  },
+  "negative_checks": 8,
+  "negative_categories": {
+    "omitted final-state factorial": 1,
+    "extra initial-pair factorial": 1,
+    "averaged fixed initial helicities": 1,
+    "duplicated flavor orientation": 1,
+    "replaced spectral cut by ordinary complex amplitude imaginary part": 1,
+    "claimed positive direct-only floor at tuned zero": 1,
+    "discarded real or imaginary contact contribution": 1,
+    "used absolute squared Yukawas in null-pole example": 1
+  },
+  "repository_imports": false,
+  "assertions_required": false
+}

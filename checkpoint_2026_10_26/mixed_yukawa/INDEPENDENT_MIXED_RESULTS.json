@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "Independent UV integral, Weyl contraction and primitive local-action check for the one-seed/two-neutrino-Yukawa mixed 1PI sector; zero gauge fields, not a complete physical Wilson coefficient.",
+  "input_commit": "8999d3de1a0e3dc2576fe1586295426da687fc67",
+  "positive_checks": 31,
+  "negative_checks": 14,
+  "positive_categories": {
+    "q squared over three denominators radial pole": 1,
+    "q fourth over four denominators radial pole": 1,
+    "three denominators without numerator UV finite": 1,
+    "exhaustive local vector residue": 1,
+    "one-loop superficial degree": 1,
+    "two denominator corrections are UV finite": 1,
+    "literal four Wick contractions and Pauli coefficients": 16,
+    "literal vertex and incoming propagator phase": 1,
+    "four opposite-composite labelled assignments": 1,
+    "opposite composite derivative momenta": 1,
+    "same-composite loop momentum cancellation": 1,
+    "same-composite UV degree": 1,
+    "ordered local Fourier derivative": 1,
+    "symmetric anomalous mass source": 1,
+    "complex mass source congruence": 1,
+    "mixed lepton coefficient transforms by similarity": 1
+  },
+  "negative_categories": {
+    "drop denominator momentum shifts": 1,
+    "differentiate the lepton only": 1,
+    "omit scalar external momentum in composite derivative": 1,
+    "omit Wick parity on negative-sign contractions": 8,
+    "ordered propagator reversed without momentum reversal": 1,
+    "sterile mass adjoint in place of mass": 1,
+    "reverse active flavor order": 1
+  },
+  "incoming_seed_momentum_residue": "i kappa (T-P)/2",
+  "incoming_ordered_propagator_phase": "+i sigma(q)",
+  "action_pole": "kappa/2 K [rho i(partial_mu bar L) gamma^mu L - phi i(partial_mu phi_dagger) bar L gamma^mu L] + h.c.",
+  "scalar_and_sterile_mass_dependence_in_simple_pole": "only anomalous sterile mass numerator",
+  "repository_imports": false,
+  "assertions_required": false
+}

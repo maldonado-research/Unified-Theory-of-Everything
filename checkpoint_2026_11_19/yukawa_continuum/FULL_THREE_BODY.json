@@ -1,0 +1,98 @@
+{
+  "scope": "complete phi- mu- N1 contribution to Hermitian cut divided by gamma*abs(g)^2",
+  "phase": "B34_conjugate_times_B12 = s",
+  "m": 1,
+  "M_over_m": 10,
+  "J0": "external-cosine mean",
+  "threshold_exchange_over_decay_per_s_minus_4": "7/120",
+  "threshold_slope_samples": [
+    {
+      "delta": 0.001,
+      "at_c0": 0.05832326459,
+      "J0": 0.05832326459
+    },
+    {
+      "delta": 0.0001,
+      "at_c0": 0.05833232621,
+      "J0": 0.05833232621
+    },
+    {
+      "delta": 1e-05,
+      "at_c0": 0.05833323262,
+      "J0": 0.05833323262
+    }
+  ],
+  "generator_audit": {
+    "reference": "MADGRAPH.json",
+    "s_over_m2": 8.0,
+    "forward_spin_overlap_ratios": [
+      [
+        1.257438754,
+        0.0
+      ],
+      [
+        1.061237104,
+        -0.005095888644
+      ],
+      [
+        1.287789565,
+        -0.02898141348
+      ]
+    ],
+    "projected_full": -1.457577494e-06,
+    "projected_scalar_insertion": -1.263796084e-06
+  },
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "c0": {
+        "decay": -3.997025444e-07,
+        "exchange": -3.606663892e-08,
+        "full": -4.357691833e-07,
+        "direct_full": -4.357691833e-07,
+        "full_over_decay": 1.090233699
+      },
+      "J0": {
+        "decay": -3.99620179e-07,
+        "exchange": -3.606903594e-08,
+        "full": -4.35689215e-07,
+        "direct_full": -4.35689215e-07,
+        "full_over_decay": 1.090258295
+      }
+    },
+    {
+      "s_over_m2": 8,
+      "c0": {
+        "decay": -1.264685994e-06,
+        "exchange": -1.937513297e-07,
+        "full": -1.458437323e-06,
+        "direct_full": -1.458437323e-06,
+        "full_over_decay": 1.153201135
+      },
+      "J0": {
+        "decay": -1.263796084e-06,
+        "exchange": -1.937814101e-07,
+        "full": -1.457577494e-06,
+        "direct_full": -1.457577494e-06,
+        "full_over_decay": 1.153332814
+      }
+    },
+    {
+      "s_over_m2": 10,
+      "c0": {
+        "decay": -2.462922767e-06,
+        "exchange": -5.016227873e-07,
+        "full": -2.964545555e-06,
+        "direct_full": -2.964545555e-06,
+        "full_over_decay": 1.203669719
+      },
+      "J0": {
+        "decay": -2.459469805e-06,
+        "exchange": -5.017304897e-07,
+        "full": -2.961200295e-06,
+        "direct_full": -2.961200295e-06,
+        "full_over_decay": 1.203999451
+      }
+    }
+  ]
+}

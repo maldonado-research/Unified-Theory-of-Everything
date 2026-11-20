@@ -5,6 +5,52 @@ import argparse, hashlib, json, platform, shutil, subprocess, sys, tempfile
 from datetime import datetime, timezone
 
 ROOT=Path(__file__).resolve().parent
+UV_CHECKPOINT = Path('checkpoint_2026_11_19/uv_completion')
+STABILITY_CHECKPOINT = Path('checkpoint_2026_11_19/radiative_stability')
+CONTINUUM_CHECKPOINT = Path('checkpoint_2026_11_19/yukawa_continuum')
+TWO_PARTICLE_CHECKPOINT = Path('checkpoint_2026_11_20/two_particle_cut')
+WALL_CHECKPOINT = Path('checkpoint_2026_11_20/wall_fermions')
+REPLAY_RECEIPTS = {
+    UV_CHECKPOINT/'check_matching.py': 'MATCHING.json',
+    UV_CHECKPOINT/'check_cut.py': 'CUT.json',
+    UV_CHECKPOINT/'check_bounds.py': 'BOUNDS.json',
+    UV_CHECKPOINT/'check_box_direct.py': 'BOX_DIRECT.json',
+    STABILITY_CHECKPOINT/'check_running.py': 'RUNNING.json',
+    STABILITY_CHECKPOINT/'check_quartic.py': 'QUARTIC.json',
+    STABILITY_CHECKPOINT/'check_audit.py': 'AUDIT.json',
+    STABILITY_CHECKPOINT/'check_detuning.py': 'DETUNING.json',
+    STABILITY_CHECKPOINT/'check_rescattering.py': 'RESCATTERING.json',
+    STABILITY_CHECKPOINT/'check_closure.py': 'CLOSURE.json',
+    CONTINUUM_CHECKPOINT/'check_spectrum.py': 'SPECTRUM.json',
+    CONTINUUM_CHECKPOINT/'check_threebody.py': 'THREE_BODY.json',
+    CONTINUUM_CHECKPOINT/'check_threshold.py': 'THRESHOLD_BOUND.json',
+    CONTINUUM_CHECKPOINT/'check_full_threebody.py': 'FULL_THREE_BODY.json',
+    CONTINUUM_CHECKPOINT/'check_rg.py': 'RG_LOG.json',
+    CONTINUUM_CHECKPOINT/'check_continuum.py': 'CONTINUUM.json',
+    CONTINUUM_CHECKPOINT/'check_projection.py': 'PROJECTION.json',
+    TWO_PARTICLE_CHECKPOINT/'check_sterile.py': 'STERILE.json',
+    TWO_PARTICLE_CHECKPOINT/'check_vertex.py': 'VERTEX.json',
+    TWO_PARTICLE_CHECKPOINT/'check_external.py': 'EXTERNAL.json',
+    TWO_PARTICLE_CHECKPOINT/'check_independent.py': 'INDEPENDENT.json',
+    TWO_PARTICLE_CHECKPOINT/'check_absorptive.py': 'ABSORPTIVE.json',
+    TWO_PARTICLE_CHECKPOINT/'check_cusp.py': 'CUSP.json',
+    TWO_PARTICLE_CHECKPOINT/'check_pole_threshold.py': 'POLE_THRESHOLD.json',
+    WALL_CHECKPOINT/'check_calibration.py': 'CALIBRATION.json',
+    WALL_CHECKPOINT/'check_modes.py': 'MODES.json',
+    WALL_CHECKPOINT/'check_band.py': 'BAND.json',
+    WALL_CHECKPOINT/'check_tail.py': 'TAIL.json',
+    WALL_CHECKPOINT/'check_carriers.py': 'CARRIERS.json',
+    WALL_CHECKPOINT/'check_bridge.py': 'BRIDGE.json',
+}
+
+
+def check_replayed_receipt(generated, published):
+    """Compare the complete JSON records, allowing different whitespace or key order."""
+    def canonical_json(path):
+        return json.dumps(json.loads(path.read_text()), sort_keys=True, allow_nan=False)
+
+    if canonical_json(generated) != canonical_json(published):
+        raise RuntimeError(f'Replay differs from published {published.name}')
 
 
 def verify_manifest():
@@ -47,6 +93,14 @@ def main():
         shutil.copytree(ROOT/'baseline',work/'baseline')
         shutil.copytree(ROOT/'checkpoint_2026_09_06',work/'checkpoint_2026_09_06')
         shutil.copytree(ROOT/'checkpoint_2026_10_01',work/'checkpoint_2026_10_01')
+        shutil.copytree(ROOT/'checkpoint_2026_10_15',work/'checkpoint_2026_10_15')
+        shutil.copytree(ROOT/'checkpoint_2026_10_16',work/'checkpoint_2026_10_16')
+        shutil.copytree(ROOT/'checkpoint_2026_10_23',work/'checkpoint_2026_10_23')
+        shutil.copytree(ROOT/'checkpoint_2026_10_26',work/'checkpoint_2026_10_26')
+        shutil.copytree(ROOT/'checkpoint_2026_10_30',work/'checkpoint_2026_10_30')
+        shutil.copytree(ROOT/'checkpoint_2026_11_04',work/'checkpoint_2026_11_04')
+        shutil.copytree(ROOT/'checkpoint_2026_11_19',work/'checkpoint_2026_11_19')
+        shutil.copytree(ROOT/'checkpoint_2026_11_20',work/'checkpoint_2026_11_20')
         baseline=Path('baseline/TOE_N00AK_r1_PUBLIC')
         code=baseline/'code'
         cp=Path('checkpoint_2026_09_06')
@@ -60,6 +114,113 @@ def main():
             ('scalar continuum controls',cp/'continuum_bridge/verify_continuum_bridge.py',[]),
             ('local Green representative and gauge ambiguity',Path('checkpoint_2026_10_01/verify_green_representative.py'),[]),
             ('sourced sterile contacts and Schur invariance',Path('checkpoint_2026_10_01/verify_sourced_sterile_identity.py'),[]),
+            ('one-hypercharge-leg seed and transverse residue',Path('checkpoint_2026_10_15/verify_gauge_leg.py'),[]),
+            ('independent gauge-leg angular reduction',Path('checkpoint_2026_10_15/verify_gauge_asymptotic.py'),[]),
+            ('literal action and charge-conjugated gauge sign',Path('checkpoint_2026_10_15/operator_map/verify_action_sign.py'),[]),
+            ('local transverse operators and sourced contacts',Path('checkpoint_2026_10_15/operator_map/verify_operator_map.py'),[]),
+            ('exact transverse Ward-kernel classification',Path('checkpoint_2026_10_15/operator_map/verify_transverse_space.py'),[]),
+            ('seven two-hypercharge-leg simplex residues',Path('checkpoint_2026_10_15/two_gauge_leg/verify_two_b.py'),[]),
+            ('independent two-hypercharge-leg angular residues',Path('checkpoint_2026_10_15/two_gauge_leg/verify_two_b_angular.py'),[]),
+            ('unintegrated two-hypercharge-leg vertices and Ward identity',Path('checkpoint_2026_10_15/two_gauge_leg/verify_two_b_vertices.py'),[]),
+            ('one-weak-field index contractions and triangle residues',Path('checkpoint_2026_10_15/electroweak_source/verify_one_w.py'),[]),
+            ('independent weak-field angular coefficients and photon projection',Path('checkpoint_2026_10_15/electroweak_source/verify_su2_independent.py'),[]),
+            ('combined hypercharge source packet and equation residuals',Path('checkpoint_2026_10_15/electroweak_source/verify_selected_packet.py'),[]),
+            ('indexed field redefinitions and integrated residual adjoints',Path('checkpoint_2026_10_15/field_redefinition/verify_field_redefinition.py'),[]),
+            ('independent Grassmann and action-variation audit',Path('checkpoint_2026_10_15/field_redefinition/independent_action_audit.py'),[]),
+            ('neutral quadratic projection and canonical pole/source transport',Path('checkpoint_2026_10_15/field_redefinition/verify_canonical.py'),[]),
+            ('dimension-six normalization acting on a dimension-five source',Path('checkpoint_2026_10_15/field_redefinition/verify_lower_order_closure.py'),[]),
+            ('independent component Grassmann lower-order closure',Path('checkpoint_2026_10_15/field_redefinition/independent_grassmann_closure_check.py'),[]),
+            ('ordered two-weak and mixed-gauge simplex residues',Path('checkpoint_2026_10_15/nonabelian_gauge/verify_two_weak.py'),['--json']),
+            ('independent non-Abelian two-gauge angular residues',Path('checkpoint_2026_10_15/nonabelian_gauge/verify_two_gauge_angular.py'),[]),
+            ('matrix curvature and two/three-gauge functional Ward identities',Path('checkpoint_2026_10_15/nonabelian_gauge/verify_covariant_action.py'),[]),
+            ('thirty-three three-gauge loop residues and neutral charged projection',Path('checkpoint_2026_10_15/nonabelian_gauge/verify_three_gauge.py'),[]),
+            ('independent three-gauge exact cubature integration',Path('checkpoint_2026_10_15/nonabelian_gauge/verify_three_gauge_cubature.py'),[]),
+            ('individual three-gauge diagram cross-route comparison',Path('checkpoint_2026_10_15/nonabelian_gauge/compare_three_gauge_routes.py'),[]),
+            ('matrix electroweak source reduction and indexed field changes',Path('checkpoint_2026_10_15/interacting_reduction/verify_electroweak_reduction.py'),[]),
+            ('independent non-Abelian action and combined weak-flavor audit',Path('checkpoint_2026_10_15/interacting_reduction/independent_ew_audit.py'),[]),
+            ('ordered weak-current descendants and gauge-coordinate projections',Path('checkpoint_2026_10_15/interacting_reduction/verify_current_projection.py'),[]),
+            ('interacting differential normalization and mass-source transport',Path('checkpoint_2026_10_15/interacting_reduction/verify_interacting_canonical.py'),[]),
+            ('active and retained-mass strength algebraic bases',Path('checkpoint_2026_10_15/operator_basis/verify_active_tensor_basis.py'),[]),
+            ('independent active tensor invariant and Grassmann quotient',Path('checkpoint_2026_10_15/operator_basis/independent_tensor_basis.py'),[]),
+            ('spectator-current algebraic bases and identical-lepton Fierz transport',Path('checkpoint_2026_10_15/operator_basis/verify_current_operator_basis.py'),[]),
+            ('independent current coefficient reconstruction and rank witnesses',Path('checkpoint_2026_10_15/operator_basis/independent_current_basis.py'),[]),
+            ('symmetric-seed source image and relative flavor bound',Path('checkpoint_2026_10_15/operator_basis/verify_seed_flavor_image.py'),[]),
+            ('selected all-field bridge and off-shell scalar Hessian',Path('checkpoint_2026_10_16/action_completion/verify_field_map_composition.py'),[]),
+            ('independent neutral Grassmann action-map composition',Path('checkpoint_2026_10_16/action_completion/independent_composition_audit.py'),[]),
+            ('scalar gauge-current reduction with interaction sources',Path('checkpoint_2026_10_16/action_completion/verify_scalar_current_reduction.py'),[]),
+            ('independent scalar invariant and sourced-divergence audit',Path('checkpoint_2026_10_16/action_completion/independent_scalar_audit.py'),[]),
+            ('charged-lepton and quark spectator Yukawa transport',Path('checkpoint_2026_10_16/action_completion/verify_spectator_yukawa.py'),[]),
+            ('curvature scalar-derivative basis and row-source transport',Path('checkpoint_2026_10_16/derivative_projection/verify_curvature_derivative.py'),[]),
+            ('independent curvature invariant and source audit',Path('checkpoint_2026_10_16/derivative_projection/independent_curvature_audit.py'),[]),
+            ('complete neutrino-source active field-content projection',Path('checkpoint_2026_10_16/derivative_projection/verify_active_source_projection.py'),[]),
+            ('independent active projection and sourced noncommutation audit',Path('checkpoint_2026_10_16/derivative_projection/independent_active_audit.py'),[]),
+            ('complex Majorana mass recurrences and source covariance',Path('checkpoint_2026_10_16/derivative_projection/verify_complex_mass_covariance.py'),[]),
+            ('pure Yukawa two-point Feynman-parameter UV poles',Path('checkpoint_2026_10_16/yukawa_counterterms/verify_yukawa_two_point.py'),[]),
+            ('independent Yukawa two-point asymptotic radial integration',Path('checkpoint_2026_10_16/yukawa_counterterms/independent_two_point_audit.py'),[]),
+            ('proper Yukawa vertex topology and restricted parameter running',Path('checkpoint_2026_10_16/yukawa_counterterms/verify_yukawa_vertex.py'),[]),
+            ('independent proper Yukawa vertex and Majorana UV audit',Path('checkpoint_2026_10_16/yukawa_counterterms/independent_vertex_audit.py'),[]),
+            ('seed external-field pole and canonical-epsilon RG contribution',Path('checkpoint_2026_10_16/yukawa_counterterms/verify_seed_field_transport.py'),[]),
+            ('derivative-seed Yukawa proper topology and derivative placements',Path('checkpoint_2026_10_23/seed_yukawa/verify_seed_topology.py'),[]),
+            ('seed four-lepton Feynman-parameter pole and literal action',Path('checkpoint_2026_10_23/seed_yukawa/verify_four_lepton.py'),[]),
+            ('independent seed four-lepton auxiliary-mass and Gaussian audit',Path('checkpoint_2026_10_23/seed_yukawa/independent_four_lepton.py'),[]),
+            ('seed four-Higgs Feynman-parameter polynomial and action',Path('checkpoint_2026_10_23/seed_yukawa/verify_four_scalar.py'),[]),
+            ('independent seed four-Higgs angular integration and Wick audit',Path('checkpoint_2026_10_23/seed_yukawa/independent_four_scalar.py'),[]),
+            ('primitive Green mixing flavor image and retained phase sources',Path('checkpoint_2026_10_23/seed_yukawa/verify_green_mixing.py'),[]),
+            ('mixed seed Yukawa Feynman-parameter pole',Path('checkpoint_2026_10_26/mixed_yukawa/verify_mixed_seed_pole.py'),[]),
+            ('independent mixed seed angular and action audit',Path('checkpoint_2026_10_26/mixed_yukawa/independent_mixed_audit.py'),[]),
+            ('mixed sourced action identity and conjugate-safe field change',Path('checkpoint_2026_10_26/mixed_yukawa/verify_mixed_source_identity.py'),[]),
+            ('combined matter phase and source transport',Path('checkpoint_2026_10_26/combined_matter/verify_combined_phase.py'),[]),
+            ('independent combined matter phase audit',Path('checkpoint_2026_10_26/combined_matter/independent_combined_audit.py'),[]),
+            ('Yukawa phase source obstruction and flavor covariance',Path('checkpoint_2026_10_26/combined_matter/verify_yukawa_phase_obstruction.py'),[]),
+            ('selected real matter normalization and retained sources',Path('checkpoint_2026_10_30/real_matter/verify_real_matter.py'),[]),
+            ('independent real matter normalization audit',Path('checkpoint_2026_10_30/real_matter/independent_real_audit.py'),[]),
+            ('scalar field-space curvature before and after normalization',Path('checkpoint_2026_10_30/real_matter/verify_scalar_geometry.py'),[]),
+            ('common cancelling action and selected neutral transport',Path('checkpoint_2026_11_04/common_action/verify_common_action.py'),[]),
+            ('independent common action and tree-seed transport audit',Path('checkpoint_2026_11_04/common_action/independent_common_audit.py'),[]),
+            ('common action canonical dimension and spurion grading',Path('checkpoint_2026_11_04/common_action/verify_sector_grading.py'),[]),
+            ('finite four-lepton triangle momentum subtraction',Path('checkpoint_2026_11_19/four_lepton/verify_finite_triangle.py'),[]),
+            ('independent four-lepton angular integration',Path('checkpoint_2026_11_19/four_lepton/independent_finite.py'),[]),
+            ('four-lepton Fierz convention and finite local shift',Path('checkpoint_2026_11_19/four_lepton/verify_fierz_scheme.py'),[]),
+            ('four-lepton cancellation resolved by sterile mass',Path('checkpoint_2026_11_19/four_lepton/verify_mass_resolution.py'),[]),
+            ('on-shell four-lepton triangle and its two-scalar discontinuity',Path('checkpoint_2026_11_19/on_shell/verify_on_shell.py'),[]),
+            ('independent two-scalar phase-space cut',Path('checkpoint_2026_11_19/on_shell/independent_cut.py'),[]),
+            ('sterile-mass identifiability in the shared-threshold cut',Path('checkpoint_2026_11_19/on_shell/verify_mass_identifiability.py'),[]),
+            ('lower bound on the mean of forward and inverse transition rates',Path('checkpoint_2026_11_19/on_shell/verify_inverse_rate.py'),[]),
+            ('dimension-five and derivative interactions in the on-shell triangle',Path('checkpoint_2026_11_19/energy_scan/verify_lower_operator.py'),[]),
+            ('reciprocal rate bounds across energies with a shared dimension-five coefficient',Path('checkpoint_2026_11_19/energy_scan/verify_rate_scan.py'),[]),
+            ('on-shell contact projection at dimension five and seven',Path('checkpoint_2026_11_19/energy_scan/verify_contact_projection.py'),[]),
+            ('one-direction energy scan with complex local coefficients',Path('checkpoint_2026_11_19/energy_scan/verify_single_direction.py'),[]),
+            ('finite-energy certificate for the projected scan',Path('checkpoint_2026_11_19/energy_scan/verify_scan_certificate.py'),[]),
+            ('two-pair Majorana tree matching and heavy-mass expansion', UV_CHECKPOINT/'check_matching.py', []),
+            ('two-scalar unitarity cut with both Majorana pairs resolved', UV_CHECKPOINT/'check_cut.py', []),
+            ('finite one-loop box by dispersion and heavy-mass truncation bounds', UV_CHECKPOINT/'check_bounds.py', []),
+            ('independent direct evaluation of the finite Majorana box and its rate', UV_CHECKPOINT/'check_box_direct.py', []),
+            ('one-loop Yukawa evolution of the tuned mass moments', STABILITY_CHECKPOINT/'check_running.py', []),
+            ('scalar quartic correction at zero external momentum', STABILITY_CHECKPOINT/'check_quartic.py', []),
+            ('one-loop electron-flavor dimension-five matching audit', STABILITY_CHECKPOINT/'check_audit.py', []),
+            ('sensitivity of the four-lepton rate to the electron Yukawa ratio', STABILITY_CHECKPOINT/'check_detuning.py', []),
+            ('scalar quartic rescattering in the four-lepton amplitude', STABILITY_CHECKPOINT/'check_rescattering.py', []),
+            ('three reciprocal mean rates and a directional difference at finite detuning', STABILITY_CHECKPOINT/'check_closure.py', []),
+            ('pole-normalized scalar spectrum from a lepton and a Majorana singlet', CONTINUUM_CHECKPOINT/'check_spectrum.py', []),
+            ('three-particle cut of the scalar propagator insertion', CONTINUUM_CHECKPOINT/'check_threebody.py', []),
+            ('bound on other tree contributions at the three-body threshold', CONTINUUM_CHECKPOINT/'check_threshold.py', []),
+            ('full three-particle unitarity contribution below the next singlet threshold', CONTINUUM_CHECKPOINT/'check_full_threebody.py', []),
+            ('renormalization-scale logarithm of the pure-Yukawa four-lepton amplitude', CONTINUUM_CHECKPOINT/'check_rg.py', []),
+            ('finite scalar propagator insertion in the two-loop four-lepton rate', CONTINUUM_CHECKPOINT/'check_continuum.py', []),
+            ('Yukawa contributions to the four-rate consistency test', CONTINUUM_CHECKPOINT/'check_projection.py', []),
+            ('sterile propagator insertion in the two-scalar cut', TWO_PARTICLE_CHECKPOINT/'check_sterile.py', []),
+            ('finite vertex correction in the two-scalar cut', TWO_PARTICLE_CHECKPOINT/'check_vertex.py', []),
+            ('external residues and running in the two-scalar cut', TWO_PARTICLE_CHECKPOINT/'check_external.py', []),
+            ('independent calculation of the finite production vertex', TWO_PARTICLE_CHECKPOINT/'check_independent.py', []),
+            ('two-particle and three-particle contributions to four-lepton absorption', TWO_PARTICLE_CHECKPOINT/'check_absorptive.py', []),
+            ('one-sided real-amplitude threshold cusp from unitarity and analyticity', TWO_PARTICLE_CHECKPOINT/'check_cusp.py', []),
+            ('sterile pole shift and threshold splitting at fixed running masses', TWO_PARTICLE_CHECKPOINT/'check_pole_threshold.py', []),
+            ('closed-sphere fermion normalization and independent calibration', WALL_CHECKPOINT/'check_calibration.py', []),
+            ('neutral Majorana modes on a closed-wall trace', WALL_CHECKPOINT/'check_modes.py', []),
+            ('high-shell occupations of two neutral fermion masses', WALL_CHECKPOINT/'check_band.py', []),
+            ('high-frequency bounds for closed-wall fermions', WALL_CHECKPOINT/'check_tail.py', []),
+            ('charged-matter yield from a prepared singlet population', WALL_CHECKPOINT/'check_carriers.py', []),
+            ('closed-wall geometry and matter-budget comparison', WALL_CHECKPOINT/'check_bridge.py', []),
         ]
         if args.full:
             stages.extend([
@@ -70,15 +231,23 @@ def main():
             flags=['-B']
             if name=='baseline optimized semantic comparison':flags+=['-O']
             command=[sys.executable,*flags,str(work/script),*extra]
+            receipt_name = REPLAY_RECEIPTS.get(script)
+            if receipt_name:
+                generated = work / ('replay-' + receipt_name)
+                command.extend(['--output', str(generated)])
             run=subprocess.run(command,cwd=(work/script).parent,text=True,capture_output=True,timeout=1200)
             result={'name':name,'script':script.as_posix(),'python_flags':flags,'exit_code':run.returncode,'stdout':run.stdout.strip()}
+            if receipt_name and run.returncode == 0:
+                published = script.parent / receipt_name
+                check_replayed_receipt(generated, ROOT / published)
+                result['matched_receipt'] = published.as_posix()
             results.append(result)
             print(name+': '+('PASS' if run.returncode==0 else 'FAIL'),flush=True)
             if run.returncode:
                 print(run.stderr,file=sys.stderr)
                 raise SystemExit(run.returncode)
-        import numpy
-        environment={'python':platform.python_version(),'numpy':numpy.__version__,'platform':platform.system()+' '+platform.machine()}
+        import numpy, sympy, mpmath
+        environment={'python':platform.python_version(),'numpy':numpy.__version__,'sympy':sympy.__version__,'mpmath':mpmath.__version__,'platform':platform.system()+' '+platform.machine()}
         if args.full:
             import scipy
             environment['scipy']=scipy.__version__
@@ -87,7 +256,7 @@ def main():
             for key,rel in [('benchmark','fermion_portal/BENCHMARK_RESULTS.json'),('separate_review','fermion_portal/INDEPENDENT_REVIEW_RESULTS.json')]:
                 numerical[key]=json.loads((work/cp/rel).read_text())
         release=json.loads((ROOT/'PUBLIC_MANIFEST.json').read_text())['release']
-        report={'release':release,'status':'PASS','utc_completed':datetime.now(timezone.utc).isoformat(),'mode':'full' if args.full else 'quick','environment':environment,'payload_files_verified':count,'stages':results,'scientific_scope':'Declared tree/conditional algebra, one seed polynomial, local operator representative, sourced-contact and field-redefinition identities, inherited scalar comparisons, prescribed-background dynamics. No complete physical matching, independent human peer review or empirical validation.','publication_replay_assertions_active':True,'temporary_copy_used':True,'numerical_results':numerical}
+        report={'release':release,'status':'PASS','utc_completed':datetime.now(timezone.utc).isoformat(),'mode':'full' if args.full else 'quick','environment':environment,'payload_files_verified':count,'stages':results,'scientific_scope':'Declared tree/conditional algebra, one seed polynomial, local operator representative, sourced-contact and field-redefinition identities, one-hypercharge-leg transverse UV residue, literal action signs, restricted transverse tensor space and sourced flavor/current identities, seven-diagram two-hypercharge-leg UV pole matched to that action, unintegrated Ward controls, one-W weak-index and triangle matching, restricted neutral-photon pole cancellation, combined hypercharge source packet with off-shell equation-residual certificate, explicit selected first-order field substitutions and independent Grassmann action audit, original neutral quadratic projection with canonical pole/source transport, declared dimension-six times dimension-five contact benchmark and independent component audit, ordered two-W/mixed-BW pole integration with independent angular checks, thirty-three integrated three-gauge matter diagrams with independent exact cubature and per-diagram cross-route comparison, matrix-curvature functional Ward checks, restricted gauge-multiplicity degree closure and local neutral charged-weak projection, selected matrix electroweak source reduction with indexed real weak-field changes, combined weak-flavor Grassmann projection and current descendants, local differential normalization of the actual packet with explicit interaction remainder and differential mass-source transport, independent algebraic active and retained-mass strength sectors with ordered source transport, spectator-current Lorentz and weak invariant bases with identical-lepton Fierz flavor routing, separate current component-rank and formal source reconstruction, symmetric-seed flavor-image constraints and sharp relative algebraic source norm bound, selected all-field source-to-normalizing bridge with off-shell scalar-tadpole Hessian, independent neutral Grassmann full-action comparison, scalar gauge-current IBP and sourced-EOM transport, independent scalar invariant/component audit, charged-lepton and quark spectator Yukawa substitutions, curvature derivative-placement invariant spaces and source-preserving row transport, complete declared neutrino-source active field-content projection with independent Fourier/Grassmann audit, noncommuting projection and scalar-current EOM map, complex-Majorana sourced recurrences and flavor-coordinate covariance, independently integrated pure-neutrino-Yukawa renormalizable field/mass poles, proper cubic-vertex UV control and known restricted parameter-running benchmark, seed external-field pole and canonical-epsilon RG contribution only (not its full anomalous dimension), exhaustive seed/two-Yukawa proper topology and derivative placements, independently integrated primitive four-lepton and four-Higgs derivative/potential poles with retained Majorana masses, normalized primitive flavor image and projected Green-coordinate RG inputs with source-retaining scalar phase transport, independently evaluated mixed lepton/Higgs Majorana-mass UV pole and selected source-preserving action identity, correlated scalar/lepton phase source transport and rank-dependent Yukawa source obstruction in the selected action coordinates, selected real lepton/scalar normalization with retained potential, Yukawa, probe and conditional dimension-five source terms, and the nonzero scalar field-space curvature of its residual two-derivative metric under derivative-free scalar reparametrizations, common source-counterterm/matter-loop signs with a selected joint classical map, neutral mass/probe and scalar-background transport, ordinary-field tree-seed closure and canonical-dimension/lepton-spurion/bare-mu grading of distinct sectors, subtracted spacelike momentum dependence for one four-lepton triangle, independent Euclidean angular integration and a one-channel Fierz convention with its finite local shift, cancellation criterion by distinct positive sterile mass and a zero-residue finite-response witness, the on-shell four-lepton two-scalar discontinuity at one seed and two neutrino Yukawas with an independent phase-space calculation, reciprocal sterile-mass cancellations in its identical weak-component projection, and a conditional lower bound on the mean of forward and inverse flavor-transition rates in the stable gaugeless benchmark, the independent dimension-five insertion in the on-shell four-lepton triangle, multi-energy reciprocal-rate bounds with a shared complex coefficient, on-shell scalar-pair contact projection, a four-energy single-direction rate test with constant and linear local terms, and tree matching, a two-scalar cut, heavy-mass truncation bounds and independent dispersive and direct evaluations of the finite four-lepton box and its rate in a specified renormalizable two-pair Majorana model, one-loop evolution of its tuned mass moments, the electron-flavor dimension-five matching audit, the scalar quartic correction at zero external momentum, the leading rate response to a change in Yukawa ratio, scalar quartic rescattering in the four-lepton amplitude, and a finite-detuning consistency test using three reciprocal mean rates and a directional difference, the pole-normalized charged scalar spectrum and its three-particle cut, its finite scalar propagator insertion in the four-lepton rate, the renormalization-scale logarithm of the pure-Yukawa amplitude, the near-threshold bound on regular three-body tree terms, the full three-body cut below the next singlet threshold, and continuum contributions to the four-rate consistency test, the complete fixed-order pure-Yukawa two-loop s-channel absorptive amplitude between the first two thresholds in the four-singlet model, the first two nonanalytic terms of its real angular average immediately below threshold, and the one-loop sterile pole shift opening a parametrically narrow scalar decay, neutral spectator production on a specified closed-wall background, high-frequency occupation bounds, a local singlet decay model for a prepared population and the cold-state capacity of three charged fermion species, inherited scalar comparisons and prescribed-background dynamics. No finite-photon prediction, complete physical matching, independent human peer review or empirical validation.','publication_replay_assertions_active':True,'temporary_copy_used':True,'numerical_results':numerical}
         if args.output:
             args.output.parent.mkdir(parents=True,exist_ok=True)
             args.output.write_text(json.dumps(report,indent=2)+'\n')

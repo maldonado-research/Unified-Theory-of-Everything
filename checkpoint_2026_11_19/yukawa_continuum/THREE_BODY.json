@@ -1,0 +1,75 @@
+{
+  "scope": "three-particle cut of two scalar-line self-energy insertions",
+  "phase": "B34_conjugate_times_B12 = s",
+  "mass_unit": "m=1",
+  "M_over_m": 10,
+  "coefficient": "amplitude divided by gamma*abs(g)^2 at the three benchmark energies",
+  "angular_normalization": "J0 is the external-cosine mean",
+  "charged_phi_mu_N1_tree_counts": {
+    "mu": {
+      "decay": 2,
+      "exchange": 2
+    },
+    "e": {
+      "decay": 2,
+      "exchange": 0
+    }
+  },
+  "columns": [
+    {
+      "column": "N1",
+      "B_over_m2": 1,
+      "squared_coupling_weight": 1,
+      "s_threshold_over_m2": 4,
+      "onset_power": 1.5,
+      "coefficient_per_column_unit_strength": -1.097860094e-07
+    },
+    {
+      "column": "N2",
+      "B_over_m2": 16,
+      "squared_coupling_weight": 0.25,
+      "s_threshold_over_m2": 25,
+      "onset_power": 3.5,
+      "coefficient_per_column_unit_strength": -1.871484971e-11
+    },
+    {
+      "column": "E1",
+      "B_over_m2": 100,
+      "squared_coupling_weight": 1,
+      "s_threshold_over_m2": 121,
+      "onset_power": 3.5,
+      "coefficient_per_column_unit_strength": -1.298830807e-13
+    },
+    {
+      "column": "E2",
+      "B_over_m2": 400,
+      "squared_coupling_weight": 2,
+      "s_threshold_over_m2": 441,
+      "onset_power": 3.5,
+      "coefficient_per_column_unit_strength": -2.200708813e-15
+    }
+  ],
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "cut_c0": -3.997025444e-07,
+      "cut_J0": -3.99620179e-07,
+      "direct_phase_space_c0": -3.997025444e-07,
+      "direct_phase_space_J0": -3.99620179e-07
+    },
+    {
+      "s_over_m2": 8,
+      "cut_c0": -1.264685994e-06,
+      "cut_J0": -1.263796084e-06,
+      "direct_phase_space_c0": -1.264685994e-06,
+      "direct_phase_space_J0": -1.263796084e-06
+    },
+    {
+      "s_over_m2": 10,
+      "cut_c0": -2.462922767e-06,
+      "cut_J0": -2.459469805e-06,
+      "direct_phase_space_c0": -2.462922767e-06,
+      "direct_phase_space_J0": -2.459469805e-06
+    }
+  ]
+}

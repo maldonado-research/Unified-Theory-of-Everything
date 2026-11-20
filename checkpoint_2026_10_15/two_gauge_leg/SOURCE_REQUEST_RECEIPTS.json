@@ -1,0 +1,37 @@
+{
+  "retrieved_at_utc": "2026-10-15T18:14:54.703666+00:00",
+  "requests": [
+    {
+      "url": "https://arxiv.org/html/1703.04415v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1703.04415v3",
+      "bytes": 525092,
+      "sha256": "b8e598a392bc19c2bbec98dff54487f62ceb9e891598d1e1db7044c9bbe3f910",
+      "saved": "1703.04415v3.html"
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?id_list=hep-ph/9410338",
+      "status": 200,
+      "final_url": "https://export.arxiv.org/api/query?id_list=hep-ph/9410338",
+      "bytes": 2729,
+      "sha256": "79190160172eb8ba7f7d4da136ab1d1cb080cf9d2b38f0567491aec084178071",
+      "saved": "ward-metadata.xml"
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-ph/9410338",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/hep-ph/9410338",
+      "bytes": 341244,
+      "sha256": "1ebacda7dd31d563b9af4bea30c5c517fbd6a996f12652eba5bdea636b1ddca5",
+      "saved": "hep-ph-9410338.pdf"
+    },
+    {
+      "url": "https://arxiv.org/pdf/hep-ph/9410338v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/hep-ph/9410338v2",
+      "bytes": 341244,
+      "sha256": "1ebacda7dd31d563b9af4bea30c5c517fbd6a996f12652eba5bdea636b1ddca5",
+      "saved": "hep-ph-9410338v2.pdf"
+    }
+  ]
+}

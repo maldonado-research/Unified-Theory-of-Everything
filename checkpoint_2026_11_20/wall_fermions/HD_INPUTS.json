@@ -1,0 +1,31 @@
+{
+  "hdblast_commit": "030a4a0b4c2e65fdbce15fbe76b458a7addffdc9",
+  "charged_json_sha256": "5dbed28e158584403a4cd238d392aab15c00480522cf489d1ee0a36f1d550f90",
+  "background_source_gzip_sha256": "8a7d01da00572865dec1fad6bdc98807586360a21caed00614279a154c5b1ac5",
+  "geometry_csv_uncompressed_sha256": "94fea504856b15977da61a1b916ecb471bfb4c2c35c23ef42280ac0d9e72fc1d",
+  "source_case": "primary",
+  "initial_radius": 2,
+  "initial_K": 0.001,
+  "initial_cold_rest_density": 0.0001,
+  "Q": 100000000.0,
+  "switch": {
+    "t": 10.5017,
+    "a": 9.55326542219306,
+    "K": 13200.04,
+    "B": -9.634492309871888e-09,
+    "X": -0.0008881196032529693,
+    "theta": 0.0,
+    "rest": 9.175599619607962e-07
+  },
+  "magnetic_zero": {
+    "postexit_magnetic_zero_tau": 10.50164818220685,
+    "postexit_magnetic_zero_radius": 9.553254051209148
+  },
+  "heating_interval": {
+    "first_ninety_intrinsic_time": 11.03910632530842,
+    "first_ninety_intrinsic_radius": 9.65411024373838,
+    "maximum_tau": 12.42349952283393,
+    "maximum_radius": 9.761588617043977,
+    "maximum_intrinsic_fraction": 0.9166376967598873
+  }
+}

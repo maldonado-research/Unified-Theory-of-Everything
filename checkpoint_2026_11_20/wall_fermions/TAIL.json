@@ -1,0 +1,60 @@
+{
+  "geometry_float64_le_sha256": "7b89924624d079399e8c260b7ee41a3a9c84cd5d28ce4ec7f0389e2b38412f83",
+  "cells": 28685,
+  "endpoint": "turnaround",
+  "first_omitted_shell": 33,
+  "multiplicity": "2*(n+1)*(n+2)",
+  "split_time": 0.01,
+  "species": {
+    "1": {
+      "number_upper": "0.32181927",
+      "energy_L_upper": "1.77517701",
+      "first_asymptotic_shell": 2049,
+      "asymptotic_amplitude_coefficient_upper": "418.20842229",
+      "asymptotic_number_upper": "0.00001355",
+      "asymptotic_energy_L_upper": "0.00427324"
+    },
+    "4": {
+      "number_upper": "6.87931081",
+      "energy_L_upper": "45.69204931",
+      "first_asymptotic_shell": 2049,
+      "asymptotic_amplitude_coefficient_upper": "1673.52929358",
+      "asymptotic_number_upper": "0.00021689",
+      "asymptotic_energy_L_upper": "0.06844023"
+    }
+  },
+  "bounce": {
+    "1": {
+      "number_upper": "0.00183940",
+      "energy_L_upper": "0.11414564",
+      "first_asymptotic_shell": 2049,
+      "asymptotic_amplitude_coefficient_upper": "291.44491398",
+      "asymptotic_number_upper": "0.00000658",
+      "asymptotic_energy_L_upper": "0.01075080"
+    },
+    "4": {
+      "number_upper": "0.02945485",
+      "energy_L_upper": "1.83402673",
+      "first_asymptotic_shell": 2049,
+      "asymptotic_amplitude_coefficient_upper": "1165.77967621",
+      "asymptotic_number_upper": "0.00010525",
+      "asymptotic_energy_L_upper": "0.17201378"
+    }
+  },
+  "expanding_slice": {
+    "1": {
+      "number_upper_from_shell": {
+        "33": "3.44002300",
+        "2049": "0.00022632"
+      },
+      "energy_log_coefficient_upper": "0.02927677"
+    },
+    "4": {
+      "number_upper_from_shell": {
+        "33": "63.79171395",
+        "2049": "0.00362173"
+      },
+      "energy_log_coefficient_upper": "0.46842823"
+    }
+  }
+}

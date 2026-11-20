@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "method": "CM four-vector tree sewing versus Feynman simplex spectral density",
+  "benchmark": {
+    "scalar_squared_mass": 1,
+    "sterile_masses": [
+      1,
+      4
+    ],
+    "anomalous_weights": [
+      1,
+      -1
+    ],
+    "seed": 1,
+    "s": 8,
+    "weak_indices": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "both_orientations_reduced_angular_sum": "3.103044058130656122062575",
+    "disc_over_2i_divided_by_ordered_spin": "0.04365189367639670659543354",
+    "forward_disc_over_2i": "-0.3492151494111736527634683",
+    "reduced_threshold_coefficient": "30/17"
+  },
+  "positive_checks": 33,
+  "positive_categories": {
+    "parameter delta versus closed sphere": 6,
+    "ordered weak trees sewn over the sphere": 12,
+    "interchange cancels identical-channel angular dependence": 3,
+    "two incoming fermion contractions": 1,
+    "ordered spin norm in the forward state": 1,
+    "chosen two-mass symmetric benchmark": 5,
+    "threshold coefficient including mirror": 1,
+    "massless anomalous numerator": 1,
+    "degenerate opposite complex weights": 1,
+    "null pole weights": 1,
+    "Hermitian flavor interchange": 1
+  },
+  "negative_checks": 10,
+  "negative_categories": {
+    "twice direct orientation for complex flavor": 1,
+    "unconjugated mirror": 1,
+    "missing scalar-state half": 1,
+    "omitted seed orientation": 1,
+    "external-leg-only seed": 1,
+    "conjugate-square sterile weights": 1,
+    "reversed ordered loop sign": 1,
+    "independent denominator common to both masses": 1,
+    "discarded scattering angle in weak-resolved channel": 1,
+    "unsubtracted exchange-odd spin sign": 1
+  },
+  "repository_imports": false,
+  "assertions_required": false
+}

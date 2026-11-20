@@ -1,0 +1,45 @@
+{
+  "scope": "Physical spin projection and finite local conversion for a single ordered pole.",
+  "positive_checks": [
+    "chirality of the selected blocks",
+    "charge conjugation blocks",
+    "transpose of charge conjugation",
+    "transpose intertwiner 0",
+    "transpose intertwiner 1",
+    "transpose intertwiner 2",
+    "transpose intertwiner 3",
+    "chirality transpose",
+    "ordered Weyl lift for all sixteen components",
+    "physical Fierz projection for all sixteen components",
+    "nonzero ordered spin component",
+    "same ordered counterterm in frame a",
+    "four-dimensional projection of E_a",
+    "same ordered counterterm in frame b",
+    "four-dimensional projection of E_b",
+    "translation of evanescent basis",
+    "finite difference of pole-only prescriptions",
+    "general local lift transformation",
+    "ordered finite shift under changing its lift",
+    "constant contact cancels in reduced form-factor subtraction",
+    "conjugate slot has conjugate shifted coefficient"
+  ],
+  "adverse_controls": [
+    "charge matrix in place of its inverse in the unbarred pair",
+    "commuting the middle odd fields without a sign",
+    "wrong sign of compensating finite counterterm",
+    "drop the evanescent pole before converting coordinates",
+    "extend the same conclusion to a derivative contact",
+    "copy complex channel coefficient into the conjugate slot"
+  ],
+  "spin_components": 16,
+  "nonzero_component": {
+    "slots": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "P_4": 1,
+    "J_4": -2
+  }
+}

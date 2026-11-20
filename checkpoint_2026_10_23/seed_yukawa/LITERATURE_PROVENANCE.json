@@ -1,0 +1,904 @@
+{
+  "title": "Focused primary comparisons for seed-Yukawa matter loops",
+  "display_date": "2026-10-23",
+  "display_timezone": "America/Los_Angeles",
+  "accessed_date_utc": "2026-10-23",
+  "input_candidate": "f1f9a892e15545c70e4fa05827ea7fefc5a438eb",
+  "scope": "Methods and applicability comparisons for one retained-sterile derivative seed with two neutrino-Yukawa insertions; no imported seed coefficient, exhaustive coverage, novelty or observable claim.",
+  "totals": {
+    "successful_paper_queries": 3,
+    "requested_per_paper_query": 10,
+    "returned_per_paper_query": [
+      7,
+      4,
+      10
+    ],
+    "ranked_paper_appearances": 21,
+    "distinct_search_papers": 18,
+    "duplicate_appearances": 3,
+    "new_metadata_inspections": 2,
+    "paper_passage_requests": 3,
+    "returned_passages": 11,
+    "new_primary_http_requests": 2,
+    "new_primary_http_200_responses": 2,
+    "reused_primary_bodies": 3,
+    "primary_body_hashes_verified": 5,
+    "failed_web_search_attempts": 1,
+    "failed_url_scrape_attempts": 1
+  },
+  "date_filter_note": "Paper-index inclusive bounds apply to created OR updated records. Body version dates are separate from index updates.",
+  "searches": [
+    {
+      "label": "SY1",
+      "provider": "Firecrawl paper index",
+      "accessed_date_utc": "2026-10-23",
+      "request": {
+        "query": "dimension seven neutrino Standard Model effective field theory sterile Majorana one loop renormalization dimension descending mass Higgs four lepton",
+        "from": "2025-01-01",
+        "to": "2026-10-23",
+        "k": 10
+      },
+      "search_uuid": null,
+      "results": [
+        {
+          "paperId": "169055094554646673",
+          "primaryId": "arxiv:2505.06499",
+          "ids": {
+            "arxiv": [
+              "2505.06499"
+            ]
+          },
+          "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+          "score": 0.9205614508160216,
+          "rank": 1
+        },
+        {
+          "paperId": "4129375628006248625",
+          "primaryId": "arxiv:2504.00081",
+          "ids": {
+            "arxiv": [
+              "2504.00081"
+            ]
+          },
+          "title": "Importance of Loop Effects in Probing Lepton Number Violation",
+          "score": 0.8641271029909058,
+          "rank": 2
+        },
+        {
+          "paperId": "5091947855724701673",
+          "primaryId": "arxiv:2602.18395",
+          "ids": {
+            "arxiv": [
+              "2602.18395"
+            ]
+          },
+          "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+          "score": 0.8596637505099167,
+          "rank": 3
+        },
+        {
+          "paperId": "3160050501133602803",
+          "primaryId": "arxiv:2604.21492",
+          "ids": {
+            "arxiv": [
+              "2604.21492"
+            ]
+          },
+          "title": "Solving Cosmological Puzzles using Finite Temperature νSMEFT",
+          "score": 0.8581489350995123,
+          "rank": 4
+        },
+        {
+          "paperId": "4127891366154985519",
+          "primaryId": "arxiv:2501.13150",
+          "ids": {
+            "arxiv": [
+              "2501.13150"
+            ]
+          },
+          "title": "Electromagnetic leptogenesis with light-heavy sterile neutrinos",
+          "score": 0.8337581892923576,
+          "rank": 5
+        },
+        {
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          },
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "score": 0.8284952300245991,
+          "rank": 6
+        },
+        {
+          "paperId": "6130586679219611014",
+          "primaryId": "arxiv:2608.12646",
+          "ids": {
+            "arxiv": [
+              "2608.12646"
+            ]
+          },
+          "title": "A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter",
+          "score": 0.7889736639209326,
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "label": "SY2",
+      "provider": "Firecrawl paper index",
+      "accessed_date_utc": "2026-10-23",
+      "request": {
+        "query": "Majorana neutrino effective field theory dimension seven derivative operators mixing into dimension six Higgs potential mass one loop",
+        "from": "2025-01-01",
+        "to": "2026-10-23",
+        "k": 10
+      },
+      "search_uuid": null,
+      "results": [
+        {
+          "paperId": "3160050501133602803",
+          "primaryId": "arxiv:2604.21492",
+          "ids": {
+            "arxiv": [
+              "2604.21492"
+            ]
+          },
+          "title": "Solving Cosmological Puzzles using Finite Temperature νSMEFT",
+          "score": 0.588889130767832,
+          "rank": 1
+        },
+        {
+          "paperId": "7088150792564421655",
+          "primaryId": "arxiv:2501.02682",
+          "ids": {
+            "arxiv": [
+              "2501.02682"
+            ]
+          },
+          "title": "Species scale associated with Weinberg operator and bound on Majorana neutrino mass",
+          "score": 0.5536983561338529,
+          "rank": 2
+        },
+        {
+          "paperId": "610173422078621577",
+          "primaryId": "arxiv:2606.14320",
+          "ids": {
+            "arxiv": [
+              "2606.14320"
+            ]
+          },
+          "title": "Unavoidable Loop-Induced Quintessence -- Higgs Mixing and Its Phenomenological Consequences",
+          "score": 0.5273165233795671,
+          "rank": 3
+        },
+        {
+          "paperId": "6130586679219611014",
+          "primaryId": "arxiv:2608.12646",
+          "ids": {
+            "arxiv": [
+              "2608.12646"
+            ]
+          },
+          "title": "A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter",
+          "score": 0.5221534554010714,
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "label": "SY3",
+      "provider": "Firecrawl paper index",
+      "accessed_date_utc": "2026-10-23",
+      "request": {
+        "query": "effective field theory one loop field redefinitions quantum effective action Green basis redundant operators mixed dimensions mass anomalous dimensions",
+        "from": "2025-01-01",
+        "to": "2026-10-23",
+        "k": 10
+      },
+      "search_uuid": null,
+      "results": [
+        {
+          "paperId": "6524935474433251128",
+          "primaryId": "arxiv:2502.14030",
+          "ids": {
+            "arxiv": [
+              "2502.14030"
+            ]
+          },
+          "title": "Anomalous Dimension of a General Effective Gauge Theory I: Bosonic Sector",
+          "score": 0.8833970308388606,
+          "rank": 1
+        },
+        {
+          "paperId": "2088383261430809822",
+          "primaryId": "arxiv:2604.14741",
+          "ids": {
+            "arxiv": [
+              "2604.14741"
+            ]
+          },
+          "title": "The OPE Approach to Renormalization: Operator Mixing",
+          "score": 0.8768032551885854,
+          "rank": 2
+        },
+        {
+          "paperId": "4130722608597061169",
+          "primaryId": "arxiv:2501.13185",
+          "ids": {
+            "arxiv": [
+              "2501.13185"
+            ]
+          },
+          "title": "Renormalization of general Effective Field Theories: Formalism and renormalization of bosonic operators",
+          "score": 0.871299749416051,
+          "rank": 3
+        },
+        {
+          "paperId": "96710318104404001",
+          "primaryId": "arxiv:2512.16890",
+          "ids": {
+            "arxiv": [
+              "2512.16890"
+            ],
+            "doi": [
+              "10.1007/JHEP09(2026)159"
+            ]
+          },
+          "title": "Anomalous Dimension of a General Effective Gauge Theory II: Fermionic Sector",
+          "score": 0.8698915256370021,
+          "rank": 4
+        },
+        {
+          "paperId": "8602449012837984936",
+          "primaryId": "arxiv:2511.16740",
+          "ids": {
+            "arxiv": [
+              "2511.16740"
+            ]
+          },
+          "title": "EFT meets CFT: Multiloop renormalization of higher-dimensional operators in general φ⁴ theories",
+          "score": 0.8611650064526928,
+          "rank": 5
+        },
+        {
+          "paperId": "592012807155699548",
+          "primaryId": "arxiv:2503.09785",
+          "ids": {
+            "arxiv": [
+              "2503.09785"
+            ]
+          },
+          "title": "Renormalising the Field-Space Geometry",
+          "score": 0.8519528019683106,
+          "rank": 6
+        },
+        {
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          },
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "score": 0.8455347349164652,
+          "rank": 7
+        },
+        {
+          "paperId": "7691803783682369324",
+          "primaryId": "arxiv:2501.08384",
+          "ids": {
+            "arxiv": [
+              "2501.08384"
+            ]
+          },
+          "title": "Two-Loop Anomalous Dimensions in the LEFT: Dimension-Six Four-Fermion Operators in NDR",
+          "score": 0.84224131298103,
+          "rank": 8
+        },
+        {
+          "paperId": "7506421968202584495",
+          "primaryId": "arxiv:2512.04064",
+          "ids": {
+            "arxiv": [
+              "2512.04064"
+            ]
+          },
+          "title": "New insights into two-loop running in effective field theories",
+          "score": 0.8388910504234147,
+          "rank": 9
+        },
+        {
+          "paperId": "1015029702565733138",
+          "primaryId": "arxiv:2512.08827",
+          "ids": {
+            "arxiv": [
+              "2512.08827"
+            ]
+          },
+          "title": "Two-loop renormalization of general bosonic effective field theories",
+          "score": 0.8031737963569016,
+          "rank": 10
+        }
+      ]
+    }
+  ],
+  "distinct_papers": [
+    {
+      "paperId": "169055094554646673",
+      "primaryId": "arxiv:2505.06499",
+      "ids": {
+        "arxiv": [
+          "2505.06499"
+        ]
+      },
+      "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+      "abstract_sha256": "2616a0999f050d19dabb8c9707ea4c600e3a07dc9e731e2cac1e75261be1a8e8",
+      "abstract_characters": 1291,
+      "url": "https://arxiv.org/abs/2505.06499",
+      "screening_disposition": "Abstract screen: dimension-five/seven pure-SMEFT RGE solver; no retained sterile field, not executed or used to import coefficients."
+    },
+    {
+      "paperId": "4129375628006248625",
+      "primaryId": "arxiv:2504.00081",
+      "ids": {
+        "arxiv": [
+          "2504.00081"
+        ]
+      },
+      "title": "Importance of Loop Effects in Probing Lepton Number Violation",
+      "abstract_sha256": "dc1c31cbaa261fc2e9907e65f0cee005c1b2d49833004cf3b07abfbe5a5e9072",
+      "abstract_characters": 573,
+      "url": "https://arxiv.org/abs/2504.00081",
+      "screening_disposition": "Abstract screen: loop effects on LNV dimension-seven SMEFT bounds and dimension-five competition; different effective field content."
+    },
+    {
+      "paperId": "5091947855724701673",
+      "primaryId": "arxiv:2602.18395",
+      "ids": {
+        "arxiv": [
+          "2602.18395"
+        ]
+      },
+      "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+      "abstract_sha256": "5d5d64d6e799789eb6d0bcd9e667b5b55c56f26642fefb4b8abda29495bdcfe7",
+      "abstract_characters": 1178,
+      "url": "https://arxiv.org/abs/2602.18395",
+      "screening_disposition": "Selected primary reading: explicit heavy-model SMEFT matching and diagram/weak-contraction distinction; methodological comparison, not a retained-sterile seed pole benchmark."
+    },
+    {
+      "paperId": "3160050501133602803",
+      "primaryId": "arxiv:2604.21492",
+      "ids": {
+        "arxiv": [
+          "2604.21492"
+        ]
+      },
+      "title": "Solving Cosmological Puzzles using Finite Temperature νSMEFT",
+      "abstract_sha256": "ad9e6e7ab91176937e39d03a7a9042c1e4b1458b64b4feabb46420821d65a748",
+      "abstract_characters": 1806,
+      "url": "https://arxiv.org/abs/2604.21492",
+      "screening_disposition": "Abstract screen: finite-temperature sterile EFT through dimension six and additional cosmological model assumptions; not a dimension-seven UV coefficient."
+    },
+    {
+      "paperId": "4127891366154985519",
+      "primaryId": "arxiv:2501.13150",
+      "ids": {
+        "arxiv": [
+          "2501.13150"
+        ]
+      },
+      "title": "Electromagnetic leptogenesis with light-heavy sterile neutrinos",
+      "abstract_sha256": "442b2731c4441925b95d7b7c6270b7219cd07f02cb5db34989e9af2d3d5c40c2",
+      "abstract_characters": 1473,
+      "url": "https://arxiv.org/abs/2501.13150",
+      "screening_disposition": "Abstract screen: dipole-mediated leptogenesis with additional light sterile and scalar assumptions; different interactions."
+    },
+    {
+      "paperId": "5954995938910162112",
+      "primaryId": "arxiv:2504.00792",
+      "ids": {
+        "arxiv": [
+          "2504.00792"
+        ]
+      },
+      "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+      "abstract_sha256": "48ba09e0f0d3ff27a148f654af4e3f7aadd4624b0056846f23b8c409e073136a",
+      "abstract_characters": 1357,
+      "url": "https://arxiv.org/abs/2504.00792",
+      "screening_disposition": "Reused primary reading: bare Green-to-physical reductions, redundant-coordinate RG derivatives and UV/IR rearrangement in retained-sterile theory through dimension five."
+    },
+    {
+      "paperId": "6130586679219611014",
+      "primaryId": "arxiv:2608.12646",
+      "ids": {
+        "arxiv": [
+          "2608.12646"
+        ]
+      },
+      "title": "A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter",
+      "abstract_sha256": "91f475baf4ae523c37c780646185b7d32e7ce39f12bda73d57b00c4935ad9800",
+      "abstract_characters": 1799,
+      "url": "https://arxiv.org/abs/2608.12646",
+      "screening_disposition": "Abstract screen: UV-complete one-loop neutrino-mass model with additional inert fields and symmetry; not the present single-seed renormalization."
+    },
+    {
+      "paperId": "7088150792564421655",
+      "primaryId": "arxiv:2501.02682",
+      "ids": {
+        "arxiv": [
+          "2501.02682"
+        ]
+      },
+      "title": "Species scale associated with Weinberg operator and bound on Majorana neutrino mass",
+      "abstract_sha256": "f770c57761b56e983de5e0b38cf93eef33e099707bccf1f727fddda227e7265b",
+      "abstract_characters": 1503,
+      "url": "https://arxiv.org/abs/2501.02682",
+      "screening_disposition": "Abstract screen: species scale and Weinberg operator towers; different premises, no scale or neutrino-mass bound imported."
+    },
+    {
+      "paperId": "610173422078621577",
+      "primaryId": "arxiv:2606.14320",
+      "ids": {
+        "arxiv": [
+          "2606.14320"
+        ]
+      },
+      "title": "Unavoidable Loop-Induced Quintessence -- Higgs Mixing and Its Phenomenological Consequences",
+      "abstract_sha256": "207d99b1084fa0911c3b0aeb3569a0e4f0e89a92aa26f052f870b14d480ec7c5",
+      "abstract_characters": 1670,
+      "url": "https://arxiv.org/abs/2606.14320",
+      "screening_disposition": "Abstract screen: loop-induced quintessence-Higgs mixing; different light fields and couplings."
+    },
+    {
+      "paperId": "6524935474433251128",
+      "primaryId": "arxiv:2502.14030",
+      "ids": {
+        "arxiv": [
+          "2502.14030"
+        ]
+      },
+      "title": "Anomalous Dimension of a General Effective Gauge Theory I: Bosonic Sector",
+      "abstract_sha256": "b3ccc2ca59109162c334ecc9ab4fe874eb31b86528882af8894c7900070379b3",
+      "abstract_characters": 796,
+      "url": "https://arxiv.org/abs/2502.14030",
+      "screening_disposition": "Abstract screen: general bosonic EFT anomalous-dimension template through dimension six; higher seed insertion outside truncation."
+    },
+    {
+      "paperId": "2088383261430809822",
+      "primaryId": "arxiv:2604.14741",
+      "ids": {
+        "arxiv": [
+          "2604.14741"
+        ]
+      },
+      "title": "The OPE Approach to Renormalization: Operator Mixing",
+      "abstract_sha256": "acf038947ad2c3931dcfb285b04583f7e0bf3ae2ab7e3791d74aa74584f8c57f",
+      "abstract_characters": 1147,
+      "url": "https://arxiv.org/abs/2604.14741",
+      "screening_disposition": "Abstract screen: OPE operator-mixing method; not a direct coefficient comparison for this massive sterile theory."
+    },
+    {
+      "paperId": "4130722608597061169",
+      "primaryId": "arxiv:2501.13185",
+      "ids": {
+        "arxiv": [
+          "2501.13185"
+        ]
+      },
+      "title": "Renormalization of general Effective Field Theories: Formalism and renormalization of bosonic operators",
+      "abstract_sha256": "316a0da350c5f0d89a702a38aeb3ff36238b5f04d62260c54222c74209efea95",
+      "abstract_characters": 426,
+      "url": "https://arxiv.org/abs/2501.13185",
+      "screening_disposition": "Selected primary reading: explicit Green/physical reduction, canonical normalization, field-count bare-mu powers, and evanescent four-fermion warning through dimension six."
+    },
+    {
+      "paperId": "96710318104404001",
+      "primaryId": "arxiv:2512.16890",
+      "ids": {
+        "arxiv": [
+          "2512.16890"
+        ],
+        "doi": [
+          "10.1007/JHEP09(2026)159"
+        ]
+      },
+      "title": "Anomalous Dimension of a General Effective Gauge Theory II: Fermionic Sector",
+      "abstract_sha256": "de2682929bf6e19ef39f2cd9a6732ed5b03e64c9b2e3885e7fc3a22c3937b500",
+      "abstract_characters": 651,
+      "url": "https://arxiv.org/abs/2512.16890",
+      "screening_disposition": "Reused primary reading: explicit mass-dependent lower-dimensional mixing, physical operator basis and power counting through inverse-scale order two."
+    },
+    {
+      "paperId": "8602449012837984936",
+      "primaryId": "arxiv:2511.16740",
+      "ids": {
+        "arxiv": [
+          "2511.16740"
+        ]
+      },
+      "title": "EFT meets CFT: Multiloop renormalization of higher-dimensional operators in general φ⁴ theories",
+      "abstract_sha256": "b1c0e3751de5f7da26a778e8592c1db0343fecb1b7a76397281100a8c555d799",
+      "abstract_characters": 1294,
+      "url": "https://arxiv.org/abs/2511.16740",
+      "screening_disposition": "Abstract screen: general scalar multiloop composite-operator renormalization; no fermionic seed or sterile-Majorana diagram."
+    },
+    {
+      "paperId": "592012807155699548",
+      "primaryId": "arxiv:2503.09785",
+      "ids": {
+        "arxiv": [
+          "2503.09785"
+        ]
+      },
+      "title": "Renormalising the Field-Space Geometry",
+      "abstract_sha256": "3f3759e991ad51c01a8bd600a2f368ffd2dff29b47dfed4ec700c03ae521b5c0",
+      "abstract_characters": 1282,
+      "url": "https://arxiv.org/abs/2503.09785",
+      "screening_disposition": "Abstract screen: scalar field-space geometry renormalization; does not supply the present fermion/mass UV coefficient."
+    },
+    {
+      "paperId": "7691803783682369324",
+      "primaryId": "arxiv:2501.08384",
+      "ids": {
+        "arxiv": [
+          "2501.08384"
+        ]
+      },
+      "title": "Two-Loop Anomalous Dimensions in the LEFT: Dimension-Six Four-Fermion Operators in NDR",
+      "abstract_sha256": "64dca3375a43a71a9f83d791aed9b0ff429be3ae9497c6dd99e1d164cd0064d5",
+      "abstract_characters": 835,
+      "url": "https://arxiv.org/abs/2501.08384",
+      "screening_disposition": "Abstract screen: two-loop LEFT four-fermion anomalous dimensions in NDR; different EFT, loop order and scheme."
+    },
+    {
+      "paperId": "7506421968202584495",
+      "primaryId": "arxiv:2512.04064",
+      "ids": {
+        "arxiv": [
+          "2512.04064"
+        ]
+      },
+      "title": "New insights into two-loop running in effective field theories",
+      "abstract_sha256": "b5a0f72e68529eb0a6c6c27ead807d769d9f758a6c3bd5156aa524d2d4caa581",
+      "abstract_characters": 606,
+      "url": "https://arxiv.org/abs/2512.04064",
+      "screening_disposition": "Abstract screen: higher-dimensional matching method for two-loop running; not implemented here."
+    },
+    {
+      "paperId": "1015029702565733138",
+      "primaryId": "arxiv:2512.08827",
+      "ids": {
+        "arxiv": [
+          "2512.08827"
+        ]
+      },
+      "title": "Two-loop renormalization of general bosonic effective field theories",
+      "abstract_sha256": "4de7fefab30e509144627735a60919b334dae282dbf22aa2df135961052c2ee7",
+      "abstract_characters": 1024,
+      "url": "https://arxiv.org/abs/2512.08827",
+      "screening_disposition": "Abstract screen: two-loop general bosonic EFT through dimension six; no present dimension-seven seed insertion."
+    }
+  ],
+  "new_metadata": [
+    {
+      "paperId": "4130722608597061169",
+      "ids": {
+        "arxiv": [
+          "2501.13185"
+        ]
+      },
+      "title": "Renormalization of general Effective Field Theories: Formalism and renormalization of bosonic operators",
+      "authors": "Renato M. Fonseca, Pablo Olgoso, José Santiago",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Wed, 22 Jan 2025 19:31:52 GMT",
+      "updateDate": "2025-01-24",
+      "abstract_sha256": "316a0da350c5f0d89a702a38aeb3ff36238b5f04d62260c54222c74209efea95",
+      "abstract_characters": 426
+    },
+    {
+      "paperId": "5091947855724701673",
+      "ids": {
+        "arxiv": [
+          "2602.18395"
+        ]
+      },
+      "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+      "authors": "Fabian Esser, Lukáš Gráf, Chandan Hati",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Fri, 20 Feb 2026 18:00:37 GMT",
+      "updateDate": "2026-02-23",
+      "abstract_sha256": "5d5d64d6e799789eb6d0bcd9e667b5b55c56f26642fefb4b8abda29495bdcfe7",
+      "abstract_characters": 1178
+    }
+  ],
+  "passage_receipts": [
+    {
+      "label": "R1",
+      "request": {
+        "paperId": "arxiv:2512.16890",
+        "question": "How are dimensionful masses and cross-dimension operator mixing included in the one-loop EFT anomalous dimensions? Identify the truncation order and whether dimension-seven insertions are within this template.",
+        "k": 4
+      },
+      "passage_count": 4,
+      "passages": [
+        {
+          "rank": 1,
+          "characters": 3841,
+          "sha256": "ddc13b3a54dcc99a077f47dc04eca934b2803a66938f9ca6e31b3361765ba5f2"
+        },
+        {
+          "rank": 2,
+          "characters": 3801,
+          "sha256": "e97a9ebc12b51f83c2b7cd170e949b6c8c8885d23a1211f75d51449ae811a7ef"
+        },
+        {
+          "rank": 3,
+          "characters": 2272,
+          "sha256": "e16eaede8c5cfd318209278484227ea58ce2dee449bf9539f721dddca004c6fb"
+        },
+        {
+          "rank": 4,
+          "characters": 3986,
+          "sha256": "6a96a7bcc655793c6497a8f61fdb224a028b3419777eff319d30366141960c51"
+        }
+      ],
+      "note": "Retrieved passages are excerpts; full text and raw outputs are not redistributed."
+    },
+    {
+      "label": "R2",
+      "request": {
+        "paperId": "arxiv:2501.13185",
+        "question": "What is the relation between Green and physical bases, lower-dimensional contributions to renormalizable scalar couplings, and finite masses? Does the bosonic one-loop EFT computation include dimension-seven seed insertions?",
+        "k": 4
+      },
+      "passage_count": 4,
+      "passages": [
+        {
+          "rank": 1,
+          "characters": 3959,
+          "sha256": "43d811c3dd4d312fd78bcbf173bb34ca7c49ca904758329e6d7dde15ac42ec79"
+        },
+        {
+          "rank": 2,
+          "characters": 3925,
+          "sha256": "d406558e4f5a12176cb78aebd5ab3728266eb161b7f3682a0881e4357a49b42f"
+        },
+        {
+          "rank": 3,
+          "characters": 2338,
+          "sha256": "4894b3be09f405dbc4a88243db857128ba75594b87a66a2e73922ecfe666d10e"
+        },
+        {
+          "rank": 4,
+          "characters": 3883,
+          "sha256": "53895c78027e4c601758cc4a3b653ff49ecc229798028e349c9917ac429a0426"
+        }
+      ],
+      "note": "Retrieved passages are excerpts; full text and raw outputs are not redistributed."
+    },
+    {
+      "label": "R3",
+      "request": {
+        "paperId": "arxiv:2602.18395",
+        "question": "Which lower-dimensional lepton-number-violating operators arise radiatively from dimension-nine UV completions, and why must tree versus loop lower-dimensional contributions be considered before a phenomenological conclusion? Identify field content and threshold matching assumptions.",
+        "k": 3
+      },
+      "passage_count": 3,
+      "passages": [
+        {
+          "rank": 1,
+          "characters": 2686,
+          "sha256": "f22764be952cda8431779009e8ed594991b899c228f8b0d1729c7ca4260096ef"
+        },
+        {
+          "rank": 2,
+          "characters": 3919,
+          "sha256": "b59991faa80cea7c33a32704cf424d21929cc166ef0026acb88bdc12f21cbb3a"
+        },
+        {
+          "rank": 3,
+          "characters": 3638,
+          "sha256": "100c99f38386d6a549618dfb05dbeca6a5512db6d282f0d6308f752bb6a2a459"
+        }
+      ],
+      "note": "Retrieved passages are excerpts; full text and raw outputs are not redistributed."
+    }
+  ],
+  "primary_body_receipts": [
+    {
+      "arxiv_label": "2501.13185",
+      "bytes": 1456997,
+      "sha256": "786ae85ef8293104544a93edd7d916476f3689303c2ab8480c99b50766532171",
+      "html_version_labels": [
+        "2501.13185v1"
+      ],
+      "title": "Renormalization of general Effective Field Theories: Formalism and renormalization of bosonic operators",
+      "authors": [
+        "Renato M. Fonseca",
+        "Pablo Olgoso",
+        "José Santiago"
+      ],
+      "body_version": "v1",
+      "body_version_date": "2025-01-22",
+      "new_body": true,
+      "reviewed_sections": [
+        "2.1",
+        "3",
+        "4.1"
+      ],
+      "comparison": "Green versus physical bases; finite/evanescent four-fermion structures; canonical normalization and bare-mu/one-loop pole-to-RG bookkeeping. No dimension-seven template coefficient imported.",
+      "citation_url": "https://arxiv.org/html/2501.13185v1",
+      "retrieval": {
+        "arxiv": "2501.13185",
+        "requested_url": "https://arxiv.org/html/2501.13185",
+        "served_url": "https://arxiv.org/html/2501.13185",
+        "http_status": 200,
+        "bytes": 1456997,
+        "sha256": "786ae85ef8293104544a93edd7d916476f3689303c2ab8480c99b50766532171",
+        "accessed_utc": "2026-10-23T21:39:59.183963+00:00"
+      }
+    },
+    {
+      "arxiv_label": "2602.18395",
+      "bytes": 946799,
+      "sha256": "79be96d7650ce6c8b013575b3abc2f4695d65507d4593e8ff22360de0a86eb87",
+      "html_version_labels": [
+        "2602.18395v1"
+      ],
+      "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+      "authors": [
+        "Fabian Esser",
+        "Lukáš Gráf",
+        "Chandan Hati"
+      ],
+      "body_version": "v1",
+      "body_version_date": "2026-02-20",
+      "new_body": true,
+      "reviewed_sections": [
+        "1",
+        "2",
+        "3.1",
+        "4.1"
+      ],
+      "comparison": "Topology classification does not resolve weak contractions; lower-dimensional operators and actual threshold matching accompany ultraviolet models. Different field content and matching operation from the retained-sterile UV pole.",
+      "citation_url": "https://arxiv.org/html/2602.18395v1",
+      "retrieval": {
+        "arxiv": "2602.18395",
+        "requested_url": "https://arxiv.org/html/2602.18395",
+        "served_url": "https://arxiv.org/html/2602.18395",
+        "http_status": 200,
+        "bytes": 946799,
+        "sha256": "79be96d7650ce6c8b013575b3abc2f4695d65507d4593e8ff22360de0a86eb87",
+        "accessed_utc": "2026-10-23T21:40:00.173045+00:00"
+      }
+    },
+    {
+      "arxiv_label": "2512.16890",
+      "bytes": 1380293,
+      "sha256": "47d272ade8c65f712382eb1a0ecac96c397b0e4a30fb86055cb6ddc3ff37d466",
+      "html_version_labels": [
+        "2512.16890v1"
+      ],
+      "title": "Anomalous Dimension of a General Effective Gauge Theory II: Fermionic Sector",
+      "authors": [
+        "Jason Aebischer",
+        "Luigi C. Bresciani",
+        "Nudžeim Selimović"
+      ],
+      "body_version": "v1",
+      "body_version_date": "2025-12-18",
+      "new_body": false,
+      "reviewed_sections": [
+        "1",
+        "2",
+        "4.3.2"
+      ],
+      "comparison": "General EFT truncates at inverse-scale order two; Eqs153–155 display lower-dimensional scalar quartic mixing with fermion masses. Such templates omit an inverse-scale-order-three derivative-seed insertion.",
+      "citation_url": "https://arxiv.org/html/2512.16890v1",
+      "retrieval": {
+        "method": "reuse previously retrieved primary HTML; bytes and SHA rechecked",
+        "accessed_date_utc": "2026-10-23"
+      }
+    },
+    {
+      "arxiv_label": "2504.00792v2",
+      "bytes": 1506975,
+      "sha256": "27a02c94440ffb3936bdadb89efd50185353b3b85d37e05d9ff26d70378a02d2",
+      "html_version_labels": [
+        "2504.00792v2"
+      ],
+      "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+      "authors": [
+        "Di Zhang"
+      ],
+      "body_version": "v2",
+      "body_version_date": "2025-05-05",
+      "new_body": false,
+      "reviewed_sections": [
+        "3",
+        "4",
+        "6"
+      ],
+      "comparison": "Retain source/field-coordinate reduction, differentiate redundant-coefficient dependence before projecting away, separate auxiliary IR mass from physical Majorana masses. Reference truncates at dimension five.",
+      "citation_url": "https://arxiv.org/html/2504.00792v2",
+      "retrieval": {
+        "method": "reuse previously retrieved primary HTML; bytes and SHA rechecked",
+        "accessed_date_utc": "2026-10-23"
+      }
+    },
+    {
+      "arxiv_label": "2504.17851",
+      "bytes": 606291,
+      "sha256": "affa2a0160d125c793442f5e0c83e141ec931ef523f89d175c459eaf3c62a13b",
+      "html_version_labels": [
+        "2504.17851v3"
+      ],
+      "title": "Equivalence of effective actions",
+      "authors": [
+        "Kevin Falls"
+      ],
+      "body_version": "v3",
+      "body_version_date": "2025-08-22",
+      "new_body": false,
+      "reviewed_sections": [
+        "I",
+        "II"
+      ],
+      "comparison": "Nonlinear microscopic field maps do not directly substitute into the full Legendre quantum effective action; composite-source and mean-field maps differ.",
+      "citation_url": "https://arxiv.org/html/2504.17851v3",
+      "retrieval": {
+        "method": "reuse previously retrieved primary HTML; bytes and SHA rechecked",
+        "accessed_date_utc": "2026-10-23"
+      }
+    }
+  ],
+  "blocked_requests": [
+    {
+      "label": "SY4",
+      "tool": "firecrawl_search",
+      "request": {
+        "query": "\"dimension seven\" \"Majorana\" \"renormalization\" \"mass\" after:2025-01-01 before:2026-10-24",
+        "objective": "Find recent primary research on retained-sterile dimension-seven mass-dependent loop mixing and distinguish SMEFT results without retained singlets.",
+        "sources": [
+          "web"
+        ],
+        "categories": [
+          "research"
+        ],
+        "includeDomains": [
+          "arxiv.org",
+          "inspirehep.net"
+        ],
+        "limit": 8,
+        "highlights": true,
+        "toolDetail": "full"
+      },
+      "status": "not executed",
+      "reason": "Connected Firecrawl web account reported insufficient credits. No retry with changed parameters."
+    },
+    {
+      "label": "S1",
+      "tool": "firecrawl_scrape",
+      "request": {
+        "url": "https://arxiv.org/html/2602.18395",
+        "formats": [
+          "markdown"
+        ],
+        "onlyMainContent": true,
+        "objective": "Inspect the primary setup and loop-induced lower-dimensional LNV operator examples; determine whether this is pure SMEFT after integrating out heavy fields or a retained-sterile dimension-seven running calculation."
+      },
+      "status": "not executed",
+      "reason": "Connected Firecrawl page account reported insufficient credits. No retry with changed parameters. Public primary HTML was retrieved through supported managed HTTPS instead."
+    }
+  ],
+  "feedback_note": "The successful paper-index operations returned no search UUID or dedicated feedback contract. The web-search and scrape failures returned no successful job/search ID; no eligible feedback submission was available. No Alexandria provider execution or discovery occurred.",
+  "redistribution_note": "Only identifiers, metadata, hashes, request parameters and our comparison summaries are public. Abstracts, primary full text and raw tool outputs remain outside the research payload. Personalized billing links from tool error guidance are not redistributed."
+}

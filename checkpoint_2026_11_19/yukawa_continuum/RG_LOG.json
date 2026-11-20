@@ -1,0 +1,88 @@
+{
+  "explicit_log": "ln(mu/mu_ref), opposite to implicit variation of physical leading term",
+  "mass_unit": "fixed scalar pole mass m=1; unbroken four-singlet full theory in MSbar",
+  "coupling_factors": "amplitudes divided by reference gamma; rates multiplied by m^2/|gamma_ref|^2; electron and muon coefficients multiply |y_e|^2 and |g|^2",
+  "checks": {
+    "spectral_refinement_relative_tolerance": "3e-12",
+    "matrix_step_direct_simplex_relative_tolerance": "3e-7",
+    "matrix_step_coupling_strengths": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "central_amplitude_over_gamma": {
+        "real": "-0.00014143753842107",
+        "imaginary": "-6.5067129382686e-5"
+      },
+      "central_explicit_log_per_electron": {
+        "real": "1.3982330262579e-5",
+        "imaginary": "6.2402164507967e-6"
+      },
+      "central_explicit_log_per_muon": {
+        "real": "8.4469648280662e-6",
+        "imaginary": "3.5219826151451e-6"
+      },
+      "scaled_rate": "4.0092537001434e-11",
+      "scaled_explicit_log_per_electron": "-7.8882031509582e-12",
+      "scaled_explicit_log_per_muon": "-4.7116873832581e-12",
+      "fractional_explicit_log_per_electron": "-0.19674991260035",
+      "fractional_explicit_log_per_muon": "-0.11752031015372"
+    },
+    {
+      "s_over_m2": 8,
+      "central_amplitude_over_gamma": {
+        "real": "-0.00017245900780129",
+        "imaginary": "-0.00012501692802803"
+      },
+      "central_explicit_log_per_electron": {
+        "real": "1.718829666611e-5",
+        "imaginary": "1.204872527029e-5"
+      },
+      "central_explicit_log_per_muon": {
+        "real": "1.0467467181256e-5",
+        "imaginary": "6.8784628563555e-6"
+      },
+      "scaled_rate": "5.6182154290729e-11",
+      "scaled_explicit_log_per_electron": "-1.1078138980433e-11",
+      "scaled_explicit_log_per_muon": "-6.6033124210306e-12",
+      "fractional_explicit_log_per_electron": "-0.19718252388662",
+      "fractional_explicit_log_per_muon": "-0.11753398395619"
+    },
+    {
+      "s_over_m2": 10,
+      "central_amplitude_over_gamma": {
+        "real": "-0.00019338112607435",
+        "imaginary": "-0.00018757070705318"
+      },
+      "central_explicit_log_per_electron": {
+        "real": "1.9445833306612e-5",
+        "imaginary": "1.8160749256442e-5"
+      },
+      "central_explicit_log_per_muon": {
+        "real": "1.1913184655295e-5",
+        "imaginary": "1.043271191866e-5"
+      },
+      "scaled_rate": "7.1740070857655e-11",
+      "scaled_explicit_log_per_electron": "-1.4180788661493e-11",
+      "scaled_explicit_log_per_muon": "-8.4283574944766e-12",
+      "fractional_explicit_log_per_electron": "-0.19766900829566",
+      "fractional_explicit_log_per_muon": "-0.11748465528003"
+    }
+  ],
+  "endpoint_ratio": {
+    "sigma10_over_sigma6": "1.7893622160925",
+    "explicit_log_per_electron": "-0.0016445951101635",
+    "explicit_log_per_muon": "6.3799483804714e-5",
+    "fractional_explicit_log_per_electron": "-0.00091909569531144",
+    "fractional_explicit_log_per_muon": "3.5654873692391e-5"
+  }
+}

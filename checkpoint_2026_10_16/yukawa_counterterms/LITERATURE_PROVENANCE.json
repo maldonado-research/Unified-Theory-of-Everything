@@ -1,0 +1,909 @@
+{
+  "title": "Primary benchmarks for pure neutrino-Yukawa one-loop poles",
+  "display_date": "2026-10-15",
+  "display_timezone": "America/Los_Angeles",
+  "accessed_date_utc": "2026-10-16",
+  "scope": "Renormalizable pure-Y pole and beta comparisons plus an external-field-only C7 contribution; not completeC7 running, new physics or exhaustive coverage.",
+  "totals": {
+    "queries": 4,
+    "requested_per_query": 10,
+    "returned_per_query": [
+      6,
+      5,
+      5,
+      10
+    ],
+    "ranked_appearances": 26,
+    "distinct_search_papers": 20,
+    "duplicate_appearances": 6,
+    "new_metadata_inspections": 2,
+    "reused_metadata_inspections": 1,
+    "passage_requests": 3,
+    "papers_with_passages": 3,
+    "passages_returned": 11,
+    "new_http_requests": 2,
+    "new_http_200_responses": 2,
+    "new_primary_bodies_checked": 2,
+    "reused_primary_bodies_checked": 1,
+    "primary_body_hashes_verified": 3
+  },
+  "date_filter_note": "Inclusive provider dates apply to created OR updated records; three2025-2026 windows plus one historical2000-2026 window. Served-body version dates are recorded separately from index updates.",
+  "search_response_id_note": "Canonical IDs and ranking scores were supplied; no per-query UUID returned.",
+  "searches": [
+    {
+      "label": "YP1",
+      "provider": "Firecrawl paper index",
+      "accessed_date_utc": "2026-10-16",
+      "query": "nuSMEFT one loop neutrino Yukawa wave function renormalization constants lepton sterile neutrino Higgs Majorana",
+      "from": "2025-01-01",
+      "to": "2026-10-16",
+      "k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          },
+          "score": 0.9347772541971058
+        },
+        {
+          "rank": 2,
+          "paperId": "1440031534174186164",
+          "primaryId": "arxiv:2507.21691",
+          "title": "One-loop Renormalization of the Type-I Seesaw Model in the Modified Minimal-subtraction Scheme",
+          "ids": {
+            "arxiv": [
+              "2507.21691"
+            ]
+          },
+          "score": 0.7236220674654401
+        },
+        {
+          "rank": 3,
+          "paperId": "3160050501133602803",
+          "primaryId": "arxiv:2604.21492",
+          "title": "Solving Cosmological Puzzles using Finite Temperature νSMEFT",
+          "ids": {
+            "arxiv": [
+              "2604.21492"
+            ]
+          },
+          "score": 0.6355844194431037
+        },
+        {
+          "rank": 4,
+          "paperId": "1995555014760939735",
+          "primaryId": "arxiv:2505.06970",
+          "title": "One-loop corrections to the neutrino in the N-B-LSSM",
+          "ids": {
+            "arxiv": [
+              "2505.06970"
+            ]
+          },
+          "score": 0.5368471405701146
+        },
+        {
+          "rank": 5,
+          "paperId": "6130586679219611014",
+          "primaryId": "arxiv:2608.12646",
+          "title": "A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter",
+          "ids": {
+            "arxiv": [
+              "2608.12646"
+            ]
+          },
+          "score": 0.519326304208111
+        },
+        {
+          "rank": 6,
+          "paperId": "4127891366154985519",
+          "primaryId": "arxiv:2501.13150",
+          "title": "Electromagnetic leptogenesis with light-heavy sterile neutrinos",
+          "ids": {
+            "arxiv": [
+              "2501.13150"
+            ]
+          },
+          "score": 0.5140587932870805
+        }
+      ]
+    },
+    {
+      "label": "YP2",
+      "provider": "Firecrawl paper index",
+      "accessed_date_utc": "2026-10-16",
+      "query": "type I seesaw Higgs mass squared beta function trace neutrino Yukawa Majorana mass one loop MS renormalization",
+      "from": "2025-01-01",
+      "to": "2026-10-16",
+      "k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "paperId": "1440031534174186164",
+          "primaryId": "arxiv:2507.21691",
+          "title": "One-loop Renormalization of the Type-I Seesaw Model in the Modified Minimal-subtraction Scheme",
+          "ids": {
+            "arxiv": [
+              "2507.21691"
+            ]
+          },
+          "score": 0.8655880773740734
+        },
+        {
+          "rank": 2,
+          "paperId": "5418701860989535459",
+          "primaryId": "arxiv:2512.24215",
+          "title": "Neutrino Mass, Vacuum Stability and Higgs Inflation with Vector-Like Quarks and a Single Right-Handed Neutrino",
+          "ids": {
+            "arxiv": [
+              "2512.24215"
+            ],
+            "doi": [
+              "10.1093/ptep/ptag106"
+            ]
+          },
+          "score": 0.8249137318359602
+        },
+        {
+          "rank": 3,
+          "paperId": "4777627333849804292",
+          "primaryId": "arxiv:2509.12844",
+          "title": "One-loop Renormalization of the Type-I Seesaw Model in the On-shell Scheme",
+          "ids": {
+            "arxiv": [
+              "2509.12844"
+            ]
+          },
+          "score": 0.7685247834990175
+        },
+        {
+          "rank": 4,
+          "paperId": "7505206611579180019",
+          "primaryId": "arxiv:2604.06345",
+          "title": "Insights into 1-loop corrections to neutrino low-scale type-I seesaw mechanism",
+          "ids": {
+            "arxiv": [
+              "2604.06345"
+            ]
+          },
+          "score": 0.6661059466888654
+        },
+        {
+          "rank": 5,
+          "paperId": "6130586679219611014",
+          "primaryId": "arxiv:2608.12646",
+          "title": "A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter",
+          "ids": {
+            "arxiv": [
+              "2608.12646"
+            ]
+          },
+          "score": 0.5979366142714727
+        }
+      ]
+    },
+    {
+      "label": "YP3",
+      "provider": "Firecrawl paper index",
+      "accessed_date_utc": "2026-10-16",
+      "query": "neutrino Yukawa proper vertex one loop ultraviolet divergence chiral scalar Majorana fermion self energies renormalization",
+      "from": "2025-01-01",
+      "to": "2026-10-16",
+      "k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "paperId": "1440031534174186164",
+          "primaryId": "arxiv:2507.21691",
+          "title": "One-loop Renormalization of the Type-I Seesaw Model in the Modified Minimal-subtraction Scheme",
+          "ids": {
+            "arxiv": [
+              "2507.21691"
+            ]
+          },
+          "score": 0.8175744761936437
+        },
+        {
+          "rank": 2,
+          "paperId": "6130586679219611014",
+          "primaryId": "arxiv:2608.12646",
+          "title": "A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter",
+          "ids": {
+            "arxiv": [
+              "2608.12646"
+            ]
+          },
+          "score": 0.6939709353983123
+        },
+        {
+          "rank": 3,
+          "paperId": "2314440501364885855",
+          "primaryId": "arxiv:2604.18030",
+          "title": "Yukawa scalar self energy at two loop and ⟨ ϕ² ⟩ in the inflationary de Sitter spacetime",
+          "ids": {
+            "arxiv": [
+              "2604.18030"
+            ]
+          },
+          "score": 0.5979366142714727
+        },
+        {
+          "rank": 4,
+          "paperId": "7095004146920358106",
+          "primaryId": "arxiv:2608.29213",
+          "title": "One-loop renormalization group flow of the translation-invariant noncommutative Yukawa theory",
+          "ids": {
+            "arxiv": [
+              "2608.29213"
+            ]
+          },
+          "score": 0.583203356837953
+        },
+        {
+          "rank": 5,
+          "paperId": "5080971845293977640",
+          "primaryId": "arxiv:2603.25704",
+          "title": "Dark Transition Magnetic Moments of Majorana Neutrinos Mediated by a Dark Photon",
+          "ids": {
+            "arxiv": [
+              "2603.25704"
+            ]
+          },
+          "score": 0.5767326983954835
+        }
+      ]
+    },
+    {
+      "label": "YP4",
+      "provider": "Firecrawl paper index",
+      "accessed_date_utc": "2026-10-16",
+      "query": "renormalization group equations seesaw neutrino Yukawa Majorana mass Higgs mass wave function Antusch one loop",
+      "from": "2000-01-01",
+      "to": "2026-10-16",
+      "k": 10,
+      "search_response_id": null,
+      "results": [
+        {
+          "rank": 1,
+          "paperId": "4140918532442994597",
+          "primaryId": "arxiv:2405.18017",
+          "title": "Threshold Effects on the Massless Neutrino in the Canonical Seesaw Mechanism",
+          "ids": {
+            "arxiv": [
+              "2405.18017"
+            ]
+          },
+          "score": 0.9459612385260552
+        },
+        {
+          "rank": 2,
+          "paperId": "1440031534174186164",
+          "primaryId": "arxiv:2507.21691",
+          "title": "One-loop Renormalization of the Type-I Seesaw Model in the Modified Minimal-subtraction Scheme",
+          "ids": {
+            "arxiv": [
+              "2507.21691"
+            ]
+          },
+          "score": 0.9347772541971058
+        },
+        {
+          "rank": 3,
+          "paperId": "6043193179211366844",
+          "primaryId": "arxiv:hep-ph/0611323",
+          "title": "One-loop renormalization group equations of the neutrino mass matrix in the triplet seesaw model",
+          "ids": {
+            "arxiv": [
+              "hep-ph/0611323"
+            ]
+          },
+          "score": 0.9223705374435115
+        },
+        {
+          "rank": 4,
+          "paperId": "5418701860989535459",
+          "primaryId": "arxiv:2512.24215",
+          "title": "Neutrino Mass, Vacuum Stability and Higgs Inflation with Vector-Like Quarks and a Single Right-Handed Neutrino",
+          "ids": {
+            "arxiv": [
+              "2512.24215"
+            ],
+            "doi": [
+              "10.1093/ptep/ptag106"
+            ]
+          },
+          "score": 0.918713920386427
+        },
+        {
+          "rank": 5,
+          "paperId": "6692352324039042749",
+          "primaryId": "arxiv:2302.08140",
+          "title": "Complete One-loop Renormalization-group Equations in the Seesaw Effective Field Theories",
+          "ids": {
+            "arxiv": [
+              "2302.08140"
+            ]
+          },
+          "score": 0.9067852769181763
+        },
+        {
+          "rank": 6,
+          "paperId": "8056504351301943773",
+          "primaryId": "arxiv:hep-ph/0409231",
+          "title": "Renormalization of the neutrino mass operators in the multi-Higgs-doublet Standard Model",
+          "ids": {
+            "arxiv": [
+              "hep-ph/0409231"
+            ]
+          },
+          "score": 0.9057233191548978
+        },
+        {
+          "rank": 7,
+          "paperId": "5516790290005314586",
+          "primaryId": "arxiv:2407.16751",
+          "title": "Completing the one-loop νSMEFT Renormalization Group Evolution",
+          "ids": {
+            "arxiv": [
+              "2407.16751"
+            ]
+          },
+          "score": 0.8991213772699436
+        },
+        {
+          "rank": 8,
+          "paperId": "2765064043383633877",
+          "primaryId": "arxiv:hep-ph/0309102",
+          "title": "Solutions to the Renormalization Group Equations for Yukawa Matrices as an Answer to the Quark and Lepton Mass Problem",
+          "ids": {
+            "arxiv": [
+              "hep-ph/0309102"
+            ]
+          },
+          "score": 0.8968310908424668
+        },
+        {
+          "rank": 9,
+          "paperId": "2848680378632984192",
+          "primaryId": "arxiv:2005.05171",
+          "title": "On the two-loop radiative origin of the smallest neutrino mass and the associated Majorana CP phase",
+          "ids": {
+            "arxiv": [
+              "2005.05171"
+            ]
+          },
+          "score": 0.8944949086405465
+        },
+        {
+          "rank": 10,
+          "paperId": "7955165940093576901",
+          "primaryId": "arxiv:hep-ph/0507182",
+          "title": "Flipped SU(5), see-saw scale physics and degenerate vacua",
+          "ids": {
+            "arxiv": [
+              "hep-ph/0507182"
+            ]
+          },
+          "score": 0.8933094060543487
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "paperId": "5954995938910162112",
+      "primaryId": "arxiv:2504.00792",
+      "ids": {
+        "arxiv": [
+          "2504.00792"
+        ]
+      },
+      "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+      "score": 0.9347772541971058,
+      "abstract_sha256": "48ba09e0f0d3ff27a148f654af4e3f7aadd4624b0056846f23b8c409e073136a",
+      "abstract_characters": 1357,
+      "url": "https://arxiv.org/abs/2504.00792",
+      "screening_disposition": "Selected reused primary: AppendixA Eq58 supplies one-loop pure-Y wave-function, mass and Yukawa residues; Section2 fixes normalization; Section4 distinguishes UV and spurious IR poles."
+    },
+    {
+      "paperId": "1440031534174186164",
+      "primaryId": "arxiv:2507.21691",
+      "ids": {
+        "arxiv": [
+          "2507.21691"
+        ]
+      },
+      "title": "One-loop Renormalization of the Type-I Seesaw Model in the Modified Minimal-subtraction Scheme",
+      "score": 0.7236220674654401,
+      "abstract_sha256": "7175aeddfe6a1509a4bbfe9af976bd5e0072c9299e352a1e708a95e69a9d5a8d",
+      "abstract_characters": 1206,
+      "url": "https://arxiv.org/abs/2507.21691",
+      "screening_disposition": "Selected new primary: full-model modified-MS one-loop bookkeeping in a broken-phase physical mass/mixing basis, with d4-2epsilon, square-root field factors and FJ tadpoles. Potential and basis must be converted before comparing coefficients."
+    },
+    {
+      "paperId": "3160050501133602803",
+      "primaryId": "arxiv:2604.21492",
+      "ids": {
+        "arxiv": [
+          "2604.21492"
+        ]
+      },
+      "title": "Solving Cosmological Puzzles using Finite Temperature νSMEFT",
+      "score": 0.6355844194431037,
+      "abstract_sha256": "ad9e6e7ab91176937e39d03a7a9042c1e4b1458b64b4feabb46420821d65a748",
+      "abstract_characters": 1806,
+      "url": "https://arxiv.org/abs/2604.21492",
+      "screening_disposition": "Abstract screen: finite-temperature sterile EFT cosmology, different calculation."
+    },
+    {
+      "paperId": "1995555014760939735",
+      "primaryId": "arxiv:2505.06970",
+      "ids": {
+        "arxiv": [
+          "2505.06970"
+        ]
+      },
+      "title": "One-loop corrections to the neutrino in the N-B-LSSM",
+      "score": 0.5368471405701146,
+      "abstract_sha256": "b3e0daf628e3707f621d38da47d73bae7e40c2ce7677d842dcf3ade1a7e13feb",
+      "abstract_characters": 1081,
+      "url": "https://arxiv.org/abs/2505.06970",
+      "screening_disposition": "Abstract screen: supersymmetric B-L extension, additional interactions not adopted."
+    },
+    {
+      "paperId": "6130586679219611014",
+      "primaryId": "arxiv:2608.12646",
+      "ids": {
+        "arxiv": [
+          "2608.12646"
+        ]
+      },
+      "title": "A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter",
+      "score": 0.519326304208111,
+      "abstract_sha256": "91f475baf4ae523c37c780646185b7d32e7ce39f12bda73d57b00c4935ad9800",
+      "abstract_characters": 1799,
+      "url": "https://arxiv.org/abs/2608.12646",
+      "screening_disposition": "Abstract screen: a specific radiative Majorana mass/dark matter model. Not used for the minimal retained-sterile poles."
+    },
+    {
+      "paperId": "4127891366154985519",
+      "primaryId": "arxiv:2501.13150",
+      "ids": {
+        "arxiv": [
+          "2501.13150"
+        ]
+      },
+      "title": "Electromagnetic leptogenesis with light-heavy sterile neutrinos",
+      "score": 0.5140587932870805,
+      "abstract_sha256": "442b2731c4441925b95d7b7c6270b7219cd07f02cb5db34989e9af2d3d5c40c2",
+      "abstract_characters": 1473,
+      "url": "https://arxiv.org/abs/2501.13150",
+      "screening_disposition": "Abstract screen: electromagnetic leptogenesis, not the present renormalizable counterterm calculation."
+    },
+    {
+      "paperId": "5418701860989535459",
+      "primaryId": "arxiv:2512.24215",
+      "ids": {
+        "arxiv": [
+          "2512.24215"
+        ],
+        "doi": [
+          "10.1093/ptep/ptag106"
+        ]
+      },
+      "title": "Neutrino Mass, Vacuum Stability and Higgs Inflation with Vector-Like Quarks and a Single Right-Handed Neutrino",
+      "score": 0.8249137318359602,
+      "abstract_sha256": "086ef6734d4426e07ec3ec48788d57558f33ba68d2c6178bf799feeff773fb23",
+      "abstract_characters": 1580,
+      "url": "https://arxiv.org/abs/2512.24215",
+      "screening_disposition": "Abstract screen: vector-like quarks and a single sterile neutrino in vacuum stability/inflation. Additional field content not adopted."
+    },
+    {
+      "paperId": "4777627333849804292",
+      "primaryId": "arxiv:2509.12844",
+      "ids": {
+        "arxiv": [
+          "2509.12844"
+        ]
+      },
+      "title": "One-loop Renormalization of the Type-I Seesaw Model in the On-shell Scheme",
+      "score": 0.7685247834990175,
+      "abstract_sha256": "a9a2afccd6b4104786c69663a17f23bacd0dc05cca95cda62a18baa5ba0077eb",
+      "abstract_characters": 1020,
+      "url": "https://arxiv.org/abs/2509.12844",
+      "screening_disposition": "Abstract screen: on-shell type-I seesaw renormalization. The selected new2507.21691 modified-MS primary is the more direct scheme benchmark; no on-shell counterterms imported."
+    },
+    {
+      "paperId": "7505206611579180019",
+      "primaryId": "arxiv:2604.06345",
+      "ids": {
+        "arxiv": [
+          "2604.06345"
+        ]
+      },
+      "title": "Insights into 1-loop corrections to neutrino low-scale type-I seesaw mechanism",
+      "score": 0.6661059466888654,
+      "abstract_sha256": "4998734f930b8077b6212bdac171ceab1d076438ebbba8fbfe44a46f2e03079c",
+      "abstract_characters": 964,
+      "url": "https://arxiv.org/abs/2604.06345",
+      "screening_disposition": "Abstract screen: low-scale type-I seesaw loop corrections. No mass-basis formula imported."
+    },
+    {
+      "paperId": "2314440501364885855",
+      "primaryId": "arxiv:2604.18030",
+      "ids": {
+        "arxiv": [
+          "2604.18030"
+        ]
+      },
+      "title": "Yukawa scalar self energy at two loop and ⟨ ϕ² ⟩ in the inflationary de Sitter spacetime",
+      "score": 0.5979366142714727,
+      "abstract_sha256": "875bfdcf5566843c7b607ac84f6d685d916c042f9abd61cb351eb21974b96903",
+      "abstract_characters": 1674,
+      "url": "https://arxiv.org/abs/2604.18030",
+      "screening_disposition": "Abstract screen: two-loop Yukawa scalar effects in inflationary deSitter, different loop order and background."
+    },
+    {
+      "paperId": "7095004146920358106",
+      "primaryId": "arxiv:2608.29213",
+      "ids": {
+        "arxiv": [
+          "2608.29213"
+        ]
+      },
+      "title": "One-loop renormalization group flow of the translation-invariant noncommutative Yukawa theory",
+      "score": 0.583203356837953,
+      "abstract_sha256": "e50b972f73f9c6244f9eed8079f0f6e1ab1f8a85569768fb3409098f6682123c",
+      "abstract_characters": 1478,
+      "url": "https://arxiv.org/abs/2608.29213",
+      "screening_disposition": "Abstract screen: noncommutative Yukawa theory, different model."
+    },
+    {
+      "paperId": "5080971845293977640",
+      "primaryId": "arxiv:2603.25704",
+      "ids": {
+        "arxiv": [
+          "2603.25704"
+        ]
+      },
+      "title": "Dark Transition Magnetic Moments of Majorana Neutrinos Mediated by a Dark Photon",
+      "score": 0.5767326983954835,
+      "abstract_sha256": "dbffaf90ec523ebeca3c800bbd6171551884343474a1dc9dc1a9109304eff588",
+      "abstract_characters": 1654,
+      "url": "https://arxiv.org/abs/2603.25704",
+      "screening_disposition": "Abstract screen: dark-photon-mediated Majorana transition moments, different interactions and target."
+    },
+    {
+      "paperId": "4140918532442994597",
+      "primaryId": "arxiv:2405.18017",
+      "ids": {
+        "arxiv": [
+          "2405.18017"
+        ]
+      },
+      "title": "Threshold Effects on the Massless Neutrino in the Canonical Seesaw Mechanism",
+      "score": 0.9459612385260552,
+      "abstract_sha256": "c872aa0e06e3190445880fb3f4110d6cbe4037097a9787d5e3cdfa8afe843bfe",
+      "abstract_characters": 1258,
+      "url": "https://arxiv.org/abs/2405.18017",
+      "screening_disposition": "Abstract screen: seesaw threshold effect on a massless neutrino. No sterile threshold elimination performed here."
+    },
+    {
+      "paperId": "6043193179211366844",
+      "primaryId": "arxiv:hep-ph/0611323",
+      "ids": {
+        "arxiv": [
+          "hep-ph/0611323"
+        ]
+      },
+      "title": "One-loop renormalization group equations of the neutrino mass matrix in the triplet seesaw model",
+      "score": 0.9223705374435115,
+      "abstract_sha256": "b6cb7b1c153ef08c27c2ec5538c3143f42e2a164b9954a902501dc42685ea4a8",
+      "abstract_characters": 433,
+      "url": "https://arxiv.org/abs/hep-ph/0611323",
+      "screening_disposition": "Abstract screen: triplet seesaw model, different heavy field and beta functions."
+    },
+    {
+      "paperId": "6692352324039042749",
+      "primaryId": "arxiv:2302.08140",
+      "ids": {
+        "arxiv": [
+          "2302.08140"
+        ]
+      },
+      "title": "Complete One-loop Renormalization-group Equations in the Seesaw Effective Field Theories",
+      "score": 0.9067852769181763,
+      "abstract_sha256": "3e8fa6be6540ea17b116f11d145445f568d11ab76d4dab28dc8bbb4bd8688632",
+      "abstract_characters": 1500,
+      "url": "https://arxiv.org/abs/2302.08140",
+      "screening_disposition": "Abstract screen: seesaw effective theories with threshold-removed heavy sectors. Not a direct replacement for the retained-sterile full-theory pole calculation."
+    },
+    {
+      "paperId": "8056504351301943773",
+      "primaryId": "arxiv:hep-ph/0409231",
+      "ids": {
+        "arxiv": [
+          "hep-ph/0409231"
+        ]
+      },
+      "title": "Renormalization of the neutrino mass operators in the multi-Higgs-doublet Standard Model",
+      "score": 0.9057233191548978,
+      "abstract_sha256": "c2cf1562bf598c0252c0f64f67ffcb91c89eff2f0c707231791ee2d29948c48c",
+      "abstract_characters": 945,
+      "url": "https://arxiv.org/abs/hep-ph/0409231",
+      "screening_disposition": "Abstract screen: multi-Higgs neutrino mass-operator running, different scalar content."
+    },
+    {
+      "paperId": "5516790290005314586",
+      "primaryId": "arxiv:2407.16751",
+      "ids": {
+        "arxiv": [
+          "2407.16751"
+        ]
+      },
+      "title": "Completing the one-loop νSMEFT Renormalization Group Evolution",
+      "score": 0.8991213772699436,
+      "abstract_sha256": "a0bc43a2f092023422474433b272f79bf8387e5bf0e90ab9e982ac322d4299b0",
+      "abstract_characters": 778,
+      "url": "https://arxiv.org/abs/2407.16751",
+      "screening_disposition": "Abstract screen: dimension-six sterile EFT Yukawa running, known earlier reference. No higher-dimensional coefficient imported."
+    },
+    {
+      "paperId": "2765064043383633877",
+      "primaryId": "arxiv:hep-ph/0309102",
+      "ids": {
+        "arxiv": [
+          "hep-ph/0309102"
+        ]
+      },
+      "title": "Solutions to the Renormalization Group Equations for Yukawa Matrices as an Answer to the Quark and Lepton Mass Problem",
+      "score": 0.8968310908424668,
+      "abstract_sha256": "206e543c3936dd29ba6a8ac95dd3ac281ad59ee5138d8385cd950b89f33c97e8",
+      "abstract_characters": 1133,
+      "url": "https://arxiv.org/abs/hep-ph/0309102",
+      "screening_disposition": "Abstract screen: broader solutions for Yukawa matrix evolution, not selected for explicit pole definitions."
+    },
+    {
+      "paperId": "2848680378632984192",
+      "primaryId": "arxiv:2005.05171",
+      "ids": {
+        "arxiv": [
+          "2005.05171"
+        ]
+      },
+      "title": "On the two-loop radiative origin of the smallest neutrino mass and the associated Majorana CP phase",
+      "score": 0.8944949086405465,
+      "abstract_sha256": "64c943a95105fc7213e079a5190a809ee1fe403bc3a44319152c447e6d78628e",
+      "abstract_characters": 1040,
+      "url": "https://arxiv.org/abs/2005.05171",
+      "screening_disposition": "Abstract screen: two-loop origin of the smallest active neutrino mass, different truncation."
+    },
+    {
+      "paperId": "7955165940093576901",
+      "primaryId": "arxiv:hep-ph/0507182",
+      "ids": {
+        "arxiv": [
+          "hep-ph/0507182"
+        ]
+      },
+      "title": "Flipped SU(5), see-saw scale physics and degenerate vacua",
+      "score": 0.8933094060543487,
+      "abstract_sha256": "dd673ef920ef11f0fbc6730596fb2352e79fee09c7386b644b1f553aa625ba56",
+      "abstract_characters": 1066,
+      "url": "https://arxiv.org/abs/hep-ph/0507182",
+      "screening_disposition": "Abstract screen: flippedSU5 high-scale model, not adopted."
+    }
+  ],
+  "new_metadata_inspections": [
+    {
+      "paperId": "1440031534174186164",
+      "ids": {
+        "arxiv": [
+          "2507.21691"
+        ]
+      },
+      "title": "One-loop Renormalization of the Type-I Seesaw Model in the Modified Minimal-subtraction Scheme",
+      "authors": "Jihong Huang, Shun Zhou",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "createdDate": "Tue, 29 Jul 2025 11:15:30 GMT",
+      "updateDate": "2026-01-06",
+      "abstract_sha256": "7175aeddfe6a1509a4bbfe9af976bd5e0072c9299e352a1e708a95e69a9d5a8d",
+      "abstract_characters": 1206
+    },
+    {
+      "paperId": "9177542420223592641",
+      "ids": {
+        "arxiv": [
+          "hep-ph/0501272"
+        ]
+      },
+      "title": "Running Neutrino Mass Parameters in See-Saw Scenarios",
+      "authors": "Stefan Antusch, Joern Kersten, Manfred Lindner, Michael Ratz, Michael Andreas Schmidt",
+      "categories": [
+        "hep-ph"
+      ],
+      "createdDate": "Mon, 31 Jan 2005 16:56:15 GMT",
+      "updateDate": "2009-07-09",
+      "abstract_sha256": "49463c233ae695742f22e3552fa3f6aa4a4b13bdeb2a01c512ab61e1d896ad78",
+      "abstract_characters": 649
+    }
+  ],
+  "reused_metadata_inspections": [
+    {
+      "paperId": "5954995938910162112",
+      "ids": {
+        "arxiv": [
+          "2504.00792"
+        ]
+      },
+      "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+      "authors": "Di Zhang",
+      "categories": [
+        "hep-ph",
+        "hep-ex"
+      ],
+      "createdDate": "Tue, 1 Apr 2025 13:50:58 GMT",
+      "updateDate": "2025-05-07",
+      "abstract_sha256": "48ba09e0f0d3ff27a148f654af4e3f7aadd4624b0056846f23b8c409e073136a",
+      "abstract_characters": 1357
+    }
+  ],
+  "passage_requests": [
+    {
+      "paperId": "arxiv:2504.00792",
+      "question": "What are the Appendix A one-loop wave-function counterterms for Higgs, lepton doublet and sterile neutrino, the Higgs mass counterterm, neutrino Yukawa and Majorana mass counterterms in the renormalizable limit where all dimension-five and redundant coefficients vanish? Also identify epsilon=(4-d)/2 and UV/IR rearrangement conventions.",
+      "k": 4,
+      "passages_returned": 4,
+      "is_error": false
+    },
+    {
+      "paperId": "arxiv:2507.21691",
+      "question": "What renormalization conventions distinguish bare wave-function and parameter counterterms from one-loop beta functions? Identify the scheme, dimension convention, role of tadpoles and broken-phase mass/mixing basis, and any Higgs mass or neutrino Yukawa beta comparisons with the unbroken type-I seesaw.",
+      "k": 4,
+      "passages_returned": 4,
+      "is_error": false
+    },
+    {
+      "paperId": "arxiv:hep-ph/0501272",
+      "question": "Locate Appendix D.1 equations D33b and D33c for Majorana mass and neutrino Yukawa beta functions in the extended Standard Model. What is the source convention and matrix orientation in the Yukawa Lagrangian and Majorana mass term?",
+      "k": 3,
+      "passages_returned": 3,
+      "is_error": false
+    }
+  ],
+  "primary_sources": [
+    {
+      "arxiv": "2507.21691",
+      "observed_version": "v2",
+      "observed_version_date": "2026-01-04",
+      "format": "HTML",
+      "requested_url": "https://arxiv.org/html/2507.21691",
+      "bytes": 1032081,
+      "sha256": "50f0158b49220e2bbd6d1c05d09f8c615c93586bece448f1f19195e66ab967c9",
+      "local_sha256_verified": true,
+      "sections_checked": [
+        "Section3: original/broken-phase parameters, V=-m2rho+lambda rho2/4 and FJ tadpole prescription",
+        "Section3 Eq3.3 and following discussion: field factors1+deltaZ/2, d4-2epsilon and modified-MS UV subtraction",
+        "Section4.1 Eqs4.1-4.3: kinetic and parameter contributions in fermion counterterms",
+        "Section4.2 Eq4.32: physical Higgs mass running, inspected for coordinate distinction only"
+      ],
+      "methodological_use": "Current full-model renormalization benchmark, not an unconverted unbroken-field coefficient source."
+    },
+    {
+      "arxiv": "hep-ph/0501272",
+      "observed_version": "v3",
+      "observed_version_date": "2005-03-21",
+      "format": "HTML",
+      "requested_url": "https://arxiv.org/html/hep-ph/0501272",
+      "bytes": 1140853,
+      "sha256": "1515d3722606924264fe569931757afec3ca305224abf73314ef2891d73586b4",
+      "local_sha256_verified": true,
+      "sections_checked": [
+        "Section2 Eq2: sterile-row Yukawa and conjugated Majorana mass convention",
+        "AppendixD.1 EqsD.33b-D.33c: extended-SM Majorana and neutrino Yukawa beta functions"
+      ],
+      "methodological_use": "Independent standard betaY/betaM comparison after Y_source=Ydagger and M_source=Mdagger conversion; numerical running and threshold matching not used."
+    },
+    {
+      "arxiv": "2504.00792",
+      "observed_version": "v2",
+      "observed_version_date": "2025-05-05",
+      "format": "HTML",
+      "requested_url": "https://arxiv.org/html/2504.00792v2",
+      "bytes": 1506975,
+      "sha256": "27a02c94440ffb3936bdadb89efd50185353b3b85d37e05d9ff26d70378a02d2",
+      "local_sha256_verified": true,
+      "reuse": "Saved primary body reused and newly inspected for one-loop counterterms; no new HTTP request.",
+      "original_retrieval_receipt": {
+        "requested_url": "https://arxiv.org/html/2504.00792v2",
+        "accessed_utc": "2026-10-15T21:01:35.160444+00:00",
+        "status": 200,
+        "resolved_url": "https://arxiv.org/html/2504.00792v2",
+        "bytes": 1506975,
+        "sha256": "27a02c94440ffb3936bdadb89efd50185353b3b85d37e05d9ff26d70378a02d2",
+        "title": "Two-loop Renormalization Group Equations in the 𝜈SMEFT",
+        "observed_arxiv_version": "2504.00792v2",
+        "observed_version_date": "05 May 2025",
+        "local_sha256_verified": true,
+        "targeted_sections_checked": [
+          "Section 3, Eqs. (13)-(15): derivative/source shifts, bare-coupling reduction, counterterm expansion",
+          "Section 6, Eqs. (51)-(57): RG derivative ordering, anti-Hermitian flavor freedom"
+        ],
+        "claims_corroborated": true
+      },
+      "sections_checked": [
+        "Section2 Eqs2 and4-10: renormalizable Lagrangian, field/parameter factors and epsilon counting",
+        "AppendixA Eq58: actual one-loop scalar, lepton, sterile, mass and Yukawa pole formulas",
+        "Section4 Eqs20-21 and surrounding discussion: auxiliary-mass rearrangement and spurious IR divergences"
+      ],
+      "methodological_use": "Direct pure-Y pole benchmark after omitting gauge, spectator, scalar-quartic and all dimension-five/redundant couplings. Scalar amplitude and vertex cancellation are algebraic translations of these residues."
+    }
+  ],
+  "new_http_request_receipts": [
+    {
+      "requested_url": "https://arxiv.org/html/2507.21691",
+      "accessed_utc": "2026-10-16T02:56:04.266934+00:00",
+      "proxy": "inherited managed proxy",
+      "tls_verification": "enabled",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/2507.21691",
+      "bytes": 1032081,
+      "sha256": "50f0158b49220e2bbd6d1c05d09f8c615c93586bece448f1f19195e66ab967c9"
+    },
+    {
+      "requested_url": "https://arxiv.org/html/hep-ph/0501272",
+      "accessed_utc": "2026-10-16T02:56:04.267382+00:00",
+      "proxy": "inherited managed proxy",
+      "tls_verification": "enabled",
+      "status": 200,
+      "resolved_url": "https://arxiv.org/html/hep-ph/0501272",
+      "bytes": 1140853,
+      "sha256": "1515d3722606924264fe569931757afec3ca305224abf73314ef2891d73586b4"
+    }
+  ],
+  "direct_pole_comparison": {
+    "definitions": "kappa=1/(16pi2 epsilon), HL=YYdagger, H=YdaggerY, T=TrH, S=Tr(H MdaggerM)",
+    "source": "2504.00792v2 AppendixA Eq58 after explicit pure-Y restriction",
+    "deltaZL": "-kappa HL/2",
+    "deltaZNL": "-kappa H^T",
+    "deltaZNR": "-kappa H",
+    "deltaZphi": "-kappa T",
+    "delta_m2_parameter": "kappa(m2 T-2S)",
+    "delta_M_parameter": "kappa(H^T M+M H)/2",
+    "delta_Y_parameter": "kappa(3YH/4+T Y/2)",
+    "loop_scalar_amplitude_translation": "+i kappa(T p2-2S), using declared inverse propagator p2-m2 and including field factors in mass counterterm",
+    "proper_yukawa_pole_translation": "Net field-plus-parameter proper pure-Y counterterm cancels; independent direct diagram check remains separate."
+  },
+  "beta_comparison": {
+    "16pi2_beta_Y": "3YH/2+T Y",
+    "16pi2_beta_M": "H^T M+M H",
+    "16pi2_beta_m2": "2m2 T-4S",
+    "claim_limit": "Standard renormalizable pure-Y contributions in stated conventions."
+  },
+  "external_C7_field_part": {
+    "residue": "rC_field=(HL C+C HL^T)/4+T C",
+    "16pi2_beta_field_part": "2rC_field",
+    "claim_limit": "Only external-field factors; not the full dimension-seven coefficient, proper vertex or anomalous-dimension matrix."
+  },
+  "limitations": [
+    "Only named body sections were reviewed. No complete paper or supplement was exhaustively checked.",
+    "The AppendixA formulas were read in the saved primary HTML; passage-index results alone did not return all of Eq58.",
+    "Most search results were screened only from metadata/abstracts.",
+    "No full broken-to-unbroken parameter/tadpole/mixing conversion or finite matching of2507.21691 was performed.",
+    "Published counterterms check consistency; packet self-energy and proper-vertex diagram calculations are separate artifacts.",
+    "A scaleless dimensionally regulated integral is not by itself evidence for a zero UV pole.",
+    "External-field-only C7 running is not a complete physicalC7 beta function."
+  ],
+  "publication_note": "Full papers, verbatim abstracts, passage dumps and raw provider results stay in scratch storage. Public abstract_sha256 hashes exact UTF-8 strings and abstract_characters counts Unicode characters. Own summaries, identifiers and primary byte receipts remain public. Hashes document inspected bytes, not independent validation of every published result."
+}

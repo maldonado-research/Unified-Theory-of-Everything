@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "input_commit": "4ed8560e019dfe74ed6c5178b0f990fe3ccb3008",
+  "scope": "Complex symmetric retained mass: chiral sourced recurrences, ordered residuals, integrated field-map rows, and active coefficient covariance. No physical matching or running.",
+  "positive_checks": 525,
+  "positive_categories": {
+    "Clifford convention": 16,
+    "symmetric input seed": 1,
+    "active unitary coordinate change": 1,
+    "symmetric Majorana mass": 3,
+    "Fourier A squared": 9,
+    "first sourced recurrence": 9,
+    "second sourced recurrence": 9,
+    "third sourced recurrence": 9,
+    "sterile unitary coordinate change": 18,
+    "mass congruence remains symmetric": 18,
+    "selected F coordinate change": 18,
+    "eR sterile covariance": 18,
+    "eR contracted active covariance": 18,
+    "R sterile covariance": 18,
+    "R contracted active covariance": 18,
+    "T sterile covariance": 18,
+    "T contracted active covariance": 18,
+    "U sterile covariance": 18,
+    "U contracted active covariance": 18,
+    "opposite-chirality source covariance": 18,
+    "opposite-chirality residual covariance": 18,
+    "literal active source S_R covariance": 18,
+    "literal active source S_LN covariance": 18,
+    "active neutral Box congruence": 18,
+    "active neutral Box symmetric coefficient congruence": 18,
+    "active mass-squared congruence": 18,
+    "active mass-squared symmetric coefficient congruence": 18,
+    "active LNC derivative similarity": 18,
+    "active LNC Hermitian projection": 18,
+    "retained-mass tensor transport": 18,
+    "sterile scalar/tensor source congruence": 18,
+    "selected sterile source symmetry": 18,
+    "integrated x field-map row covariance": 18,
+    "integrated y field-map row covariance": 18
+  },
+  "negative_checks": 42,
+  "negative_categories": {
+    "M squared used for complex mass": 6,
+    "real-mass cubic rule reused": 6,
+    "adjoint missing from opposite chiral equation": 6,
+    "unitary similarity substituted for Majorana congruence": 12,
+    "active mass-squared real rule not covariant": 12
+  },
+  "mass_momentum_cases": [
+    {
+      "mass": "generic complex symmetric",
+      "rank": 2,
+      "p_squared": "1"
+    },
+    {
+      "mass": "generic complex symmetric",
+      "rank": 2,
+      "p_squared": "3"
+    },
+    {
+      "mass": "generic complex symmetric",
+      "rank": 2,
+      "p_squared": "4/3"
+    },
+    {
+      "mass": "singular complex symmetric",
+      "rank": 1,
+      "p_squared": "1"
+    },
+    {
+      "mass": "singular complex symmetric",
+      "rank": 1,
+      "p_squared": "3"
+    },
+    {
+      "mass": "singular complex symmetric",
+      "rank": 1,
+      "p_squared": "4/3"
+    },
+    {
+      "mass": "zero",
+      "rank": 0,
+      "p_squared": "1"
+    },
+    {
+      "mass": "zero",
+      "rank": 0,
+      "p_squared": "3"
+    },
+    {
+      "mass": "zero",
+      "rank": 0,
+      "p_squared": "4/3"
+    }
+  ],
+  "sterile_unitaries": 2,
+  "active_flavors": 3,
+  "sterile_flavors": 2,
+  "arithmetic": "exact Gaussian rational SymPy matrices",
+  "repository_imports": false,
+  "assertions_required": false
+}

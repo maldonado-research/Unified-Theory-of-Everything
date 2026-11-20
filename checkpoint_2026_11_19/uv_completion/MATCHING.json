@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "electron_C5_C7_C9_in_units_y2_over_mass_power": [
+    "0",
+    "3/4",
+    "15/16"
+  ],
+  "slope_in_units_y2_over_M3": "-3/8",
+  "muon_residues_over_m_times_conjugate_g_squared": [
+    1,
+    -1
+  ],
+  "spacelike_ratio_at_minus_z_equal_M_squared": "2/5",
+  "checks": [
+    "positive-mass moments n=0..7, independent spacelike Dirac inverse",
+    "exact exchange and rational remainders through dimensions seven and nine",
+    "two scalar routings, energy slope, angular term and uniform transfer bound",
+    "complex Yukawas, ordered spin factors and reciprocal tree product",
+    "fractional detuning of second electron Yukawa square"
+  ]
+}

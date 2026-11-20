@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "Clifford convention": 16,
+    "Grassmann Majorana residual plus conjugate": 1,
+    "Majorana kinetic half cancels after IBP": 4,
+    "Majorana mass half cancels two slots": 1,
+    "Majorana reality of completed shift": 4,
+    "Maxwell Euler index and sign": 4,
+    "charge-conjugation convention": 4,
+    "constant scalar tadpole": 1,
+    "expanded sterile x row": 18,
+    "expanded sterile y row": 18,
+    "explicit x column adjoint": 18,
+    "explicit y column adjoint": 18,
+    "lepton chirality": 8,
+    "lepton integrated adjoint with connection": 8,
+    "literal scalar Euler source sign": 1,
+    "neutral background x linearization": 12,
+    "neutral background y linearization": 12,
+    "original neutral quadratic packet": 1,
+    "raw sterile residual Fourier factorization": 6,
+    "real gauge shift cancels both conjugate channels": 1,
+    "x left chirality": 18,
+    "y right chirality": 18
+  },
+  "limits": [
+    "Does not derive Eq(5) from the loop integrals.",
+    "Does not calculate the full EFT counterterm vector.",
+    "Does not replace a complete gauge-fixed quantum change-of-variables analysis."
+  ],
+  "negative_control_count": 14,
+  "negative_controls_rejected": [
+    "positive rather than negative scalar Yukawa source",
+    "unintegrated minus one-sixth kept in lepton shift",
+    "wrong covariant connection in integrated adjoint",
+    "wrong sterile integrated first-derivative sign",
+    "missing differentiated lepton source",
+    "missing scalar source term",
+    "wrong sterile source-derivative sign",
+    "wrong mass flavor slot",
+    "wrong sterile chiral residual coefficient",
+    "half-sized Majorana shift",
+    "omitted Majorana conjugate completion",
+    "wrong sign gauge shift",
+    "background source sign reversed",
+    "dropping off-stationary scalar tadpole"
+  ],
+  "python": "3.12.14",
+  "scope": "Exact action algebra for selected residual packet; no new loop integration or physical matching.",
+  "source_candidate": "89f5867453bc7ed706d249dc82b393245b28d7ea",
+  "status": "passed",
+  "sympy": "1.14.0",
+  "total_checks": 192,
+  "trial_configuration": {
+    "active_flavors": 2,
+    "fourier_trials": 8,
+    "jet_trials": 6,
+    "neutral_background_trials": 4,
+    "raw_sterile_residual_fourier_trials": 6,
+    "sterile_flavors": 3,
+    "weak_components": 2
+  }
+}

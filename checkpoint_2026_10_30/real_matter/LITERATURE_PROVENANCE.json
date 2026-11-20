@@ -1,0 +1,459 @@
+{
+  "title": "Focused literature for real matter normalization and residual field-space geometry",
+  "display_date": "2026-10-30",
+  "display_timezone": "Etc/UTC",
+  "accessed_date_utc": "2026-10-30",
+  "scope": "Bounded method comparison for a first-order classical retained-sterile matter-pole transport. No imported coefficient, exhaustive search, novelty determination, complete quantum map, physical running or empirical claim.",
+  "totals": {
+    "paper_index_searches": 3,
+    "paper_index_ranked_appearances": 24,
+    "paper_index_distinct_records": 23,
+    "paper_index_duplicate_appearances": 1,
+    "ordinary_web_searches": 1,
+    "web_ranked_results": 5,
+    "metadata_inspections": 3,
+    "passage_requests": 3,
+    "passages_returned": 9,
+    "versioned_primary_body_scrapes": 2
+  },
+  "date_filter_note": "Queries 1 and 3 use inclusive created-or-updated date filters 2025-01-01 through 2026-10-30. Query 2 is undated to retain established methodological references. These bounds are provider filters, not proof of exhaustive coverage or current body versions.",
+  "searches": [
+    {
+      "query": "\u03bdSMEFT sterile neutrino nonlinear field redefinitions canonical normalization dimension six dimension seven equations of motion mass",
+      "from": "2025-01-01",
+      "to": "2026-10-30",
+      "k": 8,
+      "records": [
+        {
+          "rank": 1,
+          "paperId": "7182509398629873163",
+          "primaryId": "arxiv:2502.14303",
+          "title": "Baryon-number-violating nucleon decays in sterile neutrino effective field theories",
+          "ids": {
+            "arxiv": [
+              "2502.14303"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "title": "Two-loop Renormalization Group Equations in the \u03bdSMEFT",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "paperId": "2023073472807467328",
+          "primaryId": "arxiv:2602.02720",
+          "title": "Differentiating Dimension-6 and Dimension-8 Effects in \u03bdSMEFT at the HL-LHC",
+          "ids": {
+            "arxiv": [
+              "2602.02720"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "paperId": "3160050501133602803",
+          "primaryId": "arxiv:2604.21492",
+          "title": "Solving Cosmological Puzzles using Finite Temperature \u03bdSMEFT",
+          "ids": {
+            "arxiv": [
+              "2604.21492"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "paperId": "8462691033077978768",
+          "primaryId": "arxiv:2510.24843",
+          "title": "Impact of dim-6 \u03bdSMEFT operators on low-scale leptogenesis",
+          "ids": {
+            "arxiv": [
+              "2510.24843"
+            ],
+            "doi": [
+              "10.1007/JHEP06(2026)223"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "paperId": "2983798576991964388",
+          "primaryId": "arxiv:2511.10733",
+          "title": "FeynRules and UFO models for \u03bdSMEFT: operators of dimensions five and six",
+          "ids": {
+            "arxiv": [
+              "2511.10733"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "paperId": "5373572472575405965",
+          "primaryId": "arxiv:2501.07618",
+          "title": "Future collider sensitivities to \u03bdSMEFT interactions",
+          "ids": {
+            "arxiv": [
+              "2501.07618"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "paperId": "5417118279513012154",
+          "primaryId": "arxiv:2607.21711",
+          "title": "Direct constraints on the agnostic \u03bdSMEFT from heavy-neutrino searches at the LHC",
+          "ids": {
+            "arxiv": [
+              "2607.21711"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query": "effective field theory field redefinitions higher orders dimension five dimension six dimension seven canonical normalization sources equations of motion",
+      "k": 8,
+      "records": [
+        {
+          "rank": 1,
+          "paperId": "2854986146380336277",
+          "primaryId": "arxiv:1711.05270",
+          "title": "Low-Energy Effective Field Theory below the Electroweak Scale: Anomalous Dimensions",
+          "ids": {
+            "arxiv": [
+              "1711.05270"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "paperId": "8237040307813920876",
+          "primaryId": "arxiv:2605.15176",
+          "title": "Matching higher-dimensional operators at finite temperature for general models",
+          "ids": {
+            "arxiv": [
+              "2605.15176"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "paperId": "9196221829856126217",
+          "primaryId": "arxiv:2310.11055",
+          "title": "Revisiting Renormalization Group Equations of the SMEFT Dimension-Seven Operators",
+          "ids": {
+            "arxiv": [
+              "2310.11055"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "paperId": "616281136479883248",
+          "primaryId": "pmid:10019185",
+          "title": "Field transformations and the classical equation of motion in chiral perturbation theory.",
+          "ids": {
+            "doi": [
+              "10.1103/physrevd.52.6445"
+            ],
+            "pmid": [
+              "10019185"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "paperId": "8437038454302769295",
+          "primaryId": "arxiv:2505.00082",
+          "title": "Stable non-linear evolution in regularised higher derivative effective field theories",
+          "ids": {
+            "arxiv": [
+              "2505.00082"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "paperId": "8976294259535957307",
+          "primaryId": "arxiv:1901.04177",
+          "title": "XEFT, the challenging path up the hill: dim = 6 and dim = 8",
+          "ids": {
+            "arxiv": [
+              "1901.04177"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "paperId": "6281764731836376590",
+          "primaryId": "arxiv:2409.02622",
+          "title": "Renormalization Group Equations for the Dimension-7 SMEFT Operators",
+          "ids": {
+            "arxiv": [
+              "2409.02622"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "paperId": "6962501293112275376",
+          "primaryId": "arxiv:2104.08248",
+          "title": "Neutrino masses in the Standard Model effective field theory",
+          "ids": {
+            "arxiv": [
+              "2104.08248"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query": "Higgs lepton redundant kinetic operator radial field redefinition renormalization SMEFT geometric scalar field space",
+      "from": "2025-01-01",
+      "to": "2026-10-30",
+      "k": 8,
+      "records": [
+        {
+          "rank": 1,
+          "paperId": "9107000770039779148",
+          "primaryId": "arxiv:2512.02773",
+          "title": "Leptophilic Gauge Interactions in the SMEFT Era",
+          "ids": {
+            "arxiv": [
+              "2512.02773"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "paperId": "3664392632971712524",
+          "primaryId": "arxiv:2512.13612",
+          "title": "The Potential of HEFT and the scale of New Physics",
+          "ids": {
+            "arxiv": [
+              "2512.13612"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "paperId": "7732855714374304785",
+          "primaryId": "arxiv:2501.12160",
+          "title": "Electroweak Scalar Effects Beyond Dimension-6 in SMEFT",
+          "ids": {
+            "arxiv": [
+              "2501.12160"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "paperId": "244162652813224073",
+          "primaryId": "arxiv:2602.05461",
+          "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+          "ids": {
+            "arxiv": [
+              "2602.05461"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "title": "Two-loop Renormalization Group Equations in the \u03bdSMEFT",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "paperId": "4729623555975747542",
+          "primaryId": "arxiv:2507.16905",
+          "title": "Hot news on the phase structure of the SMEFT",
+          "ids": {
+            "arxiv": [
+              "2507.16905"
+            ],
+            "doi": [
+              "10.1103/zxzs-d6zt"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "paperId": "8098556065838488123",
+          "primaryId": "arxiv:2511.15609",
+          "title": "Assessing (H)EFT theory errors by pitting EoM against Field Redefinitions",
+          "ids": {
+            "arxiv": [
+              "2511.15609"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "paperId": "8397766573656306684",
+          "primaryId": "arxiv:2504.18537",
+          "title": "Renormalizing Two-Fermion Operators in the SMEFT via Supergeometry",
+          "ids": {
+            "arxiv": [
+              "2504.18537"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "ordinary_web": {
+    "query": "\u03bdSMEFT field redefinition canonical normalization dimension seven 2026",
+    "limit": 5,
+    "category": "research",
+    "success": true,
+    "search_id": "01a18b67-dfbc-74d9-8869-dc94bbcaed24",
+    "access_scope": "Five search excerpts screened; the discovered arXiv:2409.02622 body was separately retrieved. Provider capability examples were not executed or used as evidence.",
+    "records": [
+      {
+        "rank": 1,
+        "title": "Revisiting renormalization group equations of the SMEFT dimension ...",
+        "url": "https://www.semanticscholar.org/paper/Revisiting-renormalization-group-equations-of-the-Zhang/fd4f1398d93bc1efb362e3d7cfab7b6e0e74dd8b"
+      },
+      {
+        "rank": 2,
+        "title": "Renormalization Group Equations for the Dimension-7 SMEFT Operators",
+        "url": "https://inspirehep.net/literature/2824754"
+      },
+      {
+        "rank": 3,
+        "title": "Renormalization Group Equations for the Dimension-7 SMEFT Operators",
+        "url": "https://arxiv.org/abs/2409.02622"
+      },
+      {
+        "rank": 4,
+        "title": "[PDF] Field Redefinitions Can Be Nonlocal",
+        "url": "https://arxiv.org/pdf/2412.12247"
+      },
+      {
+        "rank": 5,
+        "title": "JHEP06(2026)011 - Springer Nature",
+        "url": "https://link.springer.com/content/pdf/10.1007/JHEP06%282026%29011.pdf"
+      }
+    ],
+    "feedback_sent": true
+  },
+  "metadata_inspections": [
+    {
+      "paperId": "5954995938910162112",
+      "title": "Two-loop Renormalization Group Equations in the \u03bdSMEFT",
+      "authors": "Di Zhang",
+      "ids": {
+        "arxiv": [
+          "2504.00792"
+        ]
+      },
+      "createdDate": "Tue, 1 Apr 2025 13:50:58 GMT",
+      "updateDate": "2025-05-07"
+    },
+    {
+      "paperId": "8397766573656306684",
+      "title": "Renormalizing Two-Fermion Operators in the SMEFT via Supergeometry",
+      "authors": "Beno\u00eet Assi, Andreas Helset, Julie Pag\u00e8s, Chia-Hsien Shen",
+      "ids": {
+        "arxiv": [
+          "2504.18537"
+        ]
+      },
+      "createdDate": "Fri, 25 Apr 2025 17:59:58 GMT",
+      "updateDate": "2025-04-28"
+    },
+    {
+      "paperId": "8098556065838488123",
+      "title": "Assessing (H)EFT theory errors by pitting EoM against Field Redefinitions",
+      "authors": "Rodrigo Alonso, Christoph Englert, Wrishik Naskar, Shakeel Ur Rahaman",
+      "ids": {
+        "arxiv": [
+          "2511.15609"
+        ]
+      },
+      "createdDate": "Wed, 19 Nov 2025 16:56:57 GMT",
+      "updateDate": "2026-03-30"
+    }
+  ],
+  "passage_requests": [
+    {
+      "paperId": "arxiv:2504.00792",
+      "requested": 3,
+      "returned": 3,
+      "scope": "Provider-selected in-body passages; not a version-pinned full-body read. Source text is not redistributed.",
+      "topics": [
+        "redundant-coefficient differentiation",
+        "flavor-covariant coupling matrices",
+        "field redefinitions and RG consistency"
+      ]
+    },
+    {
+      "paperId": "arxiv:2504.18537",
+      "requested": 3,
+      "returned": 3,
+      "scope": "Provider-selected in-body passages; not a version-pinned full-body read. Source text is not redistributed.",
+      "topics": [
+        "scalar/fermion field-space covariance",
+        "Green-to-physical reduction cross-checks",
+        "higher-derivative limitations"
+      ]
+    },
+    {
+      "paperId": "arxiv:2511.15609",
+      "requested": 3,
+      "returned": 3,
+      "scope": "Provider-selected in-body passages; not a version-pinned full-body read. Source text is not redistributed.",
+      "topics": [
+        "explicit field change and induced interactions",
+        "canonical normalization",
+        "truncation versus higher-order compensation"
+      ]
+    }
+  ],
+  "primary_body_retrievals": [
+    {
+      "url": "https://arxiv.org/html/2409.02622v1",
+      "version": "v1",
+      "status_code": 200,
+      "sections_used": [
+        "Introduction",
+        "Section2 Operator Bases for Dim-7 Operators, reduction relation discussion"
+      ],
+      "use": "Dimension-five inputs can make redundant dimension-six operators enter dimension-seven basis reduction; a pure SMEFT comparison does not remove retained sterile fields.",
+      "feedback_sent": true
+    },
+    {
+      "url": "https://arxiv.org/html/2504.18537v1",
+      "version": "v1",
+      "status_code": 200,
+      "sections_used": [
+        "Introduction",
+        "Section2 Geometric Formalism",
+        "Section5 Application to SMEFT",
+        "Section6 Conclusion",
+        "AppendixB Field-basis covariance"
+      ],
+      "use": "Established scalar/fermion field-space geometry and covariance provide a method comparison for independently computed selected pole metric and curvature; paper Wilson coefficients are not used.",
+      "feedback_sent": true
+    }
+  ],
+  "limitations": [
+    "Paper-index metadata and abstracts were screened for 23 records; nine selected passages from three papers and two versioned primary bodies were retrieved. This does not equal a full-text review of every record.",
+    "No paper supplies the coefficient of this repository's retained-sterile derivative seed, source transport, scalar metric or curvature; those must be derived independently.",
+    "Selected pole-packet curvature is not a measured spacetime curvature, universal positivity condition, complete EFT metric or unification result.",
+    "The 2026 paper records returned by the queries were screened from abstracts unless explicitly listed under passage requests or primary-body retrievals. No claim that the newest returned paper is the newest relevant discovery."
+  ]
+}

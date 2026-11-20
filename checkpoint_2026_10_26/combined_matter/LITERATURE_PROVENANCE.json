@@ -1,0 +1,296 @@
+{
+  "title": "Focused field-redefinition literature for combined retained-sterile matter sources",
+  "display_date": "2026-10-26",
+  "display_timezone": "America/Los_Angeles",
+  "accessed_date_utc": "2026-10-27",
+  "scope": "Bounded method comparisons; no imported coefficient, complete physical reduction, novelty or empirical claim.",
+  "totals": {
+    "searches": 3,
+    "ranked_appearances": 19,
+    "distinct_papers": 16,
+    "duplicate_appearances": 3,
+    "metadata_inspections": 3,
+    "passage_requests": 3,
+    "passages_returned": 12,
+    "ordinary_web_search_attempted": false
+  },
+  "date_filter_note": "Inclusive provider date filters use creation OR update dates; served body versions are identified separately.",
+  "searches": [
+    {
+      "query": "SMEFT sterile neutrino effective field theory field redefinitions Yukawa redundant operators mass one loop Higgs lepton currents",
+      "from": "2025-01-01",
+      "to": "2026-10-27",
+      "requested": 8,
+      "records": [
+        {
+          "rank": 1,
+          "primaryId": "arxiv:2504.00792",
+          "paperId": "5954995938910162112",
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "primaryId": "arxiv:2602.05461",
+          "paperId": "244162652813224073",
+          "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+          "ids": {
+            "arxiv": [
+              "2602.05461"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "primaryId": "arxiv:2501.12160",
+          "paperId": "7732855714374304785",
+          "title": "Electroweak Scalar Effects Beyond Dimension-6 in SMEFT",
+          "ids": {
+            "arxiv": [
+              "2501.12160"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "primaryId": "arxiv:2505.06499",
+          "paperId": "169055094554646673",
+          "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+          "ids": {
+            "arxiv": [
+              "2505.06499"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "primaryId": "arxiv:2501.13150",
+          "paperId": "4127891366154985519",
+          "title": "Electromagnetic leptogenesis with light-heavy sterile neutrinos",
+          "ids": {
+            "arxiv": [
+              "2501.13150"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "primaryId": "arxiv:2510.08682",
+          "paperId": "7738503459359953063",
+          "title": "Two-loop anomalous dimensions for baryon-number-violating operators in SMEFT",
+          "ids": {
+            "arxiv": [
+              "2510.08682"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "primaryId": "arxiv:2512.02773",
+          "paperId": "9107000770039779148",
+          "title": "Leptophilic Gauge Interactions in the SMEFT Era",
+          "ids": {
+            "arxiv": [
+              "2512.02773"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "primaryId": "arxiv:2602.18395",
+          "paperId": "5091947855724701673",
+          "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+          "ids": {
+            "arxiv": [
+              "2602.18395"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query": "effective field theory field redefinitions fermion scalar nonlinear phase source quantum effective action Jacobian",
+      "from": "2025-01-01",
+      "to": "2026-10-27",
+      "requested": 8,
+      "records": [
+        {
+          "rank": 1,
+          "primaryId": "arxiv:2607.18166",
+          "paperId": "7575194418814334218",
+          "title": "Non-injective field redefinitions and quantum inequivalence in scalar theories",
+          "ids": {
+            "arxiv": [
+              "2607.18166"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "primaryId": "arxiv:2503.21578",
+          "paperId": "7029891578190319040",
+          "title": "Effective action for φ⁴-Yukawa theory via 2PI formalism in the inflationary de Sitter spacetime",
+          "ids": {
+            "arxiv": [
+              "2503.21578"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "primaryId": "arxiv:2607.12644",
+          "paperId": "5786419625406384317",
+          "title": "Off-shell equivalence in quantum field theory and gravity",
+          "ids": {
+            "arxiv": [
+              "2607.12644"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "primaryId": "arxiv:2509.20449",
+          "paperId": "647345838069189328",
+          "title": "Geometric Building Blocks of Effective Field Theory Amplitudes",
+          "ids": {
+            "arxiv": [
+              "2509.20449"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "primaryId": "arxiv:2512.07958",
+          "paperId": "6209615109997930316",
+          "title": "Strong-field regime within effective field theory",
+          "ids": {
+            "arxiv": [
+              "2512.07958"
+            ],
+            "doi": [
+              "10.1007/JHEP09(2026)117"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query": "dimension seven sterile neutrino effective field theory Higgs lepton derivative operator equations of motion running",
+      "from": "2025-01-01",
+      "to": "2026-10-27",
+      "requested": 8,
+      "records": [
+        {
+          "rank": 1,
+          "primaryId": "arxiv:2505.06499",
+          "paperId": "169055094554646673",
+          "title": "RGE solver for the complete dim-7 SMEFT interactions and its application to 0νββ decay",
+          "ids": {
+            "arxiv": [
+              "2505.06499"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "primaryId": "arxiv:2502.14303",
+          "paperId": "7182509398629873163",
+          "title": "Baryon-number-violating nucleon decays in sterile neutrino effective field theories",
+          "ids": {
+            "arxiv": [
+              "2502.14303"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "primaryId": "arxiv:2504.00081",
+          "paperId": "4129375628006248625",
+          "title": "Importance of Loop Effects in Probing Lepton Number Violation",
+          "ids": {
+            "arxiv": [
+              "2504.00081"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "primaryId": "arxiv:2602.18395",
+          "paperId": "5091947855724701673",
+          "title": "Cartography of LNV dim-9 SMEFT: Implications for Radiative Neutrino Masses and 0νββ",
+          "ids": {
+            "arxiv": [
+              "2602.18395"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "primaryId": "arxiv:2601.16422",
+          "paperId": "9082308932846852493",
+          "title": "Feasibility Study of Lepton Number Violation in Rare B and K Meson Decays",
+          "ids": {
+            "arxiv": [
+              "2601.16422"
+            ],
+            "doi": [
+              "10.1007/JHEP06(2026)132"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "primaryId": "arxiv:2501.13150",
+          "paperId": "4127891366154985519",
+          "title": "Electromagnetic leptogenesis with light-heavy sterile neutrinos",
+          "ids": {
+            "arxiv": [
+              "2501.13150"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "id": "arxiv:2607.12644",
+      "title": "Off-shell equivalence in quantum field theory and gravity",
+      "authors": "Iberê Kuntz and Stefano Liberati",
+      "index_created": "2026-07-14",
+      "index_updated": "2026-07-15",
+      "served_body": "v1, 14 July 2026",
+      "passages": 4,
+      "scope": "Read selected provider passages, including introduction and conclusions, not full paper."
+    },
+    {
+      "id": "arxiv:2607.18166",
+      "title": "Non-injective field redefinitions and quantum inequivalence in scalar theories",
+      "authors": "Bin Zhu",
+      "index_created": "2026-07-20",
+      "index_updated": "2026-07-23",
+      "served_body": "v1, 20 July 2026",
+      "passages": 4,
+      "scope": "Read selected provider passages, including local-sheet and non-injective-map discussion, not full paper."
+    },
+    {
+      "id": "arxiv:2501.12160",
+      "title": "Electroweak Scalar Effects Beyond Dimension-6 in SMEFT",
+      "authors": "Nilabhra Adhikary, Tisa Biswas, Joydeep Chakrabortty, Christoph Englert and Michael Spannowsky",
+      "index_created": "2025-01-21",
+      "index_updated": "2025-01-22",
+      "served_body": "Provider passages from unversioned indexed body; version not established here.",
+      "passages": 4,
+      "scope": "Read selected provider passages about scalar-model matching and truncation, not full paper."
+    }
+  ],
+  "access_notes": [
+    "Paper-index results were screened from returned titles and abstracts; metadata/primary passages inspected only for three specified records.",
+    "The ordinary web search was not repeated because the previous checkpoint recorded an insufficient-credit failure; availability was not rechecked here.",
+    "No abstracts, raw provider passages, personal contact details, or full papers are redistributed in this record."
+  ]
+}

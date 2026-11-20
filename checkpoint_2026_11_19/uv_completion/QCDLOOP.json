@@ -1,0 +1,27 @@
+{
+  "library": "QCDLoop 2.1.0",
+  "git_commit": "52d94ce9e628c1b1f9784f66a6ef9de285359ae3",
+  "publication_doi": "10.1016/j.cpc.2016.07.033",
+  "scalar_integrals": "GNU binary128, accumulated before conversion to binary64",
+  "normalized_rate": "m^2 sigma, M/m=10, y=g=1",
+  "central_cos_theta": 0,
+  "euclidean_box_s_t_b_c": [-1,-2,4,9],
+  "euclidean_box_real": 0.01771858297774,
+  "euclidean_simplex_real": 0.0177185829777401,
+  "rows": [
+    {
+      "s_over_m2": 6,
+      "central_real": -0.000141437538421067,
+      "central_imaginary": -6.50671293826863e-05,
+      "angle_order_8": {"full": 4.00925370014336e-11, "absorptive": 7.01354995823437e-12, "J0_absorptive": 7.01354912652298e-12},
+      "angle_order_20": {"full": 4.00925370014336e-11, "absorptive": 7.01354995823437e-12, "J0_absorptive": 7.01354912652298e-12}
+    },
+    {
+      "s_over_m2": 10,
+      "central_real": -0.000193381126074352,
+      "central_imaginary": -0.00018757070705318,
+      "angle_order_8": {"full": 7.1740070857655e-11, "absorptive": 3.4842174580993e-11, "J0_absorptive": 3.48420371174284e-11},
+      "angle_order_20": {"full": 7.1740070857655e-11, "absorptive": 3.4842174580993e-11, "J0_absorptive": 3.48420371174283e-11}
+    }
+  ]
+}

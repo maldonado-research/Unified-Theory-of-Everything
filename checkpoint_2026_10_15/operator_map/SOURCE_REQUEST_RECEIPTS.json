@@ -1,0 +1,26 @@
+{
+  "retrieved_at_utc": "2026-10-15T17:47:24.652522+00:00",
+  "requests": [
+    {
+      "url": "https://arxiv.org/html/1612.04527v1",
+      "status": 200,
+      "bytes": 661421,
+      "sha256": "9bf116eefc2d7071877009855d256f742b612edff974a1dfacf0233fb707b375",
+      "saved": "1612.04527v1.html"
+    },
+    {
+      "url": "https://arxiv.org/html/1703.04415v3",
+      "status": 200,
+      "bytes": 525092,
+      "sha256": "b8e598a392bc19c2bbec98dff54487f62ceb9e891598d1e1db7044c9bbe3f910",
+      "saved": "1703.04415v3.html"
+    },
+    {
+      "url": "https://arxiv.org/html/2306.03008v2",
+      "status": 200,
+      "bytes": 1896610,
+      "sha256": "700b82b425899e5bd487096d6e73f316c724fa99d4e2985be72b3004640edc62",
+      "saved": "2306.03008v2.html"
+    }
+  ]
+}

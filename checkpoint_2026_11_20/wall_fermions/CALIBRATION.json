@@ -1,0 +1,189 @@
+{
+  "tanh_steps": {
+    "rapid_expansion": {
+      "M_in": 0.5,
+      "M_out": 2.0,
+      "T": 0.12,
+      "P_n_0_through_8": [
+        0.075304627203,
+        0.03938819645,
+        0.01910658096,
+        0.0091918727988,
+        0.0044173212277,
+        0.0021192600094,
+        0.0010142518591,
+        0.00048414410463,
+        0.00023055025199
+      ],
+      "sums_through_n_128": {
+        "number": 2.3227167073,
+        "conformal_energy": 11.232092308,
+        "number_tail_upper": 3.9710128481e-39,
+        "conformal_energy_tail_upper": 5.2193642321e-37
+      }
+    },
+    "slow_expansion": {
+      "M_in": 0.5,
+      "M_out": 2.0,
+      "T": 0.6,
+      "P_n_0_through_8": [
+        0.0050911184511,
+        0.00025959025319,
+        8.9656433061e-06,
+        2.6294739155e-07,
+        7.101348748e-09,
+        1.8300845304e-10,
+        4.5817099579e-12,
+        1.1253895219e-13,
+        2.7280323185e-15
+      ],
+      "sums_through_n_128": {
+        "number": 0.023705692161,
+        "conformal_energy": 0.061806113169,
+        "number_tail_upper": 1.1391869422e-208,
+        "conformal_energy_tail_upper": 1.4870866815e-206
+      }
+    },
+    "rapid_contraction": {
+      "M_in": 2.0,
+      "M_out": 0.5,
+      "T": 0.12,
+      "P_n_0_through_8": [
+        0.075304627203,
+        0.03938819645,
+        0.01910658096,
+        0.0091918727988,
+        0.0044173212277,
+        0.0021192600094,
+        0.0010142518591,
+        0.00048414410463,
+        0.00023055025199
+      ],
+      "sums_through_n_128": {
+        "number": 2.3227167073,
+        "conformal_energy": 10.07654414,
+        "number_tail_upper": 3.9710128481e-39,
+        "conformal_energy_tail_upper": 5.2187896927e-37
+      }
+    },
+    "massive_static": {
+      "M_in": 1.5,
+      "M_out": 1.5,
+      "T": 0.4,
+      "P_n_0_through_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sums_through_n_128": {
+        "number": 0.0,
+        "conformal_energy": 0.0,
+        "number_tail_upper": 0.0,
+        "conformal_energy_tail_upper": 0.0
+      }
+    },
+    "massless": {
+      "M_in": 0.0,
+      "M_out": 0.0,
+      "T": 0.4,
+      "P_n_0_through_8": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sums_through_n_128": {
+        "number": 0.0,
+        "conformal_energy": 0.0,
+        "number_tail_upper": 0.0,
+        "conformal_energy_tail_upper": 0.0
+      }
+    }
+  },
+  "cyclic_pulse": [
+    {
+      "plateau_phase_over_pi": 0.5,
+      "P": 0.324
+    },
+    {
+      "plateau_phase_over_pi": 1.0,
+      "P": 0.0
+    }
+  ],
+  "flat_limit": {
+    "physical_m_in_effective": 0.4,
+    "physical_m_out": 1.0,
+    "physical_width": 0.35,
+    "flat_number_density": 0.0043269759724,
+    "leading_curvature_coefficient": 0.00096129626534,
+    "sphere_densities": [
+      {
+        "R": 4,
+        "number_per_final_physical_volume": 0.0042668199288,
+        "relative_difference": -0.013902560138
+      },
+      {
+        "R": 8,
+        "number_per_final_physical_volume": 0.0043119557161,
+        "relative_difference": -0.0034713056888
+      },
+      {
+        "R": 16,
+        "number_per_final_physical_volume": 0.0043232209089,
+        "relative_difference": -0.00086782629725
+      },
+      {
+        "R": 32,
+        "number_per_final_physical_volume": 0.0043260372066,
+        "relative_difference": -0.00021695657431
+      },
+      {
+        "R": 64,
+        "number_per_final_physical_volume": 0.004326741281,
+        "relative_difference": -5.4239143578e-05
+      }
+    ]
+  },
+  "production_solver": {
+    "a_in": 0.5,
+    "a_out": 2.0,
+    "conformal_T": 0.12,
+    "proper_masses": [
+      1.0,
+      4.0
+    ],
+    "shells": [
+      0,
+      32
+    ],
+    "probability_rtol": 3e-07,
+    "probability_atol": 2e-14,
+    "exact_band_numbers": [
+      2.3227166997,
+      5.5841493196
+    ]
+  },
+  "checks": {
+    "direct_spinor_ODE": "both signed spatial eigenvalues, n=0..8",
+    "ODE_interval_over_T": [
+      -18,
+      18
+    ],
+    "ODE_method": "DOP853",
+    "probability_rtol": 3e-06,
+    "probability_atol": 2e-15,
+    "sudden_width": 1e-08,
+    "closed_sums_n_max": 128
+  }
+}

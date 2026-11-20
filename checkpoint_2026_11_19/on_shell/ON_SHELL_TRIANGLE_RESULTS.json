@@ -1,0 +1,105 @@
+{
+  "scope": "same charged weak component, massless LL to LL, one primitive triangle in the unbroken gaugeless theory",
+  "single_scalar_assignment_factor_before_integration": "1/4",
+  "external_contractions_by_seed_leg_matching_p1": {
+    "3": 4,
+    "4": 4
+  },
+  "direct_flavor_selected_coefficient_of_ordered_S_K": "2 C_ee m_i (Y*_{mu i})\u00b2/(16 pi\u00b2)",
+  "cut_definition": "rho=(K(s+i0)-K(s-i0))/(2 pi i)",
+  "subtraction": "K(s+i0)-K(0)",
+  "test_points": [
+    {
+      "a": 1,
+      "b": 1,
+      "s": -2,
+      "subtracted_real": "-0.3671890511363180752041",
+      "subtracted_imag": "0.0"
+    },
+    {
+      "a": 1,
+      "b": 16,
+      "s": 3,
+      "subtracted_real": "0.2149817133117907027037",
+      "subtracted_imag": "0.0"
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "s": 4,
+      "subtracted_real": "1.733700550136169827354",
+      "subtracted_imag": "0.0"
+    },
+    {
+      "a": 1,
+      "b": 16,
+      "s": 4,
+      "subtracted_real": "0.3665353222824115300622",
+      "subtracted_imag": "0.0"
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "s": 8,
+      "subtracted_real": "1.767936275282482754906",
+      "subtracted_imag": "2.076687589536510538254",
+      "routed_cut_densities_at_cos_theta_0.6": [
+        "0.5564701067648599684254",
+        "0.7655902737644545694235"
+      ],
+      "cut_density": "0.6610301902646572689245"
+    },
+    {
+      "a": 1,
+      "b": 16,
+      "s": 8,
+      "subtracted_real": "0.577951168217099202338",
+      "subtracted_imag": "0.3533799017587118255954",
+      "routed_cut_densities_at_cos_theta_0.6": [
+        "0.1093079830482553821805",
+        "0.1156606495686539981481"
+      ],
+      "cut_density": "0.1124843163084546901643"
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "s": 12,
+      "subtracted_real": "2.254385387489539881082",
+      "subtracted_imag": "1.787271333004485324887",
+      "routed_cut_densities_at_cos_theta_0.6": [
+        "0.4886366951608278486471",
+        "0.6491755740155912708857"
+      ],
+      "cut_density": "0.5689061345882095597664"
+    },
+    {
+      "a": 2,
+      "b": 5,
+      "s": 9,
+      "subtracted_real": "1.220843389153393021157",
+      "subtracted_imag": "0.3538350569221112585925",
+      "routed_cut_densities_at_cos_theta_0.6": [
+        "0.1098966426426301373382",
+        "0.1153617507507945193162"
+      ],
+      "cut_density": "0.1126291966967123283272"
+    }
+  ],
+  "two_mass_example": {
+    "a": 1,
+    "sterile_masses": [
+      1,
+      4
+    ],
+    "pole_weights": [
+      1,
+      -1
+    ],
+    "limit_rho_difference_over_beta": "15/34",
+    "s": 8,
+    "rho_difference": "0.5485458739562025787602",
+    "subtracted_real_difference": "1.189985107065383552568",
+    "subtracted_imag_difference": "1.723307687777798712659"
+  }
+}

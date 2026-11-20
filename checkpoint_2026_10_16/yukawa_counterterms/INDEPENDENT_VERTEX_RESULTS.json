@@ -1,0 +1,504 @@
+{
+  "status": "PASS",
+  "calculation": "pure-neutrino-Yukawa one-loop proper barL phi N_R UV vertex and conditional pole-to-RG sector audit",
+  "dateline": "15 October 2026 Pacific client; 16 October 2026 UTC checkpoint folder",
+  "tests_by_category": {
+    "Clifford_and_projectors": 17,
+    "literal_field_flow_enumeration": 8,
+    "literal_weak_component_sums": 3,
+    "sterile_mass_flow": 3,
+    "real_component_charge_control": 4,
+    "actual_loop_numerator": 72,
+    "Majorana_external_chirality": 36,
+    "UV_asymptotic_log_coefficient": 24,
+    "UV_radial_power": 3,
+    "pole_to_RG_flavor_algebra": 7,
+    "actual_residue_Euler_degree": 4,
+    "canonical_epsilon_bare_derivative": 2,
+    "Majorana_chiral_convention": 1
+  },
+  "positive_checks": 184,
+  "adverse_controls": {
+    "normal_unweighted_triangle_false_zero": 12,
+    "replace_same_charge_by_conjugate_scalar_propagator": 12,
+    "omit_imaginary_scalar_component": 12,
+    "replace_mass_projector_by_kinetic_projector": 12,
+    "Majorana_mass_uses_adjoint": 1,
+    "miss_pole_to_beta_factor_two": 1,
+    "miss_mass_pole_to_beta_factor_two": 1,
+    "right_sterile_kinetic_matrix_transposed_in_Y_vertex": 1
+  },
+  "negative_checks": 52,
+  "total_checks": 236,
+  "selected_vertex_connected_graphs": [
+    {
+      "vertices": [
+        [
+          "A",
+          [
+            "barL",
+            "phi"
+          ]
+        ],
+        [
+          "A",
+          [
+            "sterile"
+          ]
+        ],
+        [
+          "B",
+          []
+        ]
+      ],
+      "internal_edges": [
+        [
+          [
+            0,
+            "nb"
+          ],
+          [
+            2,
+            "n"
+          ],
+          "N_kinetic"
+        ],
+        [
+          [
+            1,
+            "Lb"
+          ],
+          [
+            2,
+            "L"
+          ],
+          "L_kinetic"
+        ],
+        [
+          [
+            1,
+            "phi"
+          ],
+          [
+            2,
+            "phid"
+          ],
+          "scalar"
+        ]
+      ],
+      "bridges": [
+        0
+      ],
+      "internal_degrees": [
+        1,
+        2,
+        3
+      ],
+      "one_particle_irreducible": false,
+      "anomalous_mass_edges": 0,
+      "superficial_UV_degree": null,
+      "loop_subgraph_superficial_UV_degree": 1,
+      "weak_external_component_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          "A",
+          [
+            "barL",
+            "sterile"
+          ]
+        ],
+        [
+          "A",
+          [
+            "phi"
+          ]
+        ],
+        [
+          "B",
+          []
+        ]
+      ],
+      "internal_edges": [
+        [
+          [
+            0,
+            "phi"
+          ],
+          [
+            2,
+            "phid"
+          ],
+          "scalar"
+        ],
+        [
+          [
+            1,
+            "Lb"
+          ],
+          [
+            2,
+            "L"
+          ],
+          "L_kinetic"
+        ],
+        [
+          [
+            1,
+            "nb"
+          ],
+          [
+            2,
+            "n"
+          ],
+          "N_kinetic"
+        ]
+      ],
+      "bridges": [
+        0
+      ],
+      "internal_degrees": [
+        1,
+        2,
+        3
+      ],
+      "one_particle_irreducible": false,
+      "anomalous_mass_edges": 0,
+      "superficial_UV_degree": null,
+      "loop_subgraph_superficial_UV_degree": 2,
+      "weak_external_component_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          "A",
+          [
+            "barL"
+          ]
+        ],
+        [
+          "A",
+          [
+            "phi",
+            "sterile"
+          ]
+        ],
+        [
+          "B",
+          []
+        ]
+      ],
+      "internal_edges": [
+        [
+          [
+            0,
+            "nb"
+          ],
+          [
+            2,
+            "n"
+          ],
+          "N_kinetic"
+        ],
+        [
+          [
+            0,
+            "phi"
+          ],
+          [
+            2,
+            "phid"
+          ],
+          "scalar"
+        ],
+        [
+          [
+            1,
+            "Lb"
+          ],
+          [
+            2,
+            "L"
+          ],
+          "L_kinetic"
+        ]
+      ],
+      "bridges": [
+        2
+      ],
+      "internal_degrees": [
+        2,
+        1,
+        3
+      ],
+      "one_particle_irreducible": false,
+      "anomalous_mass_edges": 0,
+      "superficial_UV_degree": null,
+      "loop_subgraph_superficial_UV_degree": 1,
+      "weak_external_component_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "alternate_Majorana_connected_graphs": [
+    {
+      "vertices": [
+        [
+          "A",
+          []
+        ],
+        [
+          "A",
+          [
+            "barL",
+            "phi"
+          ]
+        ],
+        [
+          "B",
+          [
+            "sterile"
+          ]
+        ]
+      ],
+      "internal_edges": [
+        [
+          [
+            0,
+            "Lb"
+          ],
+          [
+            2,
+            "L"
+          ],
+          "L_kinetic"
+        ],
+        [
+          [
+            0,
+            "nb"
+          ],
+          [
+            1,
+            "nb"
+          ],
+          "N_anomalous_mass"
+        ],
+        [
+          [
+            0,
+            "phi"
+          ],
+          [
+            2,
+            "phid"
+          ],
+          "scalar"
+        ]
+      ],
+      "bridges": [
+        1
+      ],
+      "internal_degrees": [
+        3,
+        1,
+        2
+      ],
+      "one_particle_irreducible": false,
+      "anomalous_mass_edges": 1,
+      "superficial_UV_degree": null,
+      "loop_subgraph_superficial_UV_degree": 1,
+      "weak_external_component_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        [
+          "A",
+          [
+            "barL"
+          ]
+        ],
+        [
+          "A",
+          [
+            "phi"
+          ]
+        ],
+        [
+          "B",
+          [
+            "sterile"
+          ]
+        ]
+      ],
+      "internal_edges": [
+        [
+          [
+            0,
+            "nb"
+          ],
+          [
+            1,
+            "nb"
+          ],
+          "N_anomalous_mass"
+        ],
+        [
+          [
+            0,
+            "phi"
+          ],
+          [
+            2,
+            "phid"
+          ],
+          "scalar"
+        ],
+        [
+          [
+            1,
+            "Lb"
+          ],
+          [
+            2,
+            "L"
+          ],
+          "L_kinetic"
+        ]
+      ],
+      "bridges": [],
+      "internal_degrees": [
+        2,
+        2,
+        2
+      ],
+      "one_particle_irreducible": true,
+      "anomalous_mass_edges": 1,
+      "superficial_UV_degree": -1,
+      "loop_subgraph_superficial_UV_degree": -1,
+      "weak_external_component_matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "sterile_normal_two_point_graphs": [
+    {
+      "vertices": [
+        [
+          "A",
+          [
+            "sterile1"
+          ]
+        ],
+        [
+          "B",
+          [
+            "sterile2"
+          ]
+        ]
+      ],
+      "internal_edges": [
+        [
+          [
+            0,
+            "Lb"
+          ],
+          [
+            1,
+            "L"
+          ],
+          "L_kinetic"
+        ],
+        [
+          [
+            0,
+            "phi"
+          ],
+          [
+            1,
+            "phid"
+          ],
+          "scalar"
+        ]
+      ],
+      "bridges": [],
+      "internal_degrees": [
+        2,
+        2
+      ],
+      "one_particle_irreducible": true,
+      "anomalous_mass_edges": 0,
+      "superficial_UV_degree": 1,
+      "loop_subgraph_superficial_UV_degree": 1,
+      "weak_external_component_matrix": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "selected_proper_vertex_UV_pole": "zero by literal charge/chirality flow, not inferred from beta",
+  "alternate_Majorana_triangle": "one anomalous mass edge; superficial UV degree -1; finite form factors not computed",
+  "conditional_external_pole_inputs": {
+    "delta_Z_L": "-HL/(32 pi^2 eps)",
+    "delta_Z_NR": "-HN/(16 pi^2 eps)",
+    "delta_Z_phi": "-tr(HN)/(16 pi^2 eps)"
+  },
+  "conditional_four_dimensional_RG": {
+    "16pi2_betaY": "3 Y HN/2+tr(HN)Y",
+    "16pi2_betaM": "HN^T M+M HN"
+  },
+  "scope": [
+    "pure neutrino-Yukawa renormalizable sector around unbroken zero scalar background",
+    "field poles are external inputs for the RG algebra, not recomputed here",
+    "no gauge other Yukawa higher-dimensional or finite matching contribution",
+    "not a full physical EFT running calculation or observable prediction"
+  ]
+}

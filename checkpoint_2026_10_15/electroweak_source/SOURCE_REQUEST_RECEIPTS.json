@@ -1,0 +1,222 @@
+{
+  "research_cutoff": "2026-10-15",
+  "completed_at_utc": "2026-10-15T19:01:24.918730+00:00",
+  "transport": "inherited managed HTTPS proxy; TLS verification enabled; no proxy bypass",
+  "search_entries_screened": 52,
+  "distinct_search_records_screened": 46,
+  "coverage": "Titles and returned abstracts screened; 25-record cap on sterile-dipoles query. INSPIRE date filter can include an older preprint with a newer publication date. Cached responses excluded from publication.",
+  "requests": [
+    {
+      "query": "(\"sterile neutrino\" OR \"right-handed neutrino\" OR nuSMEFT OR NRSMEFT) AND (\"dimension-seven\" OR \"dimension seven\" OR \"dimension-7\") AND date 2025->2026",
+      "url": "https://inspirehep.net/api/literature?q=%28%22sterile+neutrino%22+OR+%22right-handed+neutrino%22+OR+nuSMEFT+OR+NRSMEFT%29+AND+%28%22dimension-seven%22+OR+%22dimension+seven%22+OR+%22dimension-7%22%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=%28%22sterile+neutrino%22+OR+%22right-handed+neutrino%22+OR+nuSMEFT+OR+NRSMEFT%29+AND+%28%22dimension-seven%22+OR+%22dimension+seven%22+OR+%22dimension-7%22%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "bytes": 1513219,
+      "sha256": "5d2e63c57749452b8a2d8b6326ee1e36cf74a7c4066b37d937b7d84d041237ec",
+      "saved": "retained-dim7.json",
+      "reported_total": 4,
+      "screened_records": 4
+    },
+    {
+      "query": "(\"sterile neutrino\" OR \"right-handed neutrino\") AND (dipole OR \"magnetic moment\") AND date 2025->2026",
+      "url": "https://inspirehep.net/api/literature?q=%28%22sterile+neutrino%22+OR+%22right-handed+neutrino%22%29+AND+%28dipole+OR+%22magnetic+moment%22%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=%28%22sterile+neutrino%22+OR+%22right-handed+neutrino%22%29+AND+%28dipole+OR+%22magnetic+moment%22%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "bytes": 4930683,
+      "sha256": "14b11331d6a9489f3c3f98b1d77c9530eacf70f3fbdf48cabcc9b187592e52f7",
+      "saved": "sterile-dipoles.json",
+      "reported_total": 36,
+      "screened_records": 25
+    },
+    {
+      "query": "(\"sterile neutrino\" OR \"right-handed neutrino\" OR nuSMEFT OR NRSMEFT) AND (renormalization OR \"anomalous dimension\") AND date 2025->2026",
+      "url": "https://inspirehep.net/api/literature?q=%28%22sterile+neutrino%22+OR+%22right-handed+neutrino%22+OR+nuSMEFT+OR+NRSMEFT%29+AND+%28renormalization+OR+%22anomalous+dimension%22%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=%28%22sterile+neutrino%22+OR+%22right-handed+neutrino%22+OR+nuSMEFT+OR+NRSMEFT%29+AND+%28renormalization+OR+%22anomalous+dimension%22%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "bytes": 1760004,
+      "sha256": "72cea9b24d23443108f42bde4676cbfdb4f722fad921cb05c811a9aab7c25423",
+      "saved": "sterile-renorm.json",
+      "reported_total": 14,
+      "screened_records": 14
+    },
+    {
+      "query": "(\"neutrino dipole\" OR \"neutrino dipoles\") AND (electroweak OR collider OR constraints) AND date 2025->2026",
+      "url": "https://inspirehep.net/api/literature?q=%28%22neutrino+dipole%22+OR+%22neutrino+dipoles%22%29+AND+%28electroweak+OR+collider+OR+constraints%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "status": 200,
+      "final_url": "https://inspirehep.net/api/literature?q=%28%22neutrino+dipole%22+OR+%22neutrino+dipoles%22%29+AND+%28electroweak+OR+collider+OR+constraints%29+AND+date+2025-%3E2026&sort=mostrecent&size=25",
+      "bytes": 1099729,
+      "sha256": "80aba820f9956d3fc7929e52c40b36b5201aca10babc5ef1c8ad05dada80054f",
+      "saved": "b-w-dipoles.json",
+      "reported_total": 9,
+      "screened_records": 9
+    },
+    {
+      "retrieved_at_utc": "2026-10-15T18:57:06.407229+00:00",
+      "url": "https://export.arxiv.org/api/query?id_list=2504.00792%2C2507.01130%2C2608.10104%2C2511.00701%2C2512.07691%2C2607.13142%2C1612.04527%2C2306.03008",
+      "status": 200,
+      "final_url": "https://export.arxiv.org/api/query?id_list=2504.00792%2C2507.01130%2C2608.10104%2C2511.00701%2C2512.07691%2C2607.13142%2C1612.04527%2C2306.03008",
+      "bytes": 17669,
+      "sha256": "2267ee6df7f7c00a404a45c71fe5e3ba403602cff6ba6a48976fe3bc4ca90a1b",
+      "saved": "arxiv-ids.xml"
+    },
+    {
+      "url": "https://arxiv.org/html/2504.00792v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2504.00792v2",
+      "bytes": 1506975,
+      "sha256": "27a02c94440ffb3936bdadb89efd50185353b3b85d37e05d9ff26d70378a02d2",
+      "saved": "2504.00792v2.html"
+    },
+    {
+      "url": "https://arxiv.org/html/2507.01130v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2507.01130v2",
+      "bytes": 385185,
+      "sha256": "67a884839b798182225f8ceb4955cfbb91bae73407556d4921fcd7b72b9d76b3",
+      "saved": "2507.01130v2.html"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.10104v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.10104v1",
+      "bytes": 589503,
+      "sha256": "83a30da8e4ba4590e75ba59ad5fd38a759441f79b59126a80e512ea53d35b38e",
+      "saved": "2608.10104v1.html"
+    },
+    {
+      "url": "https://arxiv.org/html/2511.00701v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2511.00701v2",
+      "bytes": 245737,
+      "sha256": "ca74a9b5ce0db16416c0c0ddd221ec85ed7ec19b17c24a65e9a0831ddf04857c",
+      "saved": "2511.00701v2.html"
+    },
+    {
+      "url": "https://arxiv.org/html/2512.07691v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2512.07691v2",
+      "bytes": 385382,
+      "sha256": "77fb03cd551337661f296f01cf2079ad88a3f2523bf0b606260dc50b6387cefa",
+      "saved": "2512.07691v2.html"
+    },
+    {
+      "url": "https://arxiv.org/html/1612.04527v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1612.04527v1",
+      "bytes": 661421,
+      "sha256": "9bf116eefc2d7071877009855d256f742b612edff974a1dfacf0233fb707b375",
+      "saved": "1612.04527v1.html"
+    },
+    {
+      "url": "https://arxiv.org/html/2306.03008v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2306.03008v2",
+      "bytes": 1896610,
+      "sha256": "700b82b425899e5bd487096d6e73f316c724fa99d4e2985be72b3004640edc62",
+      "saved": "2306.03008v2.html"
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?id_list=1008.4884",
+      "status": 200,
+      "final_url": "https://export.arxiv.org/api/query?id_list=1008.4884",
+      "bytes": 2533,
+      "sha256": "f09a268e758370a705128c8a388b850d87eef164cbc27bc75f1ea747d2d40273",
+      "saved": "warsaw-record.xml"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1008.4884v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1008.4884v3",
+      "bytes": 270411,
+      "sha256": "fb391ef575afab9bd13da5e308256ebb4e03f9115c74d93cd9f87cabd2b0c5f6",
+      "saved": "1008.4884v3.pdf"
+    }
+  ],
+  "primary_arxiv_metadata": [
+    {
+      "id": "http://arxiv.org/abs/2306.03008v2",
+      "title": "Renormalization Group Equations for the SMEFT Operators up to Dimension Seven",
+      "published": "2023-06-05T16:19:12Z",
+      "updated": "2023-10-16T20:08:19Z",
+      "authors": [
+        "Di Zhang"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1612.04527v1",
+      "title": "Operators up to Dimension Seven in Standard Model Effective Field Theory Extended with Sterile Neutrinos",
+      "published": "2016-12-14T08:26:56Z",
+      "updated": "2016-12-14T08:26:56Z",
+      "authors": [
+        "Yi Liao",
+        "Xiao-Dong Ma"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2507.01130v2",
+      "title": "New avenues for the neutrino dipole portal exploration at the energy frontier",
+      "published": "2025-07-01T18:45:14Z",
+      "updated": "2025-07-28T10:23:26Z",
+      "authors": [
+        "Natascia Vignaroli"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.07691v2",
+      "title": "Enhanced active-sterile neutrino polarizability at the intensity frontier",
+      "published": "2025-12-08T16:30:37Z",
+      "updated": "2026-07-01T18:55:28Z",
+      "authors": [
+        "Julia Gehrlein",
+        "Anil Thapa",
+        "Adrian Thompson"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.00792v2",
+      "title": "Two-loop Renormalization Group Equations in the $\u03bd$SMEFT",
+      "published": "2025-04-01T13:50:58Z",
+      "updated": "2025-05-05T20:30:03Z",
+      "authors": [
+        "Di Zhang"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.13142v1",
+      "title": "Challenging Majorana neutrino effects in $B\\to K^{(\\ast)}\u03bd\u03bd$ and $K\\to \u03c0\u03bd\u03bd$ decays",
+      "published": "2026-07-14T18:00:04Z",
+      "updated": "2026-07-14T18:00:04Z",
+      "authors": [
+        "Asmaa Abada",
+        "Claire Chevallier",
+        "Luighi P. S. Leal",
+        "Anna Llaurad\u00f3",
+        "Olcyr Sumensari",
+        "Renata Zukanovich Funchal"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.10104v1",
+      "title": "Precision Tests of SM and new physics with the COHERENT Ge-mini and TEXONO data",
+      "published": "2026-08-10T18:13:46Z",
+      "updated": "2026-08-10T18:13:46Z",
+      "authors": [
+        "Tousib Ahmed",
+        "Ayan Chattaraj",
+        "Anirban Majumdar",
+        "Newton Nath",
+        "Rahul Srivastava"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.00701v2",
+      "title": "Constraints on active-sterile neutrino transition magnetic moments from low-energy electronic recoils at direct detection experiments",
+      "published": "2025-11-01T20:45:13Z",
+      "updated": "2026-02-16T15:40:57Z",
+      "authors": [
+        "M. F. Mustamin",
+        "M. Demirci"
+      ]
+    }
+  ]
+}

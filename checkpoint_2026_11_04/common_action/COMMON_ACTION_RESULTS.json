@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "date": "4 November 2026 Pacific",
+  "input_commit": "41f9b709c0fafdefdc9e1b990caa5421ee99f7dc",
+  "scope": "Selected common classical cancelling action P-Q+R, source/matter coordinate composition, neutral kinetic/mass/probe projection, known bare-parameter closure, literal tree-seed field compensation and conditional C5 partners. No new loop, full basis or physical beta function.",
+  "positive_checks": 31,
+  "rejected_mutations": 21,
+  "positive_categories": {
+    "common cancelling-action first variation": 1,
+    "source-to-common bridge subtracts source map": 1,
+    "one-loop inputs change only at second loop order": 1,
+    "literal arbitrary scalar cancelling-action transport": 1,
+    "negative matter map transports scalar density": 1,
+    "seed and retained mass symmetric": 1,
+    "matter Hermitian decomposition": 1,
+    "matter trace convention": 1,
+    "selected neutral kinetic cancellation": 1,
+    "renormalizable kinetic poles remain": 1,
+    "literal exterior kinetic variation 0": 1,
+    "literal kinetic remainder 0": 1,
+    "literal exterior kinetic variation 1": 1,
+    "literal kinetic remainder 1": 1,
+    "literal exterior kinetic variation 2": 1,
+    "literal kinetic remainder 2": 1,
+    "literal exterior kinetic variation 3": 1,
+    "literal kinetic remainder 3": 1,
+    "common neutral mass block reconstruction": 1,
+    "common neutral mass remains symmetric": 1,
+    "literal exterior mass and scalar background transport": 1,
+    "independent probe row follows common Jacobian": 1,
+    "renormalizable Yukawa parameter versus action closure": 1,
+    "renormalizable Majorana parameter versus action closure": 1,
+    "scalar mass parameter versus action coefficient": 1,
+    "full known neutral renormalizable mass input closure": 1,
+    "literal tree seed external-field pole": 1,
+    "tree seed variation under inverse field normalization": 1,
+    "conditional C5 full active and retained-field transport": 1,
+    "common cancelling scalar potential": 1,
+    "one-flavor cancelling radial Yukawa coefficient": 1
+  },
+  "negative_categories": {
+    "use matter-loop map with counterterm sign unchanged": 1,
+    "apply original normalizer directly to sourced coordinates": 1,
+    "drop nonlinear scalar gradient in cancelling action": 1,
+    "claim entire kinetic action is canonical": 1,
+    "forget matter cancelling-action sign": 1,
+    "discard phase part of chosen field coordinates": 1,
+    "omit scalar background variation": 1,
+    "replace holomorphic transpose by adjoint": 1,
+    "halve Majorana field variation again": 1,
+    "give holomorphic background the wrong phase": 1,
+    "omit common probe transport": 1,
+    "mistake zero proper Yukawa pole for zero parameter pole": 1,
+    "mistake zero proper Majorana pole for zero parameter pole": 1,
+    "replace Majorana transpose by dagger": 1,
+    "omit tree seed field transport as if already one loop": 1,
+    "count field-compensation parameter part twice": 1,
+    "replace seed transpose by dagger": 1,
+    "drop conditional retained-sterile contact": 1,
+    "keep only conditional retained-sterile contact": 1,
+    "replace conditional transpose by dagger": 1,
+    "one-flavor phase cancellation erases radial source": 1
+  },
+  "neutral_witness": {
+    "scalar_u": "3/2",
+    "momentum_squared": "19",
+    "real_trace_g": "89",
+    "imaginary_trace_t": "-27",
+    "scalar_background_Dirac_block": [
+      [
+        "-783/2 + 837*I/4",
+        "-4077/8 - 3861*I/8"
+      ],
+      [
+        "945/8 + 5535*I/8",
+        "-7209/8 - 2187*I/8"
+      ]
+    ]
+  },
+  "no_project_imports": true,
+  "assertions_required": false
+}

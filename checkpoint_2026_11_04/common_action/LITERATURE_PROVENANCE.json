@@ -1,0 +1,497 @@
+{
+  "title": "Focused literature for a common retained-sterile action/source convention",
+  "display_date": "2026-11-04",
+  "display_timezone": "America/Los_Angeles",
+  "accessed_date_utc": "2026-11-04",
+  "scope": "Bounded methodological comparison. No exhaustive web or novelty determination, imported coefficient, complete retained-Majorana physical coefficient map, quantum source transport or empirical claim.",
+  "totals": {
+    "paper_index_searches": 3,
+    "paper_index_ranked_appearances": 24,
+    "paper_index_distinct_records": 22,
+    "paper_index_duplicate_appearances": 2,
+    "metadata_inspections": 3,
+    "passage_requests": 3,
+    "passages_returned": 12,
+    "successful_ordinary_web_searches": 0,
+    "credit_blocked_ordinary_web_requests": 1,
+    "versioned_primary_HTTPS_bodies": 2,
+    "completed_Firecrawl_URL_scrapes": 0
+  },
+  "queries_note": "Date bounds and date_desc sorting were requested. Results are a bounded relevance-ranked provider response, not an exhaustive chronological listing. Provider created/updated fields are indexing metadata and are not assumed to be original arXiv posting dates.",
+  "searches": [
+    {
+      "query": "sterile neutrino effective field theory renormalization dimension seven dimension six Majorana mass field redefinitions redundant operators",
+      "from": "2026-01-01",
+      "to": "2026-11-04",
+      "requested_sort": "date_desc",
+      "requested_k": 8,
+      "returned": 8,
+      "records": [
+        {
+          "rank": 1,
+          "paperId": "5036413312206860860",
+          "primaryId": "arxiv:2609.00888",
+          "title": "The Type-I Seesaw as a Relativistic Fermionic Proximity Effect: Spectral Moments, EFT Consistency, and Sterile-Sector Reconstruction",
+          "createdDate_as_indexed": "2026-09-01",
+          "updateDate_as_indexed": "2026-09-02",
+          "ids": {
+            "arxiv": [
+              "2609.00888"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "paperId": "8237040307813920876",
+          "primaryId": "arxiv:2605.15176",
+          "title": "Matching higher-dimensional operators at finite temperature for general models",
+          "createdDate_as_indexed": "2026-05-14",
+          "updateDate_as_indexed": "2026-05-15",
+          "ids": {
+            "arxiv": [
+              "2605.15176"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "paperId": "1800289808032069578",
+          "primaryId": "arxiv:2512.07691",
+          "title": "Enhanced active-sterile neutrino polarizability at the intensity frontier",
+          "createdDate_as_indexed": "2026-07-01",
+          "updateDate_as_indexed": "2026-07-03",
+          "ids": {
+            "arxiv": [
+              "2512.07691"
+            ],
+            "doi": [
+              "10.1103/psm8-dypl"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "paperId": "8462691033077978768",
+          "primaryId": "arxiv:2510.24843",
+          "title": "Impact of dim-6 νSMEFT operators on low-scale leptogenesis",
+          "createdDate_as_indexed": "2026-07-15",
+          "updateDate_as_indexed": "2026-07-16",
+          "ids": {
+            "arxiv": [
+              "2510.24843"
+            ],
+            "doi": [
+              "10.1007/JHEP06(2026)223"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "paperId": "3160050501133602803",
+          "primaryId": "arxiv:2604.21492",
+          "title": "Solving Cosmological Puzzles using Finite Temperature νSMEFT",
+          "createdDate_as_indexed": "2026-04-23",
+          "updateDate_as_indexed": "2026-04-24",
+          "ids": {
+            "arxiv": [
+              "2604.21492"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "paperId": "4524810612818736684",
+          "primaryId": "arxiv:2611.02500",
+          "title": "Matching ν2HDM onto νSMEFT up to one-loop accuracy",
+          "createdDate_as_indexed": "2026-11-02",
+          "updateDate_as_indexed": "2026-11-03",
+          "ids": {
+            "arxiv": [
+              "2611.02500"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "paperId": "2983798576991964388",
+          "primaryId": "arxiv:2511.10733",
+          "title": "FeynRules and UFO models for νSMEFT: operators of dimensions five and six",
+          "createdDate_as_indexed": "2026-08-15",
+          "updateDate_as_indexed": "2026-08-18",
+          "ids": {
+            "arxiv": [
+              "2511.10733"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "paperId": "244162652813224073",
+          "primaryId": "arxiv:2602.05461",
+          "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+          "createdDate_as_indexed": "2026-02-05",
+          "updateDate_as_indexed": "2026-02-06",
+          "ids": {
+            "arxiv": [
+              "2602.05461"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query": "effective field theory Green basis field redefinitions higher dimensional operators dimension lowering mass spurion renormalization canonical normalization sources",
+      "from": "2025-01-01",
+      "to": "2026-11-04",
+      "requested_sort": "date_desc",
+      "requested_k": 8,
+      "returned": 8,
+      "records": [
+        {
+          "rank": 1,
+          "paperId": "3922933006330216858",
+          "primaryId": "arxiv:2601.18883",
+          "title": "One-loop matching of the LEFT to the QCD gradient flow",
+          "createdDate_as_indexed": "2026-07-06",
+          "updateDate_as_indexed": "2026-07-07",
+          "ids": {
+            "arxiv": [
+              "2601.18883"
+            ],
+            "doi": [
+              "10.1007/JHEP07(2026)047"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "paperId": "6181458032560923919",
+          "primaryId": "arxiv:2503.18904",
+          "title": "Higher-dimensional operators at finite-temperature affect gravitational-wave predictions",
+          "createdDate_as_indexed": "2025-03-24",
+          "updateDate_as_indexed": "2026-06-02",
+          "ids": {
+            "arxiv": [
+              "2503.18904"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "paperId": "7732855714374304785",
+          "primaryId": "arxiv:2501.12160",
+          "title": "Electroweak Scalar Effects Beyond Dimension-6 in SMEFT",
+          "createdDate_as_indexed": "2025-01-21",
+          "updateDate_as_indexed": "2025-01-22",
+          "ids": {
+            "arxiv": [
+              "2501.12160"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "paperId": "8237040307813920876",
+          "primaryId": "arxiv:2605.15176",
+          "title": "Matching higher-dimensional operators at finite temperature for general models",
+          "createdDate_as_indexed": "2026-05-14",
+          "updateDate_as_indexed": "2026-05-15",
+          "ids": {
+            "arxiv": [
+              "2605.15176"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "paperId": "4130722608597061169",
+          "primaryId": "arxiv:2501.13185",
+          "title": "Renormalization of general Effective Field Theories: Formalism and renormalization of bosonic operators",
+          "createdDate_as_indexed": "2025-01-22",
+          "updateDate_as_indexed": "2025-01-24",
+          "ids": {
+            "arxiv": [
+              "2501.13185"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "paperId": "6079666832343914989",
+          "primaryId": "arxiv:2507.02538",
+          "title": "Matching from quark to hadronic operators: external source vs spurion methods",
+          "createdDate_as_indexed": "2025-07-03",
+          "updateDate_as_indexed": "2026-03-24",
+          "ids": {
+            "arxiv": [
+              "2507.02538"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "paperId": "5954995938910162112",
+          "primaryId": "arxiv:2504.00792",
+          "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+          "createdDate_as_indexed": "2025-04-01",
+          "updateDate_as_indexed": "2025-05-07",
+          "ids": {
+            "arxiv": [
+              "2504.00792"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "paperId": "8098556065838488123",
+          "primaryId": "arxiv:2511.15609",
+          "title": "Assessing (H)EFT theory errors by pitting EoM against Field Redefinitions",
+          "createdDate_as_indexed": "2025-11-19",
+          "updateDate_as_indexed": "2026-03-30",
+          "ids": {
+            "arxiv": [
+              "2511.15609"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "query": "effective field theory off shell quantum equivalence nonlinear field redefinitions sources gauge independence renormalization",
+      "from": "2026-01-01",
+      "to": "2026-11-04",
+      "requested_sort": "date_desc",
+      "requested_k": 8,
+      "returned": 8,
+      "records": [
+        {
+          "rank": 1,
+          "paperId": "5786419625406384317",
+          "primaryId": "arxiv:2607.12644",
+          "title": "Off-shell equivalence in quantum field theory and gravity",
+          "createdDate_as_indexed": "2026-07-14",
+          "updateDate_as_indexed": "2026-07-15",
+          "ids": {
+            "arxiv": [
+              "2607.12644"
+            ]
+          }
+        },
+        {
+          "rank": 2,
+          "paperId": "4862490739549046078",
+          "primaryId": "arxiv:2607.06657",
+          "title": "Towards gauge independence in asymptotically safe quantum gravity",
+          "createdDate_as_indexed": "2026-07-07",
+          "updateDate_as_indexed": "2026-07-09",
+          "ids": {
+            "arxiv": [
+              "2607.06657"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "paperId": "7575194418814334218",
+          "primaryId": "arxiv:2607.18166",
+          "title": "Non-injective field redefinitions and quantum inequivalence in scalar theories",
+          "createdDate_as_indexed": "2026-07-20",
+          "updateDate_as_indexed": "2026-07-23",
+          "ids": {
+            "arxiv": [
+              "2607.18166"
+            ]
+          }
+        },
+        {
+          "rank": 4,
+          "paperId": "5194868262744569003",
+          "primaryId": "arxiv:2603.23332",
+          "title": "Quantum gravity and matter fields in a general background gauge",
+          "createdDate_as_indexed": "2026-03-24",
+          "updateDate_as_indexed": "2026-04-28",
+          "ids": {
+            "arxiv": [
+              "2603.23332"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "paperId": "2151172236571594018",
+          "primaryId": "arxiv:2610.21706",
+          "title": "Renormalization of Quantum Gravity with Lagrange Multiplier Fields",
+          "createdDate_as_indexed": "2026-10-15",
+          "updateDate_as_indexed": "2026-10-16",
+          "ids": {
+            "arxiv": [
+              "2610.21706"
+            ]
+          }
+        },
+        {
+          "rank": 6,
+          "paperId": "5386847854263718018",
+          "primaryId": "arxiv:2512.14260",
+          "title": "On the Renormalization Group in EFTs: On-Shell Bases, Ambiguities, and Divergences",
+          "createdDate_as_indexed": "2026-06-03",
+          "updateDate_as_indexed": "2026-06-04",
+          "ids": {
+            "arxiv": [
+              "2512.14260"
+            ]
+          }
+        },
+        {
+          "rank": 7,
+          "paperId": "244162652813224073",
+          "primaryId": "arxiv:2602.05461",
+          "title": "Renormalization of the Standard Model effective field theory to dimension eight",
+          "createdDate_as_indexed": "2026-02-05",
+          "updateDate_as_indexed": "2026-02-06",
+          "ids": {
+            "arxiv": [
+              "2602.05461"
+            ]
+          }
+        },
+        {
+          "rank": 8,
+          "paperId": "354210115534088671",
+          "primaryId": "arxiv:2604.20099",
+          "title": "Geometric Amplitudes: A Covariant Functional Approach for Massless Scalar Theories",
+          "createdDate_as_indexed": "2026-04-22",
+          "updateDate_as_indexed": "2026-04-23",
+          "ids": {
+            "arxiv": [
+              "2604.20099"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "inspections": [
+    {
+      "paperId": "4524810612818736684",
+      "ids": {
+        "arxiv": [
+          "2611.02500"
+        ]
+      },
+      "title": "Matching ν2HDM onto νSMEFT up to one-loop accuracy",
+      "authors": "Wen-Feng Duan, Xuan-Zhen He, Xin-Qiang Li, Ya-Dong Yang, Xing-Bo Yuan",
+      "indexed_created": "2026-11-02",
+      "indexed_updated": "2026-11-03"
+    },
+    {
+      "paperId": "5386847854263718018",
+      "ids": {
+        "arxiv": [
+          "2512.14260"
+        ]
+      },
+      "title": "On the Renormalization Group in EFTs: On-Shell Bases, Ambiguities, and Divergences",
+      "authors": "Anders Eller Thomsen",
+      "indexed_created": "2026-06-03",
+      "indexed_updated": "2026-06-04"
+    },
+    {
+      "paperId": "5954995938910162112",
+      "ids": {
+        "arxiv": [
+          "2504.00792"
+        ]
+      },
+      "title": "Two-loop Renormalization Group Equations in the νSMEFT",
+      "authors": "Di Zhang",
+      "indexed_created": "2025-04-01",
+      "indexed_updated": "2025-05-07"
+    }
+  ],
+  "passage_reads": [
+    {
+      "paperId": "4524810612818736684",
+      "served_body": "Unversioned provider-selected arXiv HTML passages",
+      "returned": 4,
+      "full_body_read_claim": false,
+      "topics": [
+        "Section4.1 canonical field/gauge/coupling rescaling",
+        "Green-basis operators and induced dimension-four interactions",
+        "AppendicesA/B physical and evanescent operators"
+      ]
+    },
+    {
+      "paperId": "5386847854263718018",
+      "served_body": "Unversioned provider-selected arXiv HTML passages",
+      "returned": 4,
+      "full_body_read_claim": false,
+      "topics": [
+        "Section4 vacuum functional and non-minimal sources",
+        "Flavor-orbit ambiguity",
+        "Section4.2 renormalization and redundant source coefficients"
+      ]
+    },
+    {
+      "paperId": "5954995938910162112",
+      "served_body": "Unversioned provider-selected arXiv HTML passages",
+      "returned": 4,
+      "full_body_read_claim": false,
+      "topics": [
+        "Section6 redundant-coordinate derivatives",
+        "Section7 scope through dimensionfive",
+        "Flavor rotations versus flavor invariants"
+      ]
+    }
+  ],
+  "primary_bodies": [
+    {
+      "url": "https://arxiv.org/html/2611.02500v1",
+      "status": 200,
+      "version": "v1",
+      "body_identifies_posted": "2026-11-02",
+      "sections_compared": [
+        "Introduction",
+        "Section2.1.2",
+        "Section4.1",
+        "AppendicesA/B"
+      ],
+      "use": "New procedural comparison: canonical normalization, Green-to-minimal reduction and physical/evanescent terms.",
+      "limit": "The ν2HDM case treats Dirac neutrinos and forbids sterile Majorana masses by symmetry. Its coefficients do not apply to this retained-Majorana derivative-seed calculation."
+    },
+    {
+      "url": "https://arxiv.org/html/2512.14260v1",
+      "status": 200,
+      "version": "v1",
+      "body_identifies_posted": "2025-12-16",
+      "provider_date_discrepancy": "Provider inspect reports created2026-06-03 and updated2026-06-04; these are not used as the original arXiv posting date.",
+      "sections_compared": [
+        "Introduction",
+        "Section2.2 Note2.2",
+        "Sections4.1/4.2",
+        "Section5.2"
+      ],
+      "use": "Non-minimal sources in the on-shell vacuum functional and quantum Green-function renormalization; νSMEFT example.",
+      "limit": "Does not supply this C7 pole or complete the project's quantum source map. The author distinguishes full off-shell Green renormalization from practical finite on-shell beta extraction."
+    }
+  ],
+  "unavailable_or_schema_limited": [
+    {
+      "operation": "ordinary_web_search",
+      "query": "\"2611.02500\" \"νSMEFT\" matching",
+      "status": "credit_blocked",
+      "results_returned": 0,
+      "followup": "No retry of the credit-blocked request. Accessible primary URLs were read through allowed direct HTTPS."
+    },
+    {
+      "operation": "initial_web_search_and_two_URL_scrape_invocations",
+      "status": "schema_validation_failed_before_retrieval",
+      "reason": "The live connector required an objective argument.",
+      "followup": "The corrected ordinary search was credit-blocked; the two URL scrapes were not retried. Primary bodies were retrieved by HTTPS."
+    }
+  ],
+  "material_not_republished": "Only metadata, identifiers, retrieval scope and this project's methodological comparison are included. Full paper bodies and provider passages are not redistributed.",
+  "coefficients_imported": false,
+  "novelty_claim": false,
+  "exhaustive_claim": false
+}

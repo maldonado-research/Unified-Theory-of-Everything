@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "method": "S3 angular integration versus subtracted bubble parameterization",
+  "normalization": "F=16*pi^2*(I(Q^2)-I(0))",
+  "benchmarks": [
+    {
+      "a": 2,
+      "b": 3,
+      "s": 7,
+      "F": "-0.2412060116194332539609288"
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "s": 2,
+      "F": "-0.043302495063962732822056385"
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "s": 4,
+      "F": "-0.10920418558676051706370744"
+    }
+  ],
+  "positive_checks": 72,
+  "positive_categories": {
+    "direct angular quadrature": 4,
+    "radial versus independent bubble parameter": 5,
+    "spacelike sign": 5,
+    "common squared-scale invariance": 5,
+    "zero momentum subtraction": 5,
+    "massless closed form": 3,
+    "equal-mass closed form": 3,
+    "massive low-momentum slope": 2,
+    "low-momentum finite difference": 2,
+    "equal-mass cubic after zero quadratic": 1,
+    "massless leading quadratic": 1,
+    "continuity from positive mass": 1,
+    "spectral functional calculus versus Takagi": 4,
+    "sterile tensor symmetry": 4,
+    "full anomalous resolvent": 4,
+    "passive active and sterile covariance": 4,
+    "massless full triangle": 1,
+    "threshold singular coefficient": 2,
+    "null UV flavor source": 1,
+    "nonzero finite kernel for null UV example": 1,
+    "mirror angular radial integral": 4,
+    "positive mirror slope": 4,
+    "two seed assignments have same mirror numerator": 2,
+    "Grassmann adjoint exchanges the two flavor pairs": 1,
+    "null UV witness finite slope including mirror": 1,
+    "ordered Wick factor": 1,
+    "paired P-action factor": 1
+  },
+  "negative_checks": 8,
+  "negative_categories": {
+    "single shared finite kernel": 1,
+    "mass adjoint orientation": 1,
+    "noncommuting denominator order": 1,
+    "minus under Hermitian exchange": 1,
+    "extraneous Majorana half": 1,
+    "wrong Wick sign": 1,
+    "omitted crossed assignment": 1,
+    "finite difference sign reversed": 1
+  },
+  "repository_imports": false,
+  "assertions_required": false
+}

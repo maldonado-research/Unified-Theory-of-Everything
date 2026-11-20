@@ -1,0 +1,577 @@
+{
+  "status": "PASS",
+  "input_commit": "34acf849172231282a0a6e7a07a81157b2d48799",
+  "scope": "Exact selected seed-source image, supported symmetric weak channel, and relative algebraic Frobenius bound. Not a physical dipole bound, anomalous dimension, or full EFT basis.",
+  "positive_checks": 908,
+  "positive_categories": {
+    "full seed-image rank": 45,
+    "symmetric-channel rank": 45,
+    "inherited antisymmetric spectral rank": 45,
+    "image constraints annihilate source map": 45,
+    "image constraint dimension is sufficient": 45,
+    "symmetric-channel reconstruction": 45,
+    "Sylvester source equation": 45,
+    "null-block source support": 45,
+    "arbitrary supported symmetric channel has symmetric seed": 45,
+    "supported symmetric-channel surjectivity": 45,
+    "supported channel reproduces S": 45,
+    "complex unitary rotation": 45,
+    "source congruence": 45,
+    "global flavor image equation": 45,
+    "global null-projector constraint": 45,
+    "global Sylvester reconstruction": 45,
+    "symmetric Frobenius congruence": 45,
+    "antisymmetric Frobenius congruence": 45,
+    "relative source-channel norm bound": 45,
+    "unit source-channel norm bound": 45,
+    "singular-image incomplete condition witness": 1,
+    "indefinite premise witness symmetric channel": 1,
+    "sharp relative source-channel bound": 2,
+    "actual source Yukawa ordering": 1,
+    "actual source Hermitian PSD matrix": 1,
+    "actual source image equation": 1,
+    "sterile unitary invariance of source": 1
+  },
+  "negative_checks": 10,
+  "negative_categories": {
+    "missing null-projector transpose": 1,
+    "transpose omitted from complex H": 1,
+    "Hermitian instead of transpose source projection": 1,
+    "antisymmetric weak source forced to zero": 1,
+    "symmetric weak source discarded": 1,
+    "missing projection half": 1,
+    "omit null-projector image constraint": 1,
+    "rank-deficient source treated as full symmetric seed": 1,
+    "extend PSD reconstruction to indefinite H": 1,
+    "unconjugated Yukawa source": 1
+  },
+  "spectra_checked": [
+    {
+      "n": 1,
+      "eigenvalues": [
+        0
+      ],
+      "rank_H": 0,
+      "seed_image_rank": 0,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 1,
+      "eigenvalues": [
+        1
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 1,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 1,
+      "eigenvalues": [
+        2
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 1,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 2,
+      "eigenvalues": [
+        0,
+        0
+      ],
+      "rank_H": 0,
+      "seed_image_rank": 0,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 2,
+      "eigenvalues": [
+        0,
+        1
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 2,
+      "antisymmetric_image_rank": 1
+    },
+    {
+      "n": 2,
+      "eigenvalues": [
+        0,
+        2
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 2,
+      "antisymmetric_image_rank": 1
+    },
+    {
+      "n": 2,
+      "eigenvalues": [
+        1,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 3,
+      "antisymmetric_image_rank": 1
+    },
+    {
+      "n": 2,
+      "eigenvalues": [
+        1,
+        3
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 3,
+      "antisymmetric_image_rank": 1
+    },
+    {
+      "n": 2,
+      "eigenvalues": [
+        2,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 3,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        0,
+        0,
+        0
+      ],
+      "rank_H": 0,
+      "seed_image_rank": 0,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        0,
+        0,
+        1
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 3,
+      "antisymmetric_image_rank": 2
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        0,
+        0,
+        2
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 3,
+      "antisymmetric_image_rank": 2
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        0,
+        1,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 5,
+      "antisymmetric_image_rank": 3
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        0,
+        1,
+        3
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 5,
+      "antisymmetric_image_rank": 3
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        0,
+        2,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 5,
+      "antisymmetric_image_rank": 2
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        1,
+        2,
+        3
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 6,
+      "antisymmetric_image_rank": 3
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        1,
+        3,
+        1
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 6,
+      "antisymmetric_image_rank": 2
+    },
+    {
+      "n": 3,
+      "eigenvalues": [
+        2,
+        2,
+        2
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 6,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank_H": 0,
+      "seed_image_rank": 0,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 4,
+      "antisymmetric_image_rank": 3
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 4,
+      "antisymmetric_image_rank": 3
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 7,
+      "antisymmetric_image_rank": 5
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 7,
+      "antisymmetric_image_rank": 5
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 7,
+      "antisymmetric_image_rank": 4
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 9,
+      "antisymmetric_image_rank": 6
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        1,
+        3,
+        1
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 9,
+      "antisymmetric_image_rank": 5
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 9,
+      "antisymmetric_image_rank": 3
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank_H": 4,
+      "seed_image_rank": 10,
+      "antisymmetric_image_rank": 6
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        1,
+        3,
+        1,
+        3
+      ],
+      "rank_H": 4,
+      "seed_image_rank": 10,
+      "antisymmetric_image_rank": 4
+    },
+    {
+      "n": 4,
+      "eigenvalues": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "rank_H": 4,
+      "seed_image_rank": 10,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "rank_H": 0,
+      "seed_image_rank": 0,
+      "antisymmetric_image_rank": 0
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 5,
+      "antisymmetric_image_rank": 4
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "rank_H": 1,
+      "seed_image_rank": 5,
+      "antisymmetric_image_rank": 4
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 9,
+      "antisymmetric_image_rank": 7
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        1,
+        3
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 9,
+      "antisymmetric_image_rank": 7
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "rank_H": 2,
+      "seed_image_rank": 9,
+      "antisymmetric_image_rank": 6
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 12,
+      "antisymmetric_image_rank": 9
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        1,
+        3,
+        1
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 12,
+      "antisymmetric_image_rank": 8
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "rank_H": 3,
+      "seed_image_rank": 12,
+      "antisymmetric_image_rank": 6
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank_H": 4,
+      "seed_image_rank": 14,
+      "antisymmetric_image_rank": 10
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        1,
+        3,
+        1,
+        3
+      ],
+      "rank_H": 4,
+      "seed_image_rank": 14,
+      "antisymmetric_image_rank": 8
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rank_H": 4,
+      "seed_image_rank": 14,
+      "antisymmetric_image_rank": 4
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rank_H": 5,
+      "seed_image_rank": 15,
+      "antisymmetric_image_rank": 10
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        1,
+        3,
+        1,
+        3,
+        1
+      ],
+      "rank_H": 5,
+      "seed_image_rank": 15,
+      "antisymmetric_image_rank": 6
+    },
+    {
+      "n": 5,
+      "eigenvalues": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "rank_H": 5,
+      "seed_image_rank": 15,
+      "antisymmetric_image_rank": 0
+    }
+  ],
+  "repository_imports": false,
+  "assertions_required": false
+}

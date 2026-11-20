@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "potential": "V = a (H_dagger H) + lambda (H_dagger H)^2",
+  "charged_scalar_assignment_counts": {
+    "tree": 2,
+    "quartic_triangle": 4
+  },
+  "benchmark_M_over_m": 10,
+  "single_mass_shapes": [
+    3.6885727843976035,
+    5.019028319779883
+  ],
+  "subtracted_shape": 1.3304555353822791,
+  "M_times_zero_momentum_correction_over_lambda_y_squared": 0.01685041620355409,
+  "M_times_leading_MSbar_C5_over_lambda_y_squared": 0.01755762319317072,
+  "finite_mass_to_leading_ratio": 0.9597208015096425,
+  "checks": [
+    "charged-field Wick multiplicities and common open-fermion contractions",
+    "closed form against single-mass Feynman parameter and two-mass radial quadrature",
+    "equal sterile masses with opposite squares and equal scalar/sterile masses",
+    "strict sign at unequal masses, heavy-mass limit and first power correction",
+    "single-threshold scale cancellation and two-threshold leading logarithm"
+  ]
+}
